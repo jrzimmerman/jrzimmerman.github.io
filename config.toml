@@ -2,6 +2,13 @@ baseurl = "http://justinzimmerman.net/"
 languageCode = "en-us"
 title = "Justin Zimmerman"
 disqusShortname = "jrzimmerman"
+
 theme = "hyde"
 [params]
   themeColor = "theme-base-09"
+
+[Author]
+  name = "Justin Zimmerman"
+
+[Permalinks]
+  post = "/:year/:month/:filename/"
