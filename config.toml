@@ -1,4 +1,4 @@
-baseurl = "https://jrzimmerman.github.io/"
+baseurl = "https://jrzimmerman.github.io/public/"
 languageCode = "en-us"
 title = "Justin Zimmerman"
 disqusShortname = "jrzimmerman"
@@ -9,4 +9,3 @@ theme = "hyde"
 
 [Author]
   name = "Justin Zimmerman"
-  
