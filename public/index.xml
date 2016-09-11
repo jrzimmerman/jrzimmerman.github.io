@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Justin Zimmerman</title>
-    <link>https://jrzimmerman.github.io/</link>
+    <link>https://jrzimmerman.github.io/public/</link>
     <description>Recent content on Justin Zimmerman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 08 Mar 2016 09:20:36 -0500</lastBuildDate>
-    <atom:link href="https://jrzimmerman.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jrzimmerman.github.io/public/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hack Reactor Week 11</title>
-      <link>https://jrzimmerman.github.io/post/2016-03-08-hack-reactor-week-11/</link>
+      <link>https://jrzimmerman.github.io/public/post/2016-03-08-hack-reactor-week-11/</link>
       <pubDate>Tue, 08 Mar 2016 09:20:36 -0500</pubDate>
       
-      <guid>https://jrzimmerman.github.io/post/2016-03-08-hack-reactor-week-11/</guid>
+      <guid>https://jrzimmerman.github.io/public/post/2016-03-08-hack-reactor-week-11/</guid>
       <description>
 
 &lt;p&gt;With our product, Bestrida, to MVP (Minimum Viable Product) we will continue to improve our MVP features, as well as the look and feel of product, for the remainder of the week.&lt;/p&gt;
@@ -23,7 +23,7 @@
 
 &lt;p&gt;Our product finally received a much needed design overhaul, and we are definitely happy with the result:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/content/images/2016/03/bestrida-1.jpg&#34; alt=&#34;bestrida&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/public/content/images/2016/03/bestrida-1.jpg&#34; alt=&#34;bestrida&#34; /&gt;&lt;/p&gt;
 
 &lt;h4 id=&#34;stretch-goals&#34;&gt;Stretch Goals&lt;/h4&gt;
 
@@ -39,10 +39,10 @@
     
     <item>
       <title>Hack Reactor Week 10</title>
-      <link>https://jrzimmerman.github.io/post/2015-12-28-hack-reactor-week-10/</link>
+      <link>https://jrzimmerman.github.io/public/post/2015-12-28-hack-reactor-week-10/</link>
       <pubDate>Mon, 28 Dec 2015 11:22:05 -0500</pubDate>
       
-      <guid>https://jrzimmerman.github.io/post/2015-12-28-hack-reactor-week-10/</guid>
+      <guid>https://jrzimmerman.github.io/public/post/2015-12-28-hack-reactor-week-10/</guid>
       <description>
 
 &lt;p&gt;With Thesis moving along very nicely, here is what happened in week 10!&lt;/p&gt;
@@ -65,10 +65,10 @@
     
     <item>
       <title>On Whiteboarding: Triggers</title>
-      <link>https://jrzimmerman.github.io/post/2015-12-13-whiteboarding-triggers/</link>
+      <link>https://jrzimmerman.github.io/public/post/2015-12-13-whiteboarding-triggers/</link>
       <pubDate>Sun, 13 Dec 2015 10:58:00 -0500</pubDate>
       
-      <guid>https://jrzimmerman.github.io/post/2015-12-13-whiteboarding-triggers/</guid>
+      <guid>https://jrzimmerman.github.io/public/post/2015-12-13-whiteboarding-triggers/</guid>
       <description>
 
 &lt;p&gt;I will be the first to admit, I struggle in whiteboarding situations, especially in the context of technical interviewing when triggers arise. I hope this post helps you become better at whiteboarding when these certain triggers occur.&lt;/p&gt;
@@ -229,10 +229,10 @@ USEFUL DIAGRAM!
     
     <item>
       <title>Hack Reactor Week 9</title>
-      <link>https://jrzimmerman.github.io/post/2015-12-09-hack-reactor-week-9/</link>
+      <link>https://jrzimmerman.github.io/public/post/2015-12-09-hack-reactor-week-9/</link>
       <pubDate>Wed, 09 Dec 2015 14:17:19 -0500</pubDate>
       
-      <guid>https://jrzimmerman.github.io/post/2015-12-09-hack-reactor-week-9/</guid>
+      <guid>https://jrzimmerman.github.io/public/post/2015-12-09-hack-reactor-week-9/</guid>
       <description>
 
 &lt;p&gt;Week 9 is finished at Hack Reactor, and thesis projects are in full swing! While there aren&amp;rsquo;t many things on the schedule, thesis is all about trying to build the best product in the 3 short weeks you have dedicated to it.&lt;/p&gt;
@@ -265,10 +265,10 @@ USEFUL DIAGRAM!
     
     <item>
       <title>Seamless</title>
-      <link>https://jrzimmerman.github.io/post/2015-12-05-seamless/</link>
+      <link>https://jrzimmerman.github.io/public/post/2015-12-05-seamless/</link>
       <pubDate>Sat, 05 Dec 2015 16:43:38 -0500</pubDate>
       
-      <guid>https://jrzimmerman.github.io/post/2015-12-05-seamless/</guid>
+      <guid>https://jrzimmerman.github.io/public/post/2015-12-05-seamless/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://hrr9-seamless.herokuapp.com/&#34;&gt;Seamless&lt;/a&gt; is an image resizing application that leverages &lt;a href=&#34;https://www.firebase.com/&#34;&gt;Firebase&lt;/a&gt; for persistent storage of a users images.&lt;/p&gt;
 
 &lt;p&gt;The name Seamless is derived from the &lt;a href=&#34;https://en.wikipedia.org/wiki/Seam_carving&#34;&gt;seam carving&lt;/a&gt; algorithm it uses for image resizing. The seam carving algorithm iterates over each pixel, and generates an energy value. The energy values are measured by the pixel&amp;rsquo;s contrast to other surrounding pixels.&lt;/p&gt;
@@ -285,10 +285,10 @@ USEFUL DIAGRAM!
     
     <item>
       <title>Hack Reactor Week 8</title>
-      <link>https://jrzimmerman.github.io/post/2015-12-05-hack-reactor-week-8/</link>
+      <link>https://jrzimmerman.github.io/public/post/2015-12-05-hack-reactor-week-8/</link>
       <pubDate>Sat, 05 Dec 2015 16:43:26 -0500</pubDate>
       
-      <guid>https://jrzimmerman.github.io/post/2015-12-05-hack-reactor-week-8/</guid>
+      <guid>https://jrzimmerman.github.io/public/post/2015-12-05-hack-reactor-week-8/</guid>
       <description>
 
 &lt;h3 id=&#34;legacy-project&#34;&gt;Legacy Project&lt;/h3&gt;
@@ -313,10 +313,10 @@ USEFUL DIAGRAM!
     
     <item>
       <title>Hack Reactor Week 7</title>
-      <link>https://jrzimmerman.github.io/post/2015-11-26-hack-reactor-week-7/</link>
+      <link>https://jrzimmerman.github.io/public/post/2015-11-26-hack-reactor-week-7/</link>
       <pubDate>Thu, 26 Nov 2015 09:24:15 -0500</pubDate>
       
-      <guid>https://jrzimmerman.github.io/post/2015-11-26-hack-reactor-week-7/</guid>
+      <guid>https://jrzimmerman.github.io/public/post/2015-11-26-hack-reactor-week-7/</guid>
       <description>
 
 &lt;p&gt;Week 7 was the first week of &amp;ldquo;project phase&amp;rdquo; in Hack Reactor. We will go through 6 weeks of group work to become better engineers in team environments.&lt;/p&gt;
@@ -347,10 +347,10 @@ USEFUL DIAGRAM!
     
     <item>
       <title>Geolocation on Page Load</title>
-      <link>https://jrzimmerman.github.io/post/2015-11-11-geolocation/</link>
+      <link>https://jrzimmerman.github.io/public/post/2015-11-11-geolocation/</link>
       <pubDate>Wed, 11 Nov 2015 22:19:56 -0500</pubDate>
       
-      <guid>https://jrzimmerman.github.io/post/2015-11-11-geolocation/</guid>
+      <guid>https://jrzimmerman.github.io/public/post/2015-11-11-geolocation/</guid>
       <description>
 
 &lt;p&gt;While building &lt;a href=&#34;https://geotinerary.herokuapp.com/&#34;&gt;Geotinerary&lt;/a&gt;, I wanted the map to zoom relatively close to the users location. Surprisingly enough, this was quite hard to find an example of.&lt;/p&gt;
@@ -381,10 +381,10 @@ USEFUL DIAGRAM!
     
     <item>
       <title>Hack Reactor Week 6</title>
-      <link>https://jrzimmerman.github.io/post/2015-11-11-hack-reactor-week-6/</link>
+      <link>https://jrzimmerman.github.io/public/post/2015-11-11-hack-reactor-week-6/</link>
       <pubDate>Wed, 11 Nov 2015 22:19:46 -0500</pubDate>
       
-      <guid>https://jrzimmerman.github.io/post/2015-11-11-hack-reactor-week-6/</guid>
+      <guid>https://jrzimmerman.github.io/public/post/2015-11-11-hack-reactor-week-6/</guid>
       <description>
 
 &lt;p&gt;Week 6 at Hack Reactor is when curriculum starts to shift from small &amp;ldquo;sprints&amp;rdquo; to the larger project phase. For the first time at Hack Reactor, we were given a React.js sprint! After the React.js sprint we had two days to create our MVP projects. At the end of the week, we had the dreaded hiring assessment.&lt;/p&gt;
@@ -409,10 +409,10 @@ USEFUL DIAGRAM!
     
     <item>
       <title>Hack Reactor Week 5</title>
-      <link>https://jrzimmerman.github.io/post/2015-11-06-hack-reactor-week-5/</link>
+      <link>https://jrzimmerman.github.io/public/post/2015-11-06-hack-reactor-week-5/</link>
       <pubDate>Fri, 06 Nov 2015 11:14:10 -0500</pubDate>
       
-      <guid>https://jrzimmerman.github.io/post/2015-11-06-hack-reactor-week-5/</guid>
+      <guid>https://jrzimmerman.github.io/public/post/2015-11-06-hack-reactor-week-5/</guid>
       <description>
 
 &lt;p&gt;With another week completed, week 5 has been extremely interesting. The topics this week included authentication, and deployment, along with introductions to MongoDB and Angular.&lt;/p&gt;
@@ -435,10 +435,10 @@ USEFUL DIAGRAM!
     
     <item>
       <title>Hack Reactor Week 4</title>
-      <link>https://jrzimmerman.github.io/post/2015-10-30-hack-reactor-week-4/</link>
+      <link>https://jrzimmerman.github.io/public/post/2015-10-30-hack-reactor-week-4/</link>
       <pubDate>Fri, 30 Oct 2015 14:33:28 -0400</pubDate>
       
-      <guid>https://jrzimmerman.github.io/post/2015-10-30-hack-reactor-week-4/</guid>
+      <guid>https://jrzimmerman.github.io/public/post/2015-10-30-hack-reactor-week-4/</guid>
       <description>
 
 &lt;p&gt;In Hack Reactor week 4 is a pivotal time where the training wheels start to come off. Much of the sprints until week 4 have had for the most part very structured tests that held your hand through most of the sprints. Week 4 starts to look quite different!&lt;/p&gt;
@@ -465,10 +465,10 @@ USEFUL DIAGRAM!
     
     <item>
       <title>Hack Reactor Week 3</title>
-      <link>https://jrzimmerman.github.io/post/2015-10-30-hack-reactor-week-3/</link>
+      <link>https://jrzimmerman.github.io/public/post/2015-10-30-hack-reactor-week-3/</link>
       <pubDate>Fri, 30 Oct 2015 11:58:15 -0400</pubDate>
       
-      <guid>https://jrzimmerman.github.io/post/2015-10-30-hack-reactor-week-3/</guid>
+      <guid>https://jrzimmerman.github.io/public/post/2015-10-30-hack-reactor-week-3/</guid>
       <description>
 
 &lt;p&gt;Welcome to week 3! This has been an awesome week for discovering web application architecture. We began the week creating a chat application that focused on front end development. During the middle of the week we began to take a deeper dive into web application architecture using backbone.js. And the final sprint of the week included another dive into backbone.js but using CoffeeScript to write the application, rather than Javascript.&lt;/p&gt;
@@ -497,10 +497,10 @@ USEFUL DIAGRAM!
     
     <item>
       <title>Hack Reactor Week 2</title>
-      <link>https://jrzimmerman.github.io/post/2015-10-19-hack-reactor-week-2/</link>
+      <link>https://jrzimmerman.github.io/public/post/2015-10-19-hack-reactor-week-2/</link>
       <pubDate>Mon, 19 Oct 2015 23:55:02 -0400</pubDate>
       
-      <guid>https://jrzimmerman.github.io/post/2015-10-19-hack-reactor-week-2/</guid>
+      <guid>https://jrzimmerman.github.io/public/post/2015-10-19-hack-reactor-week-2/</guid>
       <description>
 
 &lt;p&gt;Week 2 is over already, what a great time it has been! I was able to settle in this week and make progress on some awesome projects.&lt;/p&gt;
@@ -523,10 +523,10 @@ USEFUL DIAGRAM!
     
     <item>
       <title>Create a Static Page on a Digital Ocean Droplet</title>
-      <link>https://jrzimmerman.github.io/post/2015-10-15-create-a-static-page-on-digital-ocean-droplet/</link>
+      <link>https://jrzimmerman.github.io/public/post/2015-10-15-create-a-static-page-on-digital-ocean-droplet/</link>
       <pubDate>Thu, 15 Oct 2015 10:37:35 -0400</pubDate>
       
-      <guid>https://jrzimmerman.github.io/post/2015-10-15-create-a-static-page-on-digital-ocean-droplet/</guid>
+      <guid>https://jrzimmerman.github.io/public/post/2015-10-15-create-a-static-page-on-digital-ocean-droplet/</guid>
       <description>
 
 &lt;p&gt;I currently use Digital Ocean to host my ghost blog. This has a been a very fun adventure, allowing me to learn the &amp;ldquo;ins and outs&amp;rdquo; of linux server administration.&lt;/p&gt;
@@ -611,10 +611,10 @@ sudo service ghost restart
     
     <item>
       <title>Ubuntu 14 Server Configuration</title>
-      <link>https://jrzimmerman.github.io/post/2015-10-15-ubuntu-server-configuration/</link>
+      <link>https://jrzimmerman.github.io/public/post/2015-10-15-ubuntu-server-configuration/</link>
       <pubDate>Thu, 15 Oct 2015 09:57:55 -0400</pubDate>
       
-      <guid>https://jrzimmerman.github.io/post/2015-10-15-ubuntu-server-configuration/</guid>
+      <guid>https://jrzimmerman.github.io/public/post/2015-10-15-ubuntu-server-configuration/</guid>
       <description>
 
 &lt;p&gt;Below is a listing of important tasks to complete after setting up your Ubuntu server.&lt;/p&gt;
