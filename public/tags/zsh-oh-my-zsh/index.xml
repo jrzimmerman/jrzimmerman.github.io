@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zsh Oh My Zsh on Justin Zimmerman</title>
+    <link>https://jrzimmerman.github.io/public/tags/zsh-oh-my-zsh/</link>
+    <description>Recent content in Zsh Oh My Zsh on Justin Zimmerman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://jrzimmerman.github.io/public/tags/zsh-oh-my-zsh/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Switching from BASH to ZSH</title>
+      <link>https://jrzimmerman.github.io/public/post/switching-from-bash-to-zsh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jrzimmerman.github.io/public/post/switching-from-bash-to-zsh/</guid>
+      <description>
+
+&lt;p&gt;I recently switched from BASH (Bourne Again SHell) to ZSH after hearing about z shell&amp;rsquo;s many benefits.&lt;/p&gt;
+
+&lt;p&gt;The main benefits for me were better autocompletion, and file globbing, and better autocorrection. I spent quite a few weekends doing research on whether to switch or not, and finally I bit the bullet.&lt;/p&gt;
+
+&lt;h2 id=&#34;installing-zsh-with-homebrew&#34;&gt;Installing ZSH with Homebrew&lt;/h2&gt;
+
+&lt;p&gt;While this isn&amp;rsquo;t necessary, it&amp;rsquo;s incredibly straightforward to do. The default version of ZSH shipped with OSX is 5.0.2. The latest version of ZSH at the time of writing is 5.2.&lt;/p&gt;
+
+&lt;h3 id=&#34;download-zsh&#34;&gt;Download ZSH&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;brew update
+brew install zsh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Once installation is completed, we need to insert the location into &lt;code&gt;/etc/shells&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; sudo vim /etc/shells
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Insert the following line to the end of the file&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/usr/local/bin/zsh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is the file path that homebrew system linked ZSH to.&lt;/p&gt;
+
+&lt;p&gt;To set the default shell to ZSH&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;chsh -s /usr/local/bin/zsh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This might require a restart, but once completed verify zsh is your default shell by running&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;echo $SHELL
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now you have the latest ZSH running as default.&lt;/p&gt;
+
+&lt;h3 id=&#34;installing-oh-my-zsh&#34;&gt;Installing oh-my-zsh&lt;/h3&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://github.com/robbyrussell/oh-my-zsh&#34;&gt;oh-my-zsh&lt;/a&gt; repository is a very large open source collection of zsh plugins and &lt;a href=&#34;https://github.com/robbyrussell/oh-my-zsh/wiki/themes&#34;&gt;themes&lt;/a&gt;. While there are a few alternatives to oh-my-zsh, such as prezto. I wanted to be able get started right away.&lt;/p&gt;
+
+&lt;p&gt;To install oh-my-zsh run the following&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sh -c &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will modify your &lt;code&gt;.zshrc&lt;/code&gt; file&lt;/p&gt;
+
+&lt;p&gt;It comes with the &amp;ldquo;robbyrussell&amp;rdquo; theme as default, but I wanted something a bit more exciting like the &amp;ldquo;agnoster&amp;rdquo; theme as pictured below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/public/content/images/2016/07/Screenshot-2016-07-31-16-21-54.png&#34; alt=&#34;agnoster theme&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To switch themes, open your .zshrc file and replace this line&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ZSH_THEME=&amp;quot;robbyrussell&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;with&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ZSH_THEME=&amp;quot;agnoster&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is also a great time to copy over your custom &lt;code&gt;.bash_profile&lt;/code&gt; configs to the &lt;code&gt;.zshrc&lt;/code&gt; file.&lt;/p&gt;
+
+&lt;h3 id=&#34;installing-powerline-fonts&#34;&gt;Installing Powerline Fonts&lt;/h3&gt;
+
+&lt;p&gt;The only problem is that the agnoster theme requires &lt;a href=&#34;https://github.com/powerline/fonts&#34;&gt;Powerline fonts&lt;/a&gt; to show the &amp;ldquo;pipeline&amp;rdquo; icons. Fortunately installing the fonts is very simple and comes with a script.&lt;/p&gt;
+
+&lt;p&gt;First, clone down the &lt;code&gt;powerline/fonts&lt;/code&gt; repository into your github work folder&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/powerline/fonts.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then &lt;code&gt;cd fonts&lt;/code&gt; into the fonts repository and run&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;./install.sh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Once completed, this also might require a restart to show the new fonts available.&lt;/p&gt;
+
+&lt;p&gt;In your terminal (iTerm2 or HyperTerm) change the default font to one of the &amp;ldquo;for powerline&amp;rdquo; fonts. I chose &lt;code&gt;Meslo for Powerline&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Once selected, you have successfully completed setting up ZSH with oh-my-zsh!&lt;/p&gt;
+
+&lt;p&gt;Congratulations on your awesome new terminal.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

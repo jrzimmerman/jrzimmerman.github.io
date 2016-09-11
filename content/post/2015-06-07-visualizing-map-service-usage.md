@@ -1,8 +1,10 @@
 ---
-layout: post
 title: Visualizing Map Service Usage
-date: 2015-06-07 18:53:58.000000000 -04:00
+slug: visualizing-map-service-usage
+date_published: 2015-06-08T02:54:00.000Z
+date_updated:   2016-06-13T06:44:58.000Z
 ---
+
 I recently developed a [JavaScript web application](http://75.151.252.249/RichlandHeatmap/) to visualize incident reporting for a local municipality collecting [Stormwater Incident Reports](http://75.151.252.249/RichlandServiceRequest/).
 
 ![Richland Service Request](/content/images/2015/06/Richland.PNG)
@@ -32,3 +34,4 @@ Be mindful of particular input errors. These include multiple responses from a s
 ######How can I make this?
 
 The [ArcGIS Solutions]() are full of templates that can be modified for your use. I prefer to check out their [GitHub]() account for all the latest templates.
+

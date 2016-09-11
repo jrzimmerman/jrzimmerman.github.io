@@ -1,8 +1,11 @@
 ---
-layout: post
 title: Updating Feature Coordinates with Python
-date: 2015-06-07 18:44:22.000000000 -04:00
+slug: updating-feature-coordinates-with-python
+date_published: 2015-06-08T02:44:00.000Z
+date_updated:   2016-06-13T06:41:41.000Z
+tags: Python
 ---
+
 I was asked to update the location of manhole points with new survey data. Traditionally this is a long task, dragging the old manholes to their new locations.
 
 Before we assume how it would be so much easier to just delete the old data, and import the new data. First we have to consider all the attribute information associated with the data, sure we can join based on the Manhole ID but what happens when we have to worry about attachments?
@@ -42,3 +45,4 @@ In my case it was <code>XYsetVALUE ( !SHAPE!, !X!, !Y! )</code>
 [5.] Click ok
 
 [6.] Now right click on the OLD XY and Calculate Geometry for XY and the updated XY will be calculated.
+

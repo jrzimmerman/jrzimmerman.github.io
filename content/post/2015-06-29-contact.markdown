@@ -1,6 +1,0 @@
----
-layout: post
-title: Contact Me
-date: 2015-06-29 18:28:47.000000000 -04:00
----
-Contact Me!

@@ -1,0 +1,110 @@
+	<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.16" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  
+  <title>Switching from iTerm to HyperTerm &middot; Justin Zimmerman</title>
+  
+
+  
+  <link rel="stylesheet" href="https://jrzimmerman.github.io/public/css/poole.css">
+  <link rel="stylesheet" href="https://jrzimmerman.github.io/public/css/syntax.css">
+  <link rel="stylesheet" href="https://jrzimmerman.github.io/public/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Justin Zimmerman" />
+</head>
+
+	<body class="theme-base-09 ">
+		<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://jrzimmerman.github.io/public/"><h1>Justin Zimmerman</h1></a>
+      <p class="lead">
+      An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="/">Home</a> </li>
+      
+    </ul>
+
+    <p>&copy; 2016. All rights reserved. </p>
+  </div>
+</div>
+
+
+		<div class="content container">
+			<div class="post">
+			 	<h1>Switching from iTerm to HyperTerm</h1>
+			  <span class="post-date">Mon, Jan 1, 0001</span>
+			      
+
+<p>Recently <a href="https://zeit.co/">zeit.co</a> released to the world a wonderful terminal built with JavaScript / HTML / CSS called <a href="https://hyperterm.org/">HyperTerm</a>. Even better yet, this terminal is fully customizable with open source plugins.</p>
+
+<p>I&rsquo;m not one to change my development environment constantly, but this electron app was simple to install on OSX and even easier to customize programmatically.</p>
+
+<p>My hope is to demo how simple it is to get started with HyperTerm, and show how I only added a few lines to the configuration file to have a terminal I enjoy to use.</p>
+
+<p><img src="/content/images/2016/07/Screenshot-2016-07-31-17-27-29.png" alt="" /></p>
+
+<h3 id="installing-hyperterm">Installing HyperTerm</h3>
+
+<p>To install HyperTerm on OSX simply install the .pkg file from their <a href="https://hyperterm.org/#installation">website</a>.</p>
+
+<p>Once installed, use your editor of choice to open <code>~/.hyperterm.js</code></p>
+
+<p>While the default configuration is very good, I have a few recommended configurations.</p>
+
+<h3 id="configuring-hyperterm">Configuring HyperTerm</h3>
+
+<p>First, change the theme by simply adding <code>hyperterm-solarized-dark</code> to the plugins array.</p>
+
+<pre><code>plugins: [
+    'hyperterm-solarized-dark',
+  ]
+</code></pre>
+
+<p>Save the configuration, and HyperTerm will automatically update for you.</p>
+
+<p>I also enjoy using the <code>hyperlinks</code> plugin to open links with your browser, we can also add this to the plugins array.</p>
+
+<pre><code>plugins: [
+    'hyperterm-solarized-dark',
+    'hyperlinks'
+  ]
+</code></pre>
+
+<p>Since I use ZSH with a Powerline font, I can simply update the fonts to include <code>Meslo for Powerline</code>.</p>
+
+<pre><code>// font family with optional fallbacks
+fontFamily: '&quot;Meslo LG L DZ for Powerline&quot;, Menlo, &quot;DejaVu Sans Mono&quot;, &quot;Lucida Console&quot;, monospace'
+</code></pre>
+
+<p>We can also modify the default window size of HyperTerm.</p>
+
+<pre><code>// size of window by pixels (width, height)
+windowSize: [1300, 650]
+</code></pre>
+
+<p>With a few lines of code, we now have a fully customizable terminal!</p>
+
+			</div>
+
+			
+		</div>
+
+  </body>
+</html>

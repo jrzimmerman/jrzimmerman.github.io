@@ -1,0 +1,119 @@
+	<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.16" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  
+  <title>Installing PostGIS and QGIS using Homebrew &middot; Justin Zimmerman</title>
+  
+
+  
+  <link rel="stylesheet" href="https://jrzimmerman.github.io/public/css/poole.css">
+  <link rel="stylesheet" href="https://jrzimmerman.github.io/public/css/syntax.css">
+  <link rel="stylesheet" href="https://jrzimmerman.github.io/public/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Justin Zimmerman" />
+</head>
+
+	<body class="theme-base-09 ">
+		<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://jrzimmerman.github.io/public/"><h1>Justin Zimmerman</h1></a>
+      <p class="lead">
+      An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="/">Home</a> </li>
+      
+    </ul>
+
+    <p>&copy; 2016. All rights reserved. </p>
+  </div>
+</div>
+
+
+		<div class="content container">
+			<div class="post">
+			 	<h1>Installing PostGIS and QGIS using Homebrew</h1>
+			  <span class="post-date">Mon, Jan 1, 0001</span>
+			      
+
+<p>After browsing the web and seeing outdated information for installing GIS software, I wanted to document the steps I took to install all the required software to get up and running using <a href="http://brew.sh/">Homebrew</a>:</p>
+
+<h4 id="installing-homebrew">Installing Homebrew</h4>
+
+<p>Be sure to have xcode installed from Apple</p>
+
+<pre><code>xcode-select --install
+</code></pre>
+
+<p>Copy this code a paste into your terminal to download and install Homebrew:</p>
+
+<pre><code>ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
+</code></pre>
+
+<h4 id="installing-postgis">Installing PostGIS</h4>
+
+<p>First, using Homebrew install PostgreSQL:</p>
+
+<pre><code>brew update
+brew doctor
+brew install postgresql
+</code></pre>
+
+<p>Install PostGIS</p>
+
+<pre><code>brew install PostGIS
+</code></pre>
+
+<h4 id="installing-qgis">Installing QGIS</h4>
+
+<p>First install python</p>
+
+<pre><code>brew install python
+</code></pre>
+
+<p>QGIS uses numpy, scipy and pyscopg2 which can be installed with pip</p>
+
+<pre><code>export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
+pip install numpy scipy matplotlib processing psycopg2
+</code></pre>
+
+<p>Install GDAL</p>
+
+<pre><code>brew install gdal
+</code></pre>
+
+<p>Install xquartz</p>
+
+<pre><code>brew install Caskroom/cask/xquartz
+</code></pre>
+
+<p>Finally, install QGIS and link to the Applications folder</p>
+
+<pre><code>brew tap osgeo/osgeo4mac
+brew install qgis-28
+brew linkapps qgis-28
+</code></pre>
+
+			</div>
+
+			
+		</div>
+
+  </body>
+</html>
