@@ -9,6 +9,4 @@ theme = "hyde"
 
 [Author]
   name = "Justin Zimmerman"
-
-[Permalinks]
-  post = "/:year/:month/:filename/"
+  
