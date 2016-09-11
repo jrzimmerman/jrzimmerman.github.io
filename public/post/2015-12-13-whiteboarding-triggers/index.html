@@ -1,0 +1,215 @@
+	<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.16" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  
+  <title>On Whiteboarding: Triggers &middot; Justin Zimmerman</title>
+  
+
+  
+  <link rel="stylesheet" href="https://jrzimmerman.github.io/css/poole.css">
+  <link rel="stylesheet" href="https://jrzimmerman.github.io/css/syntax.css">
+  <link rel="stylesheet" href="https://jrzimmerman.github.io/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Justin Zimmerman" />
+</head>
+
+	<body class="theme-base-09 ">
+		<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://jrzimmerman.github.io/"><h1>Justin Zimmerman</h1></a>
+      <p class="lead">
+      An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="/">Home</a> </li>
+      
+    </ul>
+
+    <p>&copy; 2016. All rights reserved. </p>
+  </div>
+</div>
+
+
+		<div class="content container">
+			<div class="post">
+			 	<h1>On Whiteboarding: Triggers</h1>
+			  <span class="post-date">Sun, Dec 13, 2015</span>
+			      
+
+<p>I will be the first to admit, I struggle in whiteboarding situations, especially in the context of technical interviewing when triggers arise. I hope this post helps you become better at whiteboarding when these certain triggers occur.</p>
+
+<p>I have recognized that there are two types of triggers that happen while whiteboarding. The first trigger is an interpersonal trigger that I will call a <strong>&ldquo;spiraling&rdquo;</strong> trigger. The next is an external trigger that I will call a <strong>&ldquo;questioning&rdquo;</strong> trigger.</p>
+
+<p>Let&rsquo;s dive into what each of the triggers are and what we can do about them.</p>
+
+<h3 id="spiraling-triggers">Spiraling Triggers</h3>
+
+<p><img src="http://i.giphy.com/T1qCytOwqL6A8.gif" alt="Spiral" /></p>
+
+<p>This first type of trigger is what happens when our plan starts to &ldquo;spiral downward&rdquo; and ultimately fall apart the moment when we realize our initial solution to the problem <em>isn&rsquo;t</em> going to work.</p>
+
+<p>When I first started attempting technical questions, or what I like to call <em>&ldquo;toy problems&rdquo;</em>, spiraling triggers were the demise of many solutions. So what can we do about them?</p>
+
+<p>The first step is <strong>recognizing</strong> that you have started to spiral downward. It seems like something obvious right? Maybe not at first to the unexperienced.</p>
+
+<blockquote>
+<p>Thoughts of &ldquo;Oh man, my solution doesn&rsquo;t work. I can&rsquo;t solve this. What am I even doing here? I can&rsquo;t believe I am wasting this interviewers time!&rdquo; can easily start creeping into the mind.</p>
+</blockquote>
+
+<p>We need to recognize when the spiraling starts, and quickly break out of it. <strong>Take a deep breath, and stand up straight.</strong> Seriously. It helps.</p>
+
+<p><img src="http://i.giphy.com/3o85xGwYPfshlyYLCM.gif" alt="sigh" /></p>
+
+<p>We need to get oxygen back into our brains and start thinking down the correct path again. Wasting brain power on how we aren&rsquo;t solving the problem won&rsquo;t help us find a solution.</p>
+
+<p>Don&rsquo;t worry though, if we can recognize our spiraling, it becomes much easier to break out of the spiral after some practice.</p>
+
+<p>After taking a breath, start thinking of what new information has been introduced. This segues nicely into the next trigger.</p>
+
+<h3 id="questioning-triggers">Questioning Triggers</h3>
+
+<p>This next type of trigger is a <strong>questioning trigger</strong>. This occurs when new information is provided by the interviewer, or a new realization modifies our understanding of the problem.</p>
+
+<blockquote>
+<p>If an interviewer asks &ldquo;Does that work?&rdquo; or &ldquo;Is that right?&rdquo; consider it a questioning trigger.</p>
+</blockquote>
+
+<p>Here are a few steps when approached with a questioning trigger.</p>
+
+<p>####1. Amend the current line of pseudocode</p>
+
+<p>Okay, maybe this isn&rsquo;t as earth shattering as we might have hoped, but do not overlook this simple strategy. For me, when a <em>questioning trigger</em> occurs, I think of a solution and want to rush to the beginning of my pseudocode and start changing everything from the beginning.</p>
+
+<p><img src="http://i.giphy.com/BfBqQV47hLFh6.gif" alt="best idea" /></p>
+
+<blockquote>
+<p>This is actually counter productive and will hamper our ability to solve the problem.</p>
+</blockquote>
+
+<p>What&rsquo;s the big deal? By the time we get back to the current line of pseudocode, we&rsquo;ve forgotten our epiphany making it harder for us to move forward.</p>
+
+<p>####2. Visualize the conflicting information</p>
+
+<p>Let&rsquo;s say our toy problem requires us to traverse a tree and we find a flaw in our logic. Trees are excellent opportunities to visualize what our data looks like.</p>
+
+<p>For instance, we realize our solution won&rsquo;t traverse left nodes if right nodes of the tree have data in them. Let&rsquo;s visualize examples of edge cases.</p>
+
+<pre><code>USEFUL DIAGRAM!
+      (N)
+    /      \
+  (Null)    (RC)
+            /
+          (LC2)
+
+USEFUL DIAGRAM!
+      (N)
+    /      \
+  (LC)    (Null)
+
+USEFUL DIAGRAM!
+      (N)
+    /      \
+  (Null)    (Null)
+</code></pre>
+
+<p>When we can visualize different edge cases, it will be a lot easier to incorporate solutions into our pseudocode.</p>
+
+<p>####3. Create new example data</p>
+
+<p>After visualizing the new information, our next step is to create example data to help solve the problem.</p>
+
+<p>If we realize our problem needs a function that will require a callback to store data asynchronously, think of example data that we can provide to our solution.</p>
+
+<pre><code>  asyncMap([
+   function(cb){
+     setTimeout(function(){
+       cb('one');
+     }, 200);
+   },
+   function(cb){
+     setTimeout(function(){
+       cb('two');
+    }, 100);
+   }
+  ],
+   function(results){
+     // the results array will equal ['one','two'] even though
+     // the second function had a shorter timeout.
+     console.log(results); // ['one', 'two']
+ });
+</code></pre>
+
+<p>Write an example function, include an example timeout length, and example data that results from the function.</p>
+
+<p>It is imperative that our example data includes edge cases. The more edge cases we add to our example data, the easier finding a solution will be.</p>
+
+<p>####4. Step through pseudocode with example data</p>
+
+<p>This is a critical step that I am continuing to work on while solving toy problems.</p>
+
+<p>We want to write in-line pseudocode as if we were the compiler. Using our example data created in the previous step, iterate through each line of the pseudocode. We want to write down what our variables store at each pass.</p>
+
+<pre><code>// after 100ms
+// 2
+// counter = 1
+// result = [,,'one']
+// check if 1 === 2 -&gt; false
+
+
+// after 200ms
+// 2
+// counter = 2
+// result = [,, 'two']
+// check if 2 === 2 -&gt; true
+		// callback(result) Boom! // -&gt; ['one, 'two']
+</code></pre>
+
+<p>This allows us even greater insight to any flaws within our pseudocode.</p>
+
+<p>####5. Finish pseudocode completely before rushing to write code</p>
+
+<p>When I figure out part of the solution, I get excited and want to start coding right away. From experience, I can safely say this is the best way to run into additional problems.</p>
+
+<p>We want to be sure to finish iterating through pseudocode with our example data from step 4. This allows us to get a better idea of what exactly needs to happen to solve the problem, and write correct code.</p>
+
+<blockquote>
+<p>We want to make our pseudocode a cheat sheet, not a general overview.</p>
+</blockquote>
+
+<p>When in whiteboarding situations, we only want to be doing 2 out of 3 tasks at all times:</p>
+
+<ul>
+<li>thinking</li>
+<li>writing</li>
+<li>talking</li>
+</ul>
+
+<p>When we do more than 2 of these things at once, we are at risk of spiraling. This is why it is important that we have complete pseudocode before we start coding. We now only have to worry about the last 2 points: <strong>writing</strong> and <strong>talking</strong> when writing actual code.</p>
+
+<p><img src="http://i.giphy.com/mNpgNpZmflO3S.gif" alt="everything" /></p>
+
+<p>Thanks for taking the time to read this lengthy post. If you can remember these steps I guarantee you will not only come to a solution, but impress your interviewer along the way.</p>
+
+			</div>
+
+			
+		</div>
+
+  </body>
+</html>

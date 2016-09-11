@@ -1,0 +1,1313 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.16" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  
+  <title>Justin Zimmerman</title>
+  
+
+  
+  <link rel="stylesheet" href="https://jrzimmerman.github.io/css/poole.css">
+  <link rel="stylesheet" href="https://jrzimmerman.github.io/css/syntax.css">
+  <link rel="stylesheet" href="https://jrzimmerman.github.io/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="https://jrzimmerman.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Justin Zimmerman" />
+</head>
+
+<body class="theme-base-09 ">
+
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://jrzimmerman.github.io/"><h1>Justin Zimmerman</h1></a>
+      <p class="lead">
+      An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="/">Home</a> </li>
+      
+    </ul>
+
+    <p>&copy; 2016. All rights reserved. </p>
+  </div>
+</div>
+
+
+    <div class="content container">
+<div class="posts">
+
+      
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://jrzimmerman.github.io/post/2016-03-08-hack-reactor-week-11/">
+        Hack Reactor Week 11
+      </a>
+    </h1>
+
+    <span class="post-date">Tue, Mar 8, 2016</span>
+
+    
+
+<p>With our product, Bestrida, to MVP (Minimum Viable Product) we will continue to improve our MVP features, as well as the look and feel of product, for the remainder of the week.</p>
+
+<p>####Design</p>
+
+<p>Our product finally received a much needed design overhaul, and we are definitely happy with the result:</p>
+
+<p><img src="/content/images/2016/03/bestrida-1.jpg" alt="bestrida" /></p>
+
+<h4 id="stretch-goals">Stretch Goals</h4>
+
+<p>As you can see in the above image, we are able to pull from the Strava API segment effort data for the user to view additional metrics on how well they performed during their effort.</p>
+
+<h4 id="final-thesis-presentations">Final Thesis Presentations</h4>
+
+<p>It&rsquo;s very hard to boil down three weeks of work into a simple 3 minute presentation, but fortunately I was paired with not only incredible developers, but excellent communicators. You can find our presentation <a href="https://www.youtube.com/watch?v=sw_mcAhgQo4">here</a>.</p>
+
+<p>Only one more week until class is over! Onward to hiring week.</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://jrzimmerman.github.io/post/2015-12-28-hack-reactor-week-10/">
+        Hack Reactor Week 10
+      </a>
+    </h1>
+
+    <span class="post-date">Mon, Dec 28, 2015</span>
+
+    
+
+<p>With Thesis moving along very nicely, here is what happened in week 10!</p>
+
+<h3 id="authentication">Authentication</h3>
+
+<p>One of the challenges faced this week during thesis is removing API keys from the client side. With a mobile application, you should consider all of your code accessible for the world to see. This would allow for any user to view your API&rsquo;s secret key allowing other user&rsquo;s to make (potentially) malicious requests to the API. This should of course, be avoided at all costs.</p>
+
+<p>We reimplemented the authentication to be completely server side. To do this, we used passport.js and JSON Web Tokens. The client will send the JWT to the server on each request. Once sent, the server will then intercept the request, making sure the user has a valid token and that the token hasn&rsquo;t expired yet.</p>
+
+<p>This was a great learning experience for the entire team, and one that certainly helped us better understand token-based authentication.</p>
+
+<h3 id="bestrida">Bestrida</h3>
+
+<p>We have finally made it to MVP! The server creates challenges, the user can view and accept these challenges, and we can finally declare a winner based off live Strava data. This has been a very challenging but rewarding process for the entire team, and we are so excited to show off our product to potential employers.</p>
+
+<p>With next week being a solo week for Christmas vacation, I will post again in 2016!</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://jrzimmerman.github.io/post/2015-12-13-whiteboarding-triggers/">
+        On Whiteboarding: Triggers
+      </a>
+    </h1>
+
+    <span class="post-date">Sun, Dec 13, 2015</span>
+
+    
+
+<p>I will be the first to admit, I struggle in whiteboarding situations, especially in the context of technical interviewing when triggers arise. I hope this post helps you become better at whiteboarding when these certain triggers occur.</p>
+
+<p>I have recognized that there are two types of triggers that happen while whiteboarding. The first trigger is an interpersonal trigger that I will call a <strong>&ldquo;spiraling&rdquo;</strong> trigger. The next is an external trigger that I will call a <strong>&ldquo;questioning&rdquo;</strong> trigger.</p>
+
+<p>Let&rsquo;s dive into what each of the triggers are and what we can do about them.</p>
+
+<h3 id="spiraling-triggers">Spiraling Triggers</h3>
+
+<p><img src="http://i.giphy.com/T1qCytOwqL6A8.gif" alt="Spiral" /></p>
+
+<p>This first type of trigger is what happens when our plan starts to &ldquo;spiral downward&rdquo; and ultimately fall apart the moment when we realize our initial solution to the problem <em>isn&rsquo;t</em> going to work.</p>
+
+<p>When I first started attempting technical questions, or what I like to call <em>&ldquo;toy problems&rdquo;</em>, spiraling triggers were the demise of many solutions. So what can we do about them?</p>
+
+<p>The first step is <strong>recognizing</strong> that you have started to spiral downward. It seems like something obvious right? Maybe not at first to the unexperienced.</p>
+
+<blockquote>
+<p>Thoughts of &ldquo;Oh man, my solution doesn&rsquo;t work. I can&rsquo;t solve this. What am I even doing here? I can&rsquo;t believe I am wasting this interviewers time!&rdquo; can easily start creeping into the mind.</p>
+</blockquote>
+
+<p>We need to recognize when the spiraling starts, and quickly break out of it. <strong>Take a deep breath, and stand up straight.</strong> Seriously. It helps.</p>
+
+<p><img src="http://i.giphy.com/3o85xGwYPfshlyYLCM.gif" alt="sigh" /></p>
+
+<p>We need to get oxygen back into our brains and start thinking down the correct path again. Wasting brain power on how we aren&rsquo;t solving the problem won&rsquo;t help us find a solution.</p>
+
+<p>Don&rsquo;t worry though, if we can recognize our spiraling, it becomes much easier to break out of the spiral after some practice.</p>
+
+<p>After taking a breath, start thinking of what new information has been introduced. This segues nicely into the next trigger.</p>
+
+<h3 id="questioning-triggers">Questioning Triggers</h3>
+
+<p>This next type of trigger is a <strong>questioning trigger</strong>. This occurs when new information is provided by the interviewer, or a new realization modifies our understanding of the problem.</p>
+
+<blockquote>
+<p>If an interviewer asks &ldquo;Does that work?&rdquo; or &ldquo;Is that right?&rdquo; consider it a questioning trigger.</p>
+</blockquote>
+
+<p>Here are a few steps when approached with a questioning trigger.</p>
+
+<p>####1. Amend the current line of pseudocode</p>
+
+<p>Okay, maybe this isn&rsquo;t as earth shattering as we might have hoped, but do not overlook this simple strategy. For me, when a <em>questioning trigger</em> occurs, I think of a solution and want to rush to the beginning of my pseudocode and start changing everything from the beginning.</p>
+
+<p><img src="http://i.giphy.com/BfBqQV47hLFh6.gif" alt="best idea" /></p>
+
+<blockquote>
+<p>This is actually counter productive and will hamper our ability to solve the problem.</p>
+</blockquote>
+
+<p>What&rsquo;s the big deal? By the time we get back to the current line of pseudocode, we&rsquo;ve forgotten our epiphany making it harder for us to move forward.</p>
+
+<p>####2. Visualize the conflicting information</p>
+
+<p>Let&rsquo;s say our toy problem requires us to traverse a tree and we find a flaw in our logic. Trees are excellent opportunities to visualize what our data looks like.</p>
+
+<p>For instance, we realize our solution won&rsquo;t traverse left nodes if right nodes of the tree have data in them. Let&rsquo;s visualize examples of edge cases.</p>
+
+<pre><code>USEFUL DIAGRAM!
+      (N)
+    /      \
+  (Null)    (RC)
+            /
+          (LC2)
+
+USEFUL DIAGRAM!
+      (N)
+    /      \
+  (LC)    (Null)
+
+USEFUL DIAGRAM!
+      (N)
+    /      \
+  (Null)    (Null)
+</code></pre>
+
+<p>When we can visualize different edge cases, it will be a lot easier to incorporate solutions into our pseudocode.</p>
+
+<p>####3. Create new example data</p>
+
+<p>After visualizing the new information, our next step is to create example data to help solve the problem.</p>
+
+<p>If we realize our problem needs a function that will require a callback to store data asynchronously, think of example data that we can provide to our solution.</p>
+
+<pre><code>  asyncMap([
+   function(cb){
+     setTimeout(function(){
+       cb('one');
+     }, 200);
+   },
+   function(cb){
+     setTimeout(function(){
+       cb('two');
+    }, 100);
+   }
+  ],
+   function(results){
+     // the results array will equal ['one','two'] even though
+     // the second function had a shorter timeout.
+     console.log(results); // ['one', 'two']
+ });
+</code></pre>
+
+<p>Write an example function, include an example timeout length, and example data that results from the function.</p>
+
+<p>It is imperative that our example data includes edge cases. The more edge cases we add to our example data, the easier finding a solution will be.</p>
+
+<p>####4. Step through pseudocode with example data</p>
+
+<p>This is a critical step that I am continuing to work on while solving toy problems.</p>
+
+<p>We want to write in-line pseudocode as if we were the compiler. Using our example data created in the previous step, iterate through each line of the pseudocode. We want to write down what our variables store at each pass.</p>
+
+<pre><code>// after 100ms
+// 2
+// counter = 1
+// result = [,,'one']
+// check if 1 === 2 -&gt; false
+
+
+// after 200ms
+// 2
+// counter = 2
+// result = [,, 'two']
+// check if 2 === 2 -&gt; true
+		// callback(result) Boom! // -&gt; ['one, 'two']
+</code></pre>
+
+<p>This allows us even greater insight to any flaws within our pseudocode.</p>
+
+<p>####5. Finish pseudocode completely before rushing to write code</p>
+
+<p>When I figure out part of the solution, I get excited and want to start coding right away. From experience, I can safely say this is the best way to run into additional problems.</p>
+
+<p>We want to be sure to finish iterating through pseudocode with our example data from step 4. This allows us to get a better idea of what exactly needs to happen to solve the problem, and write correct code.</p>
+
+<blockquote>
+<p>We want to make our pseudocode a cheat sheet, not a general overview.</p>
+</blockquote>
+
+<p>When in whiteboarding situations, we only want to be doing 2 out of 3 tasks at all times:</p>
+
+<ul>
+<li>thinking</li>
+<li>writing</li>
+<li>talking</li>
+</ul>
+
+<p>When we do more than 2 of these things at once, we are at risk of spiraling. This is why it is important that we have complete pseudocode before we start coding. We now only have to worry about the last 2 points: <strong>writing</strong> and <strong>talking</strong> when writing actual code.</p>
+
+<p><img src="http://i.giphy.com/mNpgNpZmflO3S.gif" alt="everything" /></p>
+
+<p>Thanks for taking the time to read this lengthy post. If you can remember these steps I guarantee you will not only come to a solution, but impress your interviewer along the way.</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://jrzimmerman.github.io/post/2015-12-09-hack-reactor-week-9/">
+        Hack Reactor Week 9
+      </a>
+    </h1>
+
+    <span class="post-date">Wed, Dec 9, 2015</span>
+
+    
+
+<p>Week 9 is finished at Hack Reactor, and thesis projects are in full swing! While there aren&rsquo;t many things on the schedule, thesis is all about trying to build the best product in the 3 short weeks you have dedicated to it.</p>
+
+<h3 id="thesis">Thesis</h3>
+
+<p>To start, this is a perfect summary of life during thesis:</p>
+
+<p><img src="http://i.imgur.com/wJ4IcDJ.gif" alt="thesis" /></p>
+
+<p>Have no fear, little buddy.</p>
+
+<p>While building a product can feel this way sometimes, I am having an awesome time learning and problem solving to create the best app we can possibly produce.</p>
+
+<p>For our thesis project, my group has decided to build upon Strava&rsquo;s extensive API. We are seriously fortunate to have such a great API to leverage for our product!</p>
+
+<p>With that being said, heres a little bit about Bestrida.</p>
+
+<h3 id="bestrida">Bestrida</h3>
+
+<p>The name pays homage to Strava by also leaning upon Swedish vocabulary. Strava is swedish for &ldquo;to strive&rdquo;, while Bestrida is swedish for &ldquo;to challenge&rdquo;. Which is exactly what our app does.</p>
+
+<p>Bestrida will allow a user to challenge anyone they follow to a particular segment. The user will pick a person to challenge, a segment, and a date the challenge will be completed.</p>
+
+<p>All of my friends are great to ride with, but like most cyclists, they are also always up for a short sprint through a well known Strava segment. This application will take your casual ride with friends to a whole new level.</p>
+
+<p>That&rsquo;s all for this week. Next week I will continue to describe Bestrida, and discuss topics learned along the way.</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://jrzimmerman.github.io/post/2015-12-05-seamless/">
+        Seamless
+      </a>
+    </h1>
+
+    <span class="post-date">Sat, Dec 5, 2015</span>
+
+    <p><a href="https://hrr9-seamless.herokuapp.com/">Seamless</a> is an image resizing application that leverages <a href="https://www.firebase.com/">Firebase</a> for persistent storage of a users images.</p>
+
+<p>The name Seamless is derived from the <a href="https://en.wikipedia.org/wiki/Seam_carving">seam carving</a> algorithm it uses for image resizing. The seam carving algorithm iterates over each pixel, and generates an energy value. The energy values are measured by the pixel&rsquo;s contrast to other surrounding pixels.</p>
+
+<p>After the energy values are calculated, the algorithm will create a &ldquo;seam&rdquo; through the image, finding the lowest energy values either top to bottom, or left to right. Once the seam is cut multiple times to fit the intended size, the process is complete.</p>
+
+<p>After the algorithm has completed, the application allows users to either save their changes to Firebase, or revert back to the original image.</p>
+
+<p>Also included with our application is a gallery, that holds all of the user&rsquo;s previously saved images.</p>
+
+<p>This project was a very rewarding experience, and I really enjoyed working with my group to complete the application.</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://jrzimmerman.github.io/post/2015-12-05-hack-reactor-week-8/">
+        Hack Reactor Week 8
+      </a>
+    </h1>
+
+    <span class="post-date">Sat, Dec 5, 2015</span>
+
+    
+
+<h3 id="legacy-project">Legacy Project</h3>
+
+<p>After the greenfield project last week, the next exercise was picking another group&rsquo;s greenfield project to build upon.</p>
+
+<p>The idea of this exercise is actually well founded, the majority of Software Engineers are going to work on developing new features or debugging &lsquo;legacy&rsquo; code, or known as code you haven&rsquo;t seen before.</p>
+
+<p>I really enjoyed working on Seamless, the greenfield project my group decided to take on. The foundation of seamless was solid, it was a basic vanilla javascript application, that resized an image using a seam-carving algorithm.</p>
+
+<p>We decided to create a persistent data store for resized images using Firebase, add google authentication, and to also create a modern, responsive website.</p>
+
+<p>You can view <a href="http://hrr9-seamless.herokuapp.com">Seamless here</a>.</p>
+
+<h3 id="thesis">Thesis</h3>
+
+<p>I cannot believe it is already time to start the thesis project! The thesis project is a 3.5 week long project in a group of 4.</p>
+
+<p>The group I was assigned to didn&rsquo;t come with a recommended project. I have a feeling this will be not only a great group, but a great project will come out of it as well!</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://jrzimmerman.github.io/post/2015-11-26-hack-reactor-week-7/">
+        Hack Reactor Week 7
+      </a>
+    </h1>
+
+    <span class="post-date">Thu, Nov 26, 2015</span>
+
+    
+
+<p>Week 7 was the first week of &ldquo;project phase&rdquo; in Hack Reactor. We will go through 6 weeks of group work to become better engineers in team environments.</p>
+
+<h4 id="greenfield">Greenfield</h4>
+
+<p>The term greenfield comes from the engineering world, to refer to a blank slate, a &ldquo;green field&rdquo; ready to be built upon.</p>
+
+<p>This was my first experience working with a team of four to complete a functioning project. While I greatly enjoyed working in a team environment, there were a few hiccups that we encountered and have learned from along the way.</p>
+
+<p>My understanding of git was taken to an entire new level. This was a great experience in to learning the intricacies of git workflow and project management.</p>
+
+<p>My team developed <a href="http://access-app.herokuapp.com/">Access</a>. We used the MEAN stack to store and display crowd-sourced handicapped accessibility information for venues. We hope that with a little more work, this functioning product will become a way for people to easily access the information they need to go places, and live their lives.</p>
+
+<h4 id="resume">Resume</h4>
+
+<p>The resume sprint was one of the first experiences with Hack Reactor&rsquo;s excellent outcomes team. The outcomes team works hard to take you from a great programmer, to a hirable programmer.</p>
+
+<p>While at first glance,most people do not consider a resume to be worth taking multiple days of a course, but its actually quite the opposite. A resume, as I am sure most of you know, is the first thing a recruiter or hiring manager will see. What is a less common for people to understand, is much like the cover letter, you should write your resume with the position in mind.</p>
+
+<p>One of the hardest parts of writing an effective resume, is not writing every accomplishment down. Every single line in your resume should announce to the reader, that you are a qualified software engineer.</p>
+
+<p>While you might have had several accomplishments in your previous profession, if they do not directly show how great a programmer you are or how you are able to get things done, those achievements should be omitted.</p>
+
+<p>Thanks for reading! Time for a relaxing solo week, and onward to week 8 and legacy projects!</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://jrzimmerman.github.io/post/2015-11-11-geolocation/">
+        Geolocation on Page Load
+      </a>
+    </h1>
+
+    <span class="post-date">Wed, Nov 11, 2015</span>
+
+    
+
+<p>While building <a href="https://geotinerary.herokuapp.com/">Geotinerary</a>, I wanted the map to zoom relatively close to the users location. Surprisingly enough, this was quite hard to find an example of.</p>
+
+<h4 id="html5-and-ips">HTML5 and IPs</h4>
+
+<p>Traditionally, when a webpage wants your location, we use the native HTML5. While this isn&rsquo;t a terrible idea and can have much more accurate results, there is another method to find your users location that doesn&rsquo;t require the use of HTML5 geolocation, the users IP address.</p>
+
+<h4 id="html5-geolocation">HTML5 Geolocation</h4>
+
+<p>The most accurate approach to locating your users is to use HTML 5&rsquo;s built in geolocation feature. Due to the accuracy, this is the approach I opted to use for Geotinerary.</p>
+
+<p>Here is a code snippet for HTML 5 Geolocation:</p>
+
+<script src="https://gist.github.com/jrzimmerman/c4039796cfaa84980cbe.js"></script>
+
+<h4 id="geolocating-ip-addresses">Geolocating IP Addresses</h4>
+
+<p>If you are concerned with There are a swath of many great GeoIP providers, but for this project I decided upon <a href="http://freegeoip.net/">Free GeoIP</a> for its open data and ease of use. While the location is not as great, it&rsquo;s all about what you need from your data.</p>
+
+<p>Here is a code snippet for Geolocating IP Addresses:</p>
+
+<script src="https://gist.github.com/jrzimmerman/0453bdfd552de42f30f6.js"></script>
+
+<p>Deciding upon which method to use depends on use case. Since I had a need for specific locations, I went with the traditional HTML 5 geolocation. If I were to aggregate data at a national (or global) scale, then GeoIP is a fantastic use.</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://jrzimmerman.github.io/post/2015-11-11-hack-reactor-week-6/">
+        Hack Reactor Week 6
+      </a>
+    </h1>
+
+    <span class="post-date">Wed, Nov 11, 2015</span>
+
+    
+
+<p>Week 6 at Hack Reactor is when curriculum starts to shift from small &ldquo;sprints&rdquo; to the larger project phase. For the first time at Hack Reactor, we were given a React.js sprint! After the React.js sprint we had two days to create our MVP projects. At the end of the week, we had the dreaded hiring assessment.</p>
+
+<h4 id="react-js">React.js</h4>
+
+<p>This was probably one of my favorite sprints thus far. Using React to manage state, we created a <a href="https://jz-jukebox.herokuapp.com/">jukebox</a> application that leverages the SoundCloud API. Using underscore&rsquo;s debounce function, when a user inputs a keyword, the user is shown 10 songs that fit the keyword.</p>
+
+<h4 id="mvps">MVPs</h4>
+
+<p>The MVP is all about finding the right idea, with the right scope, and pushing through to deploy a minimum viable product, in just two days. I created <a href="https://geotinerary.herokuapp.com/#/">Geotinerary</a> using Angular, Firebase, Leaflet, and Mapbox.js. This was a very fun project that I hope to have more time to polish up.</p>
+
+<h4 id="hiring-assessment">Hiring Assessment</h4>
+
+<p>The hiring assessment is a 6 hour test encompassing everything the has been taught up until this point of the curriculum. While I won&rsquo;t ruin any surprises for future students, I will recommend anyone who is worried about the hiring assessment to review previous self assessments up until this point.</p>
+
+<p>While this is certainly an important step in Hack Reactor, do not stress about this. Trust that Hack Reactor has prepared you for this assessment, because that was definitely the case for me.</p>
+
+<p>Onward to the group project phase! Thanks for reading everyone.</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://jrzimmerman.github.io/post/2015-11-06-hack-reactor-week-5/">
+        Hack Reactor Week 5
+      </a>
+    </h1>
+
+    <span class="post-date">Fri, Nov 6, 2015</span>
+
+    
+
+<p>With another week completed, week 5 has been extremely interesting. The topics this week included authentication, and deployment, along with introductions to MongoDB and Angular.</p>
+
+<h4 id="authentication">Authentication</h4>
+
+<p>As we all know, security is a pivotal part of development. Authentication is the act of verifying that your user is actually who they say they are. This verification normally includes a username and password. When that password is passed to the server we then return a token for return authentication requests.</p>
+
+<h4 id="deployment">Deployment</h4>
+
+<p>Learning deployment has been very fun, and I have really enjoyed leveraging services like <a href="http://www.heroku.com">Heroku</a> to make deployment easy as possible. Along with deployment, we talked about using build task runners such as Grunt and Gulp.</p>
+
+<h4 id="angular">Angular</h4>
+
+<p>Angular is an excellent framework that I was able to work with at the end of the week. Unlike Backbone, Angular is quite opinionated, in a good way. Angular has thorough documentation, and has promises built in, to handle callbacks.</p>
+
+<p>With only one more sprint next week, the transition to group project phase begins!</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://jrzimmerman.github.io/post/2015-10-30-hack-reactor-week-4/">
+        Hack Reactor Week 4
+      </a>
+    </h1>
+
+    <span class="post-date">Fri, Oct 30, 2015</span>
+
+    
+
+<p>In Hack Reactor week 4 is a pivotal time where the training wheels start to come off. Much of the sprints until week 4 have had for the most part very structured tests that held your hand through most of the sprints. Week 4 starts to look quite different!</p>
+
+<p>During week 4 we took a walk through server-side or what is also called back-end concepts. We specifically focused on using node, server side concepts such as the client-server model, and databases.</p>
+
+<h4 id="node-js">Node.js</h4>
+
+<p>Node.js is a javascript runtime environment that allows for event-driven programming in an asynchronous environment.</p>
+
+<h4 id="server-side-concepts">Server Side Concepts</h4>
+
+<p>We discussed server side concepts such as the Client-Server model, background jobs, daemons, and cron tasks.</p>
+
+<h4 id="databases">Databases</h4>
+
+<p>In my previous job, maintenance of databases was a large portion of my daily tasks. So for this sprint I was able to take my previous experience and learn so much more.</p>
+
+<p>To take a step backwards, databases are so important because of their ability to store data persistently. Should your node server restart, without a database you can say goodbye to all that beautiful data!</p>
+
+<p>On to week 5!</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://jrzimmerman.github.io/post/2015-10-30-hack-reactor-week-3/">
+        Hack Reactor Week 3
+      </a>
+    </h1>
+
+    <span class="post-date">Fri, Oct 30, 2015</span>
+
+    
+
+<p>Welcome to week 3! This has been an awesome week for discovering web application architecture. We began the week creating a chat application that focused on front end development. During the middle of the week we began to take a deeper dive into web application architecture using backbone.js. And the final sprint of the week included another dive into backbone.js but using CoffeeScript to write the application, rather than Javascript.</p>
+
+<h4 id="jquery-and-ajax">jQuery and AJAX</h4>
+
+<p>This first sprint was all about front end interactions with a database. In our chat application we had to interact with a server using AJAX calls. To manipulate the data we recieved from those calls, we were able to use jQuery to present that data for our chatroom in a presentable format.</p>
+
+<h4 id="security">Security</h4>
+
+<p>It&rsquo;s never too early to the importance of security and escaping cross-site scripting (XSS). This type of attack is regularly listed on the OWASP top 10 and is something every software engineer should take into consideration when using an API that they do not own.</p>
+
+<h4 id="backbone-js">Backbone.js</h4>
+
+<p>While I wasn&rsquo;t initially sold with backbone, we&rsquo;ve since become friends. The open ended nature of backbone is very conducive to learning all aspects of the  Model View Controller (MVC) model. We were tasked to create an application that acted as a browser version of iTunes. This was a great experience learning about backbone models, collections, and views.</p>
+
+<p><img src="http://i.giphy.com/XreQmk7ETCak0.gif" alt="thumbs up" /></p>
+
+<h4 id="coffeescript">CoffeeScript</h4>
+
+<p>To add some complexity, and also double-down on Backbone.js concepts, we create a simple blackjack game using CoffeeScript. It was interesting to apply the fundamentals of what we are learning in JavaScript to another language, such as CoffeeScript. While I definitely didn&rsquo;t master CoffeeScript by any means, I walked away from this sprint certainly feeling more comfortable taking computer science concepts from one language, and applying it to a language I haven&rsquo;t used before.</p>
+
+<p>Thanks for reading, and I look forward to week 4!</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://jrzimmerman.github.io/post/2015-10-19-hack-reactor-week-2/">
+        Hack Reactor Week 2
+      </a>
+    </h1>
+
+    <span class="post-date">Mon, Oct 19, 2015</span>
+
+    
+
+<p>Week 2 is over already, what a great time it has been! I was able to settle in this week and make progress on some awesome projects.</p>
+
+<h4 id="inheritance-patterns">Inheritance Patterns</h4>
+
+<p>The beginning of week 2 focused on JavaScript inheritance patterns. We discussed the pros and cons of functional classes, functional-shared classes, prototypal classes, and psuedoclassical classes.</p>
+
+<h4 id="nqueens">nQueens</h4>
+
+<p>If you don&rsquo;t know about this problem, check it out! It&rsquo;s an especially fun logic puzzle, where you have to test for a given amount of queens, on an (n x n) chessboard, how many solutions can you find? This problem was a conglomeration of all the concepts we had previously discussed to this point. The solution involves the create of a &lsquo;decision tree&rsquo; and anything with the word &lsquo;tree&rsquo; in it, will certainly benefit from the use of recursion.</p>
+
+<h4 id="d3">d3</h4>
+
+<p>This has been my favorite project so far. We were tasked to create a game using d3. Coming from a previous job where visualization of data is so important, this was such a great sprint. I was able to apply my knowledge of data visualization and coordinates to create a super fun game that I really enjoyed!</p>
+
+<p>Sorry these posts keep getting shorter! I&rsquo;m looking forward to week 3!</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://jrzimmerman.github.io/post/2015-10-15-create-a-static-page-on-digital-ocean-droplet/">
+        Create a Static Page on a Digital Ocean Droplet
+      </a>
+    </h1>
+
+    <span class="post-date">Thu, Oct 15, 2015</span>
+
+    
+
+<p>I currently use Digital Ocean to host my ghost blog. This has a been a very fun adventure, allowing me to learn the &ldquo;ins and outs&rdquo; of linux server administration.</p>
+
+<h5 id="what-if-we-want-to-add-a-new-static-page">What if we want to add a new static page?</h5>
+
+<p>Using a ghost blog is very easy and simple, but what if we want to add our projects to our site?</p>
+
+<p>This takes a little bit of work.</p>
+
+<p>After we copy our files onto our server, we want open the Ghost nginx file using:
+<code>nano /etc/nginx/sites-enabled/ghost</code></p>
+
+<p>The file should look like this:</p>
+
+<pre><code>server {
+  listen 80 default_server;
+  listen [::]:80 default_server ipv6only=on;
+
+  server_name justinzimmerman.net; # Replace with your domain
+
+  root /usr/share/nginx/html;
+  index index.html index.htm;
+
+  client_max_body_size 10G;
+
+  location / {
+      proxy_pass http://localhost:2368;
+      proxy_set_header X-Forwarded-For   $proxy_add_x_forwarded_for;
+      proxy_set_header Host $http_host;
+      proxy_set_header X-Forwarded-Proto     $scheme;
+      proxy_buffering off;
+  }
+}
+</code></pre>
+
+<p>Add this block after the location / block:</p>
+
+<pre><code>location /chatbuilder/ {
+        alias /var/www/ChatBuilder/;
+  }
+</code></pre>
+
+<p>We have just created an alias to a folder on the file system.</p>
+
+<h5 id="completed-file">Completed file</h5>
+
+<pre><code>server {
+  listen 80 default_server;
+  listen [::]:80 default_server ipv6only=on;
+
+  server_name justinzimmerman.net; # Replace with your domain
+
+  root /usr/share/nginx/html;
+  index index.html index.htm;
+
+  client_max_body_size 10G;
+
+  location / {
+      proxy_pass http://localhost:2368;
+      proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+      proxy_set_header Host $http_host;
+      proxy_set_header X-Forwarded-Proto $scheme;
+      proxy_buffering off;
+  }
+
+  location /chatbuilder/ {
+      alias /var/www/ChatBuilder/;
+  }
+}
+</code></pre>
+
+<h5 id="restart-nginx-and-ghost">Restart nginx and ghost</h5>
+
+<pre><code>sudo service nginx restart
+sudo service ghost restart
+</code></pre>
+
+<p>Thanks for reading! I hope this helps you set up your new static page.</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://jrzimmerman.github.io/post/2015-10-15-ubuntu-server-configuration/">
+        Ubuntu 14 Server Configuration
+      </a>
+    </h1>
+
+    <span class="post-date">Thu, Oct 15, 2015</span>
+
+    
+
+<p>Below is a listing of important tasks to complete after setting up your Ubuntu server.</p>
+
+<h5 id="ssh-login-as-root">SSH login as root</h5>
+
+<p>You should have added an ssh key to the instance during creation. SSH into the instance as root by
+<code>ssh root@server_ip_address</code></p>
+
+<h5 id="update-server-to-latest-patches">Update server to latest patches</h5>
+
+<p><code>sudo apt-get update
+sudo apt-get upgrade</code></p>
+
+<p>Optionally to uninstall old packages
+<code>sudo apt-get autoremove</code></p>
+
+<h5 id="create-a-new-user">Create a new user</h5>
+
+<p><code>adduser user_name</code></p>
+
+<h5 id="assign-root-permission-to-new-user">Assign root permission to new user</h5>
+
+<p><code>gpasswd -a user_name sudo</code></p>
+
+<h5 id="login-as-new-user">Login as new user</h5>
+
+<p><code>su - user_name</code></p>
+
+<h5 id="add-public-key">Add public key</h5>
+
+<p><code>mkdir .ssh
+chmod 700 .ssh
+nano .ssh/authorized_keys</code></p>
+
+<p>Copy your public key into this file
+<code>chmod 600 .ssh/authorized_keys</code></p>
+
+<h5 id="ssh-into-the-instance-as-the-new-user">SSH into the instance as the new user</h5>
+
+<p><code>ssh user_name@server_ip_address</code></p>
+
+<h5 id="edit-ssh-configuration-settings">Edit SSH configuration settings</h5>
+
+<p><code>PermitRootLogin no
+PermitEmptyPassword no
+sudo service ssh restart</code></p>
+
+<h5 id="setup-the-firewall">Setup the firewall</h5>
+
+<p>Permit ssh on port 22
+<code>sudo ufw allow ssh</code></p>
+
+<p>To allow all traffic from a specified IP address
+<code>sudo ufw allow from any_ip_address</code></p>
+
+<p>Allow traffic from a specific port
+<code>sudo ufw allow 80/tcp</code></p>
+
+<p>Review configuration before enabling
+<code>sudo ufw show added</code></p>
+
+<p>Enable the UFW configuration
+<code>sudo ufw enable</code></p>
+
+<h5 id="configure-ntp">Configure NTP</h5>
+
+<p><code>sudo apt-get update
+sudo apt-get install ntp</code></p>
+
+<h5 id="setup-swap-file">Setup swap file</h5>
+
+<p>Usually best practice to double amount of RAM for swap file
+<code>sudo fallocate -l xxxG /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+sudo sh -c 'echo &quot;/swapfile none swap sw 0 0&quot; &gt;&gt; /etc/fstab'</code></p>
+
+<h5 id="install-fail2ban">Install fail2ban</h5>
+
+<p><code>sudo apt-get update
+sudo apt-get install fail2ban</code></p>
+
+<h5 id="edit-fail2ban-config">Edit fail2ban config</h5>
+
+<p><code>sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
+sudo nano /etc/fail2ban/jail.local</code></p>
+
+<p>Update the bantime, findtime, and maxretry settings
+Restart the fail2ban service
+<code>sudo service fail2ban restart</code></p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://jrzimmerman.github.io/post/2015-10-05-hack-reactor-week-1/">
+        Hack Reactor Week 1
+      </a>
+    </h1>
+
+    <span class="post-date">Mon, Oct 5, 2015</span>
+
+    
+
+<p>This is it! The first week at Hack Reactor, and what an awesome experience it has been.</p>
+
+<p>We started the first day with an introduction to the program, touched on both our expectations and the expectations of Hack Reactor, and did a review &ldquo;sprint&rdquo; on recursion.</p>
+
+<p>Sprints are short projects often worked on with a pair, this is at the core of Hack Reactor&rsquo;s teaching style and philosophy.</p>
+
+<h4 id="recursion">Recursion</h4>
+
+<p>Recursion is a technique for solving problems where a function makes calls to itself. This allows the program to solve small parts of the problem at a time, leaving the rest for the recursive calls.</p>
+
+<h4 id="code-reuse">Code Reuse</h4>
+
+<p>We discussed a variety of code reuse patterns. The patterns include functional, functional-shared, prototypal and psuedoclassical.</p>
+
+<h4 id="data-structures">Data Structures</h4>
+
+<p>The first week involved discussion and implementation of various data structures. We first started with the implementation of stacks and queues. During the rest of the week, we focused on more advanced data structures, such as linked lists, trees, graphs, sets, and binary search trees.</p>
+
+<p>One of the most surprising things about Hack Reactor was the amount of thorough and thoughtful video lectures on &ldquo;soft skills&rdquo; to help with both the program and becoming an effective learner and programmer.</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://jrzimmerman.github.io/post/2015-10-05-hack-reactor-week-0/">
+        Hack Reactor Week 0
+      </a>
+    </h1>
+
+    <span class="post-date">Mon, Oct 5, 2015</span>
+
+    <p>It&rsquo;s finally that time! After completing the pre-course work, I start my journey with Hack Reactor today.</p>
+
+<p>I plan to write on a weekly basis about the new topics covered, and what was focused on during my time here at Hack Reactor.</p>
+
+<p>During the pre-course we focused on gaining a firm understanding of web development technologies such as HTML, CSS, and jQuery.</p>
+
+<p>Programming concepts such as scope, execution contexts, objects, and recursion were discussed in great length.</p>
+
+<p>I am so excited to start my journey into Software Engineering with Hack Reactor!</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://jrzimmerman.github.io/post/2015-08-22-installing-postgis-and-qgis-using-homebrew/">
+        Installing PostGIS and QGIS using Homebrew
+      </a>
+    </h1>
+
+    <span class="post-date">Sat, Aug 22, 2015</span>
+
+    
+
+<p>After browsing the web and seeing outdated information for installing GIS software, I wanted to document the steps I took to install all the required software to get up and running using <a href="http://brew.sh/">Homebrew</a>:</p>
+
+<h4 id="installing-homebrew">Installing Homebrew</h4>
+
+<p>Be sure to have xcode installed from Apple</p>
+
+<pre><code>xcode-select --install
+</code></pre>
+
+<p>Copy this code a paste into your terminal to download and install Homebrew:</p>
+
+<pre><code>ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
+</code></pre>
+
+<h4 id="installing-postgis">Installing PostGIS</h4>
+
+<p>First, using Homebrew install PostgreSQL:</p>
+
+<pre><code>brew update
+brew doctor
+brew install postgresql
+</code></pre>
+
+<p>Install PostGIS</p>
+
+<pre><code>brew install PostGIS
+</code></pre>
+
+<h4 id="installing-qgis">Installing QGIS</h4>
+
+<p>First install python</p>
+
+<pre><code>brew install python
+</code></pre>
+
+<p>QGIS uses numpy, scipy and pyscopg2 which can be installed with pip</p>
+
+<pre><code>export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
+pip install numpy scipy matplotlib processing psycopg2
+</code></pre>
+
+<p>Install GDAL</p>
+
+<pre><code>brew install gdal
+</code></pre>
+
+<p>Install xquartz</p>
+
+<pre><code>brew install Caskroom/cask/xquartz
+</code></pre>
+
+<p>Finally, install QGIS and link to the Applications folder</p>
+
+<pre><code>brew tap osgeo/osgeo4mac
+brew install qgis-28
+brew linkapps qgis-28
+</code></pre>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://jrzimmerman.github.io/post/2015-08-10-remote-prep-week-4/">
+        Hack Reactor Remote Prep Week 4
+      </a>
+    </h1>
+
+    <span class="post-date">Mon, Aug 10, 2015</span>
+
+    
+
+<p style="text-align: center"><a href = "http://justinzimmerman.net/remote-prep-week-1/">Week 1</a> | <a href = "http://justinzimmerman.net/remote-prep-week-2/">Week 2</a> | <a href = "http://justinzimmerman.net/remote-prep-week-3/">Week 3</a> | <a href = "http://justinzimmerman.net/remote-prep-week-4/"><b>Week 4</b></a></p>
+
+<p>Just like that, the four week course is at an end. I have really enjoyed the opportunity to learn such a large amount of material in such a short time.</p>
+
+<p>This has definitely been a great learning experience for me. If you are considering going to Hack Reactor, then this course will really show you what you&rsquo;re getting in to. Also, if you are wondering if you can learn in the Hack Reactor Remote online class, the answer is yes!</p>
+
+<p>In the last week we learned the following concepts:</p>
+
+<h4 id="ajax-json">AJAX &amp; JSON</h4>
+
+<p>We started off the week learning how to use AJAX to interact with servers behind the scenes using JavaScript without having to reload the page. This was really fun, and very powerful. We leveraged the Open Weather Map API to load local temperature information to our sites.</p>
+
+<h4 id="higher-order-functions">Higher Order Functions</h4>
+
+<p>This was probably the most important day of the entire class. As we worked through rewriting higher order functions like each, map, and filter, we had 1 on 1 interviews with the instructor to determine how we were doing. This was valuable feedback, and the instructor was very helpful in pointing to the next topics I should focus on.</p>
+
+<h4 id="object-oriented-javascript">Object Oriented Javascript</h4>
+
+<p>We looked in to more Object manipulation today, leveraging the object data type to structure our programs, rather than functions. We learned how to create our own methods in our own objects, and introduced decorator patterns and factory patterns code structures.</p>
+
+<h4 id="model-view-controller">Model View Controller</h4>
+
+<p>We created a simple MVC using factory pattern objects to leverage the Imgur API and the SoundCloud API. This was a very rewarding project where I learned quite a bit of material using both simple and complex APIs.</p>
+
+<h4 id="portfolio-and-hiring">Portfolio and Hiring</h4>
+
+<p>The last day consisted of learning a variety of ways to improve your online presence. These included tips and tricks on how to improve your Github and LinkedIn. We discussed the importance of an online portfolio site, and blogging about technical concepts. We also covered the basics on resumes, cover letters, applying for jobs, and how to prepare for interviews.</p>
+
+<p style="text-align: center"><a href = "http://justinzimmerman.net/remote-prep-week-1/">Week 1</a> | <a href = "http://justinzimmerman.net/remote-prep-week-2/">Week 2</a> | <a href = "http://justinzimmerman.net/remote-prep-week-3/">Week 3</a> | <a href = "http://justinzimmerman.net/remote-prep-week-4/"><b>Week 4</b></a></p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://jrzimmerman.github.io/post/2015-08-01-remote-prep-week-3/">
+        Hack Reactor Remote Prep Week 3
+      </a>
+    </h1>
+
+    <span class="post-date">Sat, Aug 1, 2015</span>
+
+    
+
+<p style="text-align: center"><a href = "http://justinzimmerman.net/remote-prep-week-1/">Week 1</a> | <a href = "http://justinzimmerman.net/remote-prep-week-2/">Week 2</a> | <a href = "http://justinzimmerman.net/remote-prep-week-3/"><b>Week 3</b></a> | <a href = "http://justinzimmerman.net/remote-prep-week-4/">Week 4</a></p>
+
+<p>I cannot believe we have already completed 3 weeks of class! I have learned a considerable amount along the way. Here are some of the topics that were covered this week.</p>
+
+<h4 id="functions">Functions</h4>
+
+<p>Now we are getting into the good stuff. <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions">Functions</a> are one of the most critical tools for any good JavaScript programmer. We discussed creating functions, invoking functions, and storing functions as variables.</p>
+
+<h4 id="events">Events</h4>
+
+<p>Event handlers are specific types of functions that are invoked when the user interacts with the website. For instance, text can be shown when a button is clicked, or an image can appear when a mouse hovers over a text link.</p>
+
+<h4 id="arrays">Arrays</h4>
+
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">Arrays</a> are one of the primary methods for storing data collections in JavaScript. An array is used to store ordered lists. Arrays can include all sorts of different data types, booleans, strings, numbers, objects, and even arrays within arrays.</p>
+
+<p>We discussed array instantiation, and the associated properties (such as <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length">.length</a>) and methods (such as <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push">.push</a> or <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop">.pop</a>) that come with arrays.</p>
+
+<h4 id="objects">Objects</h4>
+
+<p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Objects</a> are the other primary method for storing data collections in JavaScript. Rather than an ordered list of values like an array, objects are stored using key value pairs. These keys can be referenced using dot notation or bracket notation.</p>
+
+<p>We then used both dot notation and bracket notation to access values that were stored within the objects.</p>
+
+<h4 id="web-store-hackathon">Web Store Hackathon</h4>
+
+<p>This hackathon was an individual 3 hour exercise in building a web store to compete with Amazon.com. We built upon our existing knowledge of HTML, CSS, and jQuery to create a basic layout for our e-commerce site. We then used objects to store our products that we would be selling, such as books and albums.</p>
+
+<p style="text-align: center"><a href = "http://justinzimmerman.net/remote-prep-week-1/">Week 1</a> | <a href = "http://justinzimmerman.net/remote-prep-week-2/">Week 2</a> | <a href = "http://justinzimmerman.net/remote-prep-week-3/"><b>Week 3</b></a> | <a href = "http://justinzimmerman.net/remote-prep-week-4/">Week 4</a></p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://jrzimmerman.github.io/post/2015-07-24-remote-prep-week-2/">
+        Hack Reactor Remote Prep Week 2
+      </a>
+    </h1>
+
+    <span class="post-date">Fri, Jul 24, 2015</span>
+
+    
+
+<p style="text-align: center"><a href = "http://justinzimmerman.net/remote-prep-week-1/">Week 1</a> | <a href = "http://justinzimmerman.net/remote-prep-week-2/"><b>Week 2</b></a> | <a href = "http://justinzimmerman.net/remote-prep-week-3/">Week 3</a> | <a href = "http://justinzimmerman.net/remote-prep-week-4/">Week 4</a></p>
+
+<p>Another week completed already! With the end of week 2 brings the close to the first half of the class. At the end of each class, the instructors give a survey to determine if you feel &lsquo;behind pace,&rsquo; &lsquo;on pace,&rsquo; or &lsquo;ahead of pace.&rsquo; While I still feel I am in the &lsquo;ahead of pace&rsquo; category, I have been learning quite a bit!</p>
+
+<h4 id="introduction-to-javascript">Introduction to JavaScript</h4>
+
+<p>One of the cool things about Hack Reactor is that, no matter the complexity of the material, they always find a way to challenge you with the exercises.</p>
+
+<p>The first day of the week was very easy, covering terminal and operators in JavaScript. This gave me an opportunity to assist students newer to these concepts.</p>
+
+<h4 id="dom-manipulation">DOM Manipulation</h4>
+
+<p>We started learning about using JavaScript to manipulate the DOM. This was very interesting, as I have yet to really understand how to leverage JavaScript to manipulate the page.</p>
+
+<h4 id="conditionals">Conditionals</h4>
+
+<p>This started with a brief refresher on the Boolean data type. We then spent most of our time working on If/Else statements. I really enjoyed taking what we had previously learned about DOM Manipulation and applying conditional statements based on user input.</p>
+
+<h4 id="while-loops">While Loops</h4>
+
+<p>I was very impressed with Hack Reactor as they took a seemingly simple concept and really made students push the limits of while loops. As I would normally use for loops for a majority of my functional programming, it was interesting to see how you can really leverage while loops, such as creating a simple rock, paper, scissors game.</p>
+
+<h4 id="jquery">jQuery</h4>
+
+<p>While jQuery can take a little getting used to, it definitely seems like the way to go for DOM Manipulation. I really enjoyed learning about jQuery effects as well.</p>
+
+<h4 id="hackathon">Hackathon</h4>
+
+<p>We had a Halfway Hackathon! As a team, we were required to develop a project idea, and using all that we have learned so far, develop that idea individually in 3 hours.</p>
+
+<p>I really enjoyed working with my group to problem solve and create a really fun version of the classic &lsquo;Breakout&rsquo; game.</p>
+
+<p><a href="http://jz-breakout.divshot.io">My version can be found here.</a></p>
+
+<p style="text-align: center"><a href = "http://justinzimmerman.net/remote-prep-week-1/">Week 1</a> | <a href = "http://justinzimmerman.net/remote-prep-week-2/"><b>Week 2</b></a> | <a href = "http://justinzimmerman.net/remote-prep-week-3/">Week 3</a> | <a href = "http://justinzimmerman.net/remote-prep-week-4/">Week 4</a></p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://jrzimmerman.github.io/post/2015-07-18-remote-prep-week-1/">
+        Hack Reactor Remote Prep Week 1
+      </a>
+    </h1>
+
+    <span class="post-date">Sat, Jul 18, 2015</span>
+
+    
+
+<p style="text-align: center"><a href = "http://justinzimmerman.net/remote-prep-week-1/"><b>Week 1</b></a> | <a href = "http://justinzimmerman.net/remote-prep-week-2/">Week 2</a> | <a href = "http://justinzimmerman.net/remote-prep-week-3/">Week 3</a> | <a href = "http://justinzimmerman.net/remote-prep-week-4/">Week 4</a></p>
+
+<p>I am fortunate enough to be in the first <a href="http://hackreactor.com">Hack Reactor</a> Remote Prep class! It is 4 weeks long, meeting 5 days a week for 3 hours.</p>
+
+<p>The class time has flown by, and I have been able to work and get to know a majority of my classmates! I had wondered what it would be like to pair program remotely with people, and I honestly think it is just as good as if the person was sitting beside you.</p>
+
+<p>The first week was spent learning Markdown, HTML, and CSS.</p>
+
+<h4 id="markdown">Markdown</h4>
+
+<p>The first night was a &lsquo;get to know the class&rsquo; where each person <a href="https://gist.github.com/jrzimmerman/4bc55dd20ae8206689c0">interviewed their paired partner</a> and then had to introduce their partner to the class. We styled the information with Markdown.</p>
+
+<h4 id="html">HTML</h4>
+
+<p>The second night focused on learning HTML and <a href="http://jzimmerman.divshot.io/">deploying our first site</a>! This was a great experience. Since I knew some HTML already, the instructors hinted at using Bootstrap to style the site. I was also able to use the command line to deploy my website using <a href="https://divshot.com/">Divshot</a>. One of the cool things about the Remote Prep class, is that the instructor and TAs are always willing to push you when you ask for extra material.</p>
+
+<h4 id="css">CSS</h4>
+
+<p>The third night was more difficult for me. I am probably the least exposed to CSS, and I was able to learn so much from the exercises. We also focused on importing media to websites such as YouTube videos, Google Maps, sound files, and external sites.</p>
+
+<h4 id="forms">Forms</h4>
+
+<p>The fourth night was all about styling multi-page web sites and learning how to use forms in HTML. We also discussed GET and POST, and <a href="https://www.youtube.com/watch?v=7_LPdttKXPc">how the internet works.</a></p>
+
+<h4 id="css-frameworks">CSS Frameworks</h4>
+
+<p>The fifth day was all about advanced styling of layouts with CSS and an introduction to modern HTML and CSS frameworks! I am excited to be using <a href="http://minimalcss.com/">MinimalCSS</a> and <a href="http://getbootstrap.com/">Bootstrap</a> from this point forward.</p>
+
+<p>I hope to continue posting what I have learned from class on a weekly basis! Happy learning!</p>
+
+<p style="text-align: center"><a href = "http://justinzimmerman.net/remote-prep-week-1/"><b>Week 1</b></a> | <a href = "http://justinzimmerman.net/remote-prep-week-2/">Week 2</a> | <a href = "http://justinzimmerman.net/remote-prep-week-3/">Week 3</a> | <a href = "http://justinzimmerman.net/remote-prep-week-4/">Week 4</a></p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://jrzimmerman.github.io/post/2015-06-29-contact/">
+        Contact Me
+      </a>
+    </h1>
+
+    <span class="post-date">Mon, Jun 29, 2015</span>
+
+    <p>Contact Me!</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://jrzimmerman.github.io/post/2015-06-29-projects/">
+        Projects
+      </a>
+    </h1>
+
+    <span class="post-date">Mon, Jun 29, 2015</span>
+
+    <p>Thanks for visiting!</p>
+
+<p>Check out some of my projects below:</p>
+
+<ul>
+<li><a href="http://justinzimmerman.net/chatbuilder">Chat Builder</a> - <a href="https://github.com/jrzimmerman/ChatBuilder">GitHub</a> - A chatroom application using the parse API.</li>
+</ul>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://jrzimmerman.github.io/post/2015-06-27-since-my-last-hack-reactor-interview/">
+        Since My Last Hack Reactor Interview
+      </a>
+    </h1>
+
+    <span class="post-date">Sat, Jun 27, 2015</span>
+
+    <p>There are a multitude of things I have done since my last Hack Reactor interview to better prepare for the next interview.</p>
+
+<p>I have continued to study the beginning of Eloquent Javascript (especially rereading Chapter 5).</p>
+
+<p>I changed over my Wordpress blog to <a href="https://ghost.org/">Ghost</a>! This has allowed me to learn a lot of server side linux and briefly touch on <a href="http://handlebarsjs.com/">handlebars.js</a>.</p>
+
+<p>I helped my wife set up her own Ghost blog! She is starting her own online shop at <a href="https://www.teacherspayteachers.com/Store/Math-Snippets">Teachers Pay Teachers</a>. Check her out at <a href="http://mathsnippets.com/">Math Snippets</a>!</p>
+
+<p>I signed up for a code school subscription. I found a deal for your first month at only 9 dollars. If you can try this out, I highly recommend the Javascript track! This holds especially true if you only have experience with Codecademy.</p>
+
+<p>I completed the optional <a href="http://chatbuilder.hackreactor.com/">&lsquo;Chat Builder&rsquo;</a> project that used to be a requirement for Hack Reactor&rsquo;s application process, this allowed me to gain valuable insight in jQuery and AJAX. <a href="http://justinzimmerman.net/chatbuilder">Check out my completed version!</a></p>
+
+<p>I have completed various <a href="www.codewars.com/r/LQ0GHw">Code Wars Koans</a> in Javascript. I finally had an &lsquo;ah-ha&rsquo; moment when I started using map and reduce on koans rather than setting up a for loop, where applicable.</p>
+
+<p>I started to attempt to figure out the Google Maps and Places APIs. This has been really fun! Being a Geography major, I look forward to trying to wrap my head about location based services. I started off simply using a fixed location to show nearby restaurants, and I hope to get the geolocation to correctly work to show results any where in the world!</p>
+
+<p>I hope this will solidify my background to finally break through. If you have been accepted into Hack Reactor, what have you done to push you over the edge?</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://jrzimmerman.github.io/post/2015-06-10-hack-reactor-remote-prep/">
+        Hack Reactor Remote Prep
+      </a>
+    </h1>
+
+    <span class="post-date">Wed, Jun 10, 2015</span>
+
+    <p>I am excited to have been one of the lucky few to get in to the Remote Prep class for Hack Reactor!</p>
+
+<p>I look forward to blogging about the content that is discussed on a weekly basis.</p>
+
+<p>Did you get in to the Remote Prep class?</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://jrzimmerman.github.io/post/2015-06-10-turf-js/">
+        Turf.js
+      </a>
+    </h1>
+
+    <span class="post-date">Wed, Jun 10, 2015</span>
+
+    <p>Over the winter I was able to spend some free time assisting with the development of the <a href="http://turfjs.org/">Turf.js</a> project!</p>
+
+<p>This was a very rewarding experience that has allowed me to better grasp some very important topics:</p>
+
+<p>####Test Driven Development</p>
+
+<p>Test driven development is one of the most powerful concepts I picked up while working with Turf. Turf uses the <a href="https://github.com/substack/tape">Tape</a> testing environment, and just like turf, focuses on being lightweight and fast.</p>
+
+<p>####Documentation</p>
+
+<p>Good documentation is hard. Thanks to Tom, Morgan, Lyzi at Mapbox for providing amazing documentation for Turf, and turf would be a very different community without the substantial work completed.</p>
+
+<p>####Modular</p>
+
+<p>It is so cool that Turf is modular, branching all of its separate components into different modules is simple, lightweight, and fast! The added benefit is that it helps with error checking as well as the many other benefits of abstraction on projects.</p>
+
+<p>Thanks so much to the Turf team for the wonderful learning experiences they have provided.</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://jrzimmerman.github.io/post/2015-06-07-visualizing-map-service-usage/">
+        Visualizing Map Service Usage
+      </a>
+    </h1>
+
+    <span class="post-date">Sun, Jun 7, 2015</span>
+
+    <p>I recently developed a <a href="http://75.151.252.249/RichlandHeatmap/">JavaScript web application</a> to visualize incident reporting for a local municipality collecting <a href="http://75.151.252.249/RichlandServiceRequest/">Stormwater Incident Reports</a>.</p>
+
+<p><img src="/content/images/2015/06/Richland.PNG" alt="Richland Service Request" /></p>
+
+<p>The idea behind this application, will be to determine the usage of the reporting system, and to additionally determine &ldquo;Problem Areas&rdquo; for further corrective action planning.</p>
+
+<p>######Importance of Dynamic Display</p>
+
+<p>One of the most important considerations for determining areas, is to determine the scale. The scale the data is viewed at can change the data is interpreted.</p>
+
+<p><img src="/content/images/2015/06/smallscale-1.PNG" alt="Small Scale" /></p>
+
+<p>Small scale cannot accurately depict areas.</p>
+
+<p><img src="/content/images/2015/06/largescale-1.PNG" alt="Large Scale" /></p>
+
+<p>Large scale does not allow for a focused approach to specific areas.</p>
+
+<p><img src="/content/images/2015/06/justright.PNG" alt="Just Right" /></p>
+
+<p>Just right. This scale provides a few areas that are easily identifiable.</p>
+
+<p>######Errors</p>
+
+<p>Be mindful of particular input errors. These include multiple responses from a single resident, which can skew how the data is depicted.</p>
+
+<p>######How can I make this?</p>
+
+<p>The [ArcGIS Solutions]() are full of templates that can be modified for your use. I prefer to check out their [GitHub]() account for all the latest templates.</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://jrzimmerman.github.io/post/2015-06-07-updating-feature-coordinates-with-python/">
+        Updating Feature Coordinates with Python
+      </a>
+    </h1>
+
+    <span class="post-date">Sun, Jun 7, 2015</span>
+
+    <p>I was asked to update the location of manhole points with new survey data. Traditionally this is a long task, dragging the old manholes to their new locations.</p>
+
+<p>Before we assume how it would be so much easier to just delete the old data, and import the new data. First we have to consider all the attribute information associated with the data, sure we can join based on the Manhole ID but what happens when we have to worry about attachments?</p>
+
+<blockquote>
+<p>Luckily, python makes this an easy task.</p>
+</blockquote>
+
+<p>Example: You have a feature class called ‘Manholes’ that has 500 point features. You received a new XY table that has updated locations for 103 points. Update the point locations by doing the following:</p>
+
+<p>[1.] Add point feature class and the Table as a dbf/event(updated xy) layer to ArcMap and do a &lsquo;Field join&rsquo; based on a unique identifier, ours is the Manhole ID field, this will join the data from the table permanently to the feature.</p>
+
+<p>[2.] Open attribute table of the feature class and select the records/features which should move to updated XY locations.</p>
+
+<p>[3.] Right click on the Shape column and open Field Calculator.</p>
+
+<p>[4.] In the Field Calculator select Python Parser. Check Show Codeblock</p>
+
+<p>Copy following script in the Pre-Logic Script Code window</p>
+
+<pre><code>def XYsetVALUE( shape, X_value, Y_value):
+point = shape.getPart(0)
+point.X = X_value
+point.Y = Y_value
+return point
+</code></pre>
+
+<p>In the window below &lsquo;Shape=&rsquo; copy following:</p>
+
+<pre><code>XYsetVALUE ( !SHAPE!, !X_COORD!, !Y_COORD! )
+</code></pre>
+
+<p>Here you will need to modify <code>!X_COORD!</code> and <code>!Y_COORD!</code> to match the names of your coordinate columns.</p>
+
+<p>E.g. If the name of the column containing X coordinate values is &lsquo;POINT_X&rsquo; and that of Y coordinte values is &lsquo;POINT_Y&rsquo; the script would be</p>
+
+<pre><code>XYsetVALUE ( !SHAPE!, !POINT_X!, !POINT_Y! )
+</code></pre>
+
+<p>In my case it was <code>XYsetVALUE ( !SHAPE!, !X!, !Y! )</code></p>
+
+<p>[5.] Click ok</p>
+
+<p>[6.] Now right click on the OLD XY and Calculate Geometry for XY and the updated XY will be calculated.</p>
+
+  </div>
+  
+</div>
+</div>
+
+  </body>
+</html>

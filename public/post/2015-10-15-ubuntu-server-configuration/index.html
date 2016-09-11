@@ -1,0 +1,152 @@
+	<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.16" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  
+  <title>Ubuntu 14 Server Configuration &middot; Justin Zimmerman</title>
+  
+
+  
+  <link rel="stylesheet" href="https://jrzimmerman.github.io/css/poole.css">
+  <link rel="stylesheet" href="https://jrzimmerman.github.io/css/syntax.css">
+  <link rel="stylesheet" href="https://jrzimmerman.github.io/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Justin Zimmerman" />
+</head>
+
+	<body class="theme-base-09 ">
+		<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://jrzimmerman.github.io/"><h1>Justin Zimmerman</h1></a>
+      <p class="lead">
+      An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="/">Home</a> </li>
+      
+    </ul>
+
+    <p>&copy; 2016. All rights reserved. </p>
+  </div>
+</div>
+
+
+		<div class="content container">
+			<div class="post">
+			 	<h1>Ubuntu 14 Server Configuration</h1>
+			  <span class="post-date">Thu, Oct 15, 2015</span>
+			      
+
+<p>Below is a listing of important tasks to complete after setting up your Ubuntu server.</p>
+
+<h5 id="ssh-login-as-root">SSH login as root</h5>
+
+<p>You should have added an ssh key to the instance during creation. SSH into the instance as root by
+<code>ssh root@server_ip_address</code></p>
+
+<h5 id="update-server-to-latest-patches">Update server to latest patches</h5>
+
+<p><code>sudo apt-get update
+sudo apt-get upgrade</code></p>
+
+<p>Optionally to uninstall old packages
+<code>sudo apt-get autoremove</code></p>
+
+<h5 id="create-a-new-user">Create a new user</h5>
+
+<p><code>adduser user_name</code></p>
+
+<h5 id="assign-root-permission-to-new-user">Assign root permission to new user</h5>
+
+<p><code>gpasswd -a user_name sudo</code></p>
+
+<h5 id="login-as-new-user">Login as new user</h5>
+
+<p><code>su - user_name</code></p>
+
+<h5 id="add-public-key">Add public key</h5>
+
+<p><code>mkdir .ssh
+chmod 700 .ssh
+nano .ssh/authorized_keys</code></p>
+
+<p>Copy your public key into this file
+<code>chmod 600 .ssh/authorized_keys</code></p>
+
+<h5 id="ssh-into-the-instance-as-the-new-user">SSH into the instance as the new user</h5>
+
+<p><code>ssh user_name@server_ip_address</code></p>
+
+<h5 id="edit-ssh-configuration-settings">Edit SSH configuration settings</h5>
+
+<p><code>PermitRootLogin no
+PermitEmptyPassword no
+sudo service ssh restart</code></p>
+
+<h5 id="setup-the-firewall">Setup the firewall</h5>
+
+<p>Permit ssh on port 22
+<code>sudo ufw allow ssh</code></p>
+
+<p>To allow all traffic from a specified IP address
+<code>sudo ufw allow from any_ip_address</code></p>
+
+<p>Allow traffic from a specific port
+<code>sudo ufw allow 80/tcp</code></p>
+
+<p>Review configuration before enabling
+<code>sudo ufw show added</code></p>
+
+<p>Enable the UFW configuration
+<code>sudo ufw enable</code></p>
+
+<h5 id="configure-ntp">Configure NTP</h5>
+
+<p><code>sudo apt-get update
+sudo apt-get install ntp</code></p>
+
+<h5 id="setup-swap-file">Setup swap file</h5>
+
+<p>Usually best practice to double amount of RAM for swap file
+<code>sudo fallocate -l xxxG /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+sudo sh -c 'echo &quot;/swapfile none swap sw 0 0&quot; &gt;&gt; /etc/fstab'</code></p>
+
+<h5 id="install-fail2ban">Install fail2ban</h5>
+
+<p><code>sudo apt-get update
+sudo apt-get install fail2ban</code></p>
+
+<h5 id="edit-fail2ban-config">Edit fail2ban config</h5>
+
+<p><code>sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
+sudo nano /etc/fail2ban/jail.local</code></p>
+
+<p>Update the bantime, findtime, and maxretry settings
+Restart the fail2ban service
+<code>sudo service fail2ban restart</code></p>
+
+			</div>
+
+			
+		</div>
+
+  </body>
+</html>

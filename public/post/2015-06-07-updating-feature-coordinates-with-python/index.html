@@ -1,0 +1,104 @@
+	<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.16" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  
+  <title>Updating Feature Coordinates with Python &middot; Justin Zimmerman</title>
+  
+
+  
+  <link rel="stylesheet" href="https://jrzimmerman.github.io/css/poole.css">
+  <link rel="stylesheet" href="https://jrzimmerman.github.io/css/syntax.css">
+  <link rel="stylesheet" href="https://jrzimmerman.github.io/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Justin Zimmerman" />
+</head>
+
+	<body class="theme-base-09 ">
+		<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://jrzimmerman.github.io/"><h1>Justin Zimmerman</h1></a>
+      <p class="lead">
+      An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="/">Home</a> </li>
+      
+    </ul>
+
+    <p>&copy; 2016. All rights reserved. </p>
+  </div>
+</div>
+
+
+		<div class="content container">
+			<div class="post">
+			 	<h1>Updating Feature Coordinates with Python</h1>
+			  <span class="post-date">Sun, Jun 7, 2015</span>
+			      <p>I was asked to update the location of manhole points with new survey data. Traditionally this is a long task, dragging the old manholes to their new locations.</p>
+
+<p>Before we assume how it would be so much easier to just delete the old data, and import the new data. First we have to consider all the attribute information associated with the data, sure we can join based on the Manhole ID but what happens when we have to worry about attachments?</p>
+
+<blockquote>
+<p>Luckily, python makes this an easy task.</p>
+</blockquote>
+
+<p>Example: You have a feature class called ‘Manholes’ that has 500 point features. You received a new XY table that has updated locations for 103 points. Update the point locations by doing the following:</p>
+
+<p>[1.] Add point feature class and the Table as a dbf/event(updated xy) layer to ArcMap and do a &lsquo;Field join&rsquo; based on a unique identifier, ours is the Manhole ID field, this will join the data from the table permanently to the feature.</p>
+
+<p>[2.] Open attribute table of the feature class and select the records/features which should move to updated XY locations.</p>
+
+<p>[3.] Right click on the Shape column and open Field Calculator.</p>
+
+<p>[4.] In the Field Calculator select Python Parser. Check Show Codeblock</p>
+
+<p>Copy following script in the Pre-Logic Script Code window</p>
+
+<pre><code>def XYsetVALUE( shape, X_value, Y_value):
+point = shape.getPart(0)
+point.X = X_value
+point.Y = Y_value
+return point
+</code></pre>
+
+<p>In the window below &lsquo;Shape=&rsquo; copy following:</p>
+
+<pre><code>XYsetVALUE ( !SHAPE!, !X_COORD!, !Y_COORD! )
+</code></pre>
+
+<p>Here you will need to modify <code>!X_COORD!</code> and <code>!Y_COORD!</code> to match the names of your coordinate columns.</p>
+
+<p>E.g. If the name of the column containing X coordinate values is &lsquo;POINT_X&rsquo; and that of Y coordinte values is &lsquo;POINT_Y&rsquo; the script would be</p>
+
+<pre><code>XYsetVALUE ( !SHAPE!, !POINT_X!, !POINT_Y! )
+</code></pre>
+
+<p>In my case it was <code>XYsetVALUE ( !SHAPE!, !X!, !Y! )</code></p>
+
+<p>[5.] Click ok</p>
+
+<p>[6.] Now right click on the OLD XY and Calculate Geometry for XY and the updated XY will be calculated.</p>
+
+			</div>
+
+			
+		</div>
+
+  </body>
+</html>
