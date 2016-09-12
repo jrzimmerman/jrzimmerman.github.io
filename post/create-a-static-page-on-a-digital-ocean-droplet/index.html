@@ -1,0 +1,139 @@
+	<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.16" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  
+  <title>Create a Static Page on a Digital Ocean Droplet &middot; Justin Zimmerman</title>
+  
+
+  
+  <link rel="stylesheet" href="https://jrzimmerman.github.io/css/poole.css">
+  <link rel="stylesheet" href="https://jrzimmerman.github.io/css/syntax.css">
+  <link rel="stylesheet" href="https://jrzimmerman.github.io/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Justin Zimmerman" />
+</head>
+
+	<body class="theme-base-09 ">
+		<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://jrzimmerman.github.io/"><h1>Justin Zimmerman</h1></a>
+      <p class="lead">
+      An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="/">Home</a> </li>
+      
+    </ul>
+
+    <p>&copy; 2016. All rights reserved. </p>
+  </div>
+</div>
+
+
+		<div class="content container">
+			<div class="post">
+			 	<h1>Create a Static Page on a Digital Ocean Droplet</h1>
+			  <span class="post-date">Mon, Jan 1, 0001</span>
+			      
+
+<p>I currently use Digital Ocean to host my ghost blog. This has a been a very fun adventure, allowing me to learn the &ldquo;ins and outs&rdquo; of linux server administration.</p>
+
+<h5 id="what-if-we-want-to-add-a-new-static-page">What if we want to add a new static page?</h5>
+
+<p>Using a ghost blog is very easy and simple, but what if we want to add our projects to our site?</p>
+
+<p>This takes a little bit of work.</p>
+
+<p>After we copy our files onto our server, we want open the Ghost nginx file using:
+<code>nano /etc/nginx/sites-enabled/ghost</code></p>
+
+<p>The file should look like this:</p>
+
+<pre><code>server {
+  listen 80 default_server;
+  listen [::]:80 default_server ipv6only=on;
+
+  server_name justinzimmerman.net; # Replace with your domain
+
+  root /usr/share/nginx/html;
+  index index.html index.htm;
+
+  client_max_body_size 10G;
+
+  location / {
+      proxy_pass http://localhost:2368;
+      proxy_set_header X-Forwarded-For   $proxy_add_x_forwarded_for;
+      proxy_set_header Host $http_host;
+      proxy_set_header X-Forwarded-Proto     $scheme;
+      proxy_buffering off;
+  }
+}
+</code></pre>
+
+<p>Add this block after the location / block:</p>
+
+<pre><code>location /chatbuilder/ {
+        alias /var/www/ChatBuilder/;
+  }
+</code></pre>
+
+<p>We have just created an alias to a folder on the file system.</p>
+
+<h5 id="completed-file">Completed file</h5>
+
+<pre><code>server {
+  listen 80 default_server;
+  listen [::]:80 default_server ipv6only=on;
+
+  server_name justinzimmerman.net; # Replace with your domain
+
+  root /usr/share/nginx/html;
+  index index.html index.htm;
+
+  client_max_body_size 10G;
+
+  location / {
+      proxy_pass http://localhost:2368;
+      proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+      proxy_set_header Host $http_host;
+      proxy_set_header X-Forwarded-Proto $scheme;
+      proxy_buffering off;
+  }
+
+  location /chatbuilder/ {
+      alias /var/www/ChatBuilder/;
+  }
+}
+</code></pre>
+
+<h5 id="restart-nginx-and-ghost">Restart nginx and ghost</h5>
+
+<pre><code>sudo service nginx restart
+sudo service ghost restart
+</code></pre>
+
+<p>Thanks for reading! I hope this helps you set up your new static page.</p>
+
+			</div>
+
+			
+		</div>
+
+  </body>
+</html>

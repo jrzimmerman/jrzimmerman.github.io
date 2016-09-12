@@ -1,0 +1,71 @@
+	<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.16" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  
+  <title>Seamless &middot; Justin Zimmerman</title>
+  
+
+  
+  <link rel="stylesheet" href="https://jrzimmerman.github.io/css/poole.css">
+  <link rel="stylesheet" href="https://jrzimmerman.github.io/css/syntax.css">
+  <link rel="stylesheet" href="https://jrzimmerman.github.io/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Justin Zimmerman" />
+</head>
+
+	<body class="theme-base-09 ">
+		<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://jrzimmerman.github.io/"><h1>Justin Zimmerman</h1></a>
+      <p class="lead">
+      An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="/">Home</a> </li>
+      
+    </ul>
+
+    <p>&copy; 2016. All rights reserved. </p>
+  </div>
+</div>
+
+
+		<div class="content container">
+			<div class="post">
+			 	<h1>Seamless</h1>
+			  <span class="post-date">Mon, Jan 1, 0001</span>
+			      <p><a href="https://hrr9-seamless.herokuapp.com/">Seamless</a> is an image resizing application that leverages <a href="https://www.firebase.com/">Firebase</a> for persistent storage of a users images.</p>
+
+<p>The name Seamless is derived from the <a href="https://en.wikipedia.org/wiki/Seam_carving">seam carving</a> algorithm it uses for image resizing. The seam carving algorithm iterates over each pixel, and generates an energy value. The energy values are measured by the pixel&rsquo;s contrast to other surrounding pixels.</p>
+
+<p>After the energy values are calculated, the algorithm will create a &ldquo;seam&rdquo; through the image, finding the lowest energy values either top to bottom, or left to right. Once the seam is cut multiple times to fit the intended size, the process is complete.</p>
+
+<p>After the algorithm has completed, the application allows users to either save their changes to Firebase, or revert back to the original image.</p>
+
+<p>Also included with our application is a gallery, that holds all of the user&rsquo;s previously saved images.</p>
+
+<p>This project was a very rewarding experience, and I really enjoyed working with my group to complete the application.</p>
+
+			</div>
+
+			
+		</div>
+
+  </body>
+</html>

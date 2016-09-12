@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hack Reactor on Justin Zimmerman</title>
+    <link>https://jrzimmerman.github.io/tags/hack-reactor/</link>
+    <description>Recent content in Hack Reactor on Justin Zimmerman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://jrzimmerman.github.io/tags/hack-reactor/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hack Reactor Week 0</title>
+      <link>https://jrzimmerman.github.io/post/hack-reactor-week-0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jrzimmerman.github.io/post/hack-reactor-week-0/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s finally that time! After completing the pre-course work, I start my journey with Hack Reactor today.&lt;/p&gt;
+
+&lt;p&gt;I plan to write on a weekly basis about the new topics covered, and what was focused on during my time here at Hack Reactor.&lt;/p&gt;
+
+&lt;p&gt;During the pre-course we focused on gaining a firm understanding of web development technologies such as HTML, CSS, and jQuery.&lt;/p&gt;
+
+&lt;p&gt;Programming concepts such as scope, execution contexts, objects, and recursion were discussed in great length.&lt;/p&gt;
+
+&lt;p&gt;I am so excited to start my journey into Software Engineering with Hack Reactor!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hack Reactor Week 1</title>
+      <link>https://jrzimmerman.github.io/post/hack-reactor-week-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jrzimmerman.github.io/post/hack-reactor-week-1/</guid>
+      <description>
+
+&lt;p&gt;This is it! The first week at Hack Reactor, and what an awesome experience it has been.&lt;/p&gt;
+
+&lt;p&gt;We started the first day with an introduction to the program, touched on both our expectations and the expectations of Hack Reactor, and did a review &amp;ldquo;sprint&amp;rdquo; on recursion.&lt;/p&gt;
+
+&lt;p&gt;Sprints are short projects often worked on with a pair, this is at the core of Hack Reactor&amp;rsquo;s teaching style and philosophy.&lt;/p&gt;
+
+&lt;h4 id=&#34;recursion&#34;&gt;Recursion&lt;/h4&gt;
+
+&lt;p&gt;Recursion is a technique for solving problems where a function makes calls to itself. This allows the program to solve small parts of the problem at a time, leaving the rest for the recursive calls.&lt;/p&gt;
+
+&lt;h4 id=&#34;code-reuse&#34;&gt;Code Reuse&lt;/h4&gt;
+
+&lt;p&gt;We discussed a variety of code reuse patterns. The patterns include functional, functional-shared, prototypal and psuedoclassical.&lt;/p&gt;
+
+&lt;h4 id=&#34;data-structures&#34;&gt;Data Structures&lt;/h4&gt;
+
+&lt;p&gt;The first week involved discussion and implementation of various data structures. We first started with the implementation of stacks and queues. During the rest of the week, we focused on more advanced data structures, such as linked lists, trees, graphs, sets, and binary search trees.&lt;/p&gt;
+
+&lt;p&gt;One of the most surprising things about Hack Reactor was the amount of thorough and thoughtful video lectures on &amp;ldquo;soft skills&amp;rdquo; to help with both the program and becoming an effective learner and programmer.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hack Reactor Week 10</title>
+      <link>https://jrzimmerman.github.io/post/hack-reactor-week-10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jrzimmerman.github.io/post/hack-reactor-week-10/</guid>
+      <description>
+
+&lt;p&gt;With Thesis moving along very nicely, here is what happened in week 10!&lt;/p&gt;
+
+&lt;h3 id=&#34;authentication&#34;&gt;Authentication&lt;/h3&gt;
+
+&lt;p&gt;One of the challenges faced this week during thesis is removing API keys from the client side. With a mobile application, you should consider all of your code accessible for the world to see. This would allow for any user to view your API&amp;rsquo;s secret key allowing other user&amp;rsquo;s to make (potentially) malicious requests to the API. This should of course, be avoided at all costs.&lt;/p&gt;
+
+&lt;p&gt;We reimplemented the authentication to be completely server side. To do this, we used passport.js and JSON Web Tokens. The client will send the JWT to the server on each request. Once sent, the server will then intercept the request, making sure the user has a valid token and that the token hasn&amp;rsquo;t expired yet.&lt;/p&gt;
+
+&lt;p&gt;This was a great learning experience for the entire team, and one that certainly helped us better understand token-based authentication.&lt;/p&gt;
+
+&lt;h3 id=&#34;bestrida&#34;&gt;Bestrida&lt;/h3&gt;
+
+&lt;p&gt;We have finally made it to MVP! The server creates challenges, the user can view and accept these challenges, and we can finally declare a winner based off live Strava data. This has been a very challenging but rewarding process for the entire team, and we are so excited to show off our product to potential employers.&lt;/p&gt;
+
+&lt;p&gt;With next week being a solo week for Christmas vacation, I will post again in 2016!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hack Reactor Week 11</title>
+      <link>https://jrzimmerman.github.io/post/hack-reactor-week-11/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jrzimmerman.github.io/post/hack-reactor-week-11/</guid>
+      <description>
+
+&lt;p&gt;With our product, Bestrida, to MVP (Minimum Viable Product) we will continue to improve our MVP features, as well as the look and feel of product, for the remainder of the week.&lt;/p&gt;
+
+&lt;p&gt;####Design&lt;/p&gt;
+
+&lt;p&gt;Our product finally received a much needed design overhaul, and we are definitely happy with the result:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/content/images/2016/03/bestrida-1.jpg&#34; alt=&#34;bestrida&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;stretch-goals&#34;&gt;Stretch Goals&lt;/h4&gt;
+
+&lt;p&gt;As you can see in the above image, we are able to pull from the Strava API segment effort data for the user to view additional metrics on how well they performed during their effort.&lt;/p&gt;
+
+&lt;h4 id=&#34;final-thesis-presentations&#34;&gt;Final Thesis Presentations&lt;/h4&gt;
+
+&lt;p&gt;It&amp;rsquo;s very hard to boil down three weeks of work into a simple 3 minute presentation, but fortunately I was paired with not only incredible developers, but excellent communicators. You can find our presentation &lt;a href=&#34;https://www.youtube.com/watch?v=sw_mcAhgQo4&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Only one more week until class is over! Onward to hiring week.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hack Reactor Week 12</title>
+      <link>https://jrzimmerman.github.io/post/hack-reactor-week-12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jrzimmerman.github.io/post/hack-reactor-week-12/</guid>
+      <description>&lt;p&gt;The realization that Week 12 has finally come to an end is definitely bitter-sweet. I have spent over 11 hours a day for the past 12 weeks learning Full-Stack Software Engineering. While I am looking forward getting back to a regular sleep schedule, I have learned more than I could imagine, and met many amazing people along the way.&lt;/p&gt;
+
+&lt;p&gt;Week 12 consisted of finalizing resumes, creating cover letters, and preparing for the job search ahead. This was one of the most interesting weeks of Hack Reactor, although I can&amp;rsquo;t go into much detail on their job search process.&lt;/p&gt;
+
+&lt;p&gt;I have greatly enjoyed the Hack Reactor journey, and I hope if you are considering Hack Reactor that you have found my 12 weeks of blog posts insightful.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hack Reactor Week 2</title>
+      <link>https://jrzimmerman.github.io/post/hack-reactor-week-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jrzimmerman.github.io/post/hack-reactor-week-2/</guid>
+      <description>
+
+&lt;p&gt;Week 2 is over already, what a great time it has been! I was able to settle in this week and make progress on some awesome projects.&lt;/p&gt;
+
+&lt;h4 id=&#34;inheritance-patterns&#34;&gt;Inheritance Patterns&lt;/h4&gt;
+
+&lt;p&gt;The beginning of week 2 focused on JavaScript inheritance patterns. We discussed the pros and cons of functional classes, functional-shared classes, prototypal classes, and psuedoclassical classes.&lt;/p&gt;
+
+&lt;h4 id=&#34;nqueens&#34;&gt;nQueens&lt;/h4&gt;
+
+&lt;p&gt;If you don&amp;rsquo;t know about this problem, check it out! It&amp;rsquo;s an especially fun logic puzzle, where you have to test for a given amount of queens, on an (n x n) chessboard, how many solutions can you find? This problem was a conglomeration of all the concepts we had previously discussed to this point. The solution involves the create of a &amp;lsquo;decision tree&amp;rsquo; and anything with the word &amp;lsquo;tree&amp;rsquo; in it, will certainly benefit from the use of recursion.&lt;/p&gt;
+
+&lt;h4 id=&#34;d3&#34;&gt;d3&lt;/h4&gt;
+
+&lt;p&gt;This has been my favorite project so far. We were tasked to create a game using d3. Coming from a previous job where visualization of data is so important, this was such a great sprint. I was able to apply my knowledge of data visualization and coordinates to create a super fun game that I really enjoyed!&lt;/p&gt;
+
+&lt;p&gt;Sorry these posts keep getting shorter! I&amp;rsquo;m looking forward to week 3!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hack Reactor Week 3</title>
+      <link>https://jrzimmerman.github.io/post/hack-reactor-week-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jrzimmerman.github.io/post/hack-reactor-week-3/</guid>
+      <description>
+
+&lt;p&gt;Welcome to week 3! This has been an awesome week for discovering web application architecture. We began the week creating a chat application that focused on front end development. During the middle of the week we began to take a deeper dive into web application architecture using backbone.js. And the final sprint of the week included another dive into backbone.js but using CoffeeScript to write the application, rather than Javascript.&lt;/p&gt;
+
+&lt;h4 id=&#34;jquery-and-ajax&#34;&gt;jQuery and AJAX&lt;/h4&gt;
+
+&lt;p&gt;This first sprint was all about front end interactions with a database. In our chat application we had to interact with a server using AJAX calls. To manipulate the data we recieved from those calls, we were able to use jQuery to present that data for our chatroom in a presentable format.&lt;/p&gt;
+
+&lt;h4 id=&#34;security&#34;&gt;Security&lt;/h4&gt;
+
+&lt;p&gt;It&amp;rsquo;s never too early to the importance of security and escaping cross-site scripting (XSS). This type of attack is regularly listed on the OWASP top 10 and is something every software engineer should take into consideration when using an API that they do not own.&lt;/p&gt;
+
+&lt;h4 id=&#34;backbone-js&#34;&gt;Backbone.js&lt;/h4&gt;
+
+&lt;p&gt;While I wasn&amp;rsquo;t initially sold with backbone, we&amp;rsquo;ve since become friends. The open ended nature of backbone is very conducive to learning all aspects of the  Model View Controller (MVC) model. We were tasked to create an application that acted as a browser version of iTunes. This was a great experience learning about backbone models, collections, and views.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.giphy.com/XreQmk7ETCak0.gif&#34; alt=&#34;thumbs up&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;coffeescript&#34;&gt;CoffeeScript&lt;/h4&gt;
+
+&lt;p&gt;To add some complexity, and also double-down on Backbone.js concepts, we create a simple blackjack game using CoffeeScript. It was interesting to apply the fundamentals of what we are learning in JavaScript to another language, such as CoffeeScript. While I definitely didn&amp;rsquo;t master CoffeeScript by any means, I walked away from this sprint certainly feeling more comfortable taking computer science concepts from one language, and applying it to a language I haven&amp;rsquo;t used before.&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading, and I look forward to week 4!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hack Reactor Week 4</title>
+      <link>https://jrzimmerman.github.io/post/hack-reactor-week-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jrzimmerman.github.io/post/hack-reactor-week-4/</guid>
+      <description>
+
+&lt;p&gt;In Hack Reactor, week 4 is a pivotal time where the training wheels start to come off. Much of the sprints until week 4 have had for the most part very structured tests that held your hand through most of the sprints. Week 4 starts to look quite different!&lt;/p&gt;
+
+&lt;p&gt;During week 4 we took a walk through server-side or what is also called back-end concepts. We specifically focused on using node, server side concepts such as the client-server model, and databases.&lt;/p&gt;
+
+&lt;h4 id=&#34;node-js&#34;&gt;Node.js&lt;/h4&gt;
+
+&lt;p&gt;Node.js is a javascript runtime environment that allows for event-driven programming in an asynchronous environment.&lt;/p&gt;
+
+&lt;h4 id=&#34;server-side-concepts&#34;&gt;Server Side Concepts&lt;/h4&gt;
+
+&lt;p&gt;We discussed server side concepts such as the Client-Server model, background jobs, daemons, and cron tasks.&lt;/p&gt;
+
+&lt;h4 id=&#34;databases&#34;&gt;Databases&lt;/h4&gt;
+
+&lt;p&gt;In my previous job, maintenance of databases was a large portion of my daily tasks. So for this sprint I was able to take my previous experience and learn so much more.&lt;/p&gt;
+
+&lt;p&gt;To take a step backwards, databases are so important because of their ability to store data persistently. Should your node server restart, without a database you can say goodbye to all that beautiful data!&lt;/p&gt;
+
+&lt;p&gt;On to week 5!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hack Reactor Week 5</title>
+      <link>https://jrzimmerman.github.io/post/hack-reactor-week-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jrzimmerman.github.io/post/hack-reactor-week-5/</guid>
+      <description>
+
+&lt;p&gt;With another week completed, week 5 has been extremely interesting. The topics this week included authentication, and deployment, along with introductions to MongoDB and Angular.&lt;/p&gt;
+
+&lt;h4 id=&#34;authentication&#34;&gt;Authentication&lt;/h4&gt;
+
+&lt;p&gt;As we all know, security is a pivotal part of development. Authentication is the act of verifying that your user is actually who they say they are. This verification normally includes a username and password. When that password is passed to the server we then return a token for return authentication requests.&lt;/p&gt;
+
+&lt;h4 id=&#34;deployment&#34;&gt;Deployment&lt;/h4&gt;
+
+&lt;p&gt;Learning deployment has been very fun, and I have really enjoyed leveraging services like &lt;a href=&#34;http://www.heroku.com&#34;&gt;Heroku&lt;/a&gt; to make deployment easy as possible. Along with deployment, we talked about using build task runners such as Grunt and Gulp.&lt;/p&gt;
+
+&lt;h4 id=&#34;angular&#34;&gt;Angular&lt;/h4&gt;
+
+&lt;p&gt;Angular is an excellent framework that I was able to work with at the end of the week. Unlike Backbone, Angular is quite opinionated, in a good way. Angular has thorough documentation, and has promises built in, to handle callbacks.&lt;/p&gt;
+
+&lt;p&gt;With only one more sprint next week, the transition to group project phase begins!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hack Reactor Week 6</title>
+      <link>https://jrzimmerman.github.io/post/hack-reactor-week-6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jrzimmerman.github.io/post/hack-reactor-week-6/</guid>
+      <description>
+
+&lt;p&gt;Week 6 at Hack Reactor is when curriculum starts to shift from small &amp;ldquo;sprints&amp;rdquo; to the larger project phase. For the first time at Hack Reactor, we were given a React.js sprint! After the React.js sprint we had two days to create our MVP projects. At the end of the week, we had the dreaded hiring assessment.&lt;/p&gt;
+
+&lt;h4 id=&#34;react-js&#34;&gt;React.js&lt;/h4&gt;
+
+&lt;p&gt;This was probably one of my favorite sprints thus far. Using React to manage state, we created a &lt;a href=&#34;https://jz-jukebox.herokuapp.com/&#34;&gt;jukebox&lt;/a&gt; application that leverages the SoundCloud API. Using underscore&amp;rsquo;s debounce function, when a user inputs a keyword, the user is shown 10 songs that fit the keyword.&lt;/p&gt;
+
+&lt;h4 id=&#34;mvps&#34;&gt;MVPs&lt;/h4&gt;
+
+&lt;p&gt;The MVP is all about finding the right idea, with the right scope, and pushing through to deploy a minimum viable product, in just two days. I created &lt;a href=&#34;https://geotinerary.herokuapp.com/#/&#34;&gt;Geotinerary&lt;/a&gt; using Angular, Firebase, Leaflet, and Mapbox.js. This was a very fun project that I hope to have more time to polish up.&lt;/p&gt;
+
+&lt;h4 id=&#34;hiring-assessment&#34;&gt;Hiring Assessment&lt;/h4&gt;
+
+&lt;p&gt;The hiring assessment is a 6 hour test encompassing everything the has been taught up until this point of the curriculum. While I won&amp;rsquo;t ruin any surprises for future students, I will recommend anyone who is worried about the hiring assessment to review previous self assessments up until this point.&lt;/p&gt;
+
+&lt;p&gt;While this is certainly an important step in Hack Reactor, do not stress about this. Trust that Hack Reactor has prepared you for this assessment, because that was definitely the case for me.&lt;/p&gt;
+
+&lt;p&gt;Onward to the group project phase! Thanks for reading everyone.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hack Reactor Week 7</title>
+      <link>https://jrzimmerman.github.io/post/hack-reactor-week-7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jrzimmerman.github.io/post/hack-reactor-week-7/</guid>
+      <description>
+
+&lt;p&gt;Week 7 was the first week of &amp;ldquo;project phase&amp;rdquo; in Hack Reactor. We will go through 6 weeks of group work to become better engineers in team environments.&lt;/p&gt;
+
+&lt;h4 id=&#34;greenfield&#34;&gt;Greenfield&lt;/h4&gt;
+
+&lt;p&gt;The term greenfield comes from the engineering world, to refer to a blank slate, a &amp;ldquo;green field&amp;rdquo; ready to be built upon.&lt;/p&gt;
+
+&lt;p&gt;This was my first experience working with a team of four to complete a functioning project. While I greatly enjoyed working in a team environment, there were a few hiccups that we encountered and have learned from along the way.&lt;/p&gt;
+
+&lt;p&gt;My understanding of git was taken to an entire new level. This was a great experience in to learning the intricacies of git workflow and project management.&lt;/p&gt;
+
+&lt;p&gt;My team developed &lt;a href=&#34;http://access-app.herokuapp.com/&#34;&gt;Access&lt;/a&gt;. We used the MEAN stack to store and display crowd-sourced handicapped accessibility information for venues. We hope that with a little more work, this functioning product will become a way for people to easily access the information they need to go places, and live their lives.&lt;/p&gt;
+
+&lt;h4 id=&#34;resume&#34;&gt;Resume&lt;/h4&gt;
+
+&lt;p&gt;The resume sprint was one of the first experiences with Hack Reactor&amp;rsquo;s excellent outcomes team. The outcomes team works hard to take you from a great programmer, to a hirable programmer.&lt;/p&gt;
+
+&lt;p&gt;While at first glance,most people do not consider a resume to be worth taking multiple days of a course, but its actually quite the opposite. A resume, as I am sure most of you know, is the first thing a recruiter or hiring manager will see. What is a less common for people to understand, is much like the cover letter, you should write your resume with the position in mind.&lt;/p&gt;
+
+&lt;p&gt;One of the hardest parts of writing an effective resume, is not writing every accomplishment down. Every single line in your resume should announce to the reader, that you are a qualified software engineer.&lt;/p&gt;
+
+&lt;p&gt;While you might have had several accomplishments in your previous profession, if they do not directly show how great a programmer you are or how you are able to get things done, those achievements should be omitted.&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading! Time for a relaxing solo week, and onward to week 8 and legacy projects!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hack Reactor Week 8</title>
+      <link>https://jrzimmerman.github.io/post/hack-reactor-week-8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jrzimmerman.github.io/post/hack-reactor-week-8/</guid>
+      <description>
+
+&lt;h3 id=&#34;legacy-project&#34;&gt;Legacy Project&lt;/h3&gt;
+
+&lt;p&gt;After the greenfield project last week, the next exercise was picking another group&amp;rsquo;s greenfield project to build upon.&lt;/p&gt;
+
+&lt;p&gt;The idea of this exercise is actually well founded, the majority of Software Engineers are going to work on developing new features or debugging &amp;lsquo;legacy&amp;rsquo; code, or known as code you haven&amp;rsquo;t seen before.&lt;/p&gt;
+
+&lt;p&gt;I really enjoyed working on Seamless, the greenfield project my group decided to take on. The foundation of seamless was solid, it was a basic vanilla javascript application, that resized an image using a seam-carving algorithm.&lt;/p&gt;
+
+&lt;p&gt;We decided to create a persistent data store for resized images using Firebase, add google authentication, and to also create a modern, responsive website.&lt;/p&gt;
+
+&lt;p&gt;You can view &lt;a href=&#34;http://hrr9-seamless.herokuapp.com&#34;&gt;Seamless here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;thesis&#34;&gt;Thesis&lt;/h3&gt;
+
+&lt;p&gt;I cannot believe it is already time to start the thesis project! The thesis project is a 3.5 week long project in a group of 4.&lt;/p&gt;
+
+&lt;p&gt;The group I was assigned to didn&amp;rsquo;t come with a recommended project. I have a feeling this will be not only a great group, but a great project will come out of it as well!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hack Reactor Week 9</title>
+      <link>https://jrzimmerman.github.io/post/hack-reactor-week-9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jrzimmerman.github.io/post/hack-reactor-week-9/</guid>
+      <description>
+
+&lt;p&gt;Week 9 is finished at Hack Reactor, and thesis projects are in full swing! While there aren&amp;rsquo;t many things on the schedule, thesis is all about trying to build the best product in the 3 short weeks you have dedicated to it.&lt;/p&gt;
+
+&lt;h3 id=&#34;thesis&#34;&gt;Thesis&lt;/h3&gt;
+
+&lt;p&gt;To start, this is a perfect summary of life during thesis:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.imgur.com/wJ4IcDJ.gif&#34; alt=&#34;thesis&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Have no fear, little buddy.&lt;/p&gt;
+
+&lt;p&gt;While building a product can feel this way sometimes, I am having an awesome time learning and problem solving to create the best app we can possibly produce.&lt;/p&gt;
+
+&lt;p&gt;For our thesis project, my group has decided to build upon Strava&amp;rsquo;s extensive API. We are seriously fortunate to have such a great API to leverage for our product!&lt;/p&gt;
+
+&lt;p&gt;With that being said, heres a little bit about Bestrida.&lt;/p&gt;
+
+&lt;h3 id=&#34;bestrida&#34;&gt;Bestrida&lt;/h3&gt;
+
+&lt;p&gt;The name pays homage to Strava by also leaning upon it Swedish vocabulary. Strava is swedish for &amp;ldquo;to strive&amp;rdquo;, while Bestrida is swedish for &amp;ldquo;to challenge&amp;rdquo;. Which is exactly what our app does.&lt;/p&gt;
+
+&lt;p&gt;Bestrida will allow a user to challenge anyone they follow to a particular segment. The user will pick a person to challenge, a segment, and a date the challenge will be completed.&lt;/p&gt;
+
+&lt;p&gt;All of my friends are great to ride with, but like most cyclists, they are also always up for a short sprint through a well known Strava segment. This application will take your casual ride with friends to a whole new level.&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s all for this week. Next week I will continue to describe Bestrida, and discuss topics learned along the way.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Since My Last Hack Reactor Interview</title>
+      <link>https://jrzimmerman.github.io/post/since-my-last-hack-reactor-interview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jrzimmerman.github.io/post/since-my-last-hack-reactor-interview/</guid>
+      <description>&lt;p&gt;There are a multitude of things I have done since my last Hack Reactor interview to better prepare for the next interview.&lt;/p&gt;
+
+&lt;p&gt;I have continued to study the beginning of Eloquent Javascript (especially rereading Chapter 5).&lt;/p&gt;
+
+&lt;p&gt;I changed over my Wordpress blog to &lt;a href=&#34;https://ghost.org/&#34;&gt;Ghost&lt;/a&gt;! This has allowed me to learn a lot of server side linux and briefly touch on &lt;a href=&#34;http://handlebarsjs.com/&#34;&gt;handlebars.js&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I helped my wife set up her own Ghost blog! She is starting her own online shop at &lt;a href=&#34;https://www.teacherspayteachers.com/Store/Math-Snippets&#34;&gt;Teachers Pay Teachers&lt;/a&gt;. Check her out at &lt;a href=&#34;http://mathsnippets.com/&#34;&gt;Math Snippets&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;I signed up for a code school subscription. I found a deal for your first month at only 9 dollars. If you can try this out, I highly recommend the Javascript track! This holds especially true if you only have experience with Codecademy.&lt;/p&gt;
+
+&lt;p&gt;I completed the optional &lt;a href=&#34;http://chatbuilder.hackreactor.com/&#34;&gt;&amp;lsquo;Chat Builder&amp;rsquo;&lt;/a&gt; project that used to be a requirement for Hack Reactor&amp;rsquo;s application process, this allowed me to gain valuable insight in jQuery and AJAX. &lt;a href=&#34;http://justinzimmerman.net/chatbuilder&#34;&gt;Check out my completed version!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I have completed various &lt;a href=&#34;www.codewars.com/r/LQ0GHw&#34;&gt;Code Wars Koans&lt;/a&gt; in Javascript. I finally had an &amp;lsquo;ah-ha&amp;rsquo; moment when I started using map and reduce on koans rather than setting up a for loop, where applicable.&lt;/p&gt;
+
+&lt;p&gt;I started to attempt to figure out the Google Maps and Places APIs. This has been really fun! Being a Geography major, I look forward to trying to wrap my head about location based services. I started off simply using a fixed location to show nearby restaurants, and I hope to get the geolocation to correctly work to show results any where in the world!&lt;/p&gt;
+
+&lt;p&gt;I hope this will solidify my background to finally break through. If you have been accepted into Hack Reactor, what have you done to push you over the edge?&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
