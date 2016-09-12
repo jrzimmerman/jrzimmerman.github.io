@@ -1,10 +1,8 @@
----
-title: Updating Feature Coordinates with Python
-slug: updating-feature-coordinates-with-python
-date_published: 2015-06-08T02:44:00.000Z
-date_updated:   2016-06-13T06:41:41.000Z
-tags: Python
----
++++
+date = "2015-06-08T09:51:48-04:00"
+title = "Updating Feature Coordinates With Python"
+
++++
 
 I was asked to update the location of manhole points with new survey data. Traditionally this is a long task, dragging the old manholes to their new locations.
 
@@ -45,4 +43,3 @@ In my case it was <code>XYsetVALUE ( !SHAPE!, !X!, !Y! )</code>
 [5.] Click ok
 
 [6.] Now right click on the OLD XY and Calculate Geometry for XY and the updated XY will be calculated.
-
