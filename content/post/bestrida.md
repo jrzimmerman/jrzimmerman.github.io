@@ -1,10 +1,12 @@
----
-title: Bestrida
-slug: bestrida
-date_published: 2016-09-04T20:00:00.000Z
-date_updated:   2016-09-05T07:31:26.000Z
-tags: Bestrida, Strava, React Native, React
----
++++
+Categories = ["Development", "GoLang"]
+Description = ""
+Tags = ["Development", "golang"]
+date = "2016-09-04T22:35:35-04:00"
+menu = "main"
+title = "Bestrida"
+
++++
 
 I recently published [Bestrida](https://appsto.re/us/lBRCeb.i) to the iOS app store for my submission to the 2016 Strava Developer Challenge. Here is a brief overview of the application. Strava.com is a popular and widely used website and mobile app that over one million cyclists and runners use to track their activity via GPS. Whenever you go for a run or ride your bike, Strava will track and store your activity and provide you with useful statistics. As awesome as it is, a major thing Strava does not offer is a way to challenge your friends.
 
