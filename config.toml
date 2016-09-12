@@ -2,10 +2,13 @@ baseurl = "https://jrzimmerman.github.io/"
 languageCode = "en-us"
 title = "Justin Zimmerman"
 disqusShortname = "jrzimmerman"
-
+copyright = "Justin Zimmerman"
 theme = "hyde"
-[params]
-  themeColor = "theme-base-0d"
 
 [Author]
   name = "Justin Zimmerman"
+
+[params]
+  themeColor = "theme-base-0d"
+  github = "https://github.com/jrzimmerman"
+  twitter = "https://twitter.com/justzimmerman"
