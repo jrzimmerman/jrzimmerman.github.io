@@ -219,6 +219,34 @@ windowSize: [1300, 650]
     </item>
     
     <item>
+      <title>Hack Reactor Week 11</title>
+      <link>https://jrzimmerman.github.io/post/hack-reactor-week-11/</link>
+      <pubDate>Sun, 03 Jan 2016 08:54:39 -0400</pubDate>
+      
+      <guid>https://jrzimmerman.github.io/post/hack-reactor-week-11/</guid>
+      <description>
+
+&lt;p&gt;With our product, Bestrida, to MVP (Minimum Viable Product) we will continue to improve our MVP features, as well as the look and feel of product, for the remainder of the week.&lt;/p&gt;
+
+&lt;h3 id=&#34;design&#34;&gt;Design&lt;/h3&gt;
+
+&lt;p&gt;Our product finally received a much needed design overhaul, and we are definitely happy with the result:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/img/bestrida.jpg&#34; alt=&#34;Bestrida&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;stretch-goals&#34;&gt;Stretch Goals&lt;/h3&gt;
+
+&lt;p&gt;As you can see in the above image, we are able to pull from the Strava API segment effort data for the user to view additional metrics on how well they performed during their effort.&lt;/p&gt;
+
+&lt;h3 id=&#34;final-thesis-presentations&#34;&gt;Final Thesis Presentations&lt;/h3&gt;
+
+&lt;p&gt;It&amp;rsquo;s very hard to boil down three weeks of work into a simple 3 minute presentation, but fortunately I was paired with not only incredible developers, but excellent communicators. You can find our presentation &lt;a href=&#34;https://www.youtube.com/watch?v=sw_mcAhgQo4&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Only one more week until class is over! Onward to hiring week.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Updating Feature Coordinates With Python</title>
       <link>https://jrzimmerman.github.io/post/updating-feature-coordinates-with-python/</link>
       <pubDate>Fri, 08 May 2015 21:41:19 -0400</pubDate>
@@ -644,36 +672,6 @@ sudo service ghost restart
 &lt;p&gt;Programming concepts such as scope, execution contexts, objects, and recursion were discussed in great length.&lt;/p&gt;
 
 &lt;p&gt;I am so excited to start my journey into Software Engineering with Hack Reactor!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hack Reactor Week 1</title>
-      <link>https://jrzimmerman.github.io/post/hack-reactor-week-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/hack-reactor-week-1/</guid>
-      <description>
-
-&lt;p&gt;This is it! The first week at Hack Reactor, and what an awesome experience it has been.&lt;/p&gt;
-
-&lt;p&gt;We started the first day with an introduction to the program, touched on both our expectations and the expectations of Hack Reactor, and did a review &amp;ldquo;sprint&amp;rdquo; on recursion.&lt;/p&gt;
-
-&lt;p&gt;Sprints are short projects often worked on with a pair, this is at the core of Hack Reactor&amp;rsquo;s teaching style and philosophy.&lt;/p&gt;
-
-&lt;h4 id=&#34;recursion&#34;&gt;Recursion&lt;/h4&gt;
-
-&lt;p&gt;Recursion is a technique for solving problems where a function makes calls to itself. This allows the program to solve small parts of the problem at a time, leaving the rest for the recursive calls.&lt;/p&gt;
-
-&lt;h4 id=&#34;code-reuse&#34;&gt;Code Reuse&lt;/h4&gt;
-
-&lt;p&gt;We discussed a variety of code reuse patterns. The patterns include functional, functional-shared, prototypal and psuedoclassical.&lt;/p&gt;
-
-&lt;h4 id=&#34;data-structures&#34;&gt;Data Structures&lt;/h4&gt;
-
-&lt;p&gt;The first week involved discussion and implementation of various data structures. We first started with the implementation of stacks and queues. During the rest of the week, we focused on more advanced data structures, such as linked lists, trees, graphs, sets, and binary search trees.&lt;/p&gt;
-
-&lt;p&gt;One of the most surprising things about Hack Reactor was the amount of thorough and thoughtful video lectures on &amp;ldquo;soft skills&amp;rdquo; to help with both the program and becoming an effective learner and programmer.&lt;/p&gt;
 </description>
     </item>
     

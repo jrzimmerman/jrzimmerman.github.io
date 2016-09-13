@@ -25,6 +25,34 @@
     </item>
     
     <item>
+      <title>Hack Reactor Week 11</title>
+      <link>https://jrzimmerman.github.io/post/hack-reactor-week-11/</link>
+      <pubDate>Sun, 03 Jan 2016 08:54:39 -0400</pubDate>
+      
+      <guid>https://jrzimmerman.github.io/post/hack-reactor-week-11/</guid>
+      <description>
+
+&lt;p&gt;With our product, Bestrida, to MVP (Minimum Viable Product) we will continue to improve our MVP features, as well as the look and feel of product, for the remainder of the week.&lt;/p&gt;
+
+&lt;h3 id=&#34;design&#34;&gt;Design&lt;/h3&gt;
+
+&lt;p&gt;Our product finally received a much needed design overhaul, and we are definitely happy with the result:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/img/bestrida.jpg&#34; alt=&#34;Bestrida&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;stretch-goals&#34;&gt;Stretch Goals&lt;/h3&gt;
+
+&lt;p&gt;As you can see in the above image, we are able to pull from the Strava API segment effort data for the user to view additional metrics on how well they performed during their effort.&lt;/p&gt;
+
+&lt;h3 id=&#34;final-thesis-presentations&#34;&gt;Final Thesis Presentations&lt;/h3&gt;
+
+&lt;p&gt;It&amp;rsquo;s very hard to boil down three weeks of work into a simple 3 minute presentation, but fortunately I was paired with not only incredible developers, but excellent communicators. You can find our presentation &lt;a href=&#34;https://www.youtube.com/watch?v=sw_mcAhgQo4&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Only one more week until class is over! Onward to hiring week.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Hack Reactor Week 0</title>
       <link>https://jrzimmerman.github.io/post/hack-reactor-week-0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -95,34 +123,6 @@
 &lt;p&gt;We have finally made it to MVP! The server creates challenges, the user can view and accept these challenges, and we can finally declare a winner based off live Strava data. This has been a very challenging but rewarding process for the entire team, and we are so excited to show off our product to potential employers.&lt;/p&gt;
 
 &lt;p&gt;With next week being a solo week for Christmas vacation, I will post again in 2016!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hack Reactor Week 11</title>
-      <link>https://jrzimmerman.github.io/post/hack-reactor-week-11/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/hack-reactor-week-11/</guid>
-      <description>
-
-&lt;p&gt;With our product, Bestrida, to MVP (Minimum Viable Product) we will continue to improve our MVP features, as well as the look and feel of product, for the remainder of the week.&lt;/p&gt;
-
-&lt;p&gt;####Design&lt;/p&gt;
-
-&lt;p&gt;Our product finally received a much needed design overhaul, and we are definitely happy with the result:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/content/images/2016/03/bestrida-1.jpg&#34; alt=&#34;bestrida&#34; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;stretch-goals&#34;&gt;Stretch Goals&lt;/h4&gt;
-
-&lt;p&gt;As you can see in the above image, we are able to pull from the Strava API segment effort data for the user to view additional metrics on how well they performed during their effort.&lt;/p&gt;
-
-&lt;h4 id=&#34;final-thesis-presentations&#34;&gt;Final Thesis Presentations&lt;/h4&gt;
-
-&lt;p&gt;It&amp;rsquo;s very hard to boil down three weeks of work into a simple 3 minute presentation, but fortunately I was paired with not only incredible developers, but excellent communicators. You can find our presentation &lt;a href=&#34;https://www.youtube.com/watch?v=sw_mcAhgQo4&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Only one more week until class is over! Onward to hiring week.&lt;/p&gt;
 </description>
     </item>
     
