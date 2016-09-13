@@ -7,8 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Justin Zimmerman</copyright>
-    <lastBuildDate>Sun, 04 Sep 2016 22:35:35 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 12 Sep 2016 21:07:44 -0400</lastBuildDate>
     <atom:link href="https://jrzimmerman.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>about</title>
+      <link>https://jrzimmerman.github.io/about/</link>
+      <pubDate>Mon, 12 Sep 2016 21:07:44 -0400</pubDate>
+      
+      <guid>https://jrzimmerman.github.io/about/</guid>
+      <description>&lt;p&gt;Hi, I&amp;rsquo;m Justin Zimmerman. I work at Red Ventures as a Full Stack Engineer.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Bestrida</title>
@@ -134,7 +144,7 @@ return point
 
 &lt;p&gt;I recently developed a &lt;a href=&#34;http://75.151.252.249/RichlandHeatmap/&#34;&gt;JavaScript web application&lt;/a&gt; to visualize incident reporting for a local municipality collecting &lt;a href=&#34;http://75.151.252.249/RichlandServiceRequest/&#34;&gt;Stormwater Incident Reports&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/richlandheatmap.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/richlandheatmap.png&#34; alt=&#34;Richland Service Request&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The idea behind this application, will be to determine the usage of the reporting system, and to additionally determine &amp;ldquo;Problem Areas&amp;rdquo; for further corrective action planning.&lt;/p&gt;
 
@@ -142,15 +152,15 @@ return point
 
 &lt;p&gt;One of the most important considerations for determining areas, is to determine the scale. The scale the data is viewed at can change the data is interpreted.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/smallscale.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/img/smallscale.png&#34; alt=&#34;Small Scale&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Small scale cannot accurately depict areas.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;largescale.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/img/largescale.png&#34; alt=&#34;Large Scale&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Large scale does not allow for a focused approach to specific areas.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/justright.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/img/justright.png&#34; alt=&#34;Just Right&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Just right. This scale provides a few areas that are easily identifiable.&lt;/p&gt;
 
@@ -160,7 +170,7 @@ return point
 
 &lt;h6 id=&#34;how-can-i-make-this&#34;&gt;How can I make this?&lt;/h6&gt;
 
-&lt;p&gt;The &lt;a href=&#34;http://solutions.arcgis.com/&#34;&gt;ArcGIS Solutions&lt;/a&gt; are full of templates that can be modified for your use. I prefer to check out their &lt;a href=&#34;https://github.com/Esri&#34;&gt;GitHub&lt;/a&gt; account for all the latest templates.&lt;/p&gt;
+&lt;p&gt;The [ArcGIS Solutions]() are full of templates that can be modified for your use. I prefer to check out their [GitHub]() account for all the latest templates.&lt;/p&gt;
 </description>
     </item>
     
@@ -567,20 +577,6 @@ sudo service ghost restart
 &lt;p&gt;It&amp;rsquo;s very hard to boil down three weeks of work into a simple 3 minute presentation, but fortunately I was paired with not only incredible developers, but excellent communicators. You can find our presentation &lt;a href=&#34;https://www.youtube.com/watch?v=sw_mcAhgQo4&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Only one more week until class is over! Onward to hiring week.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hack Reactor Week 12</title>
-      <link>https://jrzimmerman.github.io/post/hack-reactor-week-12/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/hack-reactor-week-12/</guid>
-      <description>&lt;p&gt;The realization that Week 12 has finally come to an end is definitely bitter-sweet. I have spent over 11 hours a day for the past 12 weeks learning Full-Stack Software Engineering. While I am looking forward getting back to a regular sleep schedule, I have learned more than I could imagine, and met many amazing people along the way.&lt;/p&gt;
-
-&lt;p&gt;Week 12 consisted of finalizing resumes, creating cover letters, and preparing for the job search ahead. This was one of the most interesting weeks of Hack Reactor, although I can&amp;rsquo;t go into much detail on their job search process.&lt;/p&gt;
-
-&lt;p&gt;I have greatly enjoyed the Hack Reactor journey, and I hope if you are considering Hack Reactor that you have found my 12 weeks of blog posts insightful.&lt;/p&gt;
 </description>
     </item>
     
