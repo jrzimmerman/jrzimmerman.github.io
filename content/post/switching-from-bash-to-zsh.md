@@ -65,7 +65,7 @@ This will modify your `.zshrc` file
 
 It comes with the "robbyrussell" theme as default, but I wanted something a bit more exciting like the "agnoster" theme as pictured below.
 
-![agnoster theme](/content/images/2016/07/Screenshot-2016-07-31-16-21-54.png)
+![agnoster theme](/img/agnoster.png)
 
 To switch themes, open your .zshrc file and replace this line
 

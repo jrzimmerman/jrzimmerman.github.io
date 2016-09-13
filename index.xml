@@ -119,7 +119,7 @@ brew install zsh
 
 &lt;p&gt;It comes with the &amp;ldquo;robbyrussell&amp;rdquo; theme as default, but I wanted something a bit more exciting like the &amp;ldquo;agnoster&amp;rdquo; theme as pictured below.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/content/images/2016/07/Screenshot-2016-07-31-16-21-54.png&#34; alt=&#34;agnoster theme&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/img/agnoster.png&#34; alt=&#34;agnoster theme&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;To switch themes, open your .zshrc file and replace this line&lt;/p&gt;
 
