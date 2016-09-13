@@ -109,9 +109,58 @@ return point
       <pubDate>Thu, 24 Oct 2013 09:53:36 -0400</pubDate>
       
       <guid>https://jrzimmerman.github.io/post/visualizing-map-service-usage/</guid>
-      <description>&lt;p&gt;I recently developed a &lt;a href=&#34;http://75.151.252.249/RichlandHeatmap/&#34;&gt;JavaScript web application&lt;/a&gt; to visualize incident reporting for a local municipality collecting &lt;a href=&#34;http://75.151.252.249/RichlandServiceRequest/&#34;&gt;Stormwater Incident Reports&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;nav&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#importance-of-dynamic-display&#34;&gt;Importance of Dynamic Display&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#errors&#34;&gt;Errors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#how-can-i-make-this&#34;&gt;How can I make this?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+
+&lt;p&gt;I recently developed a &lt;a href=&#34;http://75.151.252.249/RichlandHeatmap/&#34;&gt;JavaScript web application&lt;/a&gt; to visualize incident reporting for a local municipality collecting &lt;a href=&#34;http://75.151.252.249/RichlandServiceRequest/&#34;&gt;Stormwater Incident Reports&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/img/richlandheatmap.png&#34; alt=&#34;Richland Service Request&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The idea behind this application, will be to determine the usage of the reporting system, and to additionally determine &amp;ldquo;Problem Areas&amp;rdquo; for further corrective action planning.&lt;/p&gt;
+
+&lt;h6 id=&#34;importance-of-dynamic-display&#34;&gt;Importance of Dynamic Display&lt;/h6&gt;
+
+&lt;p&gt;One of the most important considerations for determining areas, is to determine the scale. The scale the data is viewed at can change the data is interpreted.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/img/smallscale.png&#34; alt=&#34;Small Scale&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Small scale cannot accurately depict areas.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/img/largescale.png&#34; alt=&#34;Large Scale&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Large scale does not allow for a focused approach to specific areas.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/img/justright.png&#34; alt=&#34;Just Right&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Just right. This scale provides a few areas that are easily identifiable.&lt;/p&gt;
+
+&lt;h6 id=&#34;errors&#34;&gt;Errors&lt;/h6&gt;
+
+&lt;p&gt;Be mindful of particular input errors. These include multiple responses from a single resident, which can skew how the data is depicted.&lt;/p&gt;
+
+&lt;h6 id=&#34;how-can-i-make-this&#34;&gt;How can I make this?&lt;/h6&gt;
+
+&lt;p&gt;The &lt;a href=&#34;http://solutions.arcgis.com/&#34;&gt;ArcGIS Solutions&lt;/a&gt; are full of templates that can be modified for your use. I prefer to check out their &lt;a href=&#34;https://github.com/Esri&#34;&gt;GitHub&lt;/a&gt; account for all the latest templates.&lt;/p&gt;
 </description>
     </item>
     
