@@ -1,5 +1,9 @@
 +++
-date = "2013-10-24T09:53:36-04:00"
+Categories = ["Development", "GoLang"]
+Description = ""
+Tags = ["Development", "golang"]
+date = "2013-10-24T21:43:29-04:00"
+menu = "main"
 title = "Visualizing Map Service Usage"
 
 +++
