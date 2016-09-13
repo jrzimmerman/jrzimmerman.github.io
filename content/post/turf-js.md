@@ -1,24 +1,26 @@
----
-title: Turf.js
-slug: turf-js-2
-date_published: 2015-06-10T21:57:00.000Z
-date_updated:   2016-06-13T06:56:16.000Z
-tags: Turf.js, JavaScript
----
++++
+Categories = ["Development", "JavaScript"]
+Description = ""
+Tags = ["Development", "JavaScript"]
+date = "2015-06-10T08:13:21-04:00"
+menu = "main"
+title = "Turf.js"
+
++++
 
 Over the winter I was able to spend some free time assisting with the development of the [Turf.js](http://turfjs.org/) project!
 
 This was a very rewarding experience that has allowed me to better grasp some very important topics:
 
-####Test Driven Development
+### Test Driven Development
 
 Test driven development is one of the most powerful concepts I picked up while working with Turf. Turf uses the [Tape](https://github.com/substack/tape) testing environment, and just like turf, focuses on being lightweight and fast.
 
-####Documentation
+### Documentation
 
 Good documentation is hard. Thanks to Tom, Morgan, Lyzi at Mapbox for providing amazing documentation for Turf, and turf would be a very different community without the substantial work completed.
 
-####Modular
+### Modular
 
 It is so cool that Turf is modular, branching all of its separate components into different modules is simple, lightweight, and fast! The added benefit is that it helps with error checking as well as the many other benefits of abstraction on projects.
 

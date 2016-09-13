@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript on Justin Zimmerman</title>
+    <link>https://jrzimmerman.github.io/categories/javascript/</link>
+    <description>Recent content in Javascript on Justin Zimmerman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Justin Zimmerman</copyright>
+    <lastBuildDate>Wed, 10 Jun 2015 08:13:21 -0400</lastBuildDate>
+    <atom:link href="https://jrzimmerman.github.io/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>turf js</title>
+      <link>https://jrzimmerman.github.io/post/turf-js/</link>
+      <pubDate>Wed, 10 Jun 2015 08:13:21 -0400</pubDate>
+      
+      <guid>https://jrzimmerman.github.io/post/turf-js/</guid>
+      <description>
+
+&lt;p&gt;Over the winter I was able to spend some free time assisting with the development of the &lt;a href=&#34;http://turfjs.org/&#34;&gt;Turf.js&lt;/a&gt; project!&lt;/p&gt;
+
+&lt;p&gt;This was a very rewarding experience that has allowed me to better grasp some very important topics:&lt;/p&gt;
+
+&lt;h3 id=&#34;test-driven-development&#34;&gt;Test Driven Development&lt;/h3&gt;
+
+&lt;p&gt;Test driven development is one of the most powerful concepts I picked up while working with Turf. Turf uses the &lt;a href=&#34;https://github.com/substack/tape&#34;&gt;Tape&lt;/a&gt; testing environment, and just like turf, focuses on being lightweight and fast.&lt;/p&gt;
+
+&lt;h3 id=&#34;documentation&#34;&gt;Documentation&lt;/h3&gt;
+
+&lt;p&gt;Good documentation is hard. Thanks to Tom, Morgan, Lyzi at Mapbox for providing amazing documentation for Turf, and turf would be a very different community without the substantial work completed.&lt;/p&gt;
+
+&lt;h3 id=&#34;modular&#34;&gt;Modular&lt;/h3&gt;
+
+&lt;p&gt;It is so cool that Turf is modular, branching all of its separate components into different modules is simple, lightweight, and fast! The added benefit is that it helps with error checking as well as the many other benefits of abstraction on projects.&lt;/p&gt;
+
+&lt;p&gt;Thanks so much to the Turf team for the wonderful learning experiences they have provided.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
