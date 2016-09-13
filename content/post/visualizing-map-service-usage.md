@@ -6,7 +6,8 @@ title = "Visualizing Map Service Usage"
 
 I recently developed a [JavaScript web application](http://75.151.252.249/RichlandHeatmap/) to visualize incident reporting for a local municipality collecting [Stormwater Incident Reports](http://75.151.252.249/RichlandServiceRequest/).
 
-![Richland Service Request](/richlandheatmap.png)
+![Richland Service Request](/img/richlandheatmap.png)
+{{< img src="/img/richlandheatmap.png" title="Richland Service Request" >}}
 
 The idea behind this application, will be to determine the usage of the reporting system, and to additionally determine "Problem Areas" for further corrective action planning.
 
@@ -15,14 +16,17 @@ The idea behind this application, will be to determine the usage of the reportin
 One of the most important considerations for determining areas, is to determine the scale. The scale the data is viewed at can change the data is interpreted.
 
 ![Small Scale](/img/smallscale.png)
+{{< img src="/img/smallscale.png" title="Small Scale" >}}
 
 Small scale cannot accurately depict areas.
 
 ![Large Scale](/img/largescale.png)
+{{< img src="/img/largescale.png" title="Large Scale" >}}
 
 Large scale does not allow for a focused approach to specific areas. 
 
 ![Just Right](/img/justright.png)
+{{< img src="/img/justright.png" title="Just Right" >}}
 
 Just right. This scale provides a few areas that are easily identifiable.
 
