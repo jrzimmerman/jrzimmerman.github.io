@@ -1,10 +1,12 @@
----
-title: Hack Reactor Week 12
-slug: hack-reactor-week-12
-date_published: 2016-01-11T09:32:00.000Z
-date_updated:   2016-06-13T07:38:14.000Z
-tags: Hack Reactor
----
++++
+Categories = ["Hack Reactor"]
+Description = ""
+Tags = ["Hack Reactor"]
+date = "2016-01-11T22:32:42-04:00"
+menu = "main"
+title = "Hack Reactor Week 12"
+
++++
 
 The realization that Week 12 has finally come to an end is definitely bitter-sweet. I have spent over 11 hours a day for the past 12 weeks learning Full-Stack Software Engineering. While I am looking forward getting back to a regular sleep schedule, I have learned more than I could imagine, and met many amazing people along the way.
 

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hack Reactor on Justin Zimmerman</title>
+    <link>https://jrzimmerman.github.io/categories/hack-reactor/</link>
+    <description>Recent content in Hack Reactor on Justin Zimmerman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Justin Zimmerman</copyright>
+    <lastBuildDate>Mon, 11 Jan 2016 22:32:42 -0400</lastBuildDate>
+    <atom:link href="https://jrzimmerman.github.io/categories/hack-reactor/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hack Reactor Week 12</title>
+      <link>https://jrzimmerman.github.io/post/hack-reactor-week-12/</link>
+      <pubDate>Mon, 11 Jan 2016 22:32:42 -0400</pubDate>
+      
+      <guid>https://jrzimmerman.github.io/post/hack-reactor-week-12/</guid>
+      <description>&lt;p&gt;The realization that Week 12 has finally come to an end is definitely bitter-sweet. I have spent over 11 hours a day for the past 12 weeks learning Full-Stack Software Engineering. While I am looking forward getting back to a regular sleep schedule, I have learned more than I could imagine, and met many amazing people along the way.&lt;/p&gt;
+
+&lt;p&gt;Week 12 consisted of finalizing resumes, creating cover letters, and preparing for the job search ahead. This was one of the most interesting weeks of Hack Reactor, although I can&amp;rsquo;t go into much detail on their job search process.&lt;/p&gt;
+
+&lt;p&gt;I have greatly enjoyed the Hack Reactor journey, and I hope if you are considering Hack Reactor that you have found my 12 weeks of blog posts insightful.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
