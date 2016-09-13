@@ -61,6 +61,103 @@ active challenge to view more detailed information about that particular challen
     </item>
     
     <item>
+      <title>Switching From Bash to ZSH</title>
+      <link>https://jrzimmerman.github.io/post/switching-from-bash-to-zsh/</link>
+      <pubDate>Mon, 01 Aug 2016 21:29:53 -0400</pubDate>
+      
+      <guid>https://jrzimmerman.github.io/post/switching-from-bash-to-zsh/</guid>
+      <description>
+
+&lt;p&gt;I recently switched from BASH (Bourne Again SHell) to ZSH after hearing about z shell&amp;rsquo;s many benefits.&lt;/p&gt;
+
+&lt;p&gt;The main benefits for me were better autocompletion, and file globbing, and better autocorrection. I spent quite a few weekends doing research on whether to switch or not, and finally I bit the bullet.&lt;/p&gt;
+
+&lt;h2 id=&#34;installing-zsh-with-homebrew&#34;&gt;Installing ZSH with Homebrew&lt;/h2&gt;
+
+&lt;p&gt;While this isn&amp;rsquo;t necessary, it&amp;rsquo;s incredibly straightforward to do. The default version of ZSH shipped with OSX is 5.0.2. The latest version of ZSH at the time of writing is 5.2.&lt;/p&gt;
+
+&lt;h3 id=&#34;download-zsh&#34;&gt;Download ZSH&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;brew update
+brew install zsh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Once installation is completed, we need to insert the location into &lt;code&gt;/etc/shells&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt; sudo vim /etc/shells
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Insert the following line to the end of the file&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/usr/local/bin/zsh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is the file path that homebrew system linked ZSH to.&lt;/p&gt;
+
+&lt;p&gt;To set the default shell to ZSH&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;chsh -s /usr/local/bin/zsh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This might require a restart, but once completed verify zsh is your default shell by running&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;echo $SHELL
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now you have the latest ZSH running as default.&lt;/p&gt;
+
+&lt;h3 id=&#34;installing-oh-my-zsh&#34;&gt;Installing oh-my-zsh&lt;/h3&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://github.com/robbyrussell/oh-my-zsh&#34;&gt;oh-my-zsh&lt;/a&gt; repository is a very large open source collection of zsh plugins and &lt;a href=&#34;https://github.com/robbyrussell/oh-my-zsh/wiki/themes&#34;&gt;themes&lt;/a&gt;. While there are a few alternatives to oh-my-zsh, such as prezto. I wanted to be able get started right away.&lt;/p&gt;
+
+&lt;p&gt;To install oh-my-zsh run the following&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sh -c &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will modify your &lt;code&gt;.zshrc&lt;/code&gt; file&lt;/p&gt;
+
+&lt;p&gt;It comes with the &amp;ldquo;robbyrussell&amp;rdquo; theme as default, but I wanted something a bit more exciting like the &amp;ldquo;agnoster&amp;rdquo; theme as pictured below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/content/images/2016/07/Screenshot-2016-07-31-16-21-54.png&#34; alt=&#34;agnoster theme&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To switch themes, open your .zshrc file and replace this line&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ZSH_THEME=&amp;quot;robbyrussell&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;with&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ZSH_THEME=&amp;quot;agnoster&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This is also a great time to copy over your custom &lt;code&gt;.bash_profile&lt;/code&gt; configs to the &lt;code&gt;.zshrc&lt;/code&gt; file.&lt;/p&gt;
+
+&lt;h3 id=&#34;installing-powerline-fonts&#34;&gt;Installing Powerline Fonts&lt;/h3&gt;
+
+&lt;p&gt;The only problem is that the agnoster theme requires &lt;a href=&#34;https://github.com/powerline/fonts&#34;&gt;Powerline fonts&lt;/a&gt; to show the &amp;ldquo;pipeline&amp;rdquo; icons. Fortunately installing the fonts is very simple and comes with a script.&lt;/p&gt;
+
+&lt;p&gt;First, clone down the &lt;code&gt;powerline/fonts&lt;/code&gt; repository into your github work folder&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/powerline/fonts.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then &lt;code&gt;cd fonts&lt;/code&gt; into the fonts repository and run&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;./install.sh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Once completed, this also might require a restart to show the new fonts available.&lt;/p&gt;
+
+&lt;p&gt;In your terminal (iTerm2 or HyperTerm) change the default font to one of the &amp;ldquo;for powerline&amp;rdquo; fonts. I chose &lt;code&gt;Meslo for Powerline&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Once selected, you have successfully completed setting up ZSH with oh-my-zsh!&lt;/p&gt;
+
+&lt;p&gt;Congratulations on your awesome new terminal.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Updating Feature Coordinates With Python</title>
       <link>https://jrzimmerman.github.io/post/updating-feature-coordinates-with-python/</link>
       <pubDate>Mon, 08 Jun 2015 09:51:48 -0400</pubDate>
@@ -119,28 +216,7 @@ return point
       <pubDate>Thu, 24 Oct 2013 09:53:36 -0400</pubDate>
       
       <guid>https://jrzimmerman.github.io/post/visualizing-map-service-usage/</guid>
-      <description>&lt;nav&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#importance-of-dynamic-display&#34;&gt;Importance of Dynamic Display&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#errors&#34;&gt;Errors&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#how-can-i-make-this&#34;&gt;How can I make this?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/nav&gt;
+      <description>
 
 &lt;p&gt;I recently developed a &lt;a href=&#34;http://75.151.252.249/RichlandHeatmap/&#34;&gt;JavaScript web application&lt;/a&gt; to visualize incident reporting for a local municipality collecting &lt;a href=&#34;http://75.151.252.249/RichlandServiceRequest/&#34;&gt;Stormwater Incident Reports&lt;/a&gt;.&lt;/p&gt;
 
@@ -148,7 +224,7 @@ return point
 
 &lt;p&gt;The idea behind this application, will be to determine the usage of the reporting system, and to additionally determine &amp;ldquo;Problem Areas&amp;rdquo; for further corrective action planning.&lt;/p&gt;
 
-&lt;h6 id=&#34;importance-of-dynamic-display&#34;&gt;Importance of Dynamic Display&lt;/h6&gt;
+&lt;h3 id=&#34;importance-of-dynamic-display&#34;&gt;Importance of Dynamic Display&lt;/h3&gt;
 
 &lt;p&gt;One of the most important considerations for determining areas, is to determine the scale. The scale the data is viewed at can change the data is interpreted.&lt;/p&gt;
 
@@ -164,11 +240,11 @@ return point
 
 &lt;p&gt;Just right. This scale provides a few areas that are easily identifiable.&lt;/p&gt;
 
-&lt;h6 id=&#34;errors&#34;&gt;Errors&lt;/h6&gt;
+&lt;h3 id=&#34;errors&#34;&gt;Errors&lt;/h3&gt;
 
 &lt;p&gt;Be mindful of particular input errors. These include multiple responses from a single resident, which can skew how the data is depicted.&lt;/p&gt;
 
-&lt;h6 id=&#34;how-can-i-make-this&#34;&gt;How can I make this?&lt;/h6&gt;
+&lt;h3 id=&#34;how-can-i-make-this&#34;&gt;How can I make this?&lt;/h3&gt;
 
 &lt;p&gt;The &lt;a href=&#34;http://solutions.arcgis.com/&#34;&gt;ArcGIS Solutions&lt;/a&gt; are full of templates that can be modified for your use. I prefer to check out their &lt;a href=&#34;https://github.com/Esri&#34;&gt;GitHub&lt;/a&gt; account for all the latest templates.&lt;/p&gt;
 </description>
@@ -549,34 +625,6 @@ sudo service ghost restart
 &lt;p&gt;We have finally made it to MVP! The server creates challenges, the user can view and accept these challenges, and we can finally declare a winner based off live Strava data. This has been a very challenging but rewarding process for the entire team, and we are so excited to show off our product to potential employers.&lt;/p&gt;
 
 &lt;p&gt;With next week being a solo week for Christmas vacation, I will post again in 2016!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hack Reactor Week 11</title>
-      <link>https://jrzimmerman.github.io/post/hack-reactor-week-11/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/hack-reactor-week-11/</guid>
-      <description>
-
-&lt;p&gt;With our product, Bestrida, to MVP (Minimum Viable Product) we will continue to improve our MVP features, as well as the look and feel of product, for the remainder of the week.&lt;/p&gt;
-
-&lt;p&gt;####Design&lt;/p&gt;
-
-&lt;p&gt;Our product finally received a much needed design overhaul, and we are definitely happy with the result:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/content/images/2016/03/bestrida-1.jpg&#34; alt=&#34;bestrida&#34; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;stretch-goals&#34;&gt;Stretch Goals&lt;/h4&gt;
-
-&lt;p&gt;As you can see in the above image, we are able to pull from the Strava API segment effort data for the user to view additional metrics on how well they performed during their effort.&lt;/p&gt;
-
-&lt;h4 id=&#34;final-thesis-presentations&#34;&gt;Final Thesis Presentations&lt;/h4&gt;
-
-&lt;p&gt;It&amp;rsquo;s very hard to boil down three weeks of work into a simple 3 minute presentation, but fortunately I was paired with not only incredible developers, but excellent communicators. You can find our presentation &lt;a href=&#34;https://www.youtube.com/watch?v=sw_mcAhgQo4&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Only one more week until class is over! Onward to hiring week.&lt;/p&gt;
 </description>
     </item>
     

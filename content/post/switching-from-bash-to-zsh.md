@@ -1,10 +1,12 @@
----
-title: Switching from BASH to ZSH
-slug: switching-from-bash-to-zsh
-date_published: 2016-08-01T01:01:37.000Z
-date_updated:   2016-08-01T01:04:57.000Z
-tags: zsh, oh-my-zsh
----
++++
+Categories = ["Bash", "ZSH"]
+Description = ""
+Tags = ["Bash", "ZSH"]
+date = "2016-08-01T21:29:53-04:00"
+menu = "main"
+title = "Switching From Bash to ZSH"
+
++++
 
 I recently switched from BASH (Bourne Again SHell) to ZSH after hearing about z shell's many benefits.
 
@@ -100,7 +102,3 @@ In your terminal (iTerm2 or HyperTerm) change the default font to one of the "fo
 Once selected, you have successfully completed setting up ZSH with oh-my-zsh!
 
 Congratulations on your awesome new terminal.
-
-
-
-
