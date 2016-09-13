@@ -229,37 +229,9 @@ windowSize: [1300, 650]
     </item>
     
     <item>
-      <title>Turf.js</title>
-      <link>https://jrzimmerman.github.io/post/turf-js/</link>
-      <pubDate>Wed, 10 Jun 2015 08:13:21 -0400</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/turf-js/</guid>
-      <description>
-
-&lt;p&gt;Over the winter I was able to spend some free time assisting with the development of the &lt;a href=&#34;http://turfjs.org/&#34;&gt;Turf.js&lt;/a&gt; project!&lt;/p&gt;
-
-&lt;p&gt;This was a very rewarding experience that has allowed me to better grasp some very important topics:&lt;/p&gt;
-
-&lt;h3 id=&#34;test-driven-development&#34;&gt;Test Driven Development&lt;/h3&gt;
-
-&lt;p&gt;Test driven development is one of the most powerful concepts I picked up while working with Turf. Turf uses the &lt;a href=&#34;https://github.com/substack/tape&#34;&gt;Tape&lt;/a&gt; testing environment, and just like turf, focuses on being lightweight and fast.&lt;/p&gt;
-
-&lt;h3 id=&#34;documentation&#34;&gt;Documentation&lt;/h3&gt;
-
-&lt;p&gt;Good documentation is hard. Thanks to Tom, Morgan, Lyzi at Mapbox for providing amazing documentation for Turf, and turf would be a very different community without the substantial work completed.&lt;/p&gt;
-
-&lt;h3 id=&#34;modular&#34;&gt;Modular&lt;/h3&gt;
-
-&lt;p&gt;It is so cool that Turf is modular, branching all of its separate components into different modules is simple, lightweight, and fast! The added benefit is that it helps with error checking as well as the many other benefits of abstraction on projects.&lt;/p&gt;
-
-&lt;p&gt;Thanks so much to the Turf team for the wonderful learning experiences they have provided.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Updating Feature Coordinates With Python</title>
       <link>https://jrzimmerman.github.io/post/updating-feature-coordinates-with-python/</link>
-      <pubDate>Mon, 08 Jun 2015 21:41:19 -0400</pubDate>
+      <pubDate>Fri, 08 May 2015 21:41:19 -0400</pubDate>
       
       <guid>https://jrzimmerman.github.io/post/updating-feature-coordinates-with-python/</guid>
       <description>&lt;p&gt;I was asked to update the location of manhole points with new survey data. Traditionally this is a long task, dragging the old manholes to their new locations.&lt;/p&gt;
@@ -306,6 +278,34 @@ return point
 &lt;p&gt;[5.] Click ok&lt;/p&gt;
 
 &lt;p&gt;[6.] Now right click on the OLD XY and Calculate Geometry for XY and the updated XY will be calculated.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Turf.js</title>
+      <link>https://jrzimmerman.github.io/post/turf-js/</link>
+      <pubDate>Tue, 10 Mar 2015 08:13:21 -0400</pubDate>
+      
+      <guid>https://jrzimmerman.github.io/post/turf-js/</guid>
+      <description>
+
+&lt;p&gt;Over the winter I was able to spend some free time assisting with the development of the &lt;a href=&#34;http://turfjs.org/&#34;&gt;Turf.js&lt;/a&gt; project!&lt;/p&gt;
+
+&lt;p&gt;This was a very rewarding experience that has allowed me to better grasp some very important topics:&lt;/p&gt;
+
+&lt;h3 id=&#34;test-driven-development&#34;&gt;Test Driven Development&lt;/h3&gt;
+
+&lt;p&gt;Test driven development is one of the most powerful concepts I picked up while working with Turf. Turf uses the &lt;a href=&#34;https://github.com/substack/tape&#34;&gt;Tape&lt;/a&gt; testing environment, and just like turf, focuses on being lightweight and fast.&lt;/p&gt;
+
+&lt;h3 id=&#34;documentation&#34;&gt;Documentation&lt;/h3&gt;
+
+&lt;p&gt;Good documentation is hard. Thanks to Tom, Morgan, Lyzi at Mapbox for providing amazing documentation for Turf, and turf would be a very different community without the substantial work completed.&lt;/p&gt;
+
+&lt;h3 id=&#34;modular&#34;&gt;Modular&lt;/h3&gt;
+
+&lt;p&gt;It is so cool that Turf is modular, branching all of its separate components into different modules is simple, lightweight, and fast! The added benefit is that it helps with error checking as well as the many other benefits of abstraction on projects.&lt;/p&gt;
+
+&lt;p&gt;Thanks so much to the Turf team for the wonderful learning experiences they have provided.&lt;/p&gt;
 </description>
     </item>
     
