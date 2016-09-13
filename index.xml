@@ -171,8 +171,6 @@ brew install zsh
 
 &lt;p&gt;My hope is to demo how simple it is to get started with HyperTerm, and show how I only added a few lines to the configuration file to have a terminal I enjoy to use.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/content/images/2016/07/Screenshot-2016-07-31-17-27-29.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
 &lt;h3 id=&#34;installing-hyperterm&#34;&gt;Installing HyperTerm&lt;/h3&gt;
 
 &lt;p&gt;To install HyperTerm on OSX simply install the .pkg file from their &lt;a href=&#34;https://hyperterm.org/#installation&#34;&gt;website&lt;/a&gt;.&lt;/p&gt;
