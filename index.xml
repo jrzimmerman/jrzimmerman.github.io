@@ -158,6 +158,65 @@ brew install zsh
     </item>
     
     <item>
+      <title>Switching from iTerm to HyperTerm</title>
+      <link>https://jrzimmerman.github.io/post/switching-from-iterm-to-hyperterm/</link>
+      <pubDate>Sat, 23 Jul 2016 22:26:47 -0400</pubDate>
+      
+      <guid>https://jrzimmerman.github.io/post/switching-from-iterm-to-hyperterm/</guid>
+      <description>
+
+&lt;p&gt;Recently &lt;a href=&#34;https://zeit.co/&#34;&gt;zeit.co&lt;/a&gt; released to the world a wonderful terminal built with JavaScript / HTML / CSS called &lt;a href=&#34;https://hyperterm.org/&#34;&gt;HyperTerm&lt;/a&gt;. Even better yet, this terminal is fully customizable with open source plugins.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m not one to change my development environment constantly, but this electron app was simple to install on OSX and even easier to customize programmatically.&lt;/p&gt;
+
+&lt;p&gt;My hope is to demo how simple it is to get started with HyperTerm, and show how I only added a few lines to the configuration file to have a terminal I enjoy to use.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/content/images/2016/07/Screenshot-2016-07-31-17-27-29.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;installing-hyperterm&#34;&gt;Installing HyperTerm&lt;/h3&gt;
+
+&lt;p&gt;To install HyperTerm on OSX simply install the .pkg file from their &lt;a href=&#34;https://hyperterm.org/#installation&#34;&gt;website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Once installed, use your editor of choice to open &lt;code&gt;~/.hyperterm.js&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;While the default configuration is very good, I have a few recommended configurations.&lt;/p&gt;
+
+&lt;h3 id=&#34;configuring-hyperterm&#34;&gt;Configuring HyperTerm&lt;/h3&gt;
+
+&lt;p&gt;First, change the theme by simply adding &lt;code&gt;hyperterm-solarized-dark&lt;/code&gt; to the plugins array.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;plugins: [
+    &#39;hyperterm-solarized-dark&#39;,
+  ]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Save the configuration, and HyperTerm will automatically update for you.&lt;/p&gt;
+
+&lt;p&gt;I also enjoy using the &lt;code&gt;hyperlinks&lt;/code&gt; plugin to open links with your browser, we can also add this to the plugins array.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;plugins: [
+    &#39;hyperterm-solarized-dark&#39;,
+    &#39;hyperlinks&#39;
+  ]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Since I use ZSH with a Powerline font, I can simply update the fonts to include &lt;code&gt;Meslo for Powerline&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// font family with optional fallbacks
+fontFamily: &#39;&amp;quot;Meslo LG L DZ for Powerline&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Lucida Console&amp;quot;, monospace&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We can also modify the default window size of HyperTerm.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// size of window by pixels (width, height)
+windowSize: [1300, 650]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;With a few lines of code, we now have a fully customizable terminal!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Updating Feature Coordinates With Python</title>
       <link>https://jrzimmerman.github.io/post/updating-feature-coordinates-with-python/</link>
       <pubDate>Mon, 08 Jun 2015 21:41:19 -0400</pubDate>
@@ -369,20 +428,6 @@ sudo service ghost restart
 &lt;script src=&#34;https://gist.github.com/jrzimmerman/0453bdfd552de42f30f6.js&#34;&gt;&lt;/script&gt;
 
 &lt;p&gt;Deciding upon which method to use depends on use case. Since I had a need for specific locations, I went with the traditional HTML 5 geolocation. If I were to aggregate data at a national (or global) scale, then GeoIP is a fantastic use.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hack Reactor Remote Prep</title>
-      <link>https://jrzimmerman.github.io/post/hack-reactor-remote-prep/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/hack-reactor-remote-prep/</guid>
-      <description>&lt;p&gt;I am excited to have been one of the lucky few to get in to the Remote Prep class for Hack Reactor!&lt;/p&gt;
-
-&lt;p&gt;I look forward to blogging about the content that is discussed on a weekly basis.&lt;/p&gt;
-
-&lt;p&gt;Did you get in to the Remote Prep class?&lt;/p&gt;
 </description>
     </item>
     

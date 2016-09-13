@@ -1,10 +1,12 @@
----
-title: Switching from iTerm to HyperTerm
-slug: switching-from-iterm-to-hyperterm
-date_published: 2016-07-23T01:39:00.000Z
-date_updated:   2016-08-01T01:44:31.000Z
-tags: HyperTerm, Terminal
----
++++
+Categories = ["HyperTerm", "Terminal"]
+Description = ""
+Tags = ["HyperTerm", "Terminal"]
+date = "2016-07-23T22:26:47-04:00"
+menu = "main"
+title = "Switching from iTerm to HyperTerm"
+
++++
 
 Recently [zeit.co](https://zeit.co/) released to the world a wonderful terminal built with JavaScript / HTML / CSS called [HyperTerm](https://hyperterm.org/). Even better yet, this terminal is fully customizable with open source plugins.
 

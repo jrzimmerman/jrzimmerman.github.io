@@ -46,13 +46,15 @@
       
         <li><a href="/post/switching-from-bash-to-zsh/"> Switching From Bash to ZSH </a></li>
       
+        <li><a href="/post/switching-from-iterm-to-hyperterm/"> Switching from iTerm to HyperTerm </a></li>
+      
         <li><a href="/post/updating-feature-coordinates-with-python/"> Updating Feature Coordinates With Python </a></li>
       
         <li><a href="/post/visualizing-map-service-usage/"> Visualizing Map Service Usage </a></li>
       
     </ul>
 
-    <p>&copy; 2016. All rights reserved. </p>
+    <p>Justin Zimmerman</p>
   </div>
 </div>
 
@@ -214,6 +216,68 @@ brew install zsh
 <p>Once selected, you have successfully completed setting up ZSH with oh-my-zsh!</p>
 
 <p>Congratulations on your awesome new terminal.</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://jrzimmerman.github.io/post/switching-from-iterm-to-hyperterm/">
+        Switching from iTerm to HyperTerm
+      </a>
+    </h1>
+
+    <span class="post-date">Sat, Jul 23, 2016</span>
+
+    
+
+<p>Recently <a href="https://zeit.co/">zeit.co</a> released to the world a wonderful terminal built with JavaScript / HTML / CSS called <a href="https://hyperterm.org/">HyperTerm</a>. Even better yet, this terminal is fully customizable with open source plugins.</p>
+
+<p>I&rsquo;m not one to change my development environment constantly, but this electron app was simple to install on OSX and even easier to customize programmatically.</p>
+
+<p>My hope is to demo how simple it is to get started with HyperTerm, and show how I only added a few lines to the configuration file to have a terminal I enjoy to use.</p>
+
+<p><img src="/content/images/2016/07/Screenshot-2016-07-31-17-27-29.png" alt="" /></p>
+
+<h3 id="installing-hyperterm">Installing HyperTerm</h3>
+
+<p>To install HyperTerm on OSX simply install the .pkg file from their <a href="https://hyperterm.org/#installation">website</a>.</p>
+
+<p>Once installed, use your editor of choice to open <code>~/.hyperterm.js</code></p>
+
+<p>While the default configuration is very good, I have a few recommended configurations.</p>
+
+<h3 id="configuring-hyperterm">Configuring HyperTerm</h3>
+
+<p>First, change the theme by simply adding <code>hyperterm-solarized-dark</code> to the plugins array.</p>
+
+<pre><code>plugins: [
+    'hyperterm-solarized-dark',
+  ]
+</code></pre>
+
+<p>Save the configuration, and HyperTerm will automatically update for you.</p>
+
+<p>I also enjoy using the <code>hyperlinks</code> plugin to open links with your browser, we can also add this to the plugins array.</p>
+
+<pre><code>plugins: [
+    'hyperterm-solarized-dark',
+    'hyperlinks'
+  ]
+</code></pre>
+
+<p>Since I use ZSH with a Powerline font, I can simply update the fonts to include <code>Meslo for Powerline</code>.</p>
+
+<pre><code>// font family with optional fallbacks
+fontFamily: '&quot;Meslo LG L DZ for Powerline&quot;, Menlo, &quot;DejaVu Sans Mono&quot;, &quot;Lucida Console&quot;, monospace'
+</code></pre>
+
+<p>We can also modify the default window size of HyperTerm.</p>
+
+<pre><code>// size of window by pixels (width, height)
+windowSize: [1300, 650]
+</code></pre>
+
+<p>With a few lines of code, we now have a fully customizable terminal!</p>
 
   </div>
   
@@ -441,23 +505,6 @@ sudo service ghost restart
 <script src="https://gist.github.com/jrzimmerman/0453bdfd552de42f30f6.js"></script>
 
 <p>Deciding upon which method to use depends on use case. Since I had a need for specific locations, I went with the traditional HTML 5 geolocation. If I were to aggregate data at a national (or global) scale, then GeoIP is a fantastic use.</p>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="https://jrzimmerman.github.io/post/hack-reactor-remote-prep/">
-        Hack Reactor Remote Prep
-      </a>
-    </h1>
-
-    <span class="post-date">Mon, Jan 1, 0001</span>
-
-    <p>I am excited to have been one of the lucky few to get in to the Remote Prep class for Hack Reactor!</p>
-
-<p>I look forward to blogging about the content that is discussed on a weekly basis.</p>
-
-<p>Did you get in to the Remote Prep class?</p>
 
   </div>
   
@@ -1323,68 +1370,6 @@ USEFUL DIAGRAM!
 <p>I started to attempt to figure out the Google Maps and Places APIs. This has been really fun! Being a Geography major, I look forward to trying to wrap my head about location based services. I started off simply using a fixed location to show nearby restaurants, and I hope to get the geolocation to correctly work to show results any where in the world!</p>
 
 <p>I hope this will solidify my background to finally break through. If you have been accepted into Hack Reactor, what have you done to push you over the edge?</p>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="https://jrzimmerman.github.io/post/switching-from-iterm-to-hyperterm/">
-        Switching from iTerm to HyperTerm
-      </a>
-    </h1>
-
-    <span class="post-date">Mon, Jan 1, 0001</span>
-
-    
-
-<p>Recently <a href="https://zeit.co/">zeit.co</a> released to the world a wonderful terminal built with JavaScript / HTML / CSS called <a href="https://hyperterm.org/">HyperTerm</a>. Even better yet, this terminal is fully customizable with open source plugins.</p>
-
-<p>I&rsquo;m not one to change my development environment constantly, but this electron app was simple to install on OSX and even easier to customize programmatically.</p>
-
-<p>My hope is to demo how simple it is to get started with HyperTerm, and show how I only added a few lines to the configuration file to have a terminal I enjoy to use.</p>
-
-<p><img src="/content/images/2016/07/Screenshot-2016-07-31-17-27-29.png" alt="" /></p>
-
-<h3 id="installing-hyperterm">Installing HyperTerm</h3>
-
-<p>To install HyperTerm on OSX simply install the .pkg file from their <a href="https://hyperterm.org/#installation">website</a>.</p>
-
-<p>Once installed, use your editor of choice to open <code>~/.hyperterm.js</code></p>
-
-<p>While the default configuration is very good, I have a few recommended configurations.</p>
-
-<h3 id="configuring-hyperterm">Configuring HyperTerm</h3>
-
-<p>First, change the theme by simply adding <code>hyperterm-solarized-dark</code> to the plugins array.</p>
-
-<pre><code>plugins: [
-    'hyperterm-solarized-dark',
-  ]
-</code></pre>
-
-<p>Save the configuration, and HyperTerm will automatically update for you.</p>
-
-<p>I also enjoy using the <code>hyperlinks</code> plugin to open links with your browser, we can also add this to the plugins array.</p>
-
-<pre><code>plugins: [
-    'hyperterm-solarized-dark',
-    'hyperlinks'
-  ]
-</code></pre>
-
-<p>Since I use ZSH with a Powerline font, I can simply update the fonts to include <code>Meslo for Powerline</code>.</p>
-
-<pre><code>// font family with optional fallbacks
-fontFamily: '&quot;Meslo LG L DZ for Powerline&quot;, Menlo, &quot;DejaVu Sans Mono&quot;, &quot;Lucida Console&quot;, monospace'
-</code></pre>
-
-<p>We can also modify the default window size of HyperTerm.</p>
-
-<pre><code>// size of window by pixels (width, height)
-windowSize: [1300, 650]
-</code></pre>
-
-<p>With a few lines of code, we now have a fully customizable terminal!</p>
 
   </div>
   
