@@ -1,9 +1,8 @@
 +++
-Categories = ["Development", "GoLang"]
-Description = ""
-Tags = ["Development", "golang"]
+Categories = ["About"]
+Description = "About Justin Zimmerman"
+Tags = ["About"]
 date = "2016-09-12T21:07:44-04:00"
-menu = "main"
 title = "About"
 
 +++
