@@ -1,5 +1,9 @@
 +++
-date = "2015-06-08T09:51:48-04:00"
+Categories = ["Development", "GoLang"]
+Description = ""
+Tags = ["Development", "golang"]
+date = "2015-06-08T21:41:19-04:00"
+menu = "main"
 title = "Updating Feature Coordinates With Python"
 
 +++

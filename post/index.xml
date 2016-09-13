@@ -150,7 +150,7 @@ brew install zsh
     <item>
       <title>Updating Feature Coordinates With Python</title>
       <link>https://jrzimmerman.github.io/post/updating-feature-coordinates-with-python/</link>
-      <pubDate>Mon, 08 Jun 2015 09:51:48 -0400</pubDate>
+      <pubDate>Mon, 08 Jun 2015 21:41:19 -0400</pubDate>
       
       <guid>https://jrzimmerman.github.io/post/updating-feature-coordinates-with-python/</guid>
       <description>&lt;p&gt;I was asked to update the location of manhole points with new survey data. Traditionally this is a long task, dragging the old manholes to their new locations.&lt;/p&gt;
