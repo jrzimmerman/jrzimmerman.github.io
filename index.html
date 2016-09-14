@@ -42,6 +42,8 @@
       
         <li><a href="/post/bestrida/"> Bestrida </a></li>
       
+        <li><a href="/post/hack-reactor-week-10/"> Hack Reactor Week 10 </a></li>
+      
         <li><a href="/post/hack-reactor-week-11/"> Hack Reactor Week 11 </a></li>
       
         <li><a href="/post/hack-reactor-week-12/"> Hack Reactor Week 12 </a></li>
@@ -328,6 +330,35 @@ windowSize: [1300, 650]
 <p>It&rsquo;s very hard to boil down three weeks of work into a simple 3 minute presentation, but fortunately I was paired with not only incredible developers, but excellent communicators. You can find our presentation <a href="https://www.youtube.com/watch?v=sw_mcAhgQo4">here</a>.</p>
 
 <p>Only one more week until class is over! Onward to hiring week.</p>
+
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://jrzimmerman.github.io/post/hack-reactor-week-10/">
+        Hack Reactor Week 10
+      </a>
+    </h1>
+
+    <span class="post-date">Mon, Dec 28, 2015</span>
+
+    
+
+<p>With Thesis moving along very nicely, here is what happened in week 10!</p>
+
+<h3 id="authentication">Authentication</h3>
+
+<p>One of the challenges faced this week during thesis is removing API keys from the client side. With a mobile application, you should consider all of your code accessible for the world to see. This would allow for any user to view your API&rsquo;s secret key allowing other user&rsquo;s to make (potentially) malicious requests to the API. This should of course, be avoided at all costs.</p>
+
+<p>We reimplemented the authentication to be completely server side. To do this, we used passport.js and JSON Web Tokens. The client will send the JWT to the server on each request. Once sent, the server will then intercept the request, making sure the user has a valid token and that the token hasn&rsquo;t expired yet.</p>
+
+<p>This was a great learning experience for the entire team, and one that certainly helped us better understand token-based authentication.</p>
+
+<h3 id="bestrida">Bestrida</h3>
+
+<p>We have finally made it to MVP! The server creates challenges, the user can view and accept these challenges, and we can finally declare a winner based off live Strava data. This has been a very challenging but rewarding process for the entire team, and we are so excited to show off our product to potential employers.</p>
+
+<p>With next week being a solo week for Christmas vacation, I will post again in 2016!</p>
 
   </div>
   
@@ -820,35 +851,6 @@ sudo service ghost restart
 <p>The first week involved discussion and implementation of various data structures. We first started with the implementation of stacks and queues. During the rest of the week, we focused on more advanced data structures, such as linked lists, trees, graphs, sets, and binary search trees.</p>
 
 <p>One of the most surprising things about Hack Reactor was the amount of thorough and thoughtful video lectures on &ldquo;soft skills&rdquo; to help with both the program and becoming an effective learner and programmer.</p>
-
-  </div>
-  
-  <div class="post">
-    <h1 class="post-title">
-      <a href="https://jrzimmerman.github.io/post/hack-reactor-week-10/">
-        Hack Reactor Week 10
-      </a>
-    </h1>
-
-    <span class="post-date">Mon, Jan 1, 0001</span>
-
-    
-
-<p>With Thesis moving along very nicely, here is what happened in week 10!</p>
-
-<h3 id="authentication">Authentication</h3>
-
-<p>One of the challenges faced this week during thesis is removing API keys from the client side. With a mobile application, you should consider all of your code accessible for the world to see. This would allow for any user to view your API&rsquo;s secret key allowing other user&rsquo;s to make (potentially) malicious requests to the API. This should of course, be avoided at all costs.</p>
-
-<p>We reimplemented the authentication to be completely server side. To do this, we used passport.js and JSON Web Tokens. The client will send the JWT to the server on each request. Once sent, the server will then intercept the request, making sure the user has a valid token and that the token hasn&rsquo;t expired yet.</p>
-
-<p>This was a great learning experience for the entire team, and one that certainly helped us better understand token-based authentication.</p>
-
-<h3 id="bestrida">Bestrida</h3>
-
-<p>We have finally made it to MVP! The server creates challenges, the user can view and accept these challenges, and we can finally declare a winner based off live Strava data. This has been a very challenging but rewarding process for the entire team, and we are so excited to show off our product to potential employers.</p>
-
-<p>With next week being a solo week for Christmas vacation, I will post again in 2016!</p>
 
   </div>
   

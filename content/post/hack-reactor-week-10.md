@@ -1,10 +1,12 @@
----
-title: Hack Reactor Week 10
-slug: hack-reactor-week-10
-date_published: 2015-12-28T21:22:00.000Z
-date_updated:   2016-06-13T07:30:09.000Z
-tags: Hack Reactor
----
++++
+Categories = ["Hack Reactor"]
+Description = ""
+Tags = ["Hack Reactor"]
+date = "2015-12-28T19:05:39-04:00"
+menu = "main"
+title = "Hack Reactor Week 10"
+
++++
 
 With Thesis moving along very nicely, here is what happened in week 10!
 
@@ -20,4 +22,3 @@ This was a great learning experience for the entire team, and one that certainly
 We have finally made it to MVP! The server creates challenges, the user can view and accept these challenges, and we can finally declare a winner based off live Strava data. This has been a very challenging but rewarding process for the entire team, and we are so excited to show off our product to potential employers.
 
 With next week being a solo week for Christmas vacation, I will post again in 2016! 
-

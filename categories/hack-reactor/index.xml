@@ -52,5 +52,31 @@
 </description>
     </item>
     
+    <item>
+      <title>Hack Reactor Week 10</title>
+      <link>https://jrzimmerman.github.io/post/hack-reactor-week-10/</link>
+      <pubDate>Mon, 28 Dec 2015 19:05:39 -0400</pubDate>
+      
+      <guid>https://jrzimmerman.github.io/post/hack-reactor-week-10/</guid>
+      <description>
+
+&lt;p&gt;With Thesis moving along very nicely, here is what happened in week 10!&lt;/p&gt;
+
+&lt;h3 id=&#34;authentication&#34;&gt;Authentication&lt;/h3&gt;
+
+&lt;p&gt;One of the challenges faced this week during thesis is removing API keys from the client side. With a mobile application, you should consider all of your code accessible for the world to see. This would allow for any user to view your API&amp;rsquo;s secret key allowing other user&amp;rsquo;s to make (potentially) malicious requests to the API. This should of course, be avoided at all costs.&lt;/p&gt;
+
+&lt;p&gt;We reimplemented the authentication to be completely server side. To do this, we used passport.js and JSON Web Tokens. The client will send the JWT to the server on each request. Once sent, the server will then intercept the request, making sure the user has a valid token and that the token hasn&amp;rsquo;t expired yet.&lt;/p&gt;
+
+&lt;p&gt;This was a great learning experience for the entire team, and one that certainly helped us better understand token-based authentication.&lt;/p&gt;
+
+&lt;h3 id=&#34;bestrida&#34;&gt;Bestrida&lt;/h3&gt;
+
+&lt;p&gt;We have finally made it to MVP! The server creates challenges, the user can view and accept these challenges, and we can finally declare a winner based off live Strava data. This has been a very challenging but rewarding process for the entire team, and we are so excited to show off our product to potential employers.&lt;/p&gt;
+
+&lt;p&gt;With next week being a solo week for Christmas vacation, I will post again in 2016!&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

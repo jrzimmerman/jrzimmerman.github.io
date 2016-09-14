@@ -247,6 +247,32 @@ windowSize: [1300, 650]
     </item>
     
     <item>
+      <title>Hack Reactor Week 10</title>
+      <link>https://jrzimmerman.github.io/post/hack-reactor-week-10/</link>
+      <pubDate>Mon, 28 Dec 2015 19:05:39 -0400</pubDate>
+      
+      <guid>https://jrzimmerman.github.io/post/hack-reactor-week-10/</guid>
+      <description>
+
+&lt;p&gt;With Thesis moving along very nicely, here is what happened in week 10!&lt;/p&gt;
+
+&lt;h3 id=&#34;authentication&#34;&gt;Authentication&lt;/h3&gt;
+
+&lt;p&gt;One of the challenges faced this week during thesis is removing API keys from the client side. With a mobile application, you should consider all of your code accessible for the world to see. This would allow for any user to view your API&amp;rsquo;s secret key allowing other user&amp;rsquo;s to make (potentially) malicious requests to the API. This should of course, be avoided at all costs.&lt;/p&gt;
+
+&lt;p&gt;We reimplemented the authentication to be completely server side. To do this, we used passport.js and JSON Web Tokens. The client will send the JWT to the server on each request. Once sent, the server will then intercept the request, making sure the user has a valid token and that the token hasn&amp;rsquo;t expired yet.&lt;/p&gt;
+
+&lt;p&gt;This was a great learning experience for the entire team, and one that certainly helped us better understand token-based authentication.&lt;/p&gt;
+
+&lt;h3 id=&#34;bestrida&#34;&gt;Bestrida&lt;/h3&gt;
+
+&lt;p&gt;We have finally made it to MVP! The server creates challenges, the user can view and accept these challenges, and we can finally declare a winner based off live Strava data. This has been a very challenging but rewarding process for the entire team, and we are so excited to show off our product to potential employers.&lt;/p&gt;
+
+&lt;p&gt;With next week being a solo week for Christmas vacation, I will post again in 2016!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Updating Feature Coordinates With Python</title>
       <link>https://jrzimmerman.github.io/post/updating-feature-coordinates-with-python/</link>
       <pubDate>Fri, 08 May 2015 21:41:19 -0400</pubDate>
@@ -654,24 +680,6 @@ sudo service ghost restart
 &lt;p&gt;The last day consisted of learning a variety of ways to improve your online presence. These included tips and tricks on how to improve your Github and LinkedIn. We discussed the importance of an online portfolio site, and blogging about technical concepts. We also covered the basics on resumes, cover letters, applying for jobs, and how to prepare for interviews.&lt;/p&gt;
 
 &lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/hack-reactor-remote-prep-week-1/&#34;&gt;Week 1&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/hack-reactor-remote-prep-week-2/&#34;&gt;Week 2&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/hack-reactor-remote-prep-week-3/&#34;&gt;Week 3&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/hack-reactor-remote-prep-week-4/&#34;&gt;&lt;b&gt;Week 4&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hack Reactor Week 0</title>
-      <link>https://jrzimmerman.github.io/post/hack-reactor-week-0/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/hack-reactor-week-0/</guid>
-      <description>&lt;p&gt;It&amp;rsquo;s finally that time! After completing the pre-course work, I start my journey with Hack Reactor today.&lt;/p&gt;
-
-&lt;p&gt;I plan to write on a weekly basis about the new topics covered, and what was focused on during my time here at Hack Reactor.&lt;/p&gt;
-
-&lt;p&gt;During the pre-course we focused on gaining a firm understanding of web development technologies such as HTML, CSS, and jQuery.&lt;/p&gt;
-
-&lt;p&gt;Programming concepts such as scope, execution contexts, objects, and recursion were discussed in great length.&lt;/p&gt;
-
-&lt;p&gt;I am so excited to start my journey into Software Engineering with Hack Reactor!&lt;/p&gt;
 </description>
     </item>
     
