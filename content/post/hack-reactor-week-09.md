@@ -1,10 +1,12 @@
----
-title: Hack Reactor Week 9
-slug: hack-reactor-week-9
-date_published: 2015-12-10T00:17:00.000Z
-date_updated:   2016-06-13T07:26:05.000Z
-tags: Hack Reactor
----
++++
+Categories = ["Hack Reactor"]
+Description = ""
+Tags = ["Hack Reactor"]
+date = "2015-12-10T08:13:26-04:00"
+menu = "main"
+title = "Hack Reactor Week 9"
+
++++
 
 Week 9 is finished at Hack Reactor, and thesis projects are in full swing! While there aren't many things on the schedule, thesis is all about trying to build the best product in the 3 short weeks you have dedicated to it.
 
@@ -30,4 +32,3 @@ Bestrida will allow a user to challenge anyone they follow to a particular segme
 All of my friends are great to ride with, but like most cyclists, they are also always up for a short sprint through a well known Strava segment. This application will take your casual ride with friends to a whole new level.
 
 That's all for this week. Next week I will continue to describe Bestrida, and discuss topics learned along the way.
-
