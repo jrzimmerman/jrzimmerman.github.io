@@ -1,10 +1,12 @@
----
-title: Since My Last Hack Reactor Interview
-slug: since-my-last-hack-reactor-interview
-date_published: 2015-06-28T06:48:00.000Z
-date_updated:   2016-06-13T06:51:06.000Z
-tags: Hack Reactor
----
++++
+Categories = ["Hack Reactor"]
+Description = ""
+Tags = ["Hack Reactor"]
+date = "2015-06-28T10:19:13-04:00"
+menu = "main"
+title = "Since My Last Hack Reactor Interview"
+
++++
 
 There are a multitude of things I have done since my last Hack Reactor interview to better prepare for the next interview.
 
@@ -23,4 +25,3 @@ I have completed various [Code Wars Koans](www.codewars.com/r/LQ0GHw) in Javascr
 I started to attempt to figure out the Google Maps and Places APIs. This has been really fun! Being a Geography major, I look forward to trying to wrap my head about location based services. I started off simply using a fixed location to show nearby restaurants, and I hope to get the geolocation to correctly work to show results any where in the world!
 
 I hope this will solidify my background to finally break through. If you have been accepted into Hack Reactor, what have you done to push you over the edge?
-
