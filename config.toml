@@ -2,7 +2,7 @@ baseurl = "https://jrzimmerman.github.io/"
 languageCode = "en-us"
 title = "Justin Zimmerman"
 copyright = "Justin Zimmerman"
-theme = "hyde"
+theme = "hyde-y"
 googleAnalytics = "UA-37904415-1"
 
 [Author]
