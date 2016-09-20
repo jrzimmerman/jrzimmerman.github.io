@@ -31,9 +31,9 @@ disqusShortname = "justinzimmerman"
   googleAnalytics = "UA-37904415-1"
 
   # Sidebar social links.
-  github = "https://github.com/jrzimmerman"
-  twitter = "https://twitter.com/justzimmerman"
-  linkedin = "https://www.linkedin.com/in/justinrzimmerman"
+  github = "jrzimmerman"
+  twitter = "justzimmerman"
+  linkedin = "justinrzimmerman"
   
   # Sidebar RSS link: will only show up if there is a RSS feed
   # associated with the current page
