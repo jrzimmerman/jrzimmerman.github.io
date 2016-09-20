@@ -1,7 +1,7 @@
 +++
-Categories = ["Development", "GoLang"]
+Categories = ["Bestrida", "React Native"]
 Description = ""
-Tags = ["Development", "golang"]
+Tags = ["Bestrida", "React Native"]
 date = "2016-09-04T22:35:35-04:00"
 menu = "main"
 title = "Bestrida"

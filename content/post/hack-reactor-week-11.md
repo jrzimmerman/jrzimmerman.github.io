@@ -3,7 +3,6 @@ Categories = ["Hack Reactor"]
 Description = ""
 Tags = ["Hack Reactor"]
 date = "2016-01-03T08:54:39-04:00"
-menu = "main"
 title = "Hack Reactor Week 11"
 
 +++

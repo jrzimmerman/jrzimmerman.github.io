@@ -3,7 +3,6 @@ Categories = ["Hack Reactor"]
 Description = ""
 Tags = ["Hack Reactor"]
 date = "2015-12-10T08:13:26-04:00"
-menu = "main"
 title = "Hack Reactor Week 9"
 
 +++
@@ -21,7 +20,7 @@ While building a product can feel this way sometimes, I am having an awesome tim
 
 For our thesis project, my group has decided to build upon Strava's extensive API. We are seriously fortunate to have such a great API to leverage for our product!
 
-With that being said, heres a little bit about Bestrida.
+With that being said, here is a little bit about Bestrida.
 
 ### Bestrida
 
