@@ -1,11 +1,15 @@
 +++
-Categories = ["Hack Reactor"]
-Description = ""
-Tags = ["Hack Reactor"]
-date = "2015-12-10T08:13:26-04:00"
+author = "Justin Zimmerman"
+date = "2015-12-10T09:50:22-04:00"
+description = "Week 9 of the Hack Reactor Immersive Software Engineering Program."
+keywords = ["Hack Reactor", "Hack", "Reactor", "Bootcamp", "Immersive", "Software Engineering", "Software", "Engineering"]
+tags = ["Hack Reactor"]
 title = "Hack Reactor Week 9"
+topics = ["Hack Reactor"]
+type = "post"
 
 +++
+
 
 Week 9 is finished at Hack Reactor, and thesis projects are in full swing! While there aren't many things on the schedule, thesis is all about trying to build the best product in the 3 short weeks you have dedicated to it.
 

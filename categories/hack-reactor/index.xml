@@ -81,42 +81,6 @@
     </item>
     
     <item>
-      <title>Hack Reactor Week 9</title>
-      <link>http://justinzimmerman.net/post/hack-reactor-week-09/</link>
-      <pubDate>Thu, 10 Dec 2015 08:13:26 -0400</pubDate>
-      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
-      <guid>http://justinzimmerman.net/post/hack-reactor-week-09/</guid>
-      <description>
-
-&lt;p&gt;Week 9 is finished at Hack Reactor, and thesis projects are in full swing! While there aren&amp;rsquo;t many things on the schedule, thesis is all about trying to build the best product in the 3 short weeks you have dedicated to it.&lt;/p&gt;
-
-&lt;h3 id=&#34;thesis&#34;&gt;Thesis&lt;/h3&gt;
-
-&lt;p&gt;To start, this is a perfect summary of life during thesis:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://i.imgur.com/wJ4IcDJ.gif&#34; alt=&#34;thesis&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Have no fear, little buddy.&lt;/p&gt;
-
-&lt;p&gt;While building a product can feel this way sometimes, I am having an awesome time learning and problem solving to create the best app we can possibly produce.&lt;/p&gt;
-
-&lt;p&gt;For our thesis project, my group has decided to build upon Strava&amp;rsquo;s extensive API. We are seriously fortunate to have such a great API to leverage for our product!&lt;/p&gt;
-
-&lt;p&gt;With that being said, here is a little bit about Bestrida.&lt;/p&gt;
-
-&lt;h3 id=&#34;bestrida&#34;&gt;Bestrida&lt;/h3&gt;
-
-&lt;p&gt;The name pays homage to Strava by also leaning upon it Swedish vocabulary. Strava is swedish for &amp;ldquo;to strive&amp;rdquo;, while Bestrida is swedish for &amp;ldquo;to challenge&amp;rdquo;. Which is exactly what our app does.&lt;/p&gt;
-
-&lt;p&gt;Bestrida will allow a user to challenge anyone they follow to a particular segment. The user will pick a person to challenge, a segment, and a date the challenge will be completed.&lt;/p&gt;
-
-&lt;p&gt;All of my friends are great to ride with, but like most cyclists, they are also always up for a short sprint through a well known Strava segment. This application will take your casual ride with friends to a whole new level.&lt;/p&gt;
-
-&lt;p&gt;That&amp;rsquo;s all for this week. Next week I will continue to describe Bestrida, and discuss topics learned along the way.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Since My Last Hack Reactor Interview</title>
       <link>http://justinzimmerman.net/post/since-my-last-hack-reactor-interview/</link>
       <pubDate>Sun, 28 Jun 2015 10:19:13 -0400</pubDate>
