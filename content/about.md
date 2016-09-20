@@ -1,9 +1,11 @@
 +++
-Categories = ["About"]
-Description = "About Justin Zimmerman"
-Tags = ["About"]
-date = "2016-09-12T21:07:44-04:00"
+author = "author"
+date = "2016-09-12T09:26:55-04:00"
+description = "About Justin Zimmerman"
+keywords = ["Justin", "Zimmerman", "About"]
+tags = ["About"]
 title = "About"
+topics = ["About"]
 
 +++
 
