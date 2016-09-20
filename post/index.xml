@@ -2,30 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Justin Zimmerman</title>
-    <link>https://jrzimmerman.github.io/post/</link>
+    <link>http://justinzimmerman.net/post/</link>
     <description>Recent content in Posts on Justin Zimmerman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Justin Zimmerman</copyright>
+    <managingEditor>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</managingEditor>
+    <webMaster>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</webMaster>
+    <copyright>(c) 2016 Justin Zimmerman.</copyright>
     <lastBuildDate>Mon, 19 Sep 2016 08:55:24 -0400</lastBuildDate>
-    <atom:link href="https://jrzimmerman.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://justinzimmerman.net/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Red Ventures Hackathon 2016</title>
-      <link>https://jrzimmerman.github.io/post/rv-hackathon-2016/</link>
+      <link>http://justinzimmerman.net/post/rv-hackathon-2016/</link>
       <pubDate>Mon, 19 Sep 2016 08:55:24 -0400</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/rv-hackathon-2016/</guid>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/rv-hackathon-2016/</guid>
       <description>&lt;p&gt;This past weekend I participated in Red Ventures Hackathon! Our project was Facial Recognition Security.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Bestrida</title>
-      <link>https://jrzimmerman.github.io/post/bestrida/</link>
+      <link>http://justinzimmerman.net/post/bestrida/</link>
       <pubDate>Sun, 04 Sep 2016 22:35:35 -0400</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/bestrida/</guid>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/bestrida/</guid>
       <description>
 
 &lt;p&gt;I recently published &lt;a href=&#34;https://appsto.re/us/lBRCeb.i&#34;&gt;Bestrida&lt;/a&gt; to the iOS app store for my submission to the 2016 Strava Developer Challenge. Here is a brief overview of the application. Strava.com is a popular and widely used website and mobile app that over one million cyclists and runners use to track their activity via GPS. Whenever you go for a run or ride your bike, Strava will track and store your activity and provide you with useful statistics. As awesome as it is, a major thing Strava does not offer is a way to challenge your friends.&lt;/p&gt;
@@ -62,10 +64,10 @@ active challenge to view more detailed information about that particular challen
     
     <item>
       <title>Switching From Bash to ZSH</title>
-      <link>https://jrzimmerman.github.io/post/switching-from-bash-to-zsh/</link>
+      <link>http://justinzimmerman.net/post/switching-from-bash-to-zsh/</link>
       <pubDate>Mon, 01 Aug 2016 21:29:53 -0400</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/switching-from-bash-to-zsh/</guid>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/switching-from-bash-to-zsh/</guid>
       <description>
 
 &lt;p&gt;I recently switched from BASH (Bourne Again SHell) to ZSH after hearing about z shell&amp;rsquo;s many benefits.&lt;/p&gt;
@@ -119,7 +121,7 @@ brew install zsh
 
 &lt;p&gt;It comes with the &amp;ldquo;robbyrussell&amp;rdquo; theme as default, but I wanted something a bit more exciting like the &amp;ldquo;agnoster&amp;rdquo; theme as pictured below.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/img/agnoster.png&#34; alt=&#34;agnoster theme&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://justinzimmerman.net/img/agnoster.png&#34; alt=&#34;agnoster theme&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;To switch themes, open your .zshrc file and replace this line&lt;/p&gt;
 
@@ -159,10 +161,10 @@ brew install zsh
     
     <item>
       <title>Switching from iTerm to HyperTerm</title>
-      <link>https://jrzimmerman.github.io/post/switching-from-iterm-to-hyperterm/</link>
+      <link>http://justinzimmerman.net/post/switching-from-iterm-to-hyperterm/</link>
       <pubDate>Sat, 23 Jul 2016 22:26:47 -0400</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/switching-from-iterm-to-hyperterm/</guid>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/switching-from-iterm-to-hyperterm/</guid>
       <description>
 
 &lt;p&gt;Recently &lt;a href=&#34;https://zeit.co/&#34;&gt;zeit.co&lt;/a&gt; released to the world a wonderful terminal built with JavaScript / HTML / CSS called &lt;a href=&#34;https://hyperterm.org/&#34;&gt;HyperTerm&lt;/a&gt;. Even better yet, this terminal is fully customizable with open source plugins.&lt;/p&gt;
@@ -216,10 +218,10 @@ windowSize: [1300, 650]
     
     <item>
       <title>Hack Reactor Week 12</title>
-      <link>https://jrzimmerman.github.io/post/hack-reactor-week-12/</link>
+      <link>http://justinzimmerman.net/post/hack-reactor-week-12/</link>
       <pubDate>Mon, 11 Jan 2016 22:32:42 -0400</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/hack-reactor-week-12/</guid>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/hack-reactor-week-12/</guid>
       <description>&lt;p&gt;The realization that Week 12 has finally come to an end is definitely bitter-sweet. I have spent over 11 hours a day for the past 12 weeks learning Full-Stack Software Engineering. While I am looking forward getting back to a regular sleep schedule, I have learned more than I could imagine, and met many amazing people along the way.&lt;/p&gt;
 
 &lt;p&gt;Week 12 consisted of finalizing resumes, creating cover letters, and preparing for the job search ahead. This was one of the most interesting weeks of Hack Reactor, although I can&amp;rsquo;t go into much detail on their job search process.&lt;/p&gt;
@@ -230,10 +232,10 @@ windowSize: [1300, 650]
     
     <item>
       <title>Hack Reactor Week 11</title>
-      <link>https://jrzimmerman.github.io/post/hack-reactor-week-11/</link>
+      <link>http://justinzimmerman.net/post/hack-reactor-week-11/</link>
       <pubDate>Sun, 03 Jan 2016 08:54:39 -0400</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/hack-reactor-week-11/</guid>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/hack-reactor-week-11/</guid>
       <description>
 
 &lt;p&gt;With our product, Bestrida, to MVP (Minimum Viable Product) we will continue to improve our MVP features, as well as the look and feel of product, for the remainder of the week.&lt;/p&gt;
@@ -242,7 +244,7 @@ windowSize: [1300, 650]
 
 &lt;p&gt;Our product finally received a much needed design overhaul, and we are definitely happy with the result:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/img/bestrida.jpg&#34; alt=&#34;Bestrida&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://justinzimmerman.net/img/bestrida.jpg&#34; alt=&#34;Bestrida&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;stretch-goals&#34;&gt;Stretch Goals&lt;/h3&gt;
 
@@ -258,10 +260,10 @@ windowSize: [1300, 650]
     
     <item>
       <title>Hack Reactor Week 10</title>
-      <link>https://jrzimmerman.github.io/post/hack-reactor-week-10/</link>
+      <link>http://justinzimmerman.net/post/hack-reactor-week-10/</link>
       <pubDate>Mon, 28 Dec 2015 19:05:39 -0400</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/hack-reactor-week-10/</guid>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/hack-reactor-week-10/</guid>
       <description>
 
 &lt;p&gt;With Thesis moving along very nicely, here is what happened in week 10!&lt;/p&gt;
@@ -284,10 +286,10 @@ windowSize: [1300, 650]
     
     <item>
       <title>Hack Reactor Week 9</title>
-      <link>https://jrzimmerman.github.io/post/hack-reactor-week-09/</link>
+      <link>http://justinzimmerman.net/post/hack-reactor-week-09/</link>
       <pubDate>Thu, 10 Dec 2015 08:13:26 -0400</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/hack-reactor-week-09/</guid>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/hack-reactor-week-09/</guid>
       <description>
 
 &lt;p&gt;Week 9 is finished at Hack Reactor, and thesis projects are in full swing! While there aren&amp;rsquo;t many things on the schedule, thesis is all about trying to build the best product in the 3 short weeks you have dedicated to it.&lt;/p&gt;
@@ -320,10 +322,10 @@ windowSize: [1300, 650]
     
     <item>
       <title>Since My Last Hack Reactor Interview</title>
-      <link>https://jrzimmerman.github.io/post/since-my-last-hack-reactor-interview/</link>
+      <link>http://justinzimmerman.net/post/since-my-last-hack-reactor-interview/</link>
       <pubDate>Sun, 28 Jun 2015 10:19:13 -0400</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/since-my-last-hack-reactor-interview/</guid>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/since-my-last-hack-reactor-interview/</guid>
       <description>&lt;p&gt;There are a multitude of things I have done since my last Hack Reactor interview to better prepare for the next interview.&lt;/p&gt;
 
 &lt;p&gt;I have continued to study the beginning of Eloquent Javascript (especially rereading Chapter 5).&lt;/p&gt;
@@ -346,10 +348,10 @@ windowSize: [1300, 650]
     
     <item>
       <title>Updating Feature Coordinates With Python</title>
-      <link>https://jrzimmerman.github.io/post/updating-feature-coordinates-with-python/</link>
+      <link>http://justinzimmerman.net/post/updating-feature-coordinates-with-python/</link>
       <pubDate>Fri, 08 May 2015 21:41:19 -0400</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/updating-feature-coordinates-with-python/</guid>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/updating-feature-coordinates-with-python/</guid>
       <description>&lt;p&gt;I was asked to update the location of manhole points with new survey data. Traditionally this is a long task, dragging the old manholes to their new locations.&lt;/p&gt;
 
 &lt;p&gt;Before we assume how it would be so much easier to just delete the old data, and import the new data. First we have to consider all the attribute information associated with the data, sure we can join based on the Manhole ID but what happens when we have to worry about attachments?&lt;/p&gt;
@@ -399,10 +401,10 @@ return point
     
     <item>
       <title>Turf.js</title>
-      <link>https://jrzimmerman.github.io/post/turf-js/</link>
+      <link>http://justinzimmerman.net/post/turf-js/</link>
       <pubDate>Tue, 10 Mar 2015 08:13:21 -0400</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/turf-js/</guid>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/turf-js/</guid>
       <description>
 
 &lt;p&gt;Over the winter I was able to spend some free time assisting with the development of the &lt;a href=&#34;http://turfjs.org/&#34;&gt;Turf.js&lt;/a&gt; project!&lt;/p&gt;
@@ -427,15 +429,15 @@ return point
     
     <item>
       <title>Visualizing Map Service Usage</title>
-      <link>https://jrzimmerman.github.io/post/visualizing-map-service-usage/</link>
+      <link>http://justinzimmerman.net/post/visualizing-map-service-usage/</link>
       <pubDate>Thu, 24 Oct 2013 21:43:29 -0400</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/visualizing-map-service-usage/</guid>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/visualizing-map-service-usage/</guid>
       <description>
 
 &lt;p&gt;I recently developed a &lt;a href=&#34;http://75.151.252.249/RichlandHeatmap/&#34;&gt;JavaScript web application&lt;/a&gt; to visualize incident reporting for a local municipality collecting &lt;a href=&#34;http://75.151.252.249/RichlandServiceRequest/&#34;&gt;Stormwater Incident Reports&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/img/richlandheatmap.png&#34; alt=&#34;Richland Service Request&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://justinzimmerman.net/img/richlandheatmap.png&#34; alt=&#34;Richland Service Request&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The idea behind this application, will be to determine the usage of the reporting system, and to additionally determine &amp;ldquo;Problem Areas&amp;rdquo; for further corrective action planning.&lt;/p&gt;
 
@@ -443,15 +445,15 @@ return point
 
 &lt;p&gt;One of the most important considerations for determining areas, is to determine the scale. The scale the data is viewed at can change the data is interpreted.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/img/smallscale.png&#34; alt=&#34;Small Scale&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://justinzimmerman.net/img/smallscale.png&#34; alt=&#34;Small Scale&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Small scale cannot accurately depict areas.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/img/largescale.png&#34; alt=&#34;Large Scale&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://justinzimmerman.net/img/largescale.png&#34; alt=&#34;Large Scale&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Large scale does not allow for a focused approach to specific areas.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/img/justright.png&#34; alt=&#34;Just Right&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://justinzimmerman.net/img/justright.png&#34; alt=&#34;Just Right&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Just right. This scale provides a few areas that are easily identifiable.&lt;/p&gt;
 
@@ -467,10 +469,10 @@ return point
     
     <item>
       <title>Create a Static Page on a Digital Ocean Droplet</title>
-      <link>https://jrzimmerman.github.io/post/create-a-static-page-on-a-digital-ocean-droplet/</link>
+      <link>http://justinzimmerman.net/post/create-a-static-page-on-a-digital-ocean-droplet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/create-a-static-page-on-a-digital-ocean-droplet/</guid>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/create-a-static-page-on-a-digital-ocean-droplet/</guid>
       <description>
 
 &lt;p&gt;I currently use Digital Ocean to host my ghost blog. This has a been a very fun adventure, allowing me to learn the &amp;ldquo;ins and outs&amp;rdquo; of linux server administration.&lt;/p&gt;
@@ -555,10 +557,10 @@ sudo service ghost restart
     
     <item>
       <title>Geolocation on Page Load</title>
-      <link>https://jrzimmerman.github.io/post/geolocation-on-page-load/</link>
+      <link>http://justinzimmerman.net/post/geolocation-on-page-load/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/geolocation-on-page-load/</guid>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/geolocation-on-page-load/</guid>
       <description>
 
 &lt;p&gt;While building &lt;a href=&#34;https://geotinerary.herokuapp.com/&#34;&gt;Geotinerary&lt;/a&gt;, I wanted the map to zoom relatively close to the users location. Surprisingly enough, this was quite hard to find an example of.&lt;/p&gt;
@@ -589,10 +591,10 @@ sudo service ghost restart
     
     <item>
       <title>Hack Reactor Remote Prep Week 1</title>
-      <link>https://jrzimmerman.github.io/post/hack-reactor-remote-prep-week-1/</link>
+      <link>http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/hack-reactor-remote-prep-week-1/</guid>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/</guid>
       <description>
 
 &lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/hack-reactor-remote-prep-week-1/&#34;&gt;&lt;b&gt;Week 1&lt;/b&gt;&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/hack-reactor-remote-prep-week-2/&#34;&gt;Week 2&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/hack-reactor-remote-prep-week-3/&#34;&gt;Week 3&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/hack-reactor-remote-prep-week-4/&#34;&gt;Week 4&lt;/a&gt;&lt;/p&gt;

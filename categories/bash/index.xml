@@ -2,20 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bash on Justin Zimmerman</title>
-    <link>https://jrzimmerman.github.io/categories/bash/</link>
+    <link>http://justinzimmerman.net/categories/bash/</link>
     <description>Recent content in Bash on Justin Zimmerman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Justin Zimmerman</copyright>
+    <managingEditor>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</managingEditor>
+    <webMaster>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</webMaster>
+    <copyright>(c) 2016 Justin Zimmerman.</copyright>
     <lastBuildDate>Mon, 01 Aug 2016 21:29:53 -0400</lastBuildDate>
-    <atom:link href="https://jrzimmerman.github.io/categories/bash/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://justinzimmerman.net/categories/bash/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Switching From Bash to ZSH</title>
-      <link>https://jrzimmerman.github.io/post/switching-from-bash-to-zsh/</link>
+      <link>http://justinzimmerman.net/post/switching-from-bash-to-zsh/</link>
       <pubDate>Mon, 01 Aug 2016 21:29:53 -0400</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/switching-from-bash-to-zsh/</guid>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/switching-from-bash-to-zsh/</guid>
       <description>
 
 &lt;p&gt;I recently switched from BASH (Bourne Again SHell) to ZSH after hearing about z shell&amp;rsquo;s many benefits.&lt;/p&gt;
@@ -69,7 +71,7 @@ brew install zsh
 
 &lt;p&gt;It comes with the &amp;ldquo;robbyrussell&amp;rdquo; theme as default, but I wanted something a bit more exciting like the &amp;ldquo;agnoster&amp;rdquo; theme as pictured below.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/img/agnoster.png&#34; alt=&#34;agnoster theme&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://justinzimmerman.net/img/agnoster.png&#34; alt=&#34;agnoster theme&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;To switch themes, open your .zshrc file and replace this line&lt;/p&gt;
 

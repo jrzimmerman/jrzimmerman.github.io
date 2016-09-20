@@ -2,20 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hackathon on Justin Zimmerman</title>
-    <link>https://jrzimmerman.github.io/categories/hackathon/</link>
+    <link>http://justinzimmerman.net/categories/hackathon/</link>
     <description>Recent content in Hackathon on Justin Zimmerman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Justin Zimmerman</copyright>
+    <managingEditor>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</managingEditor>
+    <webMaster>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</webMaster>
+    <copyright>(c) 2016 Justin Zimmerman.</copyright>
     <lastBuildDate>Mon, 19 Sep 2016 08:55:24 -0400</lastBuildDate>
-    <atom:link href="https://jrzimmerman.github.io/categories/hackathon/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://justinzimmerman.net/categories/hackathon/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Red Ventures Hackathon 2016</title>
-      <link>https://jrzimmerman.github.io/post/rv-hackathon-2016/</link>
+      <link>http://justinzimmerman.net/post/rv-hackathon-2016/</link>
       <pubDate>Mon, 19 Sep 2016 08:55:24 -0400</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/rv-hackathon-2016/</guid>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/rv-hackathon-2016/</guid>
       <description>&lt;p&gt;This past weekend I participated in Red Ventures Hackathon! Our project was Facial Recognition Security.&lt;/p&gt;
 </description>
     </item>

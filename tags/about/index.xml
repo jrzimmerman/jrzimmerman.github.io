@@ -2,20 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on Justin Zimmerman</title>
-    <link>https://jrzimmerman.github.io/tags/about/</link>
+    <link>http://justinzimmerman.net/tags/about/</link>
     <description>Recent content in About on Justin Zimmerman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Justin Zimmerman</copyright>
+    <managingEditor>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</managingEditor>
+    <webMaster>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</webMaster>
+    <copyright>(c) 2016 Justin Zimmerman.</copyright>
     <lastBuildDate>Mon, 12 Sep 2016 21:07:44 -0400</lastBuildDate>
-    <atom:link href="https://jrzimmerman.github.io/tags/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://justinzimmerman.net/tags/about/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>About</title>
-      <link>https://jrzimmerman.github.io/about/</link>
+      <link>http://justinzimmerman.net/about/</link>
       <pubDate>Mon, 12 Sep 2016 21:07:44 -0400</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/about/</guid>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/about/</guid>
       <description>&lt;p&gt;Hi, I&amp;rsquo;m Justin Zimmerman. I work at Red Ventures as a Full Stack Software Engineer.&lt;/p&gt;
 </description>
     </item>

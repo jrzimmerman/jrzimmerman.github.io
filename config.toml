@@ -1,17 +1,40 @@
-baseurl = "https://jrzimmerman.github.io/"
+baseurl = "http://justinzimmerman.net"
 languageCode = "en-us"
 title = "Justin Zimmerman"
-copyright = "Justin Zimmerman"
+copyright = "(c) 2016 Justin Zimmerman."
 theme = "hyde-y"
-googleAnalytics = "UA-37904415-1"
+
+# Enable Disqus integration
+disqusShortname = "justinzimmerman"
 
 [Author]
   name = "Justin Zimmerman"
+  email = "justin.richard.zimmerman@gmail.com"
 
 [params]
-  description = "Full Stack Software Engineer"
-  themeColor = "theme-base-0d"
+  brand = "Justin Zimmerman"
+  topline = "Software Engineer"
+  
+  # Sidebar position
+  # false, true, "left", "right"
+  sidebar = "left"
+  
+  # Text for the top menu link, which goes the root URL for the site.
+  # Default (if omitted) is "Home".
+  home = "home"
+
+  # Select a syntax highight.
+  # Check the static/css/highlight directory for options.
+  highlight = "default"
+  
+  # Google Analytics.
+  googleAnalytics = "UA-37904415-1"
+
+  # Sidebar social links.
   github = "https://github.com/jrzimmerman"
   twitter = "https://twitter.com/justzimmerman"
   linkedin = "https://www.linkedin.com/in/justinrzimmerman"
-  disqusShortname = "justinzimmerman"
+  
+  # Sidebar RSS link: will only show up if there is a RSS feed
+  # associated with the current page
+  rss = true  

@@ -2,20 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Golang on Justin Zimmerman</title>
-    <link>https://jrzimmerman.github.io/categories/golang/</link>
+    <link>http://justinzimmerman.net/categories/golang/</link>
     <description>Recent content in Golang on Justin Zimmerman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Justin Zimmerman</copyright>
+    <managingEditor>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</managingEditor>
+    <webMaster>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</webMaster>
+    <copyright>(c) 2016 Justin Zimmerman.</copyright>
     <lastBuildDate>Fri, 08 May 2015 21:41:19 -0400</lastBuildDate>
-    <atom:link href="https://jrzimmerman.github.io/categories/golang/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://justinzimmerman.net/categories/golang/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Updating Feature Coordinates With Python</title>
-      <link>https://jrzimmerman.github.io/post/updating-feature-coordinates-with-python/</link>
+      <link>http://justinzimmerman.net/post/updating-feature-coordinates-with-python/</link>
       <pubDate>Fri, 08 May 2015 21:41:19 -0400</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/updating-feature-coordinates-with-python/</guid>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/updating-feature-coordinates-with-python/</guid>
       <description>&lt;p&gt;I was asked to update the location of manhole points with new survey data. Traditionally this is a long task, dragging the old manholes to their new locations.&lt;/p&gt;
 
 &lt;p&gt;Before we assume how it would be so much easier to just delete the old data, and import the new data. First we have to consider all the attribute information associated with the data, sure we can join based on the Manhole ID but what happens when we have to worry about attachments?&lt;/p&gt;
@@ -65,15 +67,15 @@ return point
     
     <item>
       <title>Visualizing Map Service Usage</title>
-      <link>https://jrzimmerman.github.io/post/visualizing-map-service-usage/</link>
+      <link>http://justinzimmerman.net/post/visualizing-map-service-usage/</link>
       <pubDate>Thu, 24 Oct 2013 21:43:29 -0400</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/visualizing-map-service-usage/</guid>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/visualizing-map-service-usage/</guid>
       <description>
 
 &lt;p&gt;I recently developed a &lt;a href=&#34;http://75.151.252.249/RichlandHeatmap/&#34;&gt;JavaScript web application&lt;/a&gt; to visualize incident reporting for a local municipality collecting &lt;a href=&#34;http://75.151.252.249/RichlandServiceRequest/&#34;&gt;Stormwater Incident Reports&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/img/richlandheatmap.png&#34; alt=&#34;Richland Service Request&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://justinzimmerman.net/img/richlandheatmap.png&#34; alt=&#34;Richland Service Request&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The idea behind this application, will be to determine the usage of the reporting system, and to additionally determine &amp;ldquo;Problem Areas&amp;rdquo; for further corrective action planning.&lt;/p&gt;
 
@@ -81,15 +83,15 @@ return point
 
 &lt;p&gt;One of the most important considerations for determining areas, is to determine the scale. The scale the data is viewed at can change the data is interpreted.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/img/smallscale.png&#34; alt=&#34;Small Scale&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://justinzimmerman.net/img/smallscale.png&#34; alt=&#34;Small Scale&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Small scale cannot accurately depict areas.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/img/largescale.png&#34; alt=&#34;Large Scale&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://justinzimmerman.net/img/largescale.png&#34; alt=&#34;Large Scale&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Large scale does not allow for a focused approach to specific areas.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/img/justright.png&#34; alt=&#34;Just Right&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://justinzimmerman.net/img/justright.png&#34; alt=&#34;Just Right&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Just right. This scale provides a few areas that are easily identifiable.&lt;/p&gt;
 

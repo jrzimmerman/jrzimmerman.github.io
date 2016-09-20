@@ -2,20 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Javascript on Justin Zimmerman</title>
-    <link>https://jrzimmerman.github.io/categories/javascript/</link>
+    <link>http://justinzimmerman.net/categories/javascript/</link>
     <description>Recent content in Javascript on Justin Zimmerman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Justin Zimmerman</copyright>
+    <managingEditor>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</managingEditor>
+    <webMaster>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</webMaster>
+    <copyright>(c) 2016 Justin Zimmerman.</copyright>
     <lastBuildDate>Tue, 10 Mar 2015 08:13:21 -0400</lastBuildDate>
-    <atom:link href="https://jrzimmerman.github.io/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://justinzimmerman.net/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Turf.js</title>
-      <link>https://jrzimmerman.github.io/post/turf-js/</link>
+      <link>http://justinzimmerman.net/post/turf-js/</link>
       <pubDate>Tue, 10 Mar 2015 08:13:21 -0400</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/turf-js/</guid>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/turf-js/</guid>
       <description>
 
 &lt;p&gt;Over the winter I was able to spend some free time assisting with the development of the &lt;a href=&#34;http://turfjs.org/&#34;&gt;Turf.js&lt;/a&gt; project!&lt;/p&gt;

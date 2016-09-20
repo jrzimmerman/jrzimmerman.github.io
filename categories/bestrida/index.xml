@@ -2,20 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bestrida on Justin Zimmerman</title>
-    <link>https://jrzimmerman.github.io/categories/bestrida/</link>
+    <link>http://justinzimmerman.net/categories/bestrida/</link>
     <description>Recent content in Bestrida on Justin Zimmerman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Justin Zimmerman</copyright>
+    <managingEditor>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</managingEditor>
+    <webMaster>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</webMaster>
+    <copyright>(c) 2016 Justin Zimmerman.</copyright>
     <lastBuildDate>Sun, 04 Sep 2016 22:35:35 -0400</lastBuildDate>
-    <atom:link href="https://jrzimmerman.github.io/categories/bestrida/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://justinzimmerman.net/categories/bestrida/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Bestrida</title>
-      <link>https://jrzimmerman.github.io/post/bestrida/</link>
+      <link>http://justinzimmerman.net/post/bestrida/</link>
       <pubDate>Sun, 04 Sep 2016 22:35:35 -0400</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/bestrida/</guid>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/bestrida/</guid>
       <description>
 
 &lt;p&gt;I recently published &lt;a href=&#34;https://appsto.re/us/lBRCeb.i&#34;&gt;Bestrida&lt;/a&gt; to the iOS app store for my submission to the 2016 Strava Developer Challenge. Here is a brief overview of the application. Strava.com is a popular and widely used website and mobile app that over one million cyclists and runners use to track their activity via GPS. Whenever you go for a run or ride your bike, Strava will track and store your activity and provide you with useful statistics. As awesome as it is, a major thing Strava does not offer is a way to challenge your friends.&lt;/p&gt;

@@ -2,20 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hack Reactor on Justin Zimmerman</title>
-    <link>https://jrzimmerman.github.io/categories/hack-reactor/</link>
+    <link>http://justinzimmerman.net/categories/hack-reactor/</link>
     <description>Recent content in Hack Reactor on Justin Zimmerman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Justin Zimmerman</copyright>
+    <managingEditor>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</managingEditor>
+    <webMaster>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</webMaster>
+    <copyright>(c) 2016 Justin Zimmerman.</copyright>
     <lastBuildDate>Mon, 11 Jan 2016 22:32:42 -0400</lastBuildDate>
-    <atom:link href="https://jrzimmerman.github.io/categories/hack-reactor/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://justinzimmerman.net/categories/hack-reactor/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hack Reactor Week 12</title>
-      <link>https://jrzimmerman.github.io/post/hack-reactor-week-12/</link>
+      <link>http://justinzimmerman.net/post/hack-reactor-week-12/</link>
       <pubDate>Mon, 11 Jan 2016 22:32:42 -0400</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/hack-reactor-week-12/</guid>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/hack-reactor-week-12/</guid>
       <description>&lt;p&gt;The realization that Week 12 has finally come to an end is definitely bitter-sweet. I have spent over 11 hours a day for the past 12 weeks learning Full-Stack Software Engineering. While I am looking forward getting back to a regular sleep schedule, I have learned more than I could imagine, and met many amazing people along the way.&lt;/p&gt;
 
 &lt;p&gt;Week 12 consisted of finalizing resumes, creating cover letters, and preparing for the job search ahead. This was one of the most interesting weeks of Hack Reactor, although I can&amp;rsquo;t go into much detail on their job search process.&lt;/p&gt;
@@ -26,10 +28,10 @@
     
     <item>
       <title>Hack Reactor Week 11</title>
-      <link>https://jrzimmerman.github.io/post/hack-reactor-week-11/</link>
+      <link>http://justinzimmerman.net/post/hack-reactor-week-11/</link>
       <pubDate>Sun, 03 Jan 2016 08:54:39 -0400</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/hack-reactor-week-11/</guid>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/hack-reactor-week-11/</guid>
       <description>
 
 &lt;p&gt;With our product, Bestrida, to MVP (Minimum Viable Product) we will continue to improve our MVP features, as well as the look and feel of product, for the remainder of the week.&lt;/p&gt;
@@ -38,7 +40,7 @@
 
 &lt;p&gt;Our product finally received a much needed design overhaul, and we are definitely happy with the result:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://jrzimmerman.github.io/img/bestrida.jpg&#34; alt=&#34;Bestrida&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://justinzimmerman.net/img/bestrida.jpg&#34; alt=&#34;Bestrida&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;stretch-goals&#34;&gt;Stretch Goals&lt;/h3&gt;
 
@@ -54,10 +56,10 @@
     
     <item>
       <title>Hack Reactor Week 10</title>
-      <link>https://jrzimmerman.github.io/post/hack-reactor-week-10/</link>
+      <link>http://justinzimmerman.net/post/hack-reactor-week-10/</link>
       <pubDate>Mon, 28 Dec 2015 19:05:39 -0400</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/hack-reactor-week-10/</guid>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/hack-reactor-week-10/</guid>
       <description>
 
 &lt;p&gt;With Thesis moving along very nicely, here is what happened in week 10!&lt;/p&gt;
@@ -80,10 +82,10 @@
     
     <item>
       <title>Hack Reactor Week 9</title>
-      <link>https://jrzimmerman.github.io/post/hack-reactor-week-09/</link>
+      <link>http://justinzimmerman.net/post/hack-reactor-week-09/</link>
       <pubDate>Thu, 10 Dec 2015 08:13:26 -0400</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/hack-reactor-week-09/</guid>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/hack-reactor-week-09/</guid>
       <description>
 
 &lt;p&gt;Week 9 is finished at Hack Reactor, and thesis projects are in full swing! While there aren&amp;rsquo;t many things on the schedule, thesis is all about trying to build the best product in the 3 short weeks you have dedicated to it.&lt;/p&gt;
@@ -116,10 +118,10 @@
     
     <item>
       <title>Since My Last Hack Reactor Interview</title>
-      <link>https://jrzimmerman.github.io/post/since-my-last-hack-reactor-interview/</link>
+      <link>http://justinzimmerman.net/post/since-my-last-hack-reactor-interview/</link>
       <pubDate>Sun, 28 Jun 2015 10:19:13 -0400</pubDate>
-      
-      <guid>https://jrzimmerman.github.io/post/since-my-last-hack-reactor-interview/</guid>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/since-my-last-hack-reactor-interview/</guid>
       <description>&lt;p&gt;There are a multitude of things I have done since my last Hack Reactor interview to better prepare for the next interview.&lt;/p&gt;
 
 &lt;p&gt;I have continued to study the beginning of Eloquent Javascript (especially rereading Chapter 5).&lt;/p&gt;
