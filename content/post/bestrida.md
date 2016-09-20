@@ -1,10 +1,12 @@
 +++
-Categories = ["Bestrida", "React Native"]
-Description = ""
-Tags = ["Bestrida", "React Native"]
-date = "2016-09-04T22:35:35-04:00"
-menu = "main"
+author = "Justin Zimmerman"
+date = "2016-09-04T09:45:50-04:00"
+description = "Bestrida React Native iOS Application"
+keywords = ["Bestrida", "React Native", "React", "Native", "Strava", "Developer", "Challenge"]
+tags = ["Bestrida", "React Native", "Strava"]
 title = "Bestrida"
+topics = ["Bestrida", "React Native"]
+type = "post"
 
 +++
 
@@ -25,7 +27,7 @@ At the top of the screen, the user can click on the “Create Challenge” butto
 ### Active Challenges
 
 In the “Active Challenges” tab, the user can view a list of all active challenges, which are challenges that have been accepted
-by both parties. The Active Challenge feed has the opponent, the segment, and the completion date. You can click on the
+by both parties. The Active Challenge feed shows the opponent, the segment, and the completion date. You can click on the
 active challenge to view more detailed information about that particular challenge.
 
 Once the user completes an activity on Strava that covers the segment, the user can click in to the Active Challenge Detail view to complete the challenge.
