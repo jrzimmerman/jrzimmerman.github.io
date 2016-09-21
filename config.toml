@@ -1,4 +1,4 @@
-baseurl = "http://justinzimmerman.net"
+baseurl = "http://justinzimmerman.net/"
 languageCode = "en-us"
 title = "Justin Zimmerman"
 copyright = "(c) 2016 Justin Zimmerman."
@@ -14,11 +14,11 @@ disqusShortname = "justinzimmerman"
 [params]
   brand = "Justin Zimmerman"
   topline = "Software Engineer"
-  
+
   # Sidebar position
   # false, true, "left", "right"
   sidebar = "left"
-  
+
   # Text for the top menu link, which goes the root URL for the site.
   # Default (if omitted) is "Home".
   home = "Home"
@@ -26,7 +26,7 @@ disqusShortname = "justinzimmerman"
   # Select a syntax highight.
   # Check the static/css/highlight directory for options.
   highlight = "default"
-  
+
   # Google Analytics.
   googleAnalytics = "UA-37904415-1"
 
@@ -34,7 +34,7 @@ disqusShortname = "justinzimmerman"
   github = "jrzimmerman"
   twitter = "justzimmerman"
   linkedin = "justinrzimmerman"
-  
+
   # Sidebar RSS link: will only show up if there is a RSS feed
   # associated with the current page
-  rss = true  
+  rss = true
