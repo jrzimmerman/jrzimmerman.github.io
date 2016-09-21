@@ -2,7 +2,6 @@
 author = "Justin Zimmerman"
 date = "2015-07-19T20:42:20-04:00"
 description = "Week 1 of the Hack Reactor Remote Prep Program."
-draft = true
 keywords = ["Hack Reactor", "Hack", "Reactor", "Remote Prep", "Remote", "Prep", "Bootcamp", "Immersive", "Software Engineering", "Software", "Engineering"]
 tags = ["Hack Reactor", "Remote Prep"]
 title = "Hack Reactor Remote Prep Week 1"
