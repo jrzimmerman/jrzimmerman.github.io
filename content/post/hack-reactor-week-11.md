@@ -1,7 +1,7 @@
 +++
 Categories = ["Hack Reactor"]
 Description = ""
-Tags = ["Hack Reactor"]
+tags = ["Hack Reactor"]
 date = "2016-01-03T08:54:39-04:00"
 title = "Hack Reactor Week 11"
 

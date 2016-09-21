@@ -1,7 +1,7 @@
 +++
 Categories = ["Development", "GoLang"]
 Description = ""
-Tags = ["Development", "golang"]
+tags = ["Development", "golang"]
 date = "2013-10-24T21:43:29-04:00"
 menu = "main"
 title = "Visualizing Map Service Usage"
@@ -24,7 +24,7 @@ Small scale cannot accurately depict areas.
 
 ![Large Scale](/img/largescale.png)
 
-Large scale does not allow for a focused approach to specific areas. 
+Large scale does not allow for a focused approach to specific areas.
 
 ![Just Right](/img/justright.png)
 

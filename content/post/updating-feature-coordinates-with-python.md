@@ -1,7 +1,7 @@
 +++
 Categories = ["Development", "GoLang"]
 Description = ""
-Tags = ["Development", "golang"]
+tags = ["Development", "golang"]
 date = "2015-05-08T21:41:19-04:00"
 menu = "main"
 title = "Updating Feature Coordinates With Python"

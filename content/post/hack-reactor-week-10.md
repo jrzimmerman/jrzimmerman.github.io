@@ -1,7 +1,7 @@
 +++
 Categories = ["Hack Reactor"]
 Description = ""
-Tags = ["Hack Reactor"]
+tags = ["Hack Reactor"]
 date = "2015-12-28T19:05:39-04:00"
 title = "Hack Reactor Week 10"
 
@@ -20,4 +20,4 @@ This was a great learning experience for the entire team, and one that certainly
 
 We have finally made it to MVP! The server creates challenges, the user can view and accept these challenges, and we can finally declare a winner based off live Strava data. This has been a very challenging but rewarding process for the entire team, and we are so excited to show off our product to potential employers.
 
-With next week being a solo week for Christmas vacation, I will post again in 2016! 
+With next week being a solo week for Christmas vacation, I will post again in 2016!

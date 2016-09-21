@@ -1,7 +1,7 @@
 +++
 Categories = ["Bash", "ZSH"]
 Description = ""
-Tags = ["Bash", "ZSH"]
+tags = ["Bash", "ZSH"]
 date = "2016-08-01T21:29:53-04:00"
 menu = "main"
 title = "Switching From Bash to ZSH"
@@ -14,7 +14,7 @@ The main benefits for me were better autocompletion, and file globbing, and bett
 
 ## Installing ZSH with Homebrew
 
-While this isn't necessary, it's incredibly straightforward to do. The default version of ZSH shipped with OSX is 5.0.2. The latest version of ZSH at the time of writing is 5.2. 
+While this isn't necessary, it's incredibly straightforward to do. The default version of ZSH shipped with OSX is 5.0.2. The latest version of ZSH at the time of writing is 5.2.
 
 ### Download ZSH
 
@@ -97,7 +97,7 @@ Then `cd fonts` into the fonts repository and run
 ```
 Once completed, this also might require a restart to show the new fonts available.
 
-In your terminal (iTerm2 or HyperTerm) change the default font to one of the "for powerline" fonts. I chose `Meslo for Powerline`. 
+In your terminal (iTerm2 or HyperTerm) change the default font to one of the "for powerline" fonts. I chose `Meslo for Powerline`.
 
 Once selected, you have successfully completed setting up ZSH with oh-my-zsh!
 

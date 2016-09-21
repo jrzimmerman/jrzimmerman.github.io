@@ -1,3 +1,16 @@
++++
+author = "Justin Zimmerman"
+date = "2015-12-13T10:37:06-04:00"
+description = "Identifying triggers in whiteboarding situations, and how to deal with those triggers."
+draft = true
+keywords = ["Whiteboarding", "Hack Reactor"]
+tags = ["Whiteboarding", "Hack Reactor"]
+title = "On Whiteboarding: Triggers"
+topics = ["Whiteboarding", "Hack Reactor"]
+type = "post"
+
++++
+
 ---
 title: "On Whiteboarding: Triggers"
 slug: on-whiteboarding-triggers
@@ -30,7 +43,7 @@ We need to recognize when the spiraling starts, and quickly break out of it. **T
 
 We need to get oxygen back into our brains and start thinking down the correct path again. Wasting brain power on how we aren't solving the problem won't help us find a solution.
 
-Don't worry though, if we can recognize our spiraling, it becomes much easier to break out of the spiral after some practice. 
+Don't worry though, if we can recognize our spiraling, it becomes much easier to break out of the spiral after some practice.
 
 After taking a breath, start thinking of what new information has been introduced. This segues nicely into the next trigger.
 
@@ -135,11 +148,11 @@ This allows us even greater insight to any flaws within our pseudocode.
 
 ####5. Finish pseudocode completely before rushing to write code
 
-When I figure out part of the solution, I get excited and want to start coding right away. From experience, I can safely say this is the best way to run into additional problems. 
+When I figure out part of the solution, I get excited and want to start coding right away. From experience, I can safely say this is the best way to run into additional problems.
 
 We want to be sure to finish iterating through pseudocode with our example data from step 4. This allows us to get a better idea of what exactly needs to happen to solve the problem, and write correct code.
 
->We want to make our pseudocode a cheat sheet, not a general overview.
+> We want to make our pseudocode a cheat sheet, not a general overview.
 
 When in whiteboarding situations, we only want to be doing 2 out of 3 tasks at all times:
 
@@ -152,4 +165,3 @@ When we do more than 2 of these things at once, we are at risk of spiraling. Thi
 ![everything](http://i.giphy.com/mNpgNpZmflO3S.gif)
 
 Thanks for taking the time to read this lengthy post. If you can remember these steps I guarantee you will not only come to a solution, but impress your interviewer along the way.
-
