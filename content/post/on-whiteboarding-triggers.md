@@ -2,7 +2,6 @@
 author = "Justin Zimmerman"
 date = "2015-12-13T10:37:06-04:00"
 description = "Identifying triggers in whiteboarding situations, and how to deal with those triggers."
-draft = true
 keywords = ["Whiteboarding", "Hack Reactor"]
 tags = ["Whiteboarding", "Hack Reactor"]
 title = "On Whiteboarding: Triggers"
@@ -10,13 +9,6 @@ topics = ["Whiteboarding", "Hack Reactor"]
 type = "post"
 
 +++
-
----
-title: "On Whiteboarding: Triggers"
-slug: on-whiteboarding-triggers
-date_published: 2015-12-13T20:58:00.000Z
-date_updated:   2016-06-13T07:28:51.000Z
----
 
 I will be the first to admit, I struggle in whiteboarding situations, especially in the context of technical interviewing when triggers arise. I hope this post helps you become better at whiteboarding when these certain triggers occur.
 
