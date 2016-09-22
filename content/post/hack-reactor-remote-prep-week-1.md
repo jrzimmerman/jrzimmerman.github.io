@@ -10,7 +10,7 @@ type = "post"
 
 +++
 
-<p style="text-align: center"><a href = "http://justinzimmerman.net/hack-reactor-remote-prep-week-1/"><b>Week 1</b></a> | <a href = "http://justinzimmerman.net/hack-reactor-remote-prep-week-2/">Week 2</a> | <a href = "http://justinzimmerman.net/hack-reactor-remote-prep-week-3/">Week 3</a> | <a href = "http://justinzimmerman.net/hack-reactor-remote-prep-week-4/">Week 4</a></p>
+<p style="text-align: center"><a href = "http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/"><b>Week 1</b></a> | <a href = "http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/">Week 2</a> | <a href = "http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/">Week 3</a> | <a href = "http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/">Week 4</a></p>
 
 I am fortunate enough to be in the first [Hack Reactor](http://hackreactor.com) Remote Prep class! The course is 4 weeks long, meeting 5 days a week for 3 hours.
 
@@ -40,4 +40,4 @@ The fifth day was all about advanced styling of layouts with CSS and an introduc
 
 I hope to continue posting what I have learned from class on a weekly basis! Happy learning!
 
-<p style="text-align: center"><a href = "http://justinzimmerman.net/hack-reactor-remote-prep-week-1/"><b>Week 1</b></a> | <a href = "http://justinzimmerman.net/hack-reactor-remote-prep-week-2/">Week 2</a> | <a href = "http://justinzimmerman.net/hack-reactor-remote-prep-week-3/">Week 3</a> | <a href = "http://justinzimmerman.net/hack-reactor-remote-prep-week-4/">Week 4</a></p>
+<p style="text-align: center"><a href = "http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/"><b>Week 1</b></a> | <a href = "http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/">Week 2</a> | <a href = "http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/">Week 3</a> | <a href = "http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/">Week 4</a></p>

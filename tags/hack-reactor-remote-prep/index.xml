@@ -12,52 +12,6 @@
     <atom:link href="http://justinzimmerman.net/tags/hack-reactor-remote-prep/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Hack Reactor Remote Prep Week 2</title>
-      <link>http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
-      <guid>http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/</guid>
-      <description>
-
-&lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/hack-reactor-remote-prep-week-1/&#34;&gt;Week 1&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/hack-reactor-remote-prep-week-2/&#34;&gt;&lt;b&gt;Week 2&lt;/b&gt;&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/hack-reactor-remote-prep-week-3/&#34;&gt;Week 3&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/hack-reactor-remote-prep-week-4/&#34;&gt;Week 4&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Another week completed already! With the end of week 2 brings the close to the first half of the class. At the end of each class, the instructors give a survey to determine if you feel &amp;lsquo;behind pace,&amp;rsquo; &amp;lsquo;on pace,&amp;rsquo; or &amp;lsquo;ahead of pace.&amp;rsquo; While I still feel I am in the &amp;lsquo;ahead of pace&amp;rsquo; category, I have been learning quite a bit!&lt;/p&gt;
-
-&lt;h4 id=&#34;introduction-to-javascript&#34;&gt;Introduction to JavaScript&lt;/h4&gt;
-
-&lt;p&gt;One of the cool things about Hack Reactor is that, no matter the complexity of the material, they always find a way to challenge you with the exercises.&lt;/p&gt;
-
-&lt;p&gt;The first day of the week was very easy, covering terminal and operators in JavaScript. This gave me an opportunity to assist students newer to these concepts.&lt;/p&gt;
-
-&lt;h4 id=&#34;dom-manipulation&#34;&gt;DOM Manipulation&lt;/h4&gt;
-
-&lt;p&gt;We started learning about using JavaScript to manipulate the DOM. This was very interesting, as I have yet to really understand how to leverage JavaScript to manipulate the page.&lt;/p&gt;
-
-&lt;h4 id=&#34;conditionals&#34;&gt;Conditionals&lt;/h4&gt;
-
-&lt;p&gt;This started with a brief refresher on the Boolean data type. We then spent most of our time working on If/Else statements. I really enjoyed taking what we had previously learned about DOM Manipulation and applying conditional statements based on user input.&lt;/p&gt;
-
-&lt;h4 id=&#34;while-loops&#34;&gt;While Loops&lt;/h4&gt;
-
-&lt;p&gt;I was very impressed with Hack Reactor as they took a seemingly simple concept and really made students push the limits of while loops. As I would normally use for loops for a majority of my functional programming, it was interesting to see how you can really leverage while loops, such as creating a simple rock, paper, scissors game.&lt;/p&gt;
-
-&lt;h4 id=&#34;jquery&#34;&gt;jQuery&lt;/h4&gt;
-
-&lt;p&gt;While jQuery can take a little getting used to, it definitely seems like the way to go for DOM Manipulation. I really enjoyed learning about jQuery effects as well.&lt;/p&gt;
-
-&lt;h4 id=&#34;hackathon&#34;&gt;Hackathon&lt;/h4&gt;
-
-&lt;p&gt;We had a Halfway Hackathon! As a team, we were required to develop a project idea, and using all that we have learned so far, develop that idea individually in 3 hours.&lt;/p&gt;
-
-&lt;p&gt;I really enjoyed working with my group to problem solve and create a really fun version of the classic &amp;lsquo;Breakout&amp;rsquo; game.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://jz-breakout.divshot.io&#34;&gt;My version can be found here.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/hack-reactor-remote-prep-week-1/&#34;&gt;Week 1&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/hack-reactor-remote-prep-week-2/&#34;&gt;&lt;b&gt;Week 2&lt;/b&gt;&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/hack-reactor-remote-prep-week-3/&#34;&gt;Week 3&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/hack-reactor-remote-prep-week-4/&#34;&gt;Week 4&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Hack Reactor Remote Prep Week 4</title>
       <link>http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

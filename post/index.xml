@@ -493,6 +493,52 @@ USEFUL DIAGRAM!
     </item>
     
     <item>
+      <title>Hack Reactor Remote Prep Week 2</title>
+      <link>http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/</link>
+      <pubDate>Sat, 25 Jul 2015 09:42:11 -0400</pubDate>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/</guid>
+      <description>
+
+&lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/&#34;&gt;Week 1&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/&#34;&gt;&lt;b&gt;Week 2&lt;/b&gt;&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/&#34;&gt;Week 3&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/&#34;&gt;Week 4&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Another week completed already! With the end of week 2 brings the close to the first half of the class. At the end of each class, the instructors give a survey to determine if you feel &amp;lsquo;behind pace,&amp;rsquo; &amp;lsquo;on pace,&amp;rsquo; or &amp;lsquo;ahead of pace.&amp;rsquo; While I still feel I am in the &amp;lsquo;ahead of pace&amp;rsquo; category, I have been learning quite a bit!&lt;/p&gt;
+
+&lt;h4 id=&#34;introduction-to-javascript&#34;&gt;Introduction to JavaScript&lt;/h4&gt;
+
+&lt;p&gt;One of the cool things about Hack Reactor is that, no matter the complexity of the material, they always find a way to challenge you with the exercises.&lt;/p&gt;
+
+&lt;p&gt;The first day of the week was very easy, covering terminal and operators in JavaScript. This gave me an opportunity to assist students newer to these concepts.&lt;/p&gt;
+
+&lt;h4 id=&#34;dom-manipulation&#34;&gt;DOM Manipulation&lt;/h4&gt;
+
+&lt;p&gt;We started learning about using JavaScript to manipulate the DOM. This was very interesting, as I have yet to really understand how to leverage JavaScript to manipulate the page.&lt;/p&gt;
+
+&lt;h4 id=&#34;conditionals&#34;&gt;Conditionals&lt;/h4&gt;
+
+&lt;p&gt;This started with a brief refresher on the Boolean data type. We then spent most of our time working on If/Else statements. I really enjoyed taking what we had previously learned about DOM Manipulation and applying conditional statements based on user input.&lt;/p&gt;
+
+&lt;h4 id=&#34;while-loops&#34;&gt;While Loops&lt;/h4&gt;
+
+&lt;p&gt;I was very impressed with Hack Reactor as they took a seemingly simple concept and really made students push the limits of while loops. As I would normally use for loops for a majority of my functional programming, it was interesting to see how you can really leverage while loops, such as creating a simple rock, paper, scissors game.&lt;/p&gt;
+
+&lt;h4 id=&#34;jquery&#34;&gt;jQuery&lt;/h4&gt;
+
+&lt;p&gt;While jQuery can take a little getting used to, it definitely seems like the way to go for DOM Manipulation. I really enjoyed learning about jQuery effects as well.&lt;/p&gt;
+
+&lt;h4 id=&#34;hackathon&#34;&gt;Hackathon&lt;/h4&gt;
+
+&lt;p&gt;We had a Halfway Hackathon! As a team, we were required to develop a project idea, and using all that we have learned so far, develop that idea individually in 3 hours.&lt;/p&gt;
+
+&lt;p&gt;I really enjoyed working with my group to problem solve and create a really fun version of the classic &amp;lsquo;Breakout&amp;rsquo; game.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://jz-breakout.divshot.io&#34;&gt;My version can be found here.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/&#34;&gt;Week 1&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/&#34;&gt;&lt;b&gt;Week 2&lt;/b&gt;&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/&#34;&gt;Week 3&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/&#34;&gt;Week 4&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Hack Reactor Remote Prep Week 1</title>
       <link>http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/</link>
       <pubDate>Sun, 19 Jul 2015 20:42:20 -0400</pubDate>
@@ -500,7 +546,7 @@ USEFUL DIAGRAM!
       <guid>http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/</guid>
       <description>
 
-&lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/hack-reactor-remote-prep-week-1/&#34;&gt;&lt;b&gt;Week 1&lt;/b&gt;&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/hack-reactor-remote-prep-week-2/&#34;&gt;Week 2&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/hack-reactor-remote-prep-week-3/&#34;&gt;Week 3&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/hack-reactor-remote-prep-week-4/&#34;&gt;Week 4&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/&#34;&gt;&lt;b&gt;Week 1&lt;/b&gt;&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/&#34;&gt;Week 2&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/&#34;&gt;Week 3&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/&#34;&gt;Week 4&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I am fortunate enough to be in the first &lt;a href=&#34;http://hackreactor.com&#34;&gt;Hack Reactor&lt;/a&gt; Remote Prep class! The course is 4 weeks long, meeting 5 days a week for 3 hours.&lt;/p&gt;
 
@@ -530,7 +576,7 @@ USEFUL DIAGRAM!
 
 &lt;p&gt;I hope to continue posting what I have learned from class on a weekly basis! Happy learning!&lt;/p&gt;
 
-&lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/hack-reactor-remote-prep-week-1/&#34;&gt;&lt;b&gt;Week 1&lt;/b&gt;&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/hack-reactor-remote-prep-week-2/&#34;&gt;Week 2&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/hack-reactor-remote-prep-week-3/&#34;&gt;Week 3&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/hack-reactor-remote-prep-week-4/&#34;&gt;Week 4&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/&#34;&gt;&lt;b&gt;Week 1&lt;/b&gt;&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/&#34;&gt;Week 2&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/&#34;&gt;Week 3&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/&#34;&gt;Week 4&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -678,94 +724,6 @@ return point
 &lt;h3 id=&#34;how-can-i-make-this&#34;&gt;How can I make this?&lt;/h3&gt;
 
 &lt;p&gt;The &lt;a href=&#34;http://solutions.arcgis.com/&#34;&gt;ArcGIS Solutions&lt;/a&gt; are full of templates that can be modified for your use. I prefer to check out their &lt;a href=&#34;https://github.com/Esri&#34;&gt;GitHub&lt;/a&gt; account for all the latest templates.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Create a Static Page on a Digital Ocean Droplet</title>
-      <link>http://justinzimmerman.net/post/create-a-static-page-on-a-digital-ocean-droplet/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
-      <guid>http://justinzimmerman.net/post/create-a-static-page-on-a-digital-ocean-droplet/</guid>
-      <description>
-
-&lt;p&gt;I currently use Digital Ocean to host my ghost blog. This has a been a very fun adventure, allowing me to learn the &amp;ldquo;ins and outs&amp;rdquo; of linux server administration.&lt;/p&gt;
-
-&lt;h5 id=&#34;what-if-we-want-to-add-a-new-static-page&#34;&gt;What if we want to add a new static page?&lt;/h5&gt;
-
-&lt;p&gt;Using a ghost blog is very easy and simple, but what if we want to add our projects to our site?&lt;/p&gt;
-
-&lt;p&gt;This takes a little bit of work.&lt;/p&gt;
-
-&lt;p&gt;After we copy our files onto our server, we want open the Ghost nginx file using:
-&lt;code&gt;nano /etc/nginx/sites-enabled/ghost&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The file should look like this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;server {
-  listen 80 default_server;
-  listen [::]:80 default_server ipv6only=on;
-
-  server_name justinzimmerman.net; # Replace with your domain
-
-  root /usr/share/nginx/html;
-  index index.html index.htm;
-
-  client_max_body_size 10G;
-
-  location / {
-      proxy_pass http://localhost:2368;
-      proxy_set_header X-Forwarded-For   $proxy_add_x_forwarded_for;
-      proxy_set_header Host $http_host;
-      proxy_set_header X-Forwarded-Proto     $scheme;
-      proxy_buffering off;
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Add this block after the location / block:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;location /chatbuilder/ {
-        alias /var/www/ChatBuilder/;
-  }
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;We have just created an alias to a folder on the file system.&lt;/p&gt;
-
-&lt;h5 id=&#34;completed-file&#34;&gt;Completed file&lt;/h5&gt;
-
-&lt;pre&gt;&lt;code&gt;server {
-  listen 80 default_server;
-  listen [::]:80 default_server ipv6only=on;
-
-  server_name justinzimmerman.net; # Replace with your domain
-
-  root /usr/share/nginx/html;
-  index index.html index.htm;
-
-  client_max_body_size 10G;
-
-  location / {
-      proxy_pass http://localhost:2368;
-      proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-      proxy_set_header Host $http_host;
-      proxy_set_header X-Forwarded-Proto $scheme;
-      proxy_buffering off;
-  }
-
-  location /chatbuilder/ {
-      alias /var/www/ChatBuilder/;
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h5 id=&#34;restart-nginx-and-ghost&#34;&gt;Restart nginx and ghost&lt;/h5&gt;
-
-&lt;pre&gt;&lt;code&gt;sudo service nginx restart
-sudo service ghost restart
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Thanks for reading! I hope this helps you set up your new static page.&lt;/p&gt;
 </description>
     </item>
     

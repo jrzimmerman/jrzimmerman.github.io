@@ -1,12 +1,16 @@
----
-title: Hack Reactor Remote Prep Week 2
-slug: hack-reactor-remote-prep-week-2
-date_published: 2015-07-25T01:03:00.000Z
-date_updated:   2016-06-13T06:55:56.000Z
-tags: Hack Reactor, Remote Prep
----
++++
+author = "Justin Zimmerman"
+date = "2015-07-25T09:42:11-04:00"
+description = "Week 2 of the Hack Reactor Remote Prep Program."
+keywords = ["Hack Reactor", "Hack", "Reactor", "Remote Prep", "Remote", "Prep", "Bootcamp", "Immersive", "Software Engineering", "Software", "Engineering"]
+tags = ["Hack Reactor", "Remote Prep"]
+title = "Hack Reactor Remote Prep Week 2"
+topics = ["Hack Reactor"]
+type = "post"
 
-<p style="text-align: center"><a href = "http://justinzimmerman.net/hack-reactor-remote-prep-week-1/">Week 1</a> | <a href = "http://justinzimmerman.net/hack-reactor-remote-prep-week-2/"><b>Week 2</b></a> | <a href = "http://justinzimmerman.net/hack-reactor-remote-prep-week-3/">Week 3</a> | <a href = "http://justinzimmerman.net/hack-reactor-remote-prep-week-4/">Week 4</a></p>
++++
+
+<p style="text-align: center"><a href = "http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/">Week 1</a> | <a href = "http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/"><b>Week 2</b></a> | <a href = "http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/">Week 3</a> | <a href = "http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/">Week 4</a></p>
 
 Another week completed already! With the end of week 2 brings the close to the first half of the class. At the end of each class, the instructors give a survey to determine if you feel 'behind pace,' 'on pace,' or 'ahead of pace.' While I still feel I am in the 'ahead of pace' category, I have been learning quite a bit!
 
@@ -30,7 +34,7 @@ I was very impressed with Hack Reactor as they took a seemingly simple concept a
 
 #### jQuery
 
-While jQuery can take a little getting used to, it definitely seems like the way to go for DOM Manipulation. I really enjoyed learning about jQuery effects as well. 
+While jQuery can take a little getting used to, it definitely seems like the way to go for DOM Manipulation. I really enjoyed learning about jQuery effects as well.
 
 #### Hackathon
 
@@ -40,5 +44,4 @@ I really enjoyed working with my group to problem solve and create a really fun 
 
 [My version can be found here.](http://jz-breakout.divshot.io)
 
-<p style="text-align: center"><a href = "http://justinzimmerman.net/hack-reactor-remote-prep-week-1/">Week 1</a> | <a href = "http://justinzimmerman.net/hack-reactor-remote-prep-week-2/"><b>Week 2</b></a> | <a href = "http://justinzimmerman.net/hack-reactor-remote-prep-week-3/">Week 3</a> | <a href = "http://justinzimmerman.net/hack-reactor-remote-prep-week-4/">Week 4</a></p>
-
+<p style="text-align: center"><a href = "http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/">Week 1</a> | <a href = "http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/"><b>Week 2</b></a> | <a href = "http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/">Week 3</a> | <a href = "http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/">Week 4</a></p>
