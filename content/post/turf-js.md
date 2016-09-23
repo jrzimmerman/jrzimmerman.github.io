@@ -2,10 +2,10 @@
 author = "Justin Zimmerman"
 date = "2015-03-10T08:51:45-04:00"
 description = "My experiences contributing the the Turf.js project."
-keywords = ["Turf.js", "JavaScript"]
-tags = ["Turf.js", "JavaScript"]
+keywords = ["Turf.js", "JavaScript", "GIS"]
+tags = ["Turf.js", "JavaScript", "GIS"]
 title = "Contributing to Turf.js"
-topics = ["Turf.js"]
+topics = ["Turf.js", "GIS"]
 type = "post"
 
 +++
