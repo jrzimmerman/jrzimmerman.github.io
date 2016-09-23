@@ -1,10 +1,12 @@
 +++
-Categories = ["Development", "GoLang"]
-Description = ""
-tags = ["Development", "golang"]
-date = "2013-10-24T21:43:29-04:00"
-menu = "main"
+author = "Justin Zimmerman"
+date = "2013-10-24T08:41:16-04:00"
+description = "Visualize incident reporting for local municipalities."
+keywords = ["JavaScript"]
+tags = ["JavaScript"]
 title = "Visualizing Map Service Usage"
+topics = ["JavaScript"]
+type = "post"
 
 +++
 
