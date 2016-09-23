@@ -5,34 +5,40 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>Turf.js  &middot; Justin Zimmerman</title>
+  <title>Updating Feature Coordinates With Python  &middot; Justin Zimmerman</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<meta name="description" content="" />
+<meta name="description" content="Updating feature coordinates with python." />
 
-<meta name="keywords" content="Development, JavaScript, ">
+<meta name="keywords" content="Python, ESRI, GIS, ArcGIS, Coordinates, ">
 
 
-<meta property="og:title" content="Turf.js  &middot; Justin Zimmerman ">
+<meta property="og:title" content="Updating Feature Coordinates With Python  &middot; Justin Zimmerman ">
 <meta property="og:site_name" content="Justin Zimmerman"/>
-<meta property="og:url" content="http://justinzimmerman.net/post/turf-js/" />
+<meta property="og:url" content="http://justinzimmerman.net/post/updating-feature-coordinates/" />
 <meta property="og:locale" content="en-us">
 
 
 <meta property="og:type" content="article" />
-<meta property="og:description" content=""/>
-<meta property="og:article:published_time" content="2015-03-10T08:13:21-04:00" />
-<meta property="og:article:modified_time" content="2015-03-10T08:13:21-04:00" />
+<meta property="og:description" content="Updating feature coordinates with python."/>
+<meta property="og:article:published_time" content="2015-05-08T08:45:13-04:00" />
+<meta property="og:article:modified_time" content="2015-05-08T08:45:13-04:00" />
 
   
     
-<meta property="og:article:tag" content="Development">
+<meta property="og:article:tag" content="Python">
     
-<meta property="og:article:tag" content="JavaScript">
+<meta property="og:article:tag" content="ESRI">
+    
+<meta property="og:article:tag" content="GIS">
+    
+<meta property="og:article:tag" content="ArcGIS">
+    
+<meta property="og:article:tag" content="Coordinates">
     
   
 
@@ -40,9 +46,9 @@
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@justzimmerman" />
 <meta name="twitter:creator" content="@justzimmerman" />
-<meta name="twitter:title" content="Turf.js" />
-<meta name="twitter:description" content="" />
-<meta name="twitter:url" content="http://justinzimmerman.net/post/turf-js/" />
+<meta name="twitter:title" content="Updating Feature Coordinates With Python" />
+<meta name="twitter:description" content="Updating feature coordinates with python." />
+<meta name="twitter:url" content="http://justinzimmerman.net/post/updating-feature-coordinates/" />
 <meta name="twitter:domain" content="http://justinzimmerman.net/">
   
 
@@ -50,20 +56,20 @@
   {
     "@context": "http://schema.org",
     "@type": "Article",
-    "headline": "Turf.js",
+    "headline": "Updating Feature Coordinates With Python",
     "author": {
       "@type": "Person",
       "name": "http://profiles.google.com/+?rel=author"
     },
-    "datePublished": "2015-03-10",
-    "description": "",
-    "wordCount":  162 
+    "datePublished": "2015-05-08",
+    "description": "Updating feature coordinates with python.",
+    "wordCount":  326 
   }
 </script>
 
 
 
-<link rel="canonical" href="http://justinzimmerman.net/post/turf-js/" />
+<link rel="canonical" href="http://justinzimmerman.net/post/updating-feature-coordinates/" />
 
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://justinzimmerman.net/touch-icon-144-precomposed.png">
 <link href="http://justinzimmerman.net/favicon.png" rel="icon">
@@ -167,21 +173,23 @@
 
 <article id="main-content" class="container main_content single">
   <header class="container hat">
-  <h1>Turf.js
+  <h1>Updating Feature Coordinates With Python
 </h1>
 
   <div class="metas">
-<time datetime="2015-03-10">10 Mar, 2015</time>
+<time datetime="2015-05-08">8 May, 2015</time>
 
 
   
-  &middot; Read in about 1 min
-  &middot; (162 Words)
+    &middot; by Justin Zimmerman
+  
+  &middot; Read in about 2 min
+  &middot; (326 Words)
   <br>
   
-<a class="label" href="http://justinzimmerman.net/tags/development">Development</a>
+<a class="label" href="http://justinzimmerman.net/tags/python">Python</a>
 
-<a class="label" href="http://justinzimmerman.net/tags/javascript">JavaScript</a>
+<a class="label" href="http://justinzimmerman.net/tags/gis">GIS</a>
 
 
 
@@ -190,25 +198,50 @@
 </header>
 
   <div class="container content">
-  
+  <p>I was asked to update the location of manhole points with new survey data. Traditionally this is a long task, dragging the old manholes to their new locations.</p>
 
-<p>Over the winter I was able to spend some free time assisting with the development of the <a href="http://turfjs.org/">Turf.js</a> project!</p>
+<p>Before we assume how it would be so much easier to just delete the old data, and import the new data. First we have to consider all the attribute information associated with the data, sure we can join based on the Manhole ID but what happens when we have to worry about attachments?</p>
 
-<p>This was a very rewarding experience that has allowed me to better grasp some very important topics:</p>
+<blockquote>
+<p>Luckily, python makes this an easy task.</p>
+</blockquote>
 
-<h3 id="test-driven-development">Test Driven Development</h3>
+<p>Example: You have a feature class called ‘Manholes’ that has 500 point features. You received a new XY table that has updated locations for 103 points. Update the point locations by doing the following:</p>
 
-<p>Test driven development is one of the most powerful concepts I picked up while working with Turf. Turf uses the <a href="https://github.com/substack/tape">Tape</a> testing environment, and just like turf, focuses on being lightweight and fast.</p>
+<p>[1.] Add point feature class and the Table as a dbf/event(updated xy) layer to ArcMap and do a &lsquo;Field join&rsquo; based on a unique identifier, ours is the Manhole ID field, this will join the data from the table permanently to the feature.</p>
 
-<h3 id="documentation">Documentation</h3>
+<p>[2.] Open attribute table of the feature class and select the records/features which should move to updated XY locations.</p>
 
-<p>Good documentation is hard. Thanks to Tom, Morgan, Lyzi at Mapbox for providing amazing documentation for Turf, and turf would be a very different community without the substantial work completed.</p>
+<p>[3.] Right click on the Shape column and open Field Calculator.</p>
 
-<h3 id="modular">Modular</h3>
+<p>[4.] In the Field Calculator select Python Parser. Check Show Codeblock</p>
 
-<p>It is so cool that Turf is modular, branching all of its separate components into different modules is simple, lightweight, and fast! The added benefit is that it helps with error checking as well as the many other benefits of abstraction on projects.</p>
+<p>Copy following script in the Pre-Logic Script Code window</p>
 
-<p>Thanks so much to the Turf team for the wonderful learning experiences they have provided.</p>
+<pre><code>def XYsetVALUE( shape, X_value, Y_value):
+point = shape.getPart(0)
+point.X = X_value
+point.Y = Y_value
+return point
+</code></pre>
+
+<p>In the window below &lsquo;Shape=&rsquo; copy following:</p>
+
+<pre><code>XYsetVALUE ( !SHAPE!, !X_COORD!, !Y_COORD! )
+</code></pre>
+
+<p>Here you will need to modify <code>!X_COORD!</code> and <code>!Y_COORD!</code> to match the names of your coordinate columns.</p>
+
+<p>E.g. If the name of the column containing X coordinate values is &lsquo;POINT_X&rsquo; and that of Y coordinte values is &lsquo;POINT_Y&rsquo; the script would be</p>
+
+<pre><code>XYsetVALUE ( !SHAPE!, !POINT_X!, !POINT_Y! )
+</code></pre>
+
+<p>In my case it was <code>XYsetVALUE ( !SHAPE!, !X!, !Y! )</code></p>
+
+<p>[5.] Click ok</p>
+
+<p>[6.] Now right click on the OLD XY and Calculate Geometry for XY and the updated XY will be calculated.</p>
 
 </div>
 
@@ -220,13 +253,13 @@
   
 
     
-    <a class="prev" href="http://justinzimmerman.net/post/visualizing-map-service-usage/" title="Visualizing Map Service Usage">
+    <a class="prev" href="http://justinzimmerman.net/post/turf-js/" title="Turf.js">
       Previous
     </a>
     
 
     
-    <a class="next" href="http://justinzimmerman.net/post/updating-feature-coordinates/" title="Updating Feature Coordinates With Python">
+    <a class="next" href="http://justinzimmerman.net/post/updating-feature-coordinates-with-python/" title="Updating Feature Coordinates With Python">
       Next
     </a>
     

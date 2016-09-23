@@ -2,10 +2,10 @@
 author = "Justin Zimmerman"
 date = "2013-10-24T08:41:16-04:00"
 description = "Visualize incident reporting for local municipalities."
-keywords = ["JavaScript"]
-tags = ["JavaScript"]
+keywords = ["JavaScript", "GIS"]
+tags = ["JavaScript", "GIS"]
 title = "Visualizing Map Service Usage"
-topics = ["JavaScript"]
+topics = ["JavaScript", "GIS"]
 type = "post"
 
 +++

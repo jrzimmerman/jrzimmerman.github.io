@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Python on Justin Zimmerman</title>
-    <link>http://justinzimmerman.net/tags/python/</link>
-    <description>Recent content in Python on Justin Zimmerman</description>
+    <title>Gis on Justin Zimmerman</title>
+    <link>http://justinzimmerman.net/tags/gis/</link>
+    <description>Recent content in Gis on Justin Zimmerman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</managingEditor>
     <webMaster>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</webMaster>
     <copyright>(c) 2016 Justin Zimmerman.</copyright>
     <lastBuildDate>Fri, 08 May 2015 08:45:13 -0400</lastBuildDate>
-    <atom:link href="http://justinzimmerman.net/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://justinzimmerman.net/tags/gis/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Updating Feature Coordinates With Python</title>
@@ -62,6 +62,46 @@ return point
 &lt;p&gt;[5.] Click ok&lt;/p&gt;
 
 &lt;p&gt;[6.] Now right click on the OLD XY and Calculate Geometry for XY and the updated XY will be calculated.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Visualizing Map Service Usage</title>
+      <link>http://justinzimmerman.net/post/visualizing-map-service-usage/</link>
+      <pubDate>Thu, 24 Oct 2013 08:41:16 -0400</pubDate>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/visualizing-map-service-usage/</guid>
+      <description>
+
+&lt;p&gt;I recently developed a &lt;a href=&#34;http://75.151.252.249/RichlandHeatmap/&#34;&gt;JavaScript web application&lt;/a&gt; to visualize incident reporting for a local municipality collecting &lt;a href=&#34;http://75.151.252.249/RichlandServiceRequest/&#34;&gt;Stormwater Incident Reports&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://justinzimmerman.net/img/richlandheatmap.png&#34; alt=&#34;Richland Service Request&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The idea behind this application, will be to determine the usage of the reporting system, and to additionally determine &amp;ldquo;Problem Areas&amp;rdquo; for further corrective action planning.&lt;/p&gt;
+
+&lt;h3 id=&#34;importance-of-dynamic-display&#34;&gt;Importance of Dynamic Display&lt;/h3&gt;
+
+&lt;p&gt;One of the most important considerations for determining areas, is to determine the scale. The scale the data is viewed at can change the data is interpreted.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://justinzimmerman.net/img/smallscale.png&#34; alt=&#34;Small Scale&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Small scale cannot accurately depict areas.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://justinzimmerman.net/img/largescale.png&#34; alt=&#34;Large Scale&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Large scale does not allow for a focused approach to specific areas.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://justinzimmerman.net/img/justright.png&#34; alt=&#34;Just Right&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Just right. This scale provides a few areas that are easily identifiable.&lt;/p&gt;
+
+&lt;h3 id=&#34;errors&#34;&gt;Errors&lt;/h3&gt;
+
+&lt;p&gt;Be mindful of particular input errors. These include multiple responses from a single resident, which can skew how the data is depicted.&lt;/p&gt;
+
+&lt;h3 id=&#34;how-can-i-make-this&#34;&gt;How can I make this?&lt;/h3&gt;
+
+&lt;p&gt;The &lt;a href=&#34;http://solutions.arcgis.com/&#34;&gt;ArcGIS Solutions&lt;/a&gt; are full of templates that can be modified for your use. I prefer to check out their &lt;a href=&#34;https://github.com/Esri&#34;&gt;GitHub&lt;/a&gt; account for all the latest templates.&lt;/p&gt;
 </description>
     </item>
     
