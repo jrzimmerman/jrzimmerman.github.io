@@ -503,6 +503,46 @@ USEFUL DIAGRAM!
     </item>
     
     <item>
+      <title>Hack Reactor Remote Prep Week 4</title>
+      <link>http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/</link>
+      <pubDate>Mon, 10 Aug 2015 07:48:39 -0400</pubDate>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/</guid>
+      <description>
+
+&lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/post/post/hack-reactor-remote-prep-week-1/&#34;&gt;Week 1&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/post/hack-reactor-remote-prep-week-2/&#34;&gt;Week 2&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/post/hack-reactor-remote-prep-week-3/&#34;&gt;Week 3&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/post/hack-reactor-remote-prep-week-4/&#34;&gt;&lt;b&gt;Week 4&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Just like that, the four week course is at an end. I have really enjoyed the opportunity to learn such a large amount of material in such a short time.&lt;/p&gt;
+
+&lt;p&gt;This has definitely been a great learning experience for me. If you are considering going to Hack Reactor, then this course will really show you what you&amp;rsquo;re getting in to. Also, if you are wondering if you can learn in the Hack Reactor Remote online class, the answer is yes!&lt;/p&gt;
+
+&lt;p&gt;In the last week we learned the following concepts:&lt;/p&gt;
+
+&lt;h4 id=&#34;ajax-json&#34;&gt;AJAX &amp;amp; JSON&lt;/h4&gt;
+
+&lt;p&gt;We started off the week learning how to use AJAX to interact with servers behind the scenes using JavaScript without having to reload the page. This was really fun, and very powerful. We leveraged the Open Weather Map API to load local temperature information to our sites.&lt;/p&gt;
+
+&lt;h4 id=&#34;higher-order-functions&#34;&gt;Higher Order Functions&lt;/h4&gt;
+
+&lt;p&gt;This was probably the most important day of the entire class. As we worked through rewriting higher order functions like each, map, and filter, we had 1 on 1 interviews with the instructor to determine how we were doing. This was valuable feedback, and the instructor was very helpful in pointing to the next topics I should focus on.&lt;/p&gt;
+
+&lt;h4 id=&#34;object-oriented-javascript&#34;&gt;Object Oriented Javascript&lt;/h4&gt;
+
+&lt;p&gt;We looked in to more Object manipulation today, leveraging the object data type to structure our programs, rather than functions. We learned how to create our own methods in our own objects, and introduced decorator patterns and factory patterns code structures.&lt;/p&gt;
+
+&lt;h4 id=&#34;model-view-controller&#34;&gt;Model View Controller&lt;/h4&gt;
+
+&lt;p&gt;We created a simple MVC using factory pattern objects to leverage the Imgur API and the SoundCloud API. This was a very rewarding project where I learned quite a bit of material using both simple and complex APIs.&lt;/p&gt;
+
+&lt;h4 id=&#34;portfolio-and-hiring&#34;&gt;Portfolio and Hiring&lt;/h4&gt;
+
+&lt;p&gt;The last day consisted of learning a variety of ways to improve your online presence. These included tips and tricks on how to improve your Github and LinkedIn. We discussed the importance of an online portfolio site, and blogging about technical concepts. We also covered the basics on resumes, cover letters, applying for jobs, and how to prepare for interviews.&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/&#34;&gt;Week 1&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/&#34;&gt;Week 2&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/&#34;&gt;Week 3&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/&#34;&gt;&lt;b&gt;Week 4&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Hack Reactor Remote Prep Week 3</title>
       <link>http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/</link>
       <pubDate>Sun, 02 Aug 2015 07:43:11 -0400</pubDate>
@@ -653,59 +693,6 @@ USEFUL DIAGRAM!
 &lt;p&gt;I started to attempt to figure out the Google Maps and Places APIs. This has been really fun! Being a Geography major, I look forward to trying to wrap my head about location based services. I started off simply using a fixed location to show nearby restaurants, and I hope to get the geolocation to correctly work to show results any where in the world!&lt;/p&gt;
 
 &lt;p&gt;I hope this will solidify my background to finally break through. If you have been accepted into Hack Reactor, what have you done to push you over the edge?&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Updating Feature Coordinates With Python</title>
-      <link>http://justinzimmerman.net/post/updating-feature-coordinates/</link>
-      <pubDate>Fri, 08 May 2015 08:45:13 -0400</pubDate>
-      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
-      <guid>http://justinzimmerman.net/post/updating-feature-coordinates/</guid>
-      <description>&lt;p&gt;I was asked to update the location of manhole points with new survey data. Traditionally this is a long task, dragging the old manholes to their new locations.&lt;/p&gt;
-
-&lt;p&gt;Before we assume how it would be so much easier to just delete the old data, and import the new data. First we have to consider all the attribute information associated with the data, sure we can join based on the Manhole ID but what happens when we have to worry about attachments?&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Luckily, python makes this an easy task.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Example: You have a feature class called ‘Manholes’ that has 500 point features. You received a new XY table that has updated locations for 103 points. Update the point locations by doing the following:&lt;/p&gt;
-
-&lt;p&gt;[1.] Add point feature class and the Table as a dbf/event(updated xy) layer to ArcMap and do a &amp;lsquo;Field join&amp;rsquo; based on a unique identifier, ours is the Manhole ID field, this will join the data from the table permanently to the feature.&lt;/p&gt;
-
-&lt;p&gt;[2.] Open attribute table of the feature class and select the records/features which should move to updated XY locations.&lt;/p&gt;
-
-&lt;p&gt;[3.] Right click on the Shape column and open Field Calculator.&lt;/p&gt;
-
-&lt;p&gt;[4.] In the Field Calculator select Python Parser. Check Show Codeblock&lt;/p&gt;
-
-&lt;p&gt;Copy following script in the Pre-Logic Script Code window&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;def XYsetVALUE( shape, X_value, Y_value):
-point = shape.getPart(0)
-point.X = X_value
-point.Y = Y_value
-return point
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;In the window below &amp;lsquo;Shape=&amp;rsquo; copy following:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;XYsetVALUE ( !SHAPE!, !X_COORD!, !Y_COORD! )
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Here you will need to modify &lt;code&gt;!X_COORD!&lt;/code&gt; and &lt;code&gt;!Y_COORD!&lt;/code&gt; to match the names of your coordinate columns.&lt;/p&gt;
-
-&lt;p&gt;E.g. If the name of the column containing X coordinate values is &amp;lsquo;POINT_X&amp;rsquo; and that of Y coordinte values is &amp;lsquo;POINT_Y&amp;rsquo; the script would be&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;XYsetVALUE ( !SHAPE!, !POINT_X!, !POINT_Y! )
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;In my case it was &lt;code&gt;XYsetVALUE ( !SHAPE!, !X!, !Y! )&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;[5.] Click ok&lt;/p&gt;
-
-&lt;p&gt;[6.] Now right click on the OLD XY and Calculate Geometry for XY and the updated XY will be calculated.&lt;/p&gt;
 </description>
     </item>
     

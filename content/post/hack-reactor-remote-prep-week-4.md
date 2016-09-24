@@ -1,12 +1,16 @@
----
-title: Hack Reactor Remote Prep Week 4
-slug: hack-reactor-remote-prep-week-4
-date_published: 2015-08-10T16:34:00.000Z
-date_updated:   2016-06-13T07:02:28.000Z
-tags: Hack Reactor, Remote Prep
----
++++
+author = "Justin Zimmerman"
+date = "2015-08-10T07:48:39-04:00"
+description = "Week 4 of the Hack Reactor Remote Prep Program."
+keywords = ["Hack Reactor", "Hack", "Reactor", "Remote Prep", "Remote", "Prep", "Bootcamp", "Immersive", "Software Engineering", "Software", "Engineering"]
+tags = ["Hack Reactor", "Remote Prep"]
+title = "Hack Reactor Remote Prep Week 4"
+topics = ["Hack Reactor"]
+type = "post"
 
-<p style="text-align: center"><a href = "http://justinzimmerman.net/hack-reactor-remote-prep-week-1/">Week 1</a> | <a href = "http://justinzimmerman.net/hack-reactor-remote-prep-week-2/">Week 2</a> | <a href = "http://justinzimmerman.net/hack-reactor-remote-prep-week-3/">Week 3</a> | <a href = "http://justinzimmerman.net/hack-reactor-remote-prep-week-4/"><b>Week 4</b></a></p>
++++
+
+<p style="text-align: center"><a href = "http://justinzimmerman.net/post/post/hack-reactor-remote-prep-week-1/">Week 1</a> | <a href = "http://justinzimmerman.net/post/post/hack-reactor-remote-prep-week-2/">Week 2</a> | <a href = "http://justinzimmerman.net/post/post/hack-reactor-remote-prep-week-3/">Week 3</a> | <a href = "http://justinzimmerman.net/post/post/hack-reactor-remote-prep-week-4/"><b>Week 4</b></a></p>
 
 Just like that, the four week course is at an end. I have really enjoyed the opportunity to learn such a large amount of material in such a short time.
 
@@ -34,5 +38,4 @@ We created a simple MVC using factory pattern objects to leverage the Imgur API 
 
 The last day consisted of learning a variety of ways to improve your online presence. These included tips and tricks on how to improve your Github and LinkedIn. We discussed the importance of an online portfolio site, and blogging about technical concepts. We also covered the basics on resumes, cover letters, applying for jobs, and how to prepare for interviews.
 
-<p style="text-align: center"><a href = "http://justinzimmerman.net/hack-reactor-remote-prep-week-1/">Week 1</a> | <a href = "http://justinzimmerman.net/hack-reactor-remote-prep-week-2/">Week 2</a> | <a href = "http://justinzimmerman.net/hack-reactor-remote-prep-week-3/">Week 3</a> | <a href = "http://justinzimmerman.net/hack-reactor-remote-prep-week-4/"><b>Week 4</b></a></p>
-
+<p style="text-align: center"><a href = "http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/">Week 1</a> | <a href = "http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/">Week 2</a> | <a href = "http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/">Week 3</a> | <a href = "http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/"><b>Week 4</b></a></p>
