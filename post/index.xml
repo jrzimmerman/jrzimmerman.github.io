@@ -493,6 +493,46 @@ USEFUL DIAGRAM!
     </item>
     
     <item>
+      <title>Hack Reactor Remote Prep Week 3</title>
+      <link>http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/</link>
+      <pubDate>Sun, 02 Aug 2015 07:43:11 -0400</pubDate>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/</guid>
+      <description>
+
+&lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/&#34;&gt;Week 1&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/&#34;&gt;Week 2&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/&#34;&gt;&lt;b&gt;Week 3&lt;/b&gt;&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/&#34;&gt;Week 4&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I cannot believe we have already completed 3 weeks of class! I have learned a considerable amount along the way. Here are some of the topics that were covered this week.&lt;/p&gt;
+
+&lt;h4 id=&#34;functions&#34;&gt;Functions&lt;/h4&gt;
+
+&lt;p&gt;Now we are getting into the good stuff. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions&#34;&gt;Functions&lt;/a&gt; are one of the most critical tools for any good JavaScript programmer. We discussed creating functions, invoking functions, and storing functions as variables.&lt;/p&gt;
+
+&lt;h4 id=&#34;events&#34;&gt;Events&lt;/h4&gt;
+
+&lt;p&gt;Event handlers are specific types of functions that are invoked when the user interacts with the website. For instance, text can be shown when a button is clicked, or an image can appear when a mouse hovers over a text link.&lt;/p&gt;
+
+&lt;h4 id=&#34;arrays&#34;&gt;Arrays&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array&#34;&gt;Arrays&lt;/a&gt; are one of the primary methods for storing data collections in JavaScript. An array is used to store ordered lists. Arrays can include all sorts of different data types, booleans, strings, numbers, objects, and even arrays within arrays.&lt;/p&gt;
+
+&lt;p&gt;We discussed array instantiation, and the associated properties (such as &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length&#34;&gt;.length&lt;/a&gt;) and methods (such as &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push&#34;&gt;.push&lt;/a&gt; or &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop&#34;&gt;.pop&lt;/a&gt;) that come with arrays.&lt;/p&gt;
+
+&lt;h4 id=&#34;objects&#34;&gt;Objects&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object&#34;&gt;Objects&lt;/a&gt; are the other primary method for storing data collections in JavaScript. Rather than an ordered list of values like an array, objects are stored using key value pairs. These keys can be referenced using dot notation or bracket notation.&lt;/p&gt;
+
+&lt;p&gt;We then used both dot notation and bracket notation to access values that were stored within the objects.&lt;/p&gt;
+
+&lt;h4 id=&#34;web-store-hackathon&#34;&gt;Web Store Hackathon&lt;/h4&gt;
+
+&lt;p&gt;This hackathon was an individual 3 hour exercise in building a web store to compete with Amazon.com. We built upon our existing knowledge of HTML, CSS, and jQuery to create a basic layout for our e-commerce site. We then used objects to store our products that we would be selling, such as books and albums.&lt;/p&gt;
+
+&lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/&#34;&gt;Week 1&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/&#34;&gt;Week 2&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/&#34;&gt;&lt;b&gt;Week 3&lt;/b&gt;&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/&#34;&gt;Week 4&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Hack Reactor Remote Prep Week 2</title>
       <link>http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/</link>
       <pubDate>Sat, 25 Jul 2015 09:42:11 -0400</pubDate>
@@ -684,46 +724,6 @@ return point
 &lt;p&gt;It is so cool that Turf is modular, branching all of its separate components into different modules is simple, lightweight, and fast! The added benefit is that it helps with error checking as well as the many other benefits of abstraction on projects.&lt;/p&gt;
 
 &lt;p&gt;Thanks so much to the Turf team for the wonderful learning experiences they have provided.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Visualizing Map Service Usage</title>
-      <link>http://justinzimmerman.net/post/visualizing-map-service-usage/</link>
-      <pubDate>Thu, 24 Oct 2013 08:41:16 -0400</pubDate>
-      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
-      <guid>http://justinzimmerman.net/post/visualizing-map-service-usage/</guid>
-      <description>
-
-&lt;p&gt;I recently developed a &lt;a href=&#34;http://75.151.252.249/RichlandHeatmap/&#34;&gt;JavaScript web application&lt;/a&gt; to visualize incident reporting for a local municipality collecting &lt;a href=&#34;http://75.151.252.249/RichlandServiceRequest/&#34;&gt;Stormwater Incident Reports&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://justinzimmerman.net/img/richlandheatmap.png&#34; alt=&#34;Richland Service Request&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The idea behind this application, will be to determine the usage of the reporting system, and to additionally determine &amp;ldquo;Problem Areas&amp;rdquo; for further corrective action planning.&lt;/p&gt;
-
-&lt;h3 id=&#34;importance-of-dynamic-display&#34;&gt;Importance of Dynamic Display&lt;/h3&gt;
-
-&lt;p&gt;One of the most important considerations for determining areas, is to determine the scale. The scale the data is viewed at can change the data is interpreted.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://justinzimmerman.net/img/smallscale.png&#34; alt=&#34;Small Scale&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Small scale cannot accurately depict areas.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://justinzimmerman.net/img/largescale.png&#34; alt=&#34;Large Scale&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Large scale does not allow for a focused approach to specific areas.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://justinzimmerman.net/img/justright.png&#34; alt=&#34;Just Right&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Just right. This scale provides a few areas that are easily identifiable.&lt;/p&gt;
-
-&lt;h3 id=&#34;errors&#34;&gt;Errors&lt;/h3&gt;
-
-&lt;p&gt;Be mindful of particular input errors. These include multiple responses from a single resident, which can skew how the data is depicted.&lt;/p&gt;
-
-&lt;h3 id=&#34;how-can-i-make-this&#34;&gt;How can I make this?&lt;/h3&gt;
-
-&lt;p&gt;The &lt;a href=&#34;http://solutions.arcgis.com/&#34;&gt;ArcGIS Solutions&lt;/a&gt; are full of templates that can be modified for your use. I prefer to check out their &lt;a href=&#34;https://github.com/Esri&#34;&gt;GitHub&lt;/a&gt; account for all the latest templates.&lt;/p&gt;
 </description>
     </item>
     
