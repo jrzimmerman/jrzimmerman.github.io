@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Postgis on Justin Zimmerman</title>
+    <link>http://justinzimmerman.net/tags/postgis/</link>
+    <description>Recent content in Postgis on Justin Zimmerman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</managingEditor>
+    <webMaster>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</webMaster>
+    <copyright>(c) 2016 Justin Zimmerman.</copyright>
+    <lastBuildDate>Sat, 22 Aug 2015 10:29:42 -0400</lastBuildDate>
+    <atom:link href="http://justinzimmerman.net/tags/postgis/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Installing PostGIS and QGIS using Homebrew</title>
+      <link>http://justinzimmerman.net/post/installing-postgis-and-qgis-using-homebrew/</link>
+      <pubDate>Sat, 22 Aug 2015 10:29:42 -0400</pubDate>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/installing-postgis-and-qgis-using-homebrew/</guid>
+      <description>
+
+&lt;p&gt;After browsing the web and seeing outdated information for installing GIS software, I wanted to document the steps I took to install all the required software to get up and running using &lt;a href=&#34;http://brew.sh/&#34;&gt;Homebrew&lt;/a&gt;:&lt;/p&gt;
+
+&lt;h4 id=&#34;installing-homebrew&#34;&gt;Installing Homebrew&lt;/h4&gt;
+
+&lt;p&gt;Be sure to have xcode installed from Apple&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;xcode-select --install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Copy this code a paste into your terminal to download and install Homebrew:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;installing-postgis&#34;&gt;Installing PostGIS&lt;/h4&gt;
+
+&lt;p&gt;First, using Homebrew install PostgreSQL:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew update
+brew doctor
+brew install postgresql
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Install PostGIS&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew install PostGIS
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;installing-qgis&#34;&gt;Installing QGIS&lt;/h4&gt;
+
+&lt;p&gt;First install python&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew install python
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;QGIS uses numpy, scipy and pyscopg2 which can be installed with pip&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
+pip install numpy scipy matplotlib processing psycopg2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Install GDAL&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew install gdal
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Install xquartz&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew install Caskroom/cask/xquartz
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Finally, install QGIS and link to the Applications folder&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew tap osgeo/osgeo4mac
+brew install qgis-28
+brew linkapps qgis-28
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,9 +1,14 @@
----
-title: Installing PostGIS and QGIS using Homebrew
-slug: installing-postgis-and-qgis-using-homebrew
-date_published: 2015-08-22T20:23:00.000Z
-date_updated:   2016-06-13T07:05:02.000Z
----
++++
+author = "Justin Zimmerman"
+date = "2015-08-22T10:29:42-04:00"
+description = "Installing PostGIS and QGIS using Homebrew."
+keywords = ["GIS", "PostGIS", "QGIS"]
+tags = ["GIS", "PostGIS", "QGIS"]
+title = "Installing PostGIS and QGIS using Homebrew"
+topics = ["GIS"]
+type = "post"
+
++++
 
 After browsing the web and seeing outdated information for installing GIS software, I wanted to document the steps I took to install all the required software to get up and running using [Homebrew](http://brew.sh/):
 
