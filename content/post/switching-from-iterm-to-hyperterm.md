@@ -1,10 +1,12 @@
 +++
-Categories = ["HyperTerm", "Terminal"]
-Description = ""
+author = "Justin Zimmerman"
+date = "2016-07-23T20:12:34-04:00"
+description = "Switching from iTerm to HyperTerm terminal shells."
+keywords = ["HyperTerm", "Terminal"]
 tags = ["HyperTerm", "Terminal"]
-date = "2016-07-23T22:26:47-04:00"
-menu = "main"
 title = "Switching from iTerm to HyperTerm"
+topics = ["HyperTerm"]
+type = "post"
 
 +++
 
