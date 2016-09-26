@@ -1,10 +1,12 @@
 +++
-Categories = ["Bash", "ZSH"]
-Description = ""
+author = "Justin Zimmerman"
+date = "2016-08-01T09:33:10-04:00"
+description = "I recently switched from BASH (Bourne Again SHell) to ZSH after hearing about z shell's many benefits."
+keywords = ["Bash", "ZSH"]
 tags = ["Bash", "ZSH"]
-date = "2016-08-01T21:29:53-04:00"
-menu = "main"
 title = "Switching From Bash to ZSH"
+topics = ["Bash", "ZSH"]
+type = "post"
 
 +++
 
@@ -101,4 +103,4 @@ In your terminal (iTerm2 or HyperTerm) change the default font to one of the "fo
 
 Once selected, you have successfully completed setting up ZSH with oh-my-zsh!
 
-Congratulations on your awesome new terminal.
+Congratulations on your awesome new terminal!

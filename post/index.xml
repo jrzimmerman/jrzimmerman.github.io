@@ -55,7 +55,7 @@ active challenge to view more detailed information about that particular challen
     <item>
       <title>Switching From Bash to ZSH</title>
       <link>http://justinzimmerman.net/post/switching-from-bash-to-zsh/</link>
-      <pubDate>Mon, 01 Aug 2016 21:29:53 -0400</pubDate>
+      <pubDate>Mon, 01 Aug 2016 09:33:10 -0400</pubDate>
       <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
       <guid>http://justinzimmerman.net/post/switching-from-bash-to-zsh/</guid>
       <description>
@@ -145,7 +145,7 @@ brew install zsh
 
 &lt;p&gt;Once selected, you have successfully completed setting up ZSH with oh-my-zsh!&lt;/p&gt;
 
-&lt;p&gt;Congratulations on your awesome new terminal.&lt;/p&gt;
+&lt;p&gt;Congratulations on your awesome new terminal!&lt;/p&gt;
 </description>
     </item>
     
