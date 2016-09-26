@@ -88,17 +88,17 @@
       <guid>http://justinzimmerman.net/post/since-my-last-hack-reactor-interview/</guid>
       <description>&lt;p&gt;There are a multitude of things I have done since my last Hack Reactor interview to better prepare for the next interview.&lt;/p&gt;
 
-&lt;p&gt;I have continued to study the beginning of Eloquent Javascript (especially rereading Chapter 5).&lt;/p&gt;
+&lt;p&gt;I have continued to study the beginning of Eloquent JavaScript (especially rereading Chapter 5).&lt;/p&gt;
 
 &lt;p&gt;I changed over my Wordpress blog to &lt;a href=&#34;https://ghost.org/&#34;&gt;Ghost&lt;/a&gt;! This has allowed me to learn a lot of server side linux and briefly touch on &lt;a href=&#34;http://handlebarsjs.com/&#34;&gt;handlebars.js&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I helped my wife set up her own Ghost blog! She is starting her own online shop at &lt;a href=&#34;https://www.teacherspayteachers.com/Store/Math-Snippets&#34;&gt;Teachers Pay Teachers&lt;/a&gt;. Check her out at &lt;a href=&#34;http://mathsnippets.com/&#34;&gt;Math Snippets&lt;/a&gt;!&lt;/p&gt;
 
-&lt;p&gt;I signed up for a code school subscription. I found a deal for your first month at only 9 dollars. If you can try this out, I highly recommend the Javascript track! This holds especially true if you only have experience with Codecademy.&lt;/p&gt;
+&lt;p&gt;I signed up for a code school subscription. I found a deal for your first month at only 9 dollars. If you can try this out, I highly recommend the JavaScript track! This holds especially true if you only have experience with Codecademy.&lt;/p&gt;
 
 &lt;p&gt;I completed the optional &lt;a href=&#34;http://chatbuilder.hackreactor.com/&#34;&gt;&amp;lsquo;Chat Builder&amp;rsquo;&lt;/a&gt; project that used to be a requirement for Hack Reactor&amp;rsquo;s application process, this allowed me to gain valuable insight in jQuery and AJAX. &lt;a href=&#34;http://justinzimmerman.net/chatbuilder&#34;&gt;Check out my completed version!&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;I have completed various &lt;a href=&#34;www.codewars.com/r/LQ0GHw&#34;&gt;Code Wars Koans&lt;/a&gt; in Javascript. I finally had an &amp;lsquo;ah-ha&amp;rsquo; moment when I started using map and reduce on koans rather than setting up a for loop, where applicable.&lt;/p&gt;
+&lt;p&gt;I have completed various &lt;a href=&#34;www.codewars.com/r/LQ0GHw&#34;&gt;Code Wars Koans&lt;/a&gt; in JavaScript. I finally had an &amp;lsquo;ah-ha&amp;rsquo; moment when I started using map and reduce on koans rather than setting up a for loop, where applicable.&lt;/p&gt;
 
 &lt;p&gt;I started to attempt to figure out the Google Maps and Places APIs. This has been really fun! Being a Geography major, I look forward to trying to wrap my head about location based services. I started off simply using a fixed location to show nearby restaurants, and I hope to get the geolocation to correctly work to show results any where in the world!&lt;/p&gt;
 
