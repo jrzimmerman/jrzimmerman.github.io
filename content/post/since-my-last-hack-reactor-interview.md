@@ -1,10 +1,12 @@
 +++
-Categories = ["Hack Reactor"]
-Description = "There are a multitude of things I have done since my last Hack Reactor interview to better prepare for the next interview."
+author = "Justin Zimmerman"
+date = "2015-06-28T09:57:47-04:00"
+description = "There are a multitude of things I have done since my last Hack Reactor interview to better prepare for the next interview."
+keywords = ["Hack Reactor", "Hack", "Reactor", "Bootcamp", "Immersive", "Software Engineering", "Software", "Engineering"]
 tags = ["Hack Reactor"]
-date = "2015-06-28T10:19:13-04:00"
-menu = "main"
 title = "Since My Last Hack Reactor Interview"
+topics = ["Hack Reactor"]
+type = "post"
 
 +++
 
