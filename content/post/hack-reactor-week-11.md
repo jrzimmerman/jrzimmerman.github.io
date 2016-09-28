@@ -1,9 +1,12 @@
 +++
-Categories = ["Hack Reactor"]
-Description = ""
+author = "Justin Zimmerman"
+date = "2016-01-03T08:27:56-04:00"
+description = "Week 11 of the Hack Reactor Immersive Software Engineering Program."
+keywords = ["Hack Reactor", "Hack", "Reactor", "Bootcamp", "Immersive", "Software Engineering", "Software", "Engineering"]
 tags = ["Hack Reactor"]
-date = "2016-01-03T08:54:39-04:00"
 title = "Hack Reactor Week 11"
+topics = ["Hack Reactor"]
+type = "post"
 
 +++
 

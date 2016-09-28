@@ -9,36 +9,8 @@
     <managingEditor>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</managingEditor>
     <webMaster>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</webMaster>
     <copyright>(c) 2016 Justin Zimmerman.</copyright>
-    <lastBuildDate>Sun, 03 Jan 2016 08:54:39 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 28 Dec 2015 19:05:39 -0400</lastBuildDate>
     <atom:link href="http://justinzimmerman.net/categories/hack-reactor/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Hack Reactor Week 11</title>
-      <link>http://justinzimmerman.net/post/hack-reactor-week-11/</link>
-      <pubDate>Sun, 03 Jan 2016 08:54:39 -0400</pubDate>
-      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
-      <guid>http://justinzimmerman.net/post/hack-reactor-week-11/</guid>
-      <description>
-
-&lt;p&gt;With our product, Bestrida, to MVP (Minimum Viable Product) we will continue to improve our MVP features, as well as the look and feel of product, for the remainder of the week.&lt;/p&gt;
-
-&lt;h3 id=&#34;design&#34;&gt;Design&lt;/h3&gt;
-
-&lt;p&gt;Our product finally received a much needed design overhaul, and we are definitely happy with the result:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://justinzimmerman.net/img/bestrida.jpg&#34; alt=&#34;Bestrida&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;stretch-goals&#34;&gt;Stretch Goals&lt;/h3&gt;
-
-&lt;p&gt;As you can see in the above image, we are able to pull from the Strava API segment effort data for the user to view additional metrics on how well they performed during their effort.&lt;/p&gt;
-
-&lt;h3 id=&#34;final-thesis-presentations&#34;&gt;Final Thesis Presentations&lt;/h3&gt;
-
-&lt;p&gt;It&amp;rsquo;s very hard to boil down three weeks of work into a simple 3 minute presentation, but fortunately I was paired with not only incredible developers, but excellent communicators. You can find our presentation &lt;a href=&#34;https://www.youtube.com/watch?v=sw_mcAhgQo4&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Only one more week until class is over! Onward to hiring week.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Hack Reactor Week 10</title>
