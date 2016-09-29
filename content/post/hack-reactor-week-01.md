@@ -26,6 +26,6 @@ We discussed a variety of code reuse patterns. The patterns include functional, 
 
 #### Data Structures
 
-The first week involved discussion and implementation of various data structures. We first started with the implementation of stacks and queues. During the rest of the week, we focused on more advanced data structures, such as linked lists, trees, graphs, sets, and binary search trees.
+The first week involved discussion and implementation of various data structures. We first started with implementation of stacks and queues. During the rest of the week, we focused on more advanced data structures, such as linked lists, trees, graphs, sets, and binary search trees.
 
 One of the most surprising things about Hack Reactor was the amount of thorough and thoughtful video lectures on "soft skills" to help with both the program and becoming an effective learner and programmer.
