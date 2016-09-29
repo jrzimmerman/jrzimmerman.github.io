@@ -523,36 +523,6 @@ USEFUL DIAGRAM!
     </item>
     
     <item>
-      <title>Hack Reactor Week 1</title>
-      <link>http://justinzimmerman.net/post/hack-reactor-week-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
-      <guid>http://justinzimmerman.net/post/hack-reactor-week-1/</guid>
-      <description>
-
-&lt;p&gt;This is it! The first week at Hack Reactor, and what an awesome experience it has been.&lt;/p&gt;
-
-&lt;p&gt;We started the first day with an introduction to the program, touched on both our expectations and the expectations of Hack Reactor, and did a review &amp;ldquo;sprint&amp;rdquo; on recursion.&lt;/p&gt;
-
-&lt;p&gt;Sprints are short projects often worked on with a pair, this is at the core of Hack Reactor&amp;rsquo;s teaching style and philosophy.&lt;/p&gt;
-
-&lt;h4 id=&#34;recursion&#34;&gt;Recursion&lt;/h4&gt;
-
-&lt;p&gt;Recursion is a technique for solving problems where a function makes calls to itself. This allows the program to solve small parts of the problem at a time, leaving the rest for the recursive calls.&lt;/p&gt;
-
-&lt;h4 id=&#34;code-reuse&#34;&gt;Code Reuse&lt;/h4&gt;
-
-&lt;p&gt;We discussed a variety of code reuse patterns. The patterns include functional, functional-shared, prototypal and psuedoclassical.&lt;/p&gt;
-
-&lt;h4 id=&#34;data-structures&#34;&gt;Data Structures&lt;/h4&gt;
-
-&lt;p&gt;The first week involved discussion and implementation of various data structures. We first started with the implementation of stacks and queues. During the rest of the week, we focused on more advanced data structures, such as linked lists, trees, graphs, sets, and binary search trees.&lt;/p&gt;
-
-&lt;p&gt;One of the most surprising things about Hack Reactor was the amount of thorough and thoughtful video lectures on &amp;ldquo;soft skills&amp;rdquo; to help with both the program and becoming an effective learner and programmer.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Hack Reactor Week 2</title>
       <link>http://justinzimmerman.net/post/hack-reactor-week-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -607,6 +577,36 @@ USEFUL DIAGRAM!
 &lt;p&gt;To add some complexity, and also double-down on Backbone.js concepts, we create a simple blackjack game using CoffeeScript. It was interesting to apply the fundamentals of what we are learning in JavaScript to another language, such as CoffeeScript. While I definitely didn&amp;rsquo;t master CoffeeScript by any means, I walked away from this sprint certainly feeling more comfortable taking computer science concepts from one language, and applying it to a language I haven&amp;rsquo;t used before.&lt;/p&gt;
 
 &lt;p&gt;Thanks for reading, and I look forward to week 4!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hack Reactor Week 4</title>
+      <link>http://justinzimmerman.net/post/hack-reactor-week-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/hack-reactor-week-4/</guid>
+      <description>
+
+&lt;p&gt;In Hack Reactor, week 4 is a pivotal time where the training wheels start to come off. Much of the sprints until week 4 have had for the most part very structured tests that held your hand through most of the sprints. Week 4 starts to look quite different!&lt;/p&gt;
+
+&lt;p&gt;During week 4 we took a walk through server-side or what is also called back-end concepts. We specifically focused on using node, server side concepts such as the client-server model, and databases.&lt;/p&gt;
+
+&lt;h4 id=&#34;node-js&#34;&gt;Node.js&lt;/h4&gt;
+
+&lt;p&gt;Node.js is a javascript runtime environment that allows for event-driven programming in an asynchronous environment.&lt;/p&gt;
+
+&lt;h4 id=&#34;server-side-concepts&#34;&gt;Server Side Concepts&lt;/h4&gt;
+
+&lt;p&gt;We discussed server side concepts such as the Client-Server model, background jobs, daemons, and cron tasks.&lt;/p&gt;
+
+&lt;h4 id=&#34;databases&#34;&gt;Databases&lt;/h4&gt;
+
+&lt;p&gt;In my previous job, maintenance of databases was a large portion of my daily tasks. So for this sprint I was able to take my previous experience and learn so much more.&lt;/p&gt;
+
+&lt;p&gt;To take a step backwards, databases are so important because of their ability to store data persistently. Should your node server restart, without a database you can say goodbye to all that beautiful data!&lt;/p&gt;
+
+&lt;p&gt;On to week 5!&lt;/p&gt;
 </description>
     </item>
     
