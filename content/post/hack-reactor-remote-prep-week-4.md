@@ -10,7 +10,7 @@ type = "post"
 
 +++
 
-<p style="text-align: center"><a href = "http://justinzimmerman.net/post/post/hack-reactor-remote-prep-week-1/">Week 1</a> | <a href = "http://justinzimmerman.net/post/post/hack-reactor-remote-prep-week-2/">Week 2</a> | <a href = "http://justinzimmerman.net/post/post/hack-reactor-remote-prep-week-3/">Week 3</a> | <a href = "http://justinzimmerman.net/post/post/hack-reactor-remote-prep-week-4/"><b>Week 4</b></a></p>
+<p style="text-align: center"><a href = "http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/">Week 1</a> | <a href = "http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/">Week 2</a> | <a href = "http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/">Week 3</a> | <a href = "http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/"><b>Week 4</b></a></p>
 
 Just like that, the four week course is at an end. I have really enjoyed the opportunity to learn such a large amount of material in such a short time.
 
