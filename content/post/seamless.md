@@ -1,9 +1,15 @@
----
-title: Seamless
-slug: seamless
-date_published: 2015-12-06T02:43:00.000Z
-date_updated:   2016-06-13T07:23:58.000Z
----
++++
+author = "Justin Zimmerman"
+date = "2015-12-06T09:05:42-04:00"
+description = "Seamless is an image resizing application that leverages Firebase for persistent storage of a users images."
+draft = true
+keywords = ["Seamless", "Seam Carving", "Seam", "Carving", "Hack Reactor", "Hack", "Reactor"]
+tags = ["Seamless", "Hack Reactor"]
+title = "Seamless"
+topics = ["Seamless"]
+type = "post"
+
++++
 
 [Seamless](https://hrr9-seamless.herokuapp.com/) is an image resizing application that leverages [Firebase](https://www.firebase.com/) for persistent storage of a users images.
 
