@@ -1,9 +1,14 @@
----
-title: Create a Static Page on a Digital Ocean Droplet
-slug: create-a-static-page-on-a-digital-ocean-droplet
-date_published: 2015-10-15T18:37:00.000Z
-date_updated:   2016-06-13T07:09:14.000Z
----
++++
+author = "Justin Zimmerman"
+date = "2015-10-15T09:48:08-04:00"
+description = "Creating a static page on a Digital Ocean droplet."
+keywords = ["NGINX", "Digital Ocean"]
+tags = ["NGINX", "Digital Ocean"]
+title = "Create a Static Page on a Digital Ocean Droplet"
+topics = ["NGINX", "Digital Ocean"]
+type = "post"
+
++++
 
 I currently use Digital Ocean to host my ghost blog. This has a been a very fun adventure, allowing me to learn the "ins and outs" of linux server administration.
 
@@ -17,6 +22,7 @@ After we copy our files onto our server, we want open the Ghost nginx file using
 
 The file should look like this:
 
+```
     server {
       listen 80 default_server;
       listen [::]:80 default_server ipv6only=on;
@@ -36,17 +42,21 @@ The file should look like this:
           proxy_buffering off;
       }
     }
+```
 
 Add this block after the location / block:
 
+```
     location /chatbuilder/ {
             alias /var/www/ChatBuilder/;
       }
+```
 
 We have just created an alias to a folder on the file system.
 
 ##### Completed file
 
+```
     server {
       listen 80 default_server;
       listen [::]:80 default_server ipv6only=on;
@@ -70,10 +80,13 @@ We have just created an alias to a folder on the file system.
           alias /var/www/ChatBuilder/;
       }
     }
+```
 
 ##### Restart nginx and ghost
 
+```
     sudo service nginx restart
     sudo service ghost restart
+```
 
 Thanks for reading! I hope this helps you set up your new static page.

@@ -475,6 +475,94 @@ USEFUL DIAGRAM!
     </item>
     
     <item>
+      <title>Create a Static Page on a Digital Ocean Droplet</title>
+      <link>http://justinzimmerman.net/post/create-a-static-page-on-a-digital-ocean-droplet/</link>
+      <pubDate>Thu, 15 Oct 2015 09:48:08 -0400</pubDate>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/create-a-static-page-on-a-digital-ocean-droplet/</guid>
+      <description>
+
+&lt;p&gt;I currently use Digital Ocean to host my ghost blog. This has a been a very fun adventure, allowing me to learn the &amp;ldquo;ins and outs&amp;rdquo; of linux server administration.&lt;/p&gt;
+
+&lt;h5 id=&#34;what-if-we-want-to-add-a-new-static-page&#34;&gt;What if we want to add a new static page?&lt;/h5&gt;
+
+&lt;p&gt;Using a ghost blog is very easy and simple, but what if we want to add our projects to our site?&lt;/p&gt;
+
+&lt;p&gt;This takes a little bit of work.&lt;/p&gt;
+
+&lt;p&gt;After we copy our files onto our server, we want open the Ghost nginx file using:
+&lt;code&gt;nano /etc/nginx/sites-enabled/ghost&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The file should look like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    server {
+      listen 80 default_server;
+      listen [::]:80 default_server ipv6only=on;
+
+      server_name justinzimmerman.net; # Replace with your domain
+
+      root /usr/share/nginx/html;
+      index index.html index.htm;
+
+      client_max_body_size 10G;
+
+      location / {
+          proxy_pass http://localhost:2368;
+          proxy_set_header X-Forwarded-For   $proxy_add_x_forwarded_for;
+          proxy_set_header Host $http_host;
+          proxy_set_header X-Forwarded-Proto     $scheme;
+          proxy_buffering off;
+      }
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Add this block after the location / block:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    location /chatbuilder/ {
+            alias /var/www/ChatBuilder/;
+      }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We have just created an alias to a folder on the file system.&lt;/p&gt;
+
+&lt;h5 id=&#34;completed-file&#34;&gt;Completed file&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code&gt;    server {
+      listen 80 default_server;
+      listen [::]:80 default_server ipv6only=on;
+
+      server_name justinzimmerman.net; # Replace with your domain
+
+      root /usr/share/nginx/html;
+      index index.html index.htm;
+
+      client_max_body_size 10G;
+
+      location / {
+          proxy_pass http://localhost:2368;
+          proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+          proxy_set_header Host $http_host;
+          proxy_set_header X-Forwarded-Proto $scheme;
+          proxy_buffering off;
+      }
+
+      location /chatbuilder/ {
+          alias /var/www/ChatBuilder/;
+      }
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&#34;restart-nginx-and-ghost&#34;&gt;Restart nginx and ghost&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code&gt;    sudo service nginx restart
+    sudo service ghost restart
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Thanks for reading! I hope this helps you set up your new static page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Hack Reactor Week 1</title>
       <link>http://justinzimmerman.net/post/hack-reactor-week-01/</link>
       <pubDate>Tue, 06 Oct 2015 09:37:44 -0400</pubDate>
@@ -713,48 +801,6 @@ brew linkapps qgis-28
 &lt;p&gt;&lt;a href=&#34;http://jz-breakout.divshot.io&#34;&gt;My version can be found here.&lt;/a&gt;&lt;/p&gt;
 
 &lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/&#34;&gt;Week 1&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/&#34;&gt;&lt;b&gt;Week 2&lt;/b&gt;&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/&#34;&gt;Week 3&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/&#34;&gt;Week 4&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hack Reactor Remote Prep Week 1</title>
-      <link>http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/</link>
-      <pubDate>Sun, 19 Jul 2015 20:42:20 -0400</pubDate>
-      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
-      <guid>http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/</guid>
-      <description>
-
-&lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/&#34;&gt;&lt;b&gt;Week 1&lt;/b&gt;&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/&#34;&gt;Week 2&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/&#34;&gt;Week 3&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/&#34;&gt;Week 4&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I am fortunate enough to be in the first &lt;a href=&#34;http://hackreactor.com&#34;&gt;Hack Reactor&lt;/a&gt; Remote Prep class! The course is 4 weeks long, meeting 5 days a week for 3 hours.&lt;/p&gt;
-
-&lt;p&gt;The class time has flown by, and I have been able to work and get to know a majority of my classmates! I had wondered what it would be like to pair program remotely with people, and I honestly think it is just as good as if the person was sitting beside you.&lt;/p&gt;
-
-&lt;p&gt;The first week was spent learning Markdown, HTML, and CSS.&lt;/p&gt;
-
-&lt;h4 id=&#34;markdown&#34;&gt;Markdown&lt;/h4&gt;
-
-&lt;p&gt;The first night was a &amp;lsquo;get to know the class&amp;rsquo; where each person &lt;a href=&#34;https://gist.github.com/jrzimmerman/4bc55dd20ae8206689c0&#34;&gt;interviewed their paired partner&lt;/a&gt; and then had to introduce their partner to the class. We styled the information with Markdown.&lt;/p&gt;
-
-&lt;h4 id=&#34;html&#34;&gt;HTML&lt;/h4&gt;
-
-&lt;p&gt;The second night focused on learning HTML and &lt;a href=&#34;http://jzimmerman.divshot.io/&#34;&gt;deploying our first site&lt;/a&gt;! This was a great experience. Since I knew some HTML already, the instructors hinted at using Bootstrap to style the site. I was also able to use the command line to deploy my website using &lt;a href=&#34;https://divshot.com/&#34;&gt;Divshot&lt;/a&gt;. One of the cool things about the Remote Prep class, is that the instructor and TAs are always willing to push you when you ask for extra material.&lt;/p&gt;
-
-&lt;h4 id=&#34;css&#34;&gt;CSS&lt;/h4&gt;
-
-&lt;p&gt;The third night was more difficult for me. I am probably the least exposed to CSS, and I was able to learn so much from the exercises. We also focused on importing media to websites such as YouTube videos, Google Maps, sound files, and external sites.&lt;/p&gt;
-
-&lt;h4 id=&#34;forms&#34;&gt;Forms&lt;/h4&gt;
-
-&lt;p&gt;The fourth night was all about styling multi-page web sites and learning how to use forms in HTML. We also discussed GET and POST, and &lt;a href=&#34;https://www.youtube.com/watch?v=7_LPdttKXPc&#34;&gt;how the internet works.&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;css-frameworks&#34;&gt;CSS Frameworks&lt;/h4&gt;
-
-&lt;p&gt;The fifth day was all about advanced styling of layouts with CSS and an introduction to modern HTML and CSS frameworks! I am excited to be using &lt;a href=&#34;http://minimalcss.com/&#34;&gt;MinimalCSS&lt;/a&gt; and &lt;a href=&#34;http://getbootstrap.com/&#34;&gt;Bootstrap&lt;/a&gt; from this point forward.&lt;/p&gt;
-
-&lt;p&gt;I hope to continue posting what I have learned from class on a weekly basis! Happy learning!&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/&#34;&gt;&lt;b&gt;Week 1&lt;/b&gt;&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/&#34;&gt;Week 2&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/&#34;&gt;Week 3&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/&#34;&gt;Week 4&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

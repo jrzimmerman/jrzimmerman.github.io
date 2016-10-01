@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nginx on Justin Zimmerman</title>
+    <link>http://justinzimmerman.net/tags/nginx/</link>
+    <description>Recent content in Nginx on Justin Zimmerman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</managingEditor>
+    <webMaster>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</webMaster>
+    <copyright>(c) 2016 Justin Zimmerman.</copyright>
+    <lastBuildDate>Thu, 15 Oct 2015 09:48:08 -0400</lastBuildDate>
+    <atom:link href="http://justinzimmerman.net/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Create a Static Page on a Digital Ocean Droplet</title>
+      <link>http://justinzimmerman.net/post/create-a-static-page-on-a-digital-ocean-droplet/</link>
+      <pubDate>Thu, 15 Oct 2015 09:48:08 -0400</pubDate>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/create-a-static-page-on-a-digital-ocean-droplet/</guid>
+      <description>
+
+&lt;p&gt;I currently use Digital Ocean to host my ghost blog. This has a been a very fun adventure, allowing me to learn the &amp;ldquo;ins and outs&amp;rdquo; of linux server administration.&lt;/p&gt;
+
+&lt;h5 id=&#34;what-if-we-want-to-add-a-new-static-page&#34;&gt;What if we want to add a new static page?&lt;/h5&gt;
+
+&lt;p&gt;Using a ghost blog is very easy and simple, but what if we want to add our projects to our site?&lt;/p&gt;
+
+&lt;p&gt;This takes a little bit of work.&lt;/p&gt;
+
+&lt;p&gt;After we copy our files onto our server, we want open the Ghost nginx file using:
+&lt;code&gt;nano /etc/nginx/sites-enabled/ghost&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The file should look like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    server {
+      listen 80 default_server;
+      listen [::]:80 default_server ipv6only=on;
+
+      server_name justinzimmerman.net; # Replace with your domain
+
+      root /usr/share/nginx/html;
+      index index.html index.htm;
+
+      client_max_body_size 10G;
+
+      location / {
+          proxy_pass http://localhost:2368;
+          proxy_set_header X-Forwarded-For   $proxy_add_x_forwarded_for;
+          proxy_set_header Host $http_host;
+          proxy_set_header X-Forwarded-Proto     $scheme;
+          proxy_buffering off;
+      }
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Add this block after the location / block:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    location /chatbuilder/ {
+            alias /var/www/ChatBuilder/;
+      }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We have just created an alias to a folder on the file system.&lt;/p&gt;
+
+&lt;h5 id=&#34;completed-file&#34;&gt;Completed file&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code&gt;    server {
+      listen 80 default_server;
+      listen [::]:80 default_server ipv6only=on;
+
+      server_name justinzimmerman.net; # Replace with your domain
+
+      root /usr/share/nginx/html;
+      index index.html index.htm;
+
+      client_max_body_size 10G;
+
+      location / {
+          proxy_pass http://localhost:2368;
+          proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+          proxy_set_header Host $http_host;
+          proxy_set_header X-Forwarded-Proto $scheme;
+          proxy_buffering off;
+      }
+
+      location /chatbuilder/ {
+          alias /var/www/ChatBuilder/;
+      }
+    }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&#34;restart-nginx-and-ghost&#34;&gt;Restart nginx and ghost&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code&gt;    sudo service nginx restart
+    sudo service ghost restart
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Thanks for reading! I hope this helps you set up your new static page.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

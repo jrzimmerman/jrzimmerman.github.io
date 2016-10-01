@@ -147,6 +147,35 @@
   
     <article class="container content summary">
   <div class="container hat">
+  <h2><a href="http://justinzimmerman.net/post/hack-reactor-week-00/">Hack Reactor Week 0
+</a>
+</h2>
+
+  <time datetime="2015-10-06">6 Oct, 2015</time>
+
+</div>
+
+  <p class="container content">
+  
+  
+    Week 0 of the Hack Reactor Immersive Software Engineering Program.
+  
+
+
+</p>
+
+
+  <div class="container readlink">
+  <a href="http://justinzimmerman.net/post/hack-reactor-week-00/">Read more &rarr;</a>
+
+</div>
+
+
+</article>
+
+  
+    <article class="container content summary">
+  <div class="container hat">
   <h2><a href="http://justinzimmerman.net/post/installing-postgis-and-qgis-using-homebrew/">Installing PostGIS and QGIS using Homebrew
 </a>
 </h2>
@@ -399,35 +428,6 @@
 
   <div class="container readlink">
   <a href="http://justinzimmerman.net/post/visualizing-map-service-usage/">Read more &rarr;</a>
-
-</div>
-
-
-</article>
-
-  
-    <article class="container content summary">
-  <div class="container hat">
-  <h2><a href="http://justinzimmerman.net/post/create-a-static-page-on-a-digital-ocean-droplet/">Create a Static Page on a Digital Ocean Droplet
-</a>
-</h2>
-
-  <time datetime="0001-01-01">1 Jan, 0001</time>
-
-</div>
-
-  <p class="container content">
-  
-  
-    I currently use Digital Ocean to host my ghost blog. This has a been a very fun adventure, allowing me to learn the &ldquo;ins and outs&rdquo; of linux server administration. What if we want to add a new static page? Using a ghost blog is very easy and simple, but what if we want to add our projects to our site? This takes a little bit of work. After we copy our files onto our server, we want open the Ghost nginx file using: nano /etc/nginx/sites-enabled/ghost The file should look like this: server { listen 80 default_server; listen [::]:80 default_server ipv6only=on; server_name justinzimmerman.net; # Replace with your domain root /usr/share/nginx/html; index index.html index.htm; client_max_body_size 10G; location / { proxy_pass http://localhost:2368; proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for; proxy_set_header Host $http_host; proxy_set_header X-Forwarded-Proto $scheme; proxy_buffering off; } } Add this block after the location / block: location /chatbuilder/ { alias /var/www/ChatBuilder/; } We have just created an alias to a folder on the file system.
-  
-
-
-</p>
-
-
-  <div class="container readlink">
-  <a href="http://justinzimmerman.net/post/create-a-static-page-on-a-digital-ocean-droplet/">Read more &rarr;</a>
 
 </div>
 

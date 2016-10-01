@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>Geolocation on Page Load  &middot; Justin Zimmerman</title>
+  <title>Digital Ocean  &middot; Justin Zimmerman</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
@@ -17,47 +17,19 @@
 <meta name="keywords" content="">
 
 
-<meta property="og:title" content="Geolocation on Page Load  &middot; Justin Zimmerman ">
+<meta property="og:title" content="Digital Ocean  &middot; Justin Zimmerman ">
 <meta property="og:site_name" content="Justin Zimmerman"/>
-<meta property="og:url" content="http://justinzimmerman.net/post/geolocation-on-page-load/" />
+<meta property="og:url" content="http://justinzimmerman.net/tags/digital-ocean/" />
 <meta property="og:locale" content="en-us">
 
 
-<meta property="og:type" content="article" />
-<meta property="og:description" content=""/>
-<meta property="og:article:published_time" content="0001-01-01T00:00:00Z" />
-<meta property="og:article:modified_time" content="0001-01-01T00:00:00Z" />
-
-  
-
-  
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@justzimmerman" />
-<meta name="twitter:creator" content="@justzimmerman" />
-<meta name="twitter:title" content="Geolocation on Page Load" />
-<meta name="twitter:description" content="" />
-<meta name="twitter:url" content="http://justinzimmerman.net/post/geolocation-on-page-load/" />
-<meta name="twitter:domain" content="http://justinzimmerman.net/">
-  
-
-<script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "Article",
-    "headline": "Geolocation on Page Load",
-    "author": {
-      "@type": "Person",
-      "name": "http://profiles.google.com/+?rel=author"
-    },
-    "datePublished": "0001-01-01",
-    "description": "",
-    "wordCount":  220 
-  }
-</script>
+<meta property="og:type" content="website" />
 
 
 
-<link rel="canonical" href="http://justinzimmerman.net/post/geolocation-on-page-load/" />
+<link href="http://justinzimmerman.net/tags/digital-ocean/index.xml" rel="alternate" type="application/rss+xml" title="Digital Ocean" />
+
+<link rel="canonical" href="http://justinzimmerman.net/tags/digital-ocean/" />
 
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://justinzimmerman.net/touch-icon-144-precomposed.png">
 <link href="http://justinzimmerman.net/favicon.png" rel="icon">
@@ -149,6 +121,9 @@
 
 
 
+<a id="contact-link-rss" class="contact_link" href="http://justinzimmerman.net/tags/digital-ocean/index.xml" type="application/rss+xml">
+  <span class="fa fa-rss-square"></span><span>rss</span></a>
+
 
 
 </div>
@@ -159,101 +134,22 @@
 </header>
 
 
-<article id="main-content" class="container main_content single">
-  <header class="container hat">
-  <h1>Geolocation on Page Load
+<article id="main-content" class="container main_content list">
+  <header class="container">
+    <h1>Digital Ocean
 </h1>
 
-  <div class="metas">
-<time datetime="0001-01-01">1 Jan, 0001</time>
+  </header>
+  <ul class="container content">
+    
+      <li><a href="http://justinzimmerman.net/post/create-a-static-page-on-a-digital-ocean-droplet/">Create a Static Page on a Digital Ocean Droplet
+</a>
 
-
-  
-  &middot; Read in about 2 min
-  &middot; (220 Words)
-  <br>
-  
-
-
-</div>
-
-</header>
-
-  <div class="container content">
-  
-
-<p>While building <a href="https://geotinerary.herokuapp.com/">Geotinerary</a>, I wanted the map to zoom relatively close to the users location. Surprisingly enough, this was quite hard to find an example of.</p>
-
-<h4 id="html5-and-ips">HTML5 and IPs</h4>
-
-<p>Traditionally, when a webpage wants your location, we use the native HTML5. While this isn&rsquo;t a terrible idea and can have much more accurate results, there is another method to find your users location that doesn&rsquo;t require the use of HTML5 geolocation, the users IP address.</p>
-
-<h4 id="html5-geolocation">HTML5 Geolocation</h4>
-
-<p>The most accurate approach to locating your users is to use HTML 5&rsquo;s built in geolocation feature. Due to the accuracy, this is the approach I opted to use for Geotinerary.</p>
-
-<p>Here is a code snippet for HTML 5 Geolocation:</p>
-
-<script src="https://gist.github.com/jrzimmerman/c4039796cfaa84980cbe.js"></script>
-
-<h4 id="geolocating-ip-addresses">Geolocating IP Addresses</h4>
-
-<p>If you are concerned with There are a swath of many great GeoIP providers, but for this project I decided upon <a href="http://freegeoip.net/">Free GeoIP</a> for its open data and ease of use. While the location is not as great, it&rsquo;s all about what you need from your data.</p>
-
-<p>Here is a code snippet for Geolocating IP Addresses:</p>
-
-<script src="https://gist.github.com/jrzimmerman/0453bdfd552de42f30f6.js"></script>
-
-<p>Deciding upon which method to use depends on use case. Since I had a need for specific locations, I went with the traditional HTML 5 geolocation. If I were to aggregate data at a national (or global) scale, then GeoIP is a fantastic use.</p>
-
-</div>
-
-
-  <footer class="container">
-  <div class="container navigation no-print">
-  <h2>Navigation</h2>
-  
-  
+</li>
 
     
-    <a class="prev" href="http://justinzimmerman.net/post/hack-reactor-week-2/" title="Hack Reactor Week 2">
-      Previous
-    </a>
-    
-
-    
-    <a class="next" href="http://justinzimmerman.net/post/visualizing-map-service-usage/" title="Visualizing Map Service Usage">
-      Next
-    </a>
-    
-
+  </ul>
   
-
-
-</div>
-
-  <div class="container comments">
-  <h2>Comments</h2>
-  
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-  (function() {
-    
-    
-    if (window.location.hostname == "localhost")
-      return;
-
-    var dsq = document.createElement('script'); dsq.async = true; dsq.type = 'text/javascript';
-    dsq.src = '//justinzimmerman.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-
-</div>
-
-</footer>
 
 </article>
       <footer id="main-footer" class="container main_footer">
