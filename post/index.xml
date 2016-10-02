@@ -563,6 +563,124 @@ USEFUL DIAGRAM!
     </item>
     
     <item>
+      <title>Ubuntu Server Configuration</title>
+      <link>http://justinzimmerman.net/post/ubuntu-server-configuration/</link>
+      <pubDate>Thu, 15 Oct 2015 08:55:24 -0400</pubDate>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/ubuntu-server-configuration/</guid>
+      <description>
+
+&lt;p&gt;Below is a listing of important tasks to complete after spinning up your Ubuntu server.&lt;/p&gt;
+
+&lt;h5 id=&#34;ssh-login-as-root&#34;&gt;SSH login as root&lt;/h5&gt;
+
+&lt;p&gt;You should have added an ssh key to the instance during creation. SSH into the instance as root with&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ssh root@server_ip_address&lt;/code&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;update-server-to-latest-patches&#34;&gt;Update server to latest patches&lt;/h5&gt;
+
+&lt;p&gt;&lt;code&gt;sudo apt-get update
+sudo apt-get upgrade&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Optionally to uninstall old packages&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo apt-get autoremove&lt;/code&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;create-a-new-user&#34;&gt;Create a new user&lt;/h5&gt;
+
+&lt;p&gt;&lt;code&gt;adduser user_name&lt;/code&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;assign-root-permission-to-new-user&#34;&gt;Assign root permission to new user&lt;/h5&gt;
+
+&lt;p&gt;&lt;code&gt;gpasswd -a user_name sudo&lt;/code&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;login-as-new-user&#34;&gt;Login as new user&lt;/h5&gt;
+
+&lt;p&gt;&lt;code&gt;su - user_name&lt;/code&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;add-public-key&#34;&gt;Add public key&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code&gt;mkdir .ssh
+chmod 700 .ssh
+nano .ssh/authorized_keys
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Copy your public key into this file&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;chmod 600 .ssh/authorized_keys&lt;/code&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;ssh-into-the-instance-as-the-new-user&#34;&gt;SSH into the instance as the new user&lt;/h5&gt;
+
+&lt;p&gt;&lt;code&gt;ssh user_name@server_ip_address&lt;/code&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;edit-ssh-configuration-settings&#34;&gt;Edit SSH configuration settings&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo nano /etc/ssh/sshd_config
+PermitRootLogin no
+PermitEmptyPassword no
+sudo service ssh restart
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&#34;setup-the-firewall&#34;&gt;Setup the firewall&lt;/h5&gt;
+
+&lt;p&gt;Permit ssh on port 22&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo ufw allow ssh&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;To allow all traffic from a specified IP address&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo ufw allow from any_ip_address&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Allow traffic from a specific port&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo ufw allow 80/tcp&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Review configuration before enabling&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo ufw show added&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Enable the UFW configuration&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo ufw enable&lt;/code&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;configure-ntp&#34;&gt;Configure NTP&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt-get update
+sudo apt-get install ntp
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&#34;setup-swap-file&#34;&gt;Setup swap file&lt;/h5&gt;
+
+&lt;p&gt;Usually best practice to double amount of RAM for swap file&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo fallocate -l xxxG /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+sudo sh -c &#39;echo &amp;quot;/swapfile none swap sw 0 0&amp;quot; &amp;gt;&amp;gt; /etc/fstab&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&#34;install-fail2ban&#34;&gt;Install fail2ban&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt-get update
+sudo apt-get install fail2ban
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&#34;edit-fail2ban-config&#34;&gt;Edit fail2ban config&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
+sudo nano /etc/fail2ban/jail.local
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Update the bantime, findtime, and maxretry settings
+Restart the fail2ban service&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo service fail2ban restart&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Hack Reactor Week 1</title>
       <link>http://justinzimmerman.net/post/hack-reactor-week-01/</link>
       <pubDate>Tue, 06 Oct 2015 09:37:44 -0400</pubDate>
@@ -755,52 +873,6 @@ brew linkapps qgis-28
 &lt;p&gt;This hackathon was an individual 3 hour exercise in building a web store to compete with Amazon.com. We built upon our existing knowledge of HTML, CSS, and jQuery to create a basic layout for our e-commerce site. We then used objects to store our products that we would be selling, such as books and albums.&lt;/p&gt;
 
 &lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/&#34;&gt;Week 1&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/&#34;&gt;Week 2&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/&#34;&gt;&lt;b&gt;Week 3&lt;/b&gt;&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/&#34;&gt;Week 4&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hack Reactor Remote Prep Week 2</title>
-      <link>http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/</link>
-      <pubDate>Sat, 25 Jul 2015 09:42:11 -0400</pubDate>
-      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
-      <guid>http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/</guid>
-      <description>
-
-&lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/&#34;&gt;Week 1&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/&#34;&gt;&lt;b&gt;Week 2&lt;/b&gt;&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/&#34;&gt;Week 3&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/&#34;&gt;Week 4&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Another week completed already! With the end of week 2 brings the close to the first half of the class. At the end of each class, the instructors give a survey to determine if you feel &amp;lsquo;behind pace,&amp;rsquo; &amp;lsquo;on pace,&amp;rsquo; or &amp;lsquo;ahead of pace.&amp;rsquo; While I still feel I am in the &amp;lsquo;ahead of pace&amp;rsquo; category, I have been learning quite a bit!&lt;/p&gt;
-
-&lt;h4 id=&#34;introduction-to-javascript&#34;&gt;Introduction to JavaScript&lt;/h4&gt;
-
-&lt;p&gt;One of the cool things about Hack Reactor is that, no matter the complexity of the material, they always find a way to challenge you with the exercises.&lt;/p&gt;
-
-&lt;p&gt;The first day of the week was very easy, covering terminal and operators in JavaScript. This gave me an opportunity to assist students newer to these concepts.&lt;/p&gt;
-
-&lt;h4 id=&#34;dom-manipulation&#34;&gt;DOM Manipulation&lt;/h4&gt;
-
-&lt;p&gt;We started learning about using JavaScript to manipulate the DOM. This was very interesting, as I have yet to really understand how to leverage JavaScript to manipulate the page.&lt;/p&gt;
-
-&lt;h4 id=&#34;conditionals&#34;&gt;Conditionals&lt;/h4&gt;
-
-&lt;p&gt;This started with a brief refresher on the Boolean data type. We then spent most of our time working on If/Else statements. I really enjoyed taking what we had previously learned about DOM Manipulation and applying conditional statements based on user input.&lt;/p&gt;
-
-&lt;h4 id=&#34;while-loops&#34;&gt;While Loops&lt;/h4&gt;
-
-&lt;p&gt;I was very impressed with Hack Reactor as they took a seemingly simple concept and really made students push the limits of while loops. As I would normally use for loops for a majority of my functional programming, it was interesting to see how you can really leverage while loops, such as creating a simple rock, paper, scissors game.&lt;/p&gt;
-
-&lt;h4 id=&#34;jquery&#34;&gt;jQuery&lt;/h4&gt;
-
-&lt;p&gt;While jQuery can take a little getting used to, it definitely seems like the way to go for DOM Manipulation. I really enjoyed learning about jQuery effects as well.&lt;/p&gt;
-
-&lt;h4 id=&#34;hackathon&#34;&gt;Hackathon&lt;/h4&gt;
-
-&lt;p&gt;We had a Halfway Hackathon! As a team, we were required to develop a project idea, and using all that we have learned so far, develop that idea individually in 3 hours.&lt;/p&gt;
-
-&lt;p&gt;I really enjoyed working with my group to problem solve and create a really fun version of the classic &amp;lsquo;Breakout&amp;rsquo; game.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://jz-breakout.divshot.io&#34;&gt;My version can be found here.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/&#34;&gt;Week 1&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/&#34;&gt;&lt;b&gt;Week 2&lt;/b&gt;&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/&#34;&gt;Week 3&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/&#34;&gt;Week 4&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

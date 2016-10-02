@@ -5,34 +5,34 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>Create a Static Page on a Digital Ocean Droplet  &middot; Justin Zimmerman</title>
+  <title>Ubuntu Server Configuration  &middot; Justin Zimmerman</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<meta name="description" content="Creating a static page on a Digital Ocean droplet." />
+<meta name="description" content="A listing of important tasks to complete after spinning up your Ubuntu server." />
 
-<meta name="keywords" content="NGINX, Digital Ocean, ">
+<meta name="keywords" content="Ubuntu, Server, ">
 
 
-<meta property="og:title" content="Create a Static Page on a Digital Ocean Droplet  &middot; Justin Zimmerman ">
+<meta property="og:title" content="Ubuntu Server Configuration  &middot; Justin Zimmerman ">
 <meta property="og:site_name" content="Justin Zimmerman"/>
-<meta property="og:url" content="http://justinzimmerman.net/post/create-a-static-page-on-a-digital-ocean-droplet/" />
+<meta property="og:url" content="http://justinzimmerman.net/post/ubuntu-server-configuration/" />
 <meta property="og:locale" content="en-us">
 
 
 <meta property="og:type" content="article" />
-<meta property="og:description" content="Creating a static page on a Digital Ocean droplet."/>
-<meta property="og:article:published_time" content="2015-10-15T09:48:08-04:00" />
-<meta property="og:article:modified_time" content="2015-10-15T09:48:08-04:00" />
+<meta property="og:description" content="A listing of important tasks to complete after spinning up your Ubuntu server."/>
+<meta property="og:article:published_time" content="2015-10-15T08:55:24-04:00" />
+<meta property="og:article:modified_time" content="2015-10-15T08:55:24-04:00" />
 
   
     
-<meta property="og:article:tag" content="NGINX">
+<meta property="og:article:tag" content="Ubuntu">
     
-<meta property="og:article:tag" content="Digital Ocean">
+<meta property="og:article:tag" content="Server">
     
   
 
@@ -40,9 +40,9 @@
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@justzimmerman" />
 <meta name="twitter:creator" content="@justzimmerman" />
-<meta name="twitter:title" content="Create a Static Page on a Digital Ocean Droplet" />
-<meta name="twitter:description" content="Creating a static page on a Digital Ocean droplet." />
-<meta name="twitter:url" content="http://justinzimmerman.net/post/create-a-static-page-on-a-digital-ocean-droplet/" />
+<meta name="twitter:title" content="Ubuntu Server Configuration" />
+<meta name="twitter:description" content="A listing of important tasks to complete after spinning up your Ubuntu server." />
+<meta name="twitter:url" content="http://justinzimmerman.net/post/ubuntu-server-configuration/" />
 <meta name="twitter:domain" content="http://justinzimmerman.net/">
   
 
@@ -50,20 +50,20 @@
   {
     "@context": "http://schema.org",
     "@type": "Article",
-    "headline": "Create a Static Page on a Digital Ocean Droplet",
+    "headline": "Ubuntu Server Configuration",
     "author": {
       "@type": "Person",
       "name": "http://profiles.google.com/+?rel=author"
     },
     "datePublished": "2015-10-15",
-    "description": "Creating a static page on a Digital Ocean droplet.",
-    "wordCount":  235 
+    "description": "A listing of important tasks to complete after spinning up your Ubuntu server.",
+    "wordCount":  262 
   }
 </script>
 
 
 
-<link rel="canonical" href="http://justinzimmerman.net/post/create-a-static-page-on-a-digital-ocean-droplet/" />
+<link rel="canonical" href="http://justinzimmerman.net/post/ubuntu-server-configuration/" />
 
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://justinzimmerman.net/touch-icon-144-precomposed.png">
 <link href="http://justinzimmerman.net/favicon.png" rel="icon">
@@ -167,7 +167,7 @@
 
 <article id="main-content" class="container main_content single">
   <header class="container hat">
-  <h1>Create a Static Page on a Digital Ocean Droplet
+  <h1>Ubuntu Server Configuration
 </h1>
 
   <div class="metas">
@@ -178,12 +178,10 @@
     &middot; by Justin Zimmerman
   
   &middot; Read in about 2 min
-  &middot; (235 Words)
+  &middot; (262 Words)
   <br>
   
-<a class="label" href="http://justinzimmerman.net/tags/nginx">NGINX</a>
-
-<a class="label" href="http://justinzimmerman.net/tags/digital-ocean">Digital Ocean</a>
+<a class="label" href="http://justinzimmerman.net/tags/ubuntu">Ubuntu</a>
 
 
 
@@ -194,83 +192,113 @@
   <div class="container content">
   
 
-<p>I currently use Digital Ocean to host my ghost blog. This has a been a very fun adventure, allowing me to learn the &ldquo;ins and outs&rdquo; of linux server administration.</p>
+<p>Below is a listing of important tasks to complete after spinning up your Ubuntu server.</p>
 
-<h5 id="what-if-we-want-to-add-a-new-static-page">What if we want to add a new static page?</h5>
+<h5 id="ssh-login-as-root">SSH login as root</h5>
 
-<p>Using a ghost blog is very easy and simple, but what if we want to add our projects to our site?</p>
+<p>You should have added an ssh key to the instance during creation. SSH into the instance as root with</p>
 
-<p>This takes a little bit of work.</p>
+<p><code>ssh root@server_ip_address</code></p>
 
-<p>After we copy our files onto our server, we want open the Ghost nginx file using:
-<code>nano /etc/nginx/sites-enabled/ghost</code></p>
+<h5 id="update-server-to-latest-patches">Update server to latest patches</h5>
 
-<p>The file should look like this:</p>
+<p><code>sudo apt-get update
+sudo apt-get upgrade</code></p>
 
-<pre><code>    server {
-      listen 80 default_server;
-      listen [::]:80 default_server ipv6only=on;
+<p>Optionally to uninstall old packages</p>
 
-      server_name justinzimmerman.net; # Replace with your domain
+<p><code>sudo apt-get autoremove</code></p>
 
-      root /usr/share/nginx/html;
-      index index.html index.htm;
+<h5 id="create-a-new-user">Create a new user</h5>
 
-      client_max_body_size 10G;
+<p><code>adduser user_name</code></p>
 
-      location / {
-          proxy_pass http://localhost:2368;
-          proxy_set_header X-Forwarded-For   $proxy_add_x_forwarded_for;
-          proxy_set_header Host $http_host;
-          proxy_set_header X-Forwarded-Proto     $scheme;
-          proxy_buffering off;
-      }
-    }
+<h5 id="assign-root-permission-to-new-user">Assign root permission to new user</h5>
+
+<p><code>gpasswd -a user_name sudo</code></p>
+
+<h5 id="login-as-new-user">Login as new user</h5>
+
+<p><code>su - user_name</code></p>
+
+<h5 id="add-public-key">Add public key</h5>
+
+<pre><code>mkdir .ssh
+chmod 700 .ssh
+nano .ssh/authorized_keys
 </code></pre>
 
-<p>Add this block after the location / block:</p>
+<p>Copy your public key into this file</p>
 
-<pre><code>    location /chatbuilder/ {
-            alias /var/www/ChatBuilder/;
-      }
+<p><code>chmod 600 .ssh/authorized_keys</code></p>
+
+<h5 id="ssh-into-the-instance-as-the-new-user">SSH into the instance as the new user</h5>
+
+<p><code>ssh user_name@server_ip_address</code></p>
+
+<h5 id="edit-ssh-configuration-settings">Edit SSH configuration settings</h5>
+
+<pre><code>sudo nano /etc/ssh/sshd_config
+PermitRootLogin no
+PermitEmptyPassword no
+sudo service ssh restart
 </code></pre>
 
-<p>We have just created an alias to a folder on the file system.</p>
+<h5 id="setup-the-firewall">Setup the firewall</h5>
 
-<h5 id="completed-file">Completed file</h5>
+<p>Permit ssh on port 22</p>
 
-<pre><code>    server {
-      listen 80 default_server;
-      listen [::]:80 default_server ipv6only=on;
+<p><code>sudo ufw allow ssh</code></p>
 
-      server_name justinzimmerman.net; # Replace with your domain
+<p>To allow all traffic from a specified IP address</p>
 
-      root /usr/share/nginx/html;
-      index index.html index.htm;
+<p><code>sudo ufw allow from any_ip_address</code></p>
 
-      client_max_body_size 10G;
+<p>Allow traffic from a specific port</p>
 
-      location / {
-          proxy_pass http://localhost:2368;
-          proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-          proxy_set_header Host $http_host;
-          proxy_set_header X-Forwarded-Proto $scheme;
-          proxy_buffering off;
-      }
+<p><code>sudo ufw allow 80/tcp</code></p>
 
-      location /chatbuilder/ {
-          alias /var/www/ChatBuilder/;
-      }
-    }
+<p>Review configuration before enabling</p>
+
+<p><code>sudo ufw show added</code></p>
+
+<p>Enable the UFW configuration</p>
+
+<p><code>sudo ufw enable</code></p>
+
+<h5 id="configure-ntp">Configure NTP</h5>
+
+<pre><code>sudo apt-get update
+sudo apt-get install ntp
 </code></pre>
 
-<h5 id="restart-nginx-and-ghost">Restart nginx and ghost</h5>
+<h5 id="setup-swap-file">Setup swap file</h5>
 
-<pre><code>    sudo service nginx restart
-    sudo service ghost restart
+<p>Usually best practice to double amount of RAM for swap file</p>
+
+<pre><code>sudo fallocate -l xxxG /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+sudo sh -c 'echo &quot;/swapfile none swap sw 0 0&quot; &gt;&gt; /etc/fstab'
 </code></pre>
 
-<p>Thanks for reading! I hope this helps you set up your new static page.</p>
+<h5 id="install-fail2ban">Install fail2ban</h5>
+
+<pre><code>sudo apt-get update
+sudo apt-get install fail2ban
+</code></pre>
+
+<h5 id="edit-fail2ban-config">Edit fail2ban config</h5>
+
+<pre><code>sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
+sudo nano /etc/fail2ban/jail.local
+</code></pre>
+
+<p>Update the bantime, findtime, and maxretry settings
+Restart the fail2ban service</p>
+
+<p><code>sudo service fail2ban restart</code></p>
 
 </div>
 
@@ -282,13 +310,13 @@
   
 
     
-    <a class="prev" href="http://justinzimmerman.net/post/ubuntu-server-configuration/" title="Ubuntu Server Configuration">
+    <a class="prev" href="http://justinzimmerman.net/post/hack-reactor-week-01/" title="Hack Reactor Week 1">
       Previous
     </a>
     
 
     
-    <a class="next" href="http://justinzimmerman.net/post/hack-reactor-week-09/" title="Hack Reactor Week 9">
+    <a class="next" href="http://justinzimmerman.net/post/create-a-static-page-on-a-digital-ocean-droplet/" title="Create a Static Page on a Digital Ocean Droplet">
       Next
     </a>
     

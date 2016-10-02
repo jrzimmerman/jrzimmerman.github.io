@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ubuntu on Justin Zimmerman</title>
+    <link>http://justinzimmerman.net/tags/ubuntu/</link>
+    <description>Recent content in Ubuntu on Justin Zimmerman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</managingEditor>
+    <webMaster>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</webMaster>
+    <copyright>(c) 2016 Justin Zimmerman.</copyright>
+    <lastBuildDate>Thu, 15 Oct 2015 08:55:24 -0400</lastBuildDate>
+    <atom:link href="http://justinzimmerman.net/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ubuntu Server Configuration</title>
+      <link>http://justinzimmerman.net/post/ubuntu-server-configuration/</link>
+      <pubDate>Thu, 15 Oct 2015 08:55:24 -0400</pubDate>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/ubuntu-server-configuration/</guid>
+      <description>
+
+&lt;p&gt;Below is a listing of important tasks to complete after spinning up your Ubuntu server.&lt;/p&gt;
+
+&lt;h5 id=&#34;ssh-login-as-root&#34;&gt;SSH login as root&lt;/h5&gt;
+
+&lt;p&gt;You should have added an ssh key to the instance during creation. SSH into the instance as root with&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ssh root@server_ip_address&lt;/code&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;update-server-to-latest-patches&#34;&gt;Update server to latest patches&lt;/h5&gt;
+
+&lt;p&gt;&lt;code&gt;sudo apt-get update
+sudo apt-get upgrade&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Optionally to uninstall old packages&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo apt-get autoremove&lt;/code&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;create-a-new-user&#34;&gt;Create a new user&lt;/h5&gt;
+
+&lt;p&gt;&lt;code&gt;adduser user_name&lt;/code&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;assign-root-permission-to-new-user&#34;&gt;Assign root permission to new user&lt;/h5&gt;
+
+&lt;p&gt;&lt;code&gt;gpasswd -a user_name sudo&lt;/code&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;login-as-new-user&#34;&gt;Login as new user&lt;/h5&gt;
+
+&lt;p&gt;&lt;code&gt;su - user_name&lt;/code&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;add-public-key&#34;&gt;Add public key&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code&gt;mkdir .ssh
+chmod 700 .ssh
+nano .ssh/authorized_keys
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Copy your public key into this file&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;chmod 600 .ssh/authorized_keys&lt;/code&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;ssh-into-the-instance-as-the-new-user&#34;&gt;SSH into the instance as the new user&lt;/h5&gt;
+
+&lt;p&gt;&lt;code&gt;ssh user_name@server_ip_address&lt;/code&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;edit-ssh-configuration-settings&#34;&gt;Edit SSH configuration settings&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo nano /etc/ssh/sshd_config
+PermitRootLogin no
+PermitEmptyPassword no
+sudo service ssh restart
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&#34;setup-the-firewall&#34;&gt;Setup the firewall&lt;/h5&gt;
+
+&lt;p&gt;Permit ssh on port 22&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo ufw allow ssh&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;To allow all traffic from a specified IP address&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo ufw allow from any_ip_address&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Allow traffic from a specific port&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo ufw allow 80/tcp&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Review configuration before enabling&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo ufw show added&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Enable the UFW configuration&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo ufw enable&lt;/code&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;configure-ntp&#34;&gt;Configure NTP&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt-get update
+sudo apt-get install ntp
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&#34;setup-swap-file&#34;&gt;Setup swap file&lt;/h5&gt;
+
+&lt;p&gt;Usually best practice to double amount of RAM for swap file&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo fallocate -l xxxG /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+sudo sh -c &#39;echo &amp;quot;/swapfile none swap sw 0 0&amp;quot; &amp;gt;&amp;gt; /etc/fstab&#39;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&#34;install-fail2ban&#34;&gt;Install fail2ban&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo apt-get update
+sudo apt-get install fail2ban
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&#34;edit-fail2ban-config&#34;&gt;Edit fail2ban config&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
+sudo nano /etc/fail2ban/jail.local
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Update the bantime, findtime, and maxretry settings
+Restart the fail2ban service&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo service fail2ban restart&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
