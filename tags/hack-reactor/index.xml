@@ -281,6 +281,32 @@ USEFUL DIAGRAM!
     </item>
     
     <item>
+      <title>Hack Reactor Week 2</title>
+      <link>http://justinzimmerman.net/post/hack-reactor-week-02/</link>
+      <pubDate>Tue, 20 Oct 2015 10:03:28 -0400</pubDate>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/hack-reactor-week-02/</guid>
+      <description>
+
+&lt;p&gt;Week 2 is over already, what a great time it has been! I was able to settle in this week and make progress on some awesome projects.&lt;/p&gt;
+
+&lt;h4 id=&#34;inheritance-patterns&#34;&gt;Inheritance Patterns&lt;/h4&gt;
+
+&lt;p&gt;The beginning of week 2 focused on JavaScript inheritance patterns. We discussed the pros and cons of functional classes, functional-shared classes, prototypal classes, and psuedoclassical classes.&lt;/p&gt;
+
+&lt;h4 id=&#34;nqueens&#34;&gt;nQueens&lt;/h4&gt;
+
+&lt;p&gt;If you don&amp;rsquo;t know about this problem, check it out! It&amp;rsquo;s an especially fun logic puzzle, where you have to test for a given amount of queens, on an (n x n) chessboard, how many solutions can you find? This problem was a conglomeration of all the concepts we had previously discussed to this point. The solution involves the create of a &amp;lsquo;decision tree&amp;rsquo; and anything with the word &amp;lsquo;tree&amp;rsquo; in it, will certainly benefit from the use of recursion.&lt;/p&gt;
+
+&lt;h4 id=&#34;d3&#34;&gt;d3&lt;/h4&gt;
+
+&lt;p&gt;This has been my favorite project so far. We were tasked to create a game using d3. Coming from a previous job where visualization of data is so important, this was such a great sprint. I was able to apply my knowledge of data visualization and coordinates to create a super fun game that I really enjoyed!&lt;/p&gt;
+
+&lt;p&gt;Sorry these posts keep getting shorter! I&amp;rsquo;m looking forward to week 3!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Hack Reactor Week 1</title>
       <link>http://justinzimmerman.net/post/hack-reactor-week-01/</link>
       <pubDate>Tue, 06 Oct 2015 09:37:44 -0400</pubDate>
@@ -519,32 +545,6 @@ USEFUL DIAGRAM!
 &lt;p&gt;I started to attempt to figure out the Google Maps and Places APIs. This has been really fun! Being a Geography major, I look forward to trying to wrap my head about location based services. I started off simply using a fixed location to show nearby restaurants, and I hope to get the geolocation to correctly work to show results any where in the world!&lt;/p&gt;
 
 &lt;p&gt;I hope this will solidify my background to finally break through. If you have been accepted into Hack Reactor, what have you done to push you over the edge?&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hack Reactor Week 2</title>
-      <link>http://justinzimmerman.net/post/hack-reactor-week-2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
-      <guid>http://justinzimmerman.net/post/hack-reactor-week-2/</guid>
-      <description>
-
-&lt;p&gt;Week 2 is over already, what a great time it has been! I was able to settle in this week and make progress on some awesome projects.&lt;/p&gt;
-
-&lt;h4 id=&#34;inheritance-patterns&#34;&gt;Inheritance Patterns&lt;/h4&gt;
-
-&lt;p&gt;The beginning of week 2 focused on JavaScript inheritance patterns. We discussed the pros and cons of functional classes, functional-shared classes, prototypal classes, and psuedoclassical classes.&lt;/p&gt;
-
-&lt;h4 id=&#34;nqueens&#34;&gt;nQueens&lt;/h4&gt;
-
-&lt;p&gt;If you don&amp;rsquo;t know about this problem, check it out! It&amp;rsquo;s an especially fun logic puzzle, where you have to test for a given amount of queens, on an (n x n) chessboard, how many solutions can you find? This problem was a conglomeration of all the concepts we had previously discussed to this point. The solution involves the create of a &amp;lsquo;decision tree&amp;rsquo; and anything with the word &amp;lsquo;tree&amp;rsquo; in it, will certainly benefit from the use of recursion.&lt;/p&gt;
-
-&lt;h4 id=&#34;d3&#34;&gt;d3&lt;/h4&gt;
-
-&lt;p&gt;This has been my favorite project so far. We were tasked to create a game using d3. Coming from a previous job where visualization of data is so important, this was such a great sprint. I was able to apply my knowledge of data visualization and coordinates to create a super fun game that I really enjoyed!&lt;/p&gt;
-
-&lt;p&gt;Sorry these posts keep getting shorter! I&amp;rsquo;m looking forward to week 3!&lt;/p&gt;
 </description>
     </item>
     

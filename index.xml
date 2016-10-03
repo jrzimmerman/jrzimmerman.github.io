@@ -485,6 +485,32 @@ USEFUL DIAGRAM!
     </item>
     
     <item>
+      <title>Hack Reactor Week 2</title>
+      <link>http://justinzimmerman.net/post/hack-reactor-week-02/</link>
+      <pubDate>Tue, 20 Oct 2015 10:03:28 -0400</pubDate>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/hack-reactor-week-02/</guid>
+      <description>
+
+&lt;p&gt;Week 2 is over already, what a great time it has been! I was able to settle in this week and make progress on some awesome projects.&lt;/p&gt;
+
+&lt;h4 id=&#34;inheritance-patterns&#34;&gt;Inheritance Patterns&lt;/h4&gt;
+
+&lt;p&gt;The beginning of week 2 focused on JavaScript inheritance patterns. We discussed the pros and cons of functional classes, functional-shared classes, prototypal classes, and psuedoclassical classes.&lt;/p&gt;
+
+&lt;h4 id=&#34;nqueens&#34;&gt;nQueens&lt;/h4&gt;
+
+&lt;p&gt;If you don&amp;rsquo;t know about this problem, check it out! It&amp;rsquo;s an especially fun logic puzzle, where you have to test for a given amount of queens, on an (n x n) chessboard, how many solutions can you find? This problem was a conglomeration of all the concepts we had previously discussed to this point. The solution involves the create of a &amp;lsquo;decision tree&amp;rsquo; and anything with the word &amp;lsquo;tree&amp;rsquo; in it, will certainly benefit from the use of recursion.&lt;/p&gt;
+
+&lt;h4 id=&#34;d3&#34;&gt;d3&lt;/h4&gt;
+
+&lt;p&gt;This has been my favorite project so far. We were tasked to create a game using d3. Coming from a previous job where visualization of data is so important, this was such a great sprint. I was able to apply my knowledge of data visualization and coordinates to create a super fun game that I really enjoyed!&lt;/p&gt;
+
+&lt;p&gt;Sorry these posts keep getting shorter! I&amp;rsquo;m looking forward to week 3!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Create a Static Page on a Digital Ocean Droplet</title>
       <link>http://justinzimmerman.net/post/create-a-static-page-on-a-digital-ocean-droplet/</link>
       <pubDate>Thu, 15 Oct 2015 09:48:08 -0400</pubDate>
@@ -803,46 +829,6 @@ pip install numpy scipy matplotlib processing psycopg2
 brew install qgis-28
 brew linkapps qgis-28
 &lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hack Reactor Remote Prep Week 4</title>
-      <link>http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/</link>
-      <pubDate>Mon, 10 Aug 2015 07:48:39 -0400</pubDate>
-      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
-      <guid>http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/</guid>
-      <description>
-
-&lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/&#34;&gt;Week 1&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/&#34;&gt;Week 2&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/&#34;&gt;Week 3&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/&#34;&gt;&lt;b&gt;Week 4&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Just like that, the four week course is at an end. I have really enjoyed the opportunity to learn such a large amount of material in such a short time.&lt;/p&gt;
-
-&lt;p&gt;This has definitely been a great learning experience for me. If you are considering going to Hack Reactor, then this course will really show you what you&amp;rsquo;re getting in to. Also, if you are wondering if you can learn in the Hack Reactor Remote online class, the answer is yes!&lt;/p&gt;
-
-&lt;p&gt;In the last week we learned the following concepts:&lt;/p&gt;
-
-&lt;h4 id=&#34;ajax-json&#34;&gt;AJAX &amp;amp; JSON&lt;/h4&gt;
-
-&lt;p&gt;We started off the week learning how to use AJAX to interact with servers behind the scenes using JavaScript without having to reload the page. This was really fun, and very powerful. We leveraged the Open Weather Map API to load local temperature information to our sites.&lt;/p&gt;
-
-&lt;h4 id=&#34;higher-order-functions&#34;&gt;Higher Order Functions&lt;/h4&gt;
-
-&lt;p&gt;This was probably the most important day of the entire class. As we worked through rewriting higher order functions like each, map, and filter, we had 1 on 1 interviews with the instructor to determine how we were doing. This was valuable feedback, and the instructor was very helpful in pointing to the next topics I should focus on.&lt;/p&gt;
-
-&lt;h4 id=&#34;object-oriented-javascript&#34;&gt;Object Oriented Javascript&lt;/h4&gt;
-
-&lt;p&gt;We looked in to more Object manipulation today, leveraging the object data type to structure our programs, rather than functions. We learned how to create our own methods in our own objects, and introduced decorator patterns and factory patterns code structures.&lt;/p&gt;
-
-&lt;h4 id=&#34;model-view-controller&#34;&gt;Model View Controller&lt;/h4&gt;
-
-&lt;p&gt;We created a simple MVC using factory pattern objects to leverage the Imgur API and the SoundCloud API. This was a very rewarding project where I learned quite a bit of material using both simple and complex APIs.&lt;/p&gt;
-
-&lt;h4 id=&#34;portfolio-and-hiring&#34;&gt;Portfolio and Hiring&lt;/h4&gt;
-
-&lt;p&gt;The last day consisted of learning a variety of ways to improve your online presence. These included tips and tricks on how to improve your Github and LinkedIn. We discussed the importance of an online portfolio site, and blogging about technical concepts. We also covered the basics on resumes, cover letters, applying for jobs, and how to prepare for interviews.&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/&#34;&gt;Week 1&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/&#34;&gt;Week 2&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/&#34;&gt;Week 3&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/&#34;&gt;&lt;b&gt;Week 4&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

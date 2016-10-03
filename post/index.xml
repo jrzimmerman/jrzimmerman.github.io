@@ -475,6 +475,32 @@ USEFUL DIAGRAM!
     </item>
     
     <item>
+      <title>Hack Reactor Week 2</title>
+      <link>http://justinzimmerman.net/post/hack-reactor-week-02/</link>
+      <pubDate>Tue, 20 Oct 2015 10:03:28 -0400</pubDate>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/hack-reactor-week-02/</guid>
+      <description>
+
+&lt;p&gt;Week 2 is over already, what a great time it has been! I was able to settle in this week and make progress on some awesome projects.&lt;/p&gt;
+
+&lt;h4 id=&#34;inheritance-patterns&#34;&gt;Inheritance Patterns&lt;/h4&gt;
+
+&lt;p&gt;The beginning of week 2 focused on JavaScript inheritance patterns. We discussed the pros and cons of functional classes, functional-shared classes, prototypal classes, and psuedoclassical classes.&lt;/p&gt;
+
+&lt;h4 id=&#34;nqueens&#34;&gt;nQueens&lt;/h4&gt;
+
+&lt;p&gt;If you don&amp;rsquo;t know about this problem, check it out! It&amp;rsquo;s an especially fun logic puzzle, where you have to test for a given amount of queens, on an (n x n) chessboard, how many solutions can you find? This problem was a conglomeration of all the concepts we had previously discussed to this point. The solution involves the create of a &amp;lsquo;decision tree&amp;rsquo; and anything with the word &amp;lsquo;tree&amp;rsquo; in it, will certainly benefit from the use of recursion.&lt;/p&gt;
+
+&lt;h4 id=&#34;d3&#34;&gt;d3&lt;/h4&gt;
+
+&lt;p&gt;This has been my favorite project so far. We were tasked to create a game using d3. Coming from a previous job where visualization of data is so important, this was such a great sprint. I was able to apply my knowledge of data visualization and coordinates to create a super fun game that I really enjoyed!&lt;/p&gt;
+
+&lt;p&gt;Sorry these posts keep getting shorter! I&amp;rsquo;m looking forward to week 3!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Create a Static Page on a Digital Ocean Droplet</title>
       <link>http://justinzimmerman.net/post/create-a-static-page-on-a-digital-ocean-droplet/</link>
       <pubDate>Thu, 15 Oct 2015 09:48:08 -0400</pubDate>
@@ -833,46 +859,6 @@ brew linkapps qgis-28
 &lt;p&gt;The last day consisted of learning a variety of ways to improve your online presence. These included tips and tricks on how to improve your Github and LinkedIn. We discussed the importance of an online portfolio site, and blogging about technical concepts. We also covered the basics on resumes, cover letters, applying for jobs, and how to prepare for interviews.&lt;/p&gt;
 
 &lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/&#34;&gt;Week 1&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/&#34;&gt;Week 2&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/&#34;&gt;Week 3&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/&#34;&gt;&lt;b&gt;Week 4&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hack Reactor Remote Prep Week 3</title>
-      <link>http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/</link>
-      <pubDate>Sun, 02 Aug 2015 07:43:11 -0400</pubDate>
-      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
-      <guid>http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/</guid>
-      <description>
-
-&lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/&#34;&gt;Week 1&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/&#34;&gt;Week 2&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/&#34;&gt;&lt;b&gt;Week 3&lt;/b&gt;&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/&#34;&gt;Week 4&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I cannot believe we have already completed 3 weeks of class! I have learned a considerable amount along the way. Here are some of the topics that were covered this week.&lt;/p&gt;
-
-&lt;h4 id=&#34;functions&#34;&gt;Functions&lt;/h4&gt;
-
-&lt;p&gt;Now we are getting into the good stuff. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions&#34;&gt;Functions&lt;/a&gt; are one of the most critical tools for any good JavaScript programmer. We discussed creating functions, invoking functions, and storing functions as variables.&lt;/p&gt;
-
-&lt;h4 id=&#34;events&#34;&gt;Events&lt;/h4&gt;
-
-&lt;p&gt;Event handlers are specific types of functions that are invoked when the user interacts with the website. For instance, text can be shown when a button is clicked, or an image can appear when a mouse hovers over a text link.&lt;/p&gt;
-
-&lt;h4 id=&#34;arrays&#34;&gt;Arrays&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array&#34;&gt;Arrays&lt;/a&gt; are one of the primary methods for storing data collections in JavaScript. An array is used to store ordered lists. Arrays can include all sorts of different data types, booleans, strings, numbers, objects, and even arrays within arrays.&lt;/p&gt;
-
-&lt;p&gt;We discussed array instantiation, and the associated properties (such as &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length&#34;&gt;.length&lt;/a&gt;) and methods (such as &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push&#34;&gt;.push&lt;/a&gt; or &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop&#34;&gt;.pop&lt;/a&gt;) that come with arrays.&lt;/p&gt;
-
-&lt;h4 id=&#34;objects&#34;&gt;Objects&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object&#34;&gt;Objects&lt;/a&gt; are the other primary method for storing data collections in JavaScript. Rather than an ordered list of values like an array, objects are stored using key value pairs. These keys can be referenced using dot notation or bracket notation.&lt;/p&gt;
-
-&lt;p&gt;We then used both dot notation and bracket notation to access values that were stored within the objects.&lt;/p&gt;
-
-&lt;h4 id=&#34;web-store-hackathon&#34;&gt;Web Store Hackathon&lt;/h4&gt;
-
-&lt;p&gt;This hackathon was an individual 3 hour exercise in building a web store to compete with Amazon.com. We built upon our existing knowledge of HTML, CSS, and jQuery to create a basic layout for our e-commerce site. We then used objects to store our products that we would be selling, such as books and albums.&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/&#34;&gt;Week 1&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/&#34;&gt;Week 2&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/&#34;&gt;&lt;b&gt;Week 3&lt;/b&gt;&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/&#34;&gt;Week 4&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
