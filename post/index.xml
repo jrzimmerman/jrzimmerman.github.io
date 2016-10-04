@@ -475,6 +475,47 @@ USEFUL DIAGRAM!
     </item>
     
     <item>
+      <title>Hack Reactor Week 3</title>
+      <link>http://justinzimmerman.net/post/hack-reactor-week-03/</link>
+      <pubDate>Fri, 30 Oct 2015 08:50:09 -0400</pubDate>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/hack-reactor-week-03/</guid>
+      <description>
+
+&lt;hr /&gt;
+
+&lt;p&gt;title: Hack Reactor Week 3
+slug: hack-reactor-week-3
+date_published: 2015-10-30T19:58:00.000Z
+date_updated:   2016-06-13T07:14:20.000Z&lt;/p&gt;
+
+&lt;h2 id=&#34;tags-hack-reactor&#34;&gt;tags: Hack Reactor&lt;/h2&gt;
+
+&lt;p&gt;Welcome to week 3! This has been an awesome week for discovering web application architecture. We began the week creating a chat application that focused on front end development. During the middle of the week we began to take a deeper dive into web application architecture using backbone.js. And the final sprint of the week included another dive into backbone.js but using CoffeeScript to write the application, rather than Javascript.&lt;/p&gt;
+
+&lt;h4 id=&#34;jquery-and-ajax&#34;&gt;jQuery and AJAX&lt;/h4&gt;
+
+&lt;p&gt;This first sprint was all about front end interactions with a database. In our chat application we had to interact with a server using AJAX calls. To manipulate the data we recieved from those calls, we were able to use jQuery to present that data for our chatroom in a presentable format.&lt;/p&gt;
+
+&lt;h4 id=&#34;security&#34;&gt;Security&lt;/h4&gt;
+
+&lt;p&gt;It&amp;rsquo;s never too early to the importance of security and escaping cross-site scripting (XSS). This type of attack is regularly listed on the OWASP top 10 and is something every software engineer should take into consideration when using an API that they do not own.&lt;/p&gt;
+
+&lt;h4 id=&#34;backbone-js&#34;&gt;Backbone.js&lt;/h4&gt;
+
+&lt;p&gt;While I wasn&amp;rsquo;t initially sold with backbone, we&amp;rsquo;ve since become friends. The open ended nature of backbone is very conducive to learning all aspects of the  Model View Controller (MVC) model. We were tasked to create an application that acted as a browser version of iTunes. This was a great experience learning about backbone models, collections, and views.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.giphy.com/XreQmk7ETCak0.gif&#34; alt=&#34;thumbs up&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;coffeescript&#34;&gt;CoffeeScript&lt;/h4&gt;
+
+&lt;p&gt;To add some complexity, and also double-down on Backbone.js concepts, we create a simple blackjack game using CoffeeScript. It was interesting to apply the fundamentals of what we are learning in JavaScript to another language, such as CoffeeScript. While I definitely didn&amp;rsquo;t master CoffeeScript by any means, I walked away from this sprint certainly feeling more comfortable taking computer science concepts from one language, and applying it to a language I haven&amp;rsquo;t used before.&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading, and I look forward to week 4!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Hack Reactor Week 2</title>
       <link>http://justinzimmerman.net/post/hack-reactor-week-02/</link>
       <pubDate>Tue, 20 Oct 2015 10:03:28 -0400</pubDate>
@@ -819,46 +860,6 @@ pip install numpy scipy matplotlib processing psycopg2
 brew install qgis-28
 brew linkapps qgis-28
 &lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hack Reactor Remote Prep Week 4</title>
-      <link>http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/</link>
-      <pubDate>Mon, 10 Aug 2015 07:48:39 -0400</pubDate>
-      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
-      <guid>http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/</guid>
-      <description>
-
-&lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/&#34;&gt;Week 1&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/&#34;&gt;Week 2&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/&#34;&gt;Week 3&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/&#34;&gt;&lt;b&gt;Week 4&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Just like that, the four week course is at an end. I have really enjoyed the opportunity to learn such a large amount of material in such a short time.&lt;/p&gt;
-
-&lt;p&gt;This has definitely been a great learning experience for me. If you are considering going to Hack Reactor, then this course will really show you what you&amp;rsquo;re getting in to. Also, if you are wondering if you can learn in the Hack Reactor Remote online class, the answer is yes!&lt;/p&gt;
-
-&lt;p&gt;In the last week we learned the following concepts:&lt;/p&gt;
-
-&lt;h4 id=&#34;ajax-json&#34;&gt;AJAX &amp;amp; JSON&lt;/h4&gt;
-
-&lt;p&gt;We started off the week learning how to use AJAX to interact with servers behind the scenes using JavaScript without having to reload the page. This was really fun, and very powerful. We leveraged the Open Weather Map API to load local temperature information to our sites.&lt;/p&gt;
-
-&lt;h4 id=&#34;higher-order-functions&#34;&gt;Higher Order Functions&lt;/h4&gt;
-
-&lt;p&gt;This was probably the most important day of the entire class. As we worked through rewriting higher order functions like each, map, and filter, we had 1 on 1 interviews with the instructor to determine how we were doing. This was valuable feedback, and the instructor was very helpful in pointing to the next topics I should focus on.&lt;/p&gt;
-
-&lt;h4 id=&#34;object-oriented-javascript&#34;&gt;Object Oriented Javascript&lt;/h4&gt;
-
-&lt;p&gt;We looked in to more Object manipulation today, leveraging the object data type to structure our programs, rather than functions. We learned how to create our own methods in our own objects, and introduced decorator patterns and factory patterns code structures.&lt;/p&gt;
-
-&lt;h4 id=&#34;model-view-controller&#34;&gt;Model View Controller&lt;/h4&gt;
-
-&lt;p&gt;We created a simple MVC using factory pattern objects to leverage the Imgur API and the SoundCloud API. This was a very rewarding project where I learned quite a bit of material using both simple and complex APIs.&lt;/p&gt;
-
-&lt;h4 id=&#34;portfolio-and-hiring&#34;&gt;Portfolio and Hiring&lt;/h4&gt;
-
-&lt;p&gt;The last day consisted of learning a variety of ways to improve your online presence. These included tips and tricks on how to improve your Github and LinkedIn. We discussed the importance of an online portfolio site, and blogging about technical concepts. We also covered the basics on resumes, cover letters, applying for jobs, and how to prepare for interviews.&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/&#34;&gt;Week 1&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/&#34;&gt;Week 2&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/&#34;&gt;Week 3&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/&#34;&gt;&lt;b&gt;Week 4&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

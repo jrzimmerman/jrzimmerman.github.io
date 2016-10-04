@@ -281,6 +281,47 @@ USEFUL DIAGRAM!
     </item>
     
     <item>
+      <title>Hack Reactor Week 3</title>
+      <link>http://justinzimmerman.net/post/hack-reactor-week-03/</link>
+      <pubDate>Fri, 30 Oct 2015 08:50:09 -0400</pubDate>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/hack-reactor-week-03/</guid>
+      <description>
+
+&lt;hr /&gt;
+
+&lt;p&gt;title: Hack Reactor Week 3
+slug: hack-reactor-week-3
+date_published: 2015-10-30T19:58:00.000Z
+date_updated:   2016-06-13T07:14:20.000Z&lt;/p&gt;
+
+&lt;h2 id=&#34;tags-hack-reactor&#34;&gt;tags: Hack Reactor&lt;/h2&gt;
+
+&lt;p&gt;Welcome to week 3! This has been an awesome week for discovering web application architecture. We began the week creating a chat application that focused on front end development. During the middle of the week we began to take a deeper dive into web application architecture using backbone.js. And the final sprint of the week included another dive into backbone.js but using CoffeeScript to write the application, rather than Javascript.&lt;/p&gt;
+
+&lt;h4 id=&#34;jquery-and-ajax&#34;&gt;jQuery and AJAX&lt;/h4&gt;
+
+&lt;p&gt;This first sprint was all about front end interactions with a database. In our chat application we had to interact with a server using AJAX calls. To manipulate the data we recieved from those calls, we were able to use jQuery to present that data for our chatroom in a presentable format.&lt;/p&gt;
+
+&lt;h4 id=&#34;security&#34;&gt;Security&lt;/h4&gt;
+
+&lt;p&gt;It&amp;rsquo;s never too early to the importance of security and escaping cross-site scripting (XSS). This type of attack is regularly listed on the OWASP top 10 and is something every software engineer should take into consideration when using an API that they do not own.&lt;/p&gt;
+
+&lt;h4 id=&#34;backbone-js&#34;&gt;Backbone.js&lt;/h4&gt;
+
+&lt;p&gt;While I wasn&amp;rsquo;t initially sold with backbone, we&amp;rsquo;ve since become friends. The open ended nature of backbone is very conducive to learning all aspects of the  Model View Controller (MVC) model. We were tasked to create an application that acted as a browser version of iTunes. This was a great experience learning about backbone models, collections, and views.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://i.giphy.com/XreQmk7ETCak0.gif&#34; alt=&#34;thumbs up&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;coffeescript&#34;&gt;CoffeeScript&lt;/h4&gt;
+
+&lt;p&gt;To add some complexity, and also double-down on Backbone.js concepts, we create a simple blackjack game using CoffeeScript. It was interesting to apply the fundamentals of what we are learning in JavaScript to another language, such as CoffeeScript. While I definitely didn&amp;rsquo;t master CoffeeScript by any means, I walked away from this sprint certainly feeling more comfortable taking computer science concepts from one language, and applying it to a language I haven&amp;rsquo;t used before.&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading, and I look forward to week 4!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Hack Reactor Week 2</title>
       <link>http://justinzimmerman.net/post/hack-reactor-week-02/</link>
       <pubDate>Tue, 20 Oct 2015 10:03:28 -0400</pubDate>
@@ -545,38 +586,6 @@ USEFUL DIAGRAM!
 &lt;p&gt;I started to attempt to figure out the Google Maps and Places APIs. This has been really fun! Being a Geography major, I look forward to trying to wrap my head about location based services. I started off simply using a fixed location to show nearby restaurants, and I hope to get the geolocation to correctly work to show results any where in the world!&lt;/p&gt;
 
 &lt;p&gt;I hope this will solidify my background to finally break through. If you have been accepted into Hack Reactor, what have you done to push you over the edge?&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hack Reactor Week 3</title>
-      <link>http://justinzimmerman.net/post/hack-reactor-week-3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
-      <guid>http://justinzimmerman.net/post/hack-reactor-week-3/</guid>
-      <description>
-
-&lt;p&gt;Welcome to week 3! This has been an awesome week for discovering web application architecture. We began the week creating a chat application that focused on front end development. During the middle of the week we began to take a deeper dive into web application architecture using backbone.js. And the final sprint of the week included another dive into backbone.js but using CoffeeScript to write the application, rather than Javascript.&lt;/p&gt;
-
-&lt;h4 id=&#34;jquery-and-ajax&#34;&gt;jQuery and AJAX&lt;/h4&gt;
-
-&lt;p&gt;This first sprint was all about front end interactions with a database. In our chat application we had to interact with a server using AJAX calls. To manipulate the data we recieved from those calls, we were able to use jQuery to present that data for our chatroom in a presentable format.&lt;/p&gt;
-
-&lt;h4 id=&#34;security&#34;&gt;Security&lt;/h4&gt;
-
-&lt;p&gt;It&amp;rsquo;s never too early to the importance of security and escaping cross-site scripting (XSS). This type of attack is regularly listed on the OWASP top 10 and is something every software engineer should take into consideration when using an API that they do not own.&lt;/p&gt;
-
-&lt;h4 id=&#34;backbone-js&#34;&gt;Backbone.js&lt;/h4&gt;
-
-&lt;p&gt;While I wasn&amp;rsquo;t initially sold with backbone, we&amp;rsquo;ve since become friends. The open ended nature of backbone is very conducive to learning all aspects of the  Model View Controller (MVC) model. We were tasked to create an application that acted as a browser version of iTunes. This was a great experience learning about backbone models, collections, and views.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://i.giphy.com/XreQmk7ETCak0.gif&#34; alt=&#34;thumbs up&#34; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;coffeescript&#34;&gt;CoffeeScript&lt;/h4&gt;
-
-&lt;p&gt;To add some complexity, and also double-down on Backbone.js concepts, we create a simple blackjack game using CoffeeScript. It was interesting to apply the fundamentals of what we are learning in JavaScript to another language, such as CoffeeScript. While I definitely didn&amp;rsquo;t master CoffeeScript by any means, I walked away from this sprint certainly feeling more comfortable taking computer science concepts from one language, and applying it to a language I haven&amp;rsquo;t used before.&lt;/p&gt;
-
-&lt;p&gt;Thanks for reading, and I look forward to week 4!&lt;/p&gt;
 </description>
     </item>
     
