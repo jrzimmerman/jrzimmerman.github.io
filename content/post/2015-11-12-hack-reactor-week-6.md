@@ -3,7 +3,6 @@ title: Hack Reactor Week 6
 slug: hack-reactor-week-6
 date_published: 2015-11-12T08:19:00.000Z
 date_updated:   2016-06-13T07:20:16.000Z
-tags: Hack Reactor
 ---
 
 Week 6 at Hack Reactor is when curriculum starts to shift from small "sprints" to the larger project phase. For the first time at Hack Reactor, we were given a React.js sprint! After the React.js sprint we had two days to create our MVP projects. At the end of the week, we had the dreaded hiring assessment.
@@ -15,7 +14,7 @@ This was probably one of my favorite sprints thus far. Using React to manage sta
 
 #### MVPs
 
-The MVP is all about finding the right idea, with the right scope, and pushing through to deploy a minimum viable product, in just two days. I created [Geotinerary](https://geotinerary.herokuapp.com/#/) using Angular, Firebase, Leaflet, and Mapbox.js. This was a very fun project that I hope to have more time to polish up. 
+The MVP is all about finding the right idea, with the right scope, and pushing through to deploy a minimum viable product, in just two days. I created [Geotinerary](https://geotinerary.herokuapp.com/#/) using Angular, Firebase, Leaflet, and Mapbox.js. This was a very fun project that I hope to have more time to polish up.
 
 #### Hiring Assessment
 

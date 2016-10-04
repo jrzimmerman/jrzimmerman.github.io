@@ -3,7 +3,6 @@ title: Hack Reactor Week 8
 slug: hack-reactor-week-8
 date_published: 2015-12-06T02:43:00.000Z
 date_updated:   2016-06-13T07:22:38.000Z
-tags: Hack Reactor
 ---
 
 ### Legacy Project
@@ -23,4 +22,3 @@ You can view [Seamless here](http://hrr9-seamless.herokuapp.com).
 I cannot believe it is already time to start the thesis project! The thesis project is a 3.5 week long project in a group of 4.
 
 The group I was assigned to didn't come with a recommended project. I have a feeling this will be not only a great group, but a great project will come out of it as well!
-

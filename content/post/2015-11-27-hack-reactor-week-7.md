@@ -3,7 +3,6 @@ title: Hack Reactor Week 7
 slug: hack-reactor-week-7
 date_published: 2015-11-27T09:20:00.000Z
 date_updated:   2016-06-13T07:21:38.000Z
-tags: Hack Reactor
 ---
 
 Week 7 was the first week of "project phase" in Hack Reactor. We will go through 6 weeks of group work to become better engineers in team environments.
@@ -29,4 +28,3 @@ One of the hardest parts of writing an effective resume, is not writing every ac
 While you might have had several accomplishments in your previous profession, if they do not directly show how great a programmer you are or how you are able to get things done, those achievements should be omitted.
 
 Thanks for reading! Time for a relaxing solo week, and onward to week 8 and legacy projects!
-

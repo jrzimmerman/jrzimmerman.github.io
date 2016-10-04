@@ -3,7 +3,6 @@ title: Hack Reactor Week 5
 slug: hack-reactor-week-5
 date_published: 2015-11-06T21:14:00.000Z
 date_updated:   2016-06-13T07:17:44.000Z
-tags: Hack Reactor
 ---
 
 With another week completed, week 5 has been extremely interesting. The topics this week included authentication, and deployment, along with introductions to MongoDB and Angular.
@@ -12,7 +11,7 @@ With another week completed, week 5 has been extremely interesting. The topics t
 As we all know, security is a pivotal part of development. Authentication is the act of verifying that your user is actually who they say they are. This verification normally includes a username and password. When that password is passed to the server we then return a token for return authentication requests.
 
 #### Deployment
-Learning deployment has been very fun, and I have really enjoyed leveraging services like [Heroku](http://www.heroku.com) to make deployment easy as possible. Along with deployment, we talked about using build task runners such as Grunt and Gulp. 
+Learning deployment has been very fun, and I have really enjoyed leveraging services like [Heroku](http://www.heroku.com) to make deployment easy as possible. Along with deployment, we talked about using build task runners such as Grunt and Gulp.
 
 #### Angular
 Angular is an excellent framework that I was able to work with at the end of the week. Unlike Backbone, Angular is quite opinionated, in a good way. Angular has thorough documentation, and has promises built in, to handle callbacks.
