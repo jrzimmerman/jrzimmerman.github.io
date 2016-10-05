@@ -485,6 +485,96 @@ USEFUL DIAGRAM!
     </item>
     
     <item>
+      <title>Hack Reactor Week 8</title>
+      <link>http://justinzimmerman.net/post/hack-reactor-week-08/</link>
+      <pubDate>Sun, 06 Dec 2015 09:13:49 -0400</pubDate>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/hack-reactor-week-08/</guid>
+      <description>
+
+&lt;h3 id=&#34;legacy-project&#34;&gt;Legacy Project&lt;/h3&gt;
+
+&lt;p&gt;After the greenfield project last week, the next exercise was picking another group&amp;rsquo;s greenfield project to build upon.&lt;/p&gt;
+
+&lt;p&gt;The idea of this exercise is actually well founded, the majority of Software Engineers are going to work on developing new features or debugging &amp;lsquo;legacy&amp;rsquo; code, or known as code you haven&amp;rsquo;t seen before.&lt;/p&gt;
+
+&lt;p&gt;I really enjoyed working on Seamless, the greenfield project my group decided to take on. The foundation of seamless was solid, it was a basic vanilla javascript application, that resized an image using a seam-carving algorithm.&lt;/p&gt;
+
+&lt;p&gt;We decided to create a persistent data store for resized images using Firebase, add google authentication, and to also create a modern, responsive website.&lt;/p&gt;
+
+&lt;p&gt;You can view &lt;a href=&#34;http://hrr9-seamless.herokuapp.com&#34;&gt;Seamless here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;thesis&#34;&gt;Thesis&lt;/h3&gt;
+
+&lt;p&gt;I cannot believe it is already time to start the thesis project! The thesis project is a 3.5 week long project in a group of 4.&lt;/p&gt;
+
+&lt;p&gt;The group I was assigned to didn&amp;rsquo;t come with a recommended project. I have a feeling this will be not only a great group, but a great project will come out of it as well!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hack Reactor Week 7</title>
+      <link>http://justinzimmerman.net/post/hack-reactor-week-07/</link>
+      <pubDate>Sun, 22 Nov 2015 09:13:41 -0400</pubDate>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/hack-reactor-week-07/</guid>
+      <description>
+
+&lt;p&gt;Week 7 was the first week of &amp;ldquo;project phase&amp;rdquo; in Hack Reactor. We will go through 6 weeks of group work to become better engineers in team environments.&lt;/p&gt;
+
+&lt;h4 id=&#34;greenfield&#34;&gt;Greenfield&lt;/h4&gt;
+
+&lt;p&gt;The term greenfield comes from the engineering world, to refer to a blank slate, a &amp;ldquo;green field&amp;rdquo; ready to be built upon.&lt;/p&gt;
+
+&lt;p&gt;This was my first experience working with a team of four to complete a functioning project. While I greatly enjoyed working in a team environment, there were a few hiccups that we encountered and have learned from along the way.&lt;/p&gt;
+
+&lt;p&gt;My understanding of git was taken to an entire new level. This was a great experience in to learning the intricacies of git workflow and project management.&lt;/p&gt;
+
+&lt;p&gt;My team developed &lt;a href=&#34;http://access-app.herokuapp.com/&#34;&gt;Access&lt;/a&gt;. We used the MEAN stack to store and display crowd-sourced handicapped accessibility information for venues. We hope that with a little more work, this functioning product will become a way for people to easily access the information they need to go places, and live their lives.&lt;/p&gt;
+
+&lt;h4 id=&#34;resume&#34;&gt;Resume&lt;/h4&gt;
+
+&lt;p&gt;The resume sprint was one of the first experiences with Hack Reactor&amp;rsquo;s excellent outcomes team. The outcomes team works hard to take you from a great programmer, to a hirable programmer.&lt;/p&gt;
+
+&lt;p&gt;While at first glance,most people do not consider a resume to be worth taking multiple days of a course, but its actually quite the opposite. A resume, as I am sure most of you know, is the first thing a recruiter or hiring manager will see. What is a less common for people to understand, is much like the cover letter, you should write your resume with the position in mind.&lt;/p&gt;
+
+&lt;p&gt;One of the hardest parts of writing an effective resume, is not writing every accomplishment down. Every single line in your resume should announce to the reader, that you are a qualified software engineer.&lt;/p&gt;
+
+&lt;p&gt;While you might have had several accomplishments in your previous profession, if they do not directly show how great a programmer you are or how you are able to get things done, those achievements should be omitted.&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading! Time for a relaxing solo week, and onward to week 8 and legacy projects!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hack Reactor Week 6</title>
+      <link>http://justinzimmerman.net/post/hack-reactor-week-06/</link>
+      <pubDate>Sun, 15 Nov 2015 09:13:25 -0400</pubDate>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/hack-reactor-week-06/</guid>
+      <description>
+
+&lt;p&gt;Week 6 at Hack Reactor is when curriculum starts to shift from small &amp;ldquo;sprints&amp;rdquo; to the larger project phase. For the first time at Hack Reactor, we were given a React.js sprint! After the React.js sprint we had two days to create our MVP projects. At the end of the week, we had the dreaded hiring assessment.&lt;/p&gt;
+
+&lt;h4 id=&#34;react-js&#34;&gt;React.js&lt;/h4&gt;
+
+&lt;p&gt;This was probably one of my favorite sprints thus far. Using React to manage state, we created a &lt;a href=&#34;https://jz-jukebox.herokuapp.com/&#34;&gt;jukebox&lt;/a&gt; application that leverages the SoundCloud API. Using underscore&amp;rsquo;s debounce function, when a user inputs a keyword, the user is shown 10 songs that fit the keyword.&lt;/p&gt;
+
+&lt;h4 id=&#34;mvps&#34;&gt;MVPs&lt;/h4&gt;
+
+&lt;p&gt;The MVP is all about finding the right idea, with the right scope, and pushing through to deploy a minimum viable product, in just two days. I created &lt;a href=&#34;https://geotinerary.herokuapp.com/#/&#34;&gt;Geotinerary&lt;/a&gt; using Angular, Firebase, Leaflet, and Mapbox.js. This was a very fun project that I hope to have more time to polish up.&lt;/p&gt;
+
+&lt;h4 id=&#34;hiring-assessment&#34;&gt;Hiring Assessment&lt;/h4&gt;
+
+&lt;p&gt;The hiring assessment is a 6 hour test encompassing everything the has been taught up until this point of the curriculum. While I won&amp;rsquo;t ruin any surprises for future students, I will recommend anyone who is worried about the hiring assessment to review previous self assessments up until this point.&lt;/p&gt;
+
+&lt;p&gt;While this is certainly an important step in Hack Reactor, do not stress about this. Trust that Hack Reactor has prepared you for this assessment, because that was definitely the case for me.&lt;/p&gt;
+
+&lt;p&gt;Onward to the group project phase! Thanks for reading everyone.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Hack Reactor Week 5</title>
       <link>http://justinzimmerman.net/post/hack-reactor-week-05/</link>
       <pubDate>Sun, 08 Nov 2015 09:12:55 -0400</pubDate>
@@ -578,238 +668,6 @@ date_updated:   2016-06-13T07:14:20.000Z&lt;/p&gt;
 &lt;p&gt;To add some complexity, and also double-down on Backbone.js concepts, we create a simple blackjack game using CoffeeScript. It was interesting to apply the fundamentals of what we are learning in JavaScript to another language, such as CoffeeScript. While I definitely didn&amp;rsquo;t master CoffeeScript by any means, I walked away from this sprint certainly feeling more comfortable taking computer science concepts from one language, and applying it to a language I haven&amp;rsquo;t used before.&lt;/p&gt;
 
 &lt;p&gt;Thanks for reading, and I look forward to week 4!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hack Reactor Week 2</title>
-      <link>http://justinzimmerman.net/post/hack-reactor-week-02/</link>
-      <pubDate>Sun, 18 Oct 2015 10:03:28 -0400</pubDate>
-      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
-      <guid>http://justinzimmerman.net/post/hack-reactor-week-02/</guid>
-      <description>
-
-&lt;p&gt;Week 2 is over already, what a great time it has been! I was able to settle in this week and make progress on some awesome projects.&lt;/p&gt;
-
-&lt;h4 id=&#34;inheritance-patterns&#34;&gt;Inheritance Patterns&lt;/h4&gt;
-
-&lt;p&gt;The beginning of week 2 focused on JavaScript inheritance patterns. We discussed the pros and cons of functional classes, functional-shared classes, prototypal classes, and psuedoclassical classes.&lt;/p&gt;
-
-&lt;h4 id=&#34;nqueens&#34;&gt;nQueens&lt;/h4&gt;
-
-&lt;p&gt;If you don&amp;rsquo;t know about this problem, check it out! It&amp;rsquo;s an especially fun logic puzzle, where you have to test for a given amount of queens, on an (n x n) chessboard, how many solutions can you find? This problem was a conglomeration of all the concepts we had previously discussed to this point. The solution involves the create of a &amp;lsquo;decision tree&amp;rsquo; and anything with the word &amp;lsquo;tree&amp;rsquo; in it, will certainly benefit from the use of recursion.&lt;/p&gt;
-
-&lt;h4 id=&#34;d3&#34;&gt;d3&lt;/h4&gt;
-
-&lt;p&gt;This has been my favorite project so far. We were tasked to create a game using d3. Coming from a previous job where visualization of data is so important, this was such a great sprint. I was able to apply my knowledge of data visualization and coordinates to create a super fun game that I really enjoyed!&lt;/p&gt;
-
-&lt;p&gt;Sorry these posts keep getting shorter! I&amp;rsquo;m looking forward to week 3!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Create a Static Page on a Digital Ocean Droplet</title>
-      <link>http://justinzimmerman.net/post/create-a-static-page-on-a-digital-ocean-droplet/</link>
-      <pubDate>Thu, 15 Oct 2015 09:48:08 -0400</pubDate>
-      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
-      <guid>http://justinzimmerman.net/post/create-a-static-page-on-a-digital-ocean-droplet/</guid>
-      <description>
-
-&lt;p&gt;I currently use Digital Ocean to host my ghost blog. This has a been a very fun adventure, allowing me to learn the &amp;ldquo;ins and outs&amp;rdquo; of linux server administration.&lt;/p&gt;
-
-&lt;h5 id=&#34;what-if-we-want-to-add-a-new-static-page&#34;&gt;What if we want to add a new static page?&lt;/h5&gt;
-
-&lt;p&gt;Using a ghost blog is very easy and simple, but what if we want to add our projects to our site?&lt;/p&gt;
-
-&lt;p&gt;This takes a little bit of work.&lt;/p&gt;
-
-&lt;p&gt;After we copy our files onto our server, we want open the Ghost nginx file using:
-&lt;code&gt;nano /etc/nginx/sites-enabled/ghost&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;The file should look like this:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;    server {
-      listen 80 default_server;
-      listen [::]:80 default_server ipv6only=on;
-
-      server_name justinzimmerman.net; # Replace with your domain
-
-      root /usr/share/nginx/html;
-      index index.html index.htm;
-
-      client_max_body_size 10G;
-
-      location / {
-          proxy_pass http://localhost:2368;
-          proxy_set_header X-Forwarded-For   $proxy_add_x_forwarded_for;
-          proxy_set_header Host $http_host;
-          proxy_set_header X-Forwarded-Proto     $scheme;
-          proxy_buffering off;
-      }
-    }
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Add this block after the location / block:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;    location /chatbuilder/ {
-            alias /var/www/ChatBuilder/;
-      }
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;We have just created an alias to a folder on the file system.&lt;/p&gt;
-
-&lt;h5 id=&#34;completed-file&#34;&gt;Completed file&lt;/h5&gt;
-
-&lt;pre&gt;&lt;code&gt;    server {
-      listen 80 default_server;
-      listen [::]:80 default_server ipv6only=on;
-
-      server_name justinzimmerman.net; # Replace with your domain
-
-      root /usr/share/nginx/html;
-      index index.html index.htm;
-
-      client_max_body_size 10G;
-
-      location / {
-          proxy_pass http://localhost:2368;
-          proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-          proxy_set_header Host $http_host;
-          proxy_set_header X-Forwarded-Proto $scheme;
-          proxy_buffering off;
-      }
-
-      location /chatbuilder/ {
-          alias /var/www/ChatBuilder/;
-      }
-    }
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h5 id=&#34;restart-nginx-and-ghost&#34;&gt;Restart nginx and ghost&lt;/h5&gt;
-
-&lt;pre&gt;&lt;code&gt;    sudo service nginx restart
-    sudo service ghost restart
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Thanks for reading! I hope this helps you set up your new static page.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Ubuntu Server Configuration</title>
-      <link>http://justinzimmerman.net/post/ubuntu-server-configuration/</link>
-      <pubDate>Thu, 15 Oct 2015 08:55:24 -0400</pubDate>
-      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
-      <guid>http://justinzimmerman.net/post/ubuntu-server-configuration/</guid>
-      <description>
-
-&lt;p&gt;Below is a listing of important tasks to complete after spinning up your Ubuntu server.&lt;/p&gt;
-
-&lt;h5 id=&#34;ssh-login-as-root&#34;&gt;SSH login as root&lt;/h5&gt;
-
-&lt;p&gt;You should have added an ssh key to the instance during creation. SSH into the instance as root with&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;ssh root@server_ip_address&lt;/code&gt;&lt;/p&gt;
-
-&lt;h5 id=&#34;update-server-to-latest-patches&#34;&gt;Update server to latest patches&lt;/h5&gt;
-
-&lt;p&gt;&lt;code&gt;sudo apt-get update
-sudo apt-get upgrade&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Optionally to uninstall old packages&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;sudo apt-get autoremove&lt;/code&gt;&lt;/p&gt;
-
-&lt;h5 id=&#34;create-a-new-user&#34;&gt;Create a new user&lt;/h5&gt;
-
-&lt;p&gt;&lt;code&gt;adduser user_name&lt;/code&gt;&lt;/p&gt;
-
-&lt;h5 id=&#34;assign-root-permission-to-new-user&#34;&gt;Assign root permission to new user&lt;/h5&gt;
-
-&lt;p&gt;&lt;code&gt;gpasswd -a user_name sudo&lt;/code&gt;&lt;/p&gt;
-
-&lt;h5 id=&#34;login-as-new-user&#34;&gt;Login as new user&lt;/h5&gt;
-
-&lt;p&gt;&lt;code&gt;su - user_name&lt;/code&gt;&lt;/p&gt;
-
-&lt;h5 id=&#34;add-public-key&#34;&gt;Add public key&lt;/h5&gt;
-
-&lt;pre&gt;&lt;code&gt;mkdir .ssh
-chmod 700 .ssh
-nano .ssh/authorized_keys
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Copy your public key into this file&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;chmod 600 .ssh/authorized_keys&lt;/code&gt;&lt;/p&gt;
-
-&lt;h5 id=&#34;ssh-into-the-instance-as-the-new-user&#34;&gt;SSH into the instance as the new user&lt;/h5&gt;
-
-&lt;p&gt;&lt;code&gt;ssh user_name@server_ip_address&lt;/code&gt;&lt;/p&gt;
-
-&lt;h5 id=&#34;edit-ssh-configuration-settings&#34;&gt;Edit SSH configuration settings&lt;/h5&gt;
-
-&lt;pre&gt;&lt;code&gt;sudo nano /etc/ssh/sshd_config
-PermitRootLogin no
-PermitEmptyPassword no
-sudo service ssh restart
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h5 id=&#34;setup-the-firewall&#34;&gt;Setup the firewall&lt;/h5&gt;
-
-&lt;p&gt;Permit ssh on port 22&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;sudo ufw allow ssh&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;To allow all traffic from a specified IP address&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;sudo ufw allow from any_ip_address&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Allow traffic from a specific port&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;sudo ufw allow 80/tcp&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Review configuration before enabling&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;sudo ufw show added&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Enable the UFW configuration&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;sudo ufw enable&lt;/code&gt;&lt;/p&gt;
-
-&lt;h5 id=&#34;configure-ntp&#34;&gt;Configure NTP&lt;/h5&gt;
-
-&lt;pre&gt;&lt;code&gt;sudo apt-get update
-sudo apt-get install ntp
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h5 id=&#34;setup-swap-file&#34;&gt;Setup swap file&lt;/h5&gt;
-
-&lt;p&gt;Usually best practice to double amount of RAM for swap file&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;sudo fallocate -l xxxG /swapfile
-sudo chmod 600 /swapfile
-sudo mkswap /swapfile
-sudo swapon /swapfile
-sudo sh -c &#39;echo &amp;quot;/swapfile none swap sw 0 0&amp;quot; &amp;gt;&amp;gt; /etc/fstab&#39;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h5 id=&#34;install-fail2ban&#34;&gt;Install fail2ban&lt;/h5&gt;
-
-&lt;pre&gt;&lt;code&gt;sudo apt-get update
-sudo apt-get install fail2ban
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h5 id=&#34;edit-fail2ban-config&#34;&gt;Edit fail2ban config&lt;/h5&gt;
-
-&lt;pre&gt;&lt;code&gt;sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
-sudo nano /etc/fail2ban/jail.local
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Update the bantime, findtime, and maxretry settings
-Restart the fail2ban service&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;sudo service fail2ban restart&lt;/code&gt;&lt;/p&gt;
 </description>
     </item>
     

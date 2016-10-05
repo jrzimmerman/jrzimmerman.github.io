@@ -281,6 +281,96 @@ USEFUL DIAGRAM!
     </item>
     
     <item>
+      <title>Hack Reactor Week 8</title>
+      <link>http://justinzimmerman.net/post/hack-reactor-week-08/</link>
+      <pubDate>Sun, 06 Dec 2015 09:13:49 -0400</pubDate>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/hack-reactor-week-08/</guid>
+      <description>
+
+&lt;h3 id=&#34;legacy-project&#34;&gt;Legacy Project&lt;/h3&gt;
+
+&lt;p&gt;After the greenfield project last week, the next exercise was picking another group&amp;rsquo;s greenfield project to build upon.&lt;/p&gt;
+
+&lt;p&gt;The idea of this exercise is actually well founded, the majority of Software Engineers are going to work on developing new features or debugging &amp;lsquo;legacy&amp;rsquo; code, or known as code you haven&amp;rsquo;t seen before.&lt;/p&gt;
+
+&lt;p&gt;I really enjoyed working on Seamless, the greenfield project my group decided to take on. The foundation of seamless was solid, it was a basic vanilla javascript application, that resized an image using a seam-carving algorithm.&lt;/p&gt;
+
+&lt;p&gt;We decided to create a persistent data store for resized images using Firebase, add google authentication, and to also create a modern, responsive website.&lt;/p&gt;
+
+&lt;p&gt;You can view &lt;a href=&#34;http://hrr9-seamless.herokuapp.com&#34;&gt;Seamless here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;thesis&#34;&gt;Thesis&lt;/h3&gt;
+
+&lt;p&gt;I cannot believe it is already time to start the thesis project! The thesis project is a 3.5 week long project in a group of 4.&lt;/p&gt;
+
+&lt;p&gt;The group I was assigned to didn&amp;rsquo;t come with a recommended project. I have a feeling this will be not only a great group, but a great project will come out of it as well!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hack Reactor Week 7</title>
+      <link>http://justinzimmerman.net/post/hack-reactor-week-07/</link>
+      <pubDate>Sun, 22 Nov 2015 09:13:41 -0400</pubDate>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/hack-reactor-week-07/</guid>
+      <description>
+
+&lt;p&gt;Week 7 was the first week of &amp;ldquo;project phase&amp;rdquo; in Hack Reactor. We will go through 6 weeks of group work to become better engineers in team environments.&lt;/p&gt;
+
+&lt;h4 id=&#34;greenfield&#34;&gt;Greenfield&lt;/h4&gt;
+
+&lt;p&gt;The term greenfield comes from the engineering world, to refer to a blank slate, a &amp;ldquo;green field&amp;rdquo; ready to be built upon.&lt;/p&gt;
+
+&lt;p&gt;This was my first experience working with a team of four to complete a functioning project. While I greatly enjoyed working in a team environment, there were a few hiccups that we encountered and have learned from along the way.&lt;/p&gt;
+
+&lt;p&gt;My understanding of git was taken to an entire new level. This was a great experience in to learning the intricacies of git workflow and project management.&lt;/p&gt;
+
+&lt;p&gt;My team developed &lt;a href=&#34;http://access-app.herokuapp.com/&#34;&gt;Access&lt;/a&gt;. We used the MEAN stack to store and display crowd-sourced handicapped accessibility information for venues. We hope that with a little more work, this functioning product will become a way for people to easily access the information they need to go places, and live their lives.&lt;/p&gt;
+
+&lt;h4 id=&#34;resume&#34;&gt;Resume&lt;/h4&gt;
+
+&lt;p&gt;The resume sprint was one of the first experiences with Hack Reactor&amp;rsquo;s excellent outcomes team. The outcomes team works hard to take you from a great programmer, to a hirable programmer.&lt;/p&gt;
+
+&lt;p&gt;While at first glance,most people do not consider a resume to be worth taking multiple days of a course, but its actually quite the opposite. A resume, as I am sure most of you know, is the first thing a recruiter or hiring manager will see. What is a less common for people to understand, is much like the cover letter, you should write your resume with the position in mind.&lt;/p&gt;
+
+&lt;p&gt;One of the hardest parts of writing an effective resume, is not writing every accomplishment down. Every single line in your resume should announce to the reader, that you are a qualified software engineer.&lt;/p&gt;
+
+&lt;p&gt;While you might have had several accomplishments in your previous profession, if they do not directly show how great a programmer you are or how you are able to get things done, those achievements should be omitted.&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading! Time for a relaxing solo week, and onward to week 8 and legacy projects!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hack Reactor Week 6</title>
+      <link>http://justinzimmerman.net/post/hack-reactor-week-06/</link>
+      <pubDate>Sun, 15 Nov 2015 09:13:25 -0400</pubDate>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/hack-reactor-week-06/</guid>
+      <description>
+
+&lt;p&gt;Week 6 at Hack Reactor is when curriculum starts to shift from small &amp;ldquo;sprints&amp;rdquo; to the larger project phase. For the first time at Hack Reactor, we were given a React.js sprint! After the React.js sprint we had two days to create our MVP projects. At the end of the week, we had the dreaded hiring assessment.&lt;/p&gt;
+
+&lt;h4 id=&#34;react-js&#34;&gt;React.js&lt;/h4&gt;
+
+&lt;p&gt;This was probably one of my favorite sprints thus far. Using React to manage state, we created a &lt;a href=&#34;https://jz-jukebox.herokuapp.com/&#34;&gt;jukebox&lt;/a&gt; application that leverages the SoundCloud API. Using underscore&amp;rsquo;s debounce function, when a user inputs a keyword, the user is shown 10 songs that fit the keyword.&lt;/p&gt;
+
+&lt;h4 id=&#34;mvps&#34;&gt;MVPs&lt;/h4&gt;
+
+&lt;p&gt;The MVP is all about finding the right idea, with the right scope, and pushing through to deploy a minimum viable product, in just two days. I created &lt;a href=&#34;https://geotinerary.herokuapp.com/#/&#34;&gt;Geotinerary&lt;/a&gt; using Angular, Firebase, Leaflet, and Mapbox.js. This was a very fun project that I hope to have more time to polish up.&lt;/p&gt;
+
+&lt;h4 id=&#34;hiring-assessment&#34;&gt;Hiring Assessment&lt;/h4&gt;
+
+&lt;p&gt;The hiring assessment is a 6 hour test encompassing everything the has been taught up until this point of the curriculum. While I won&amp;rsquo;t ruin any surprises for future students, I will recommend anyone who is worried about the hiring assessment to review previous self assessments up until this point.&lt;/p&gt;
+
+&lt;p&gt;While this is certainly an important step in Hack Reactor, do not stress about this. Trust that Hack Reactor has prepared you for this assessment, because that was definitely the case for me.&lt;/p&gt;
+
+&lt;p&gt;Onward to the group project phase! Thanks for reading everyone.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Hack Reactor Week 5</title>
       <link>http://justinzimmerman.net/post/hack-reactor-week-05/</link>
       <pubDate>Sun, 08 Nov 2015 09:12:55 -0400</pubDate>
@@ -488,134 +578,6 @@ date_updated:   2016-06-13T07:14:20.000Z&lt;/p&gt;
 &lt;p&gt;The last day consisted of learning a variety of ways to improve your online presence. These included tips and tricks on how to improve your Github and LinkedIn. We discussed the importance of an online portfolio site, and blogging about technical concepts. We also covered the basics on resumes, cover letters, applying for jobs, and how to prepare for interviews.&lt;/p&gt;
 
 &lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/&#34;&gt;Week 1&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/&#34;&gt;Week 2&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/&#34;&gt;Week 3&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/&#34;&gt;&lt;b&gt;Week 4&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hack Reactor Remote Prep Week 3</title>
-      <link>http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/</link>
-      <pubDate>Sun, 02 Aug 2015 07:43:11 -0400</pubDate>
-      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
-      <guid>http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/</guid>
-      <description>
-
-&lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/&#34;&gt;Week 1&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/&#34;&gt;Week 2&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/&#34;&gt;&lt;b&gt;Week 3&lt;/b&gt;&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/&#34;&gt;Week 4&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I cannot believe we have already completed 3 weeks of class! I have learned a considerable amount along the way. Here are some of the topics that were covered this week.&lt;/p&gt;
-
-&lt;h4 id=&#34;functions&#34;&gt;Functions&lt;/h4&gt;
-
-&lt;p&gt;Now we are getting into the good stuff. &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions&#34;&gt;Functions&lt;/a&gt; are one of the most critical tools for any good JavaScript programmer. We discussed creating functions, invoking functions, and storing functions as variables.&lt;/p&gt;
-
-&lt;h4 id=&#34;events&#34;&gt;Events&lt;/h4&gt;
-
-&lt;p&gt;Event handlers are specific types of functions that are invoked when the user interacts with the website. For instance, text can be shown when a button is clicked, or an image can appear when a mouse hovers over a text link.&lt;/p&gt;
-
-&lt;h4 id=&#34;arrays&#34;&gt;Arrays&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array&#34;&gt;Arrays&lt;/a&gt; are one of the primary methods for storing data collections in JavaScript. An array is used to store ordered lists. Arrays can include all sorts of different data types, booleans, strings, numbers, objects, and even arrays within arrays.&lt;/p&gt;
-
-&lt;p&gt;We discussed array instantiation, and the associated properties (such as &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length&#34;&gt;.length&lt;/a&gt;) and methods (such as &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push&#34;&gt;.push&lt;/a&gt; or &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop&#34;&gt;.pop&lt;/a&gt;) that come with arrays.&lt;/p&gt;
-
-&lt;h4 id=&#34;objects&#34;&gt;Objects&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object&#34;&gt;Objects&lt;/a&gt; are the other primary method for storing data collections in JavaScript. Rather than an ordered list of values like an array, objects are stored using key value pairs. These keys can be referenced using dot notation or bracket notation.&lt;/p&gt;
-
-&lt;p&gt;We then used both dot notation and bracket notation to access values that were stored within the objects.&lt;/p&gt;
-
-&lt;h4 id=&#34;web-store-hackathon&#34;&gt;Web Store Hackathon&lt;/h4&gt;
-
-&lt;p&gt;This hackathon was an individual 3 hour exercise in building a web store to compete with Amazon.com. We built upon our existing knowledge of HTML, CSS, and jQuery to create a basic layout for our e-commerce site. We then used objects to store our products that we would be selling, such as books and albums.&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/&#34;&gt;Week 1&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/&#34;&gt;Week 2&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/&#34;&gt;&lt;b&gt;Week 3&lt;/b&gt;&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/&#34;&gt;Week 4&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hack Reactor Remote Prep Week 2</title>
-      <link>http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/</link>
-      <pubDate>Sat, 25 Jul 2015 09:42:11 -0400</pubDate>
-      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
-      <guid>http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/</guid>
-      <description>
-
-&lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/&#34;&gt;Week 1&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/&#34;&gt;&lt;b&gt;Week 2&lt;/b&gt;&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/&#34;&gt;Week 3&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/&#34;&gt;Week 4&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Another week completed already! With the end of week 2 brings the close to the first half of the class. At the end of each class, the instructors give a survey to determine if you feel &amp;lsquo;behind pace,&amp;rsquo; &amp;lsquo;on pace,&amp;rsquo; or &amp;lsquo;ahead of pace.&amp;rsquo; While I still feel I am in the &amp;lsquo;ahead of pace&amp;rsquo; category, I have been learning quite a bit!&lt;/p&gt;
-
-&lt;h4 id=&#34;introduction-to-javascript&#34;&gt;Introduction to JavaScript&lt;/h4&gt;
-
-&lt;p&gt;One of the cool things about Hack Reactor is that, no matter the complexity of the material, they always find a way to challenge you with the exercises.&lt;/p&gt;
-
-&lt;p&gt;The first day of the week was very easy, covering terminal and operators in JavaScript. This gave me an opportunity to assist students newer to these concepts.&lt;/p&gt;
-
-&lt;h4 id=&#34;dom-manipulation&#34;&gt;DOM Manipulation&lt;/h4&gt;
-
-&lt;p&gt;We started learning about using JavaScript to manipulate the DOM. This was very interesting, as I have yet to really understand how to leverage JavaScript to manipulate the page.&lt;/p&gt;
-
-&lt;h4 id=&#34;conditionals&#34;&gt;Conditionals&lt;/h4&gt;
-
-&lt;p&gt;This started with a brief refresher on the Boolean data type. We then spent most of our time working on If/Else statements. I really enjoyed taking what we had previously learned about DOM Manipulation and applying conditional statements based on user input.&lt;/p&gt;
-
-&lt;h4 id=&#34;while-loops&#34;&gt;While Loops&lt;/h4&gt;
-
-&lt;p&gt;I was very impressed with Hack Reactor as they took a seemingly simple concept and really made students push the limits of while loops. As I would normally use for loops for a majority of my functional programming, it was interesting to see how you can really leverage while loops, such as creating a simple rock, paper, scissors game.&lt;/p&gt;
-
-&lt;h4 id=&#34;jquery&#34;&gt;jQuery&lt;/h4&gt;
-
-&lt;p&gt;While jQuery can take a little getting used to, it definitely seems like the way to go for DOM Manipulation. I really enjoyed learning about jQuery effects as well.&lt;/p&gt;
-
-&lt;h4 id=&#34;hackathon&#34;&gt;Hackathon&lt;/h4&gt;
-
-&lt;p&gt;We had a Halfway Hackathon! As a team, we were required to develop a project idea, and using all that we have learned so far, develop that idea individually in 3 hours.&lt;/p&gt;
-
-&lt;p&gt;I really enjoyed working with my group to problem solve and create a really fun version of the classic &amp;lsquo;Breakout&amp;rsquo; game.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://jz-breakout.divshot.io&#34;&gt;My version can be found here.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/&#34;&gt;Week 1&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/&#34;&gt;&lt;b&gt;Week 2&lt;/b&gt;&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/&#34;&gt;Week 3&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/&#34;&gt;Week 4&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hack Reactor Remote Prep Week 1</title>
-      <link>http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/</link>
-      <pubDate>Sun, 19 Jul 2015 20:42:20 -0400</pubDate>
-      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
-      <guid>http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/</guid>
-      <description>
-
-&lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/&#34;&gt;&lt;b&gt;Week 1&lt;/b&gt;&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/&#34;&gt;Week 2&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/&#34;&gt;Week 3&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/&#34;&gt;Week 4&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I am fortunate enough to be in the first &lt;a href=&#34;http://hackreactor.com&#34;&gt;Hack Reactor&lt;/a&gt; Remote Prep class! The course is 4 weeks long, meeting 5 days a week for 3 hours.&lt;/p&gt;
-
-&lt;p&gt;The class time has flown by, and I have been able to work and get to know a majority of my classmates! I had wondered what it would be like to pair program remotely with people, and I honestly think it is just as good as if the person was sitting beside you.&lt;/p&gt;
-
-&lt;p&gt;The first week was spent learning Markdown, HTML, and CSS.&lt;/p&gt;
-
-&lt;h4 id=&#34;markdown&#34;&gt;Markdown&lt;/h4&gt;
-
-&lt;p&gt;The first night was a &amp;lsquo;get to know the class&amp;rsquo; where each person &lt;a href=&#34;https://gist.github.com/jrzimmerman/4bc55dd20ae8206689c0&#34;&gt;interviewed their paired partner&lt;/a&gt; and then had to introduce their partner to the class. We styled the information with Markdown.&lt;/p&gt;
-
-&lt;h4 id=&#34;html&#34;&gt;HTML&lt;/h4&gt;
-
-&lt;p&gt;The second night focused on learning HTML and &lt;a href=&#34;http://jzimmerman.divshot.io/&#34;&gt;deploying our first site&lt;/a&gt;! This was a great experience. Since I knew some HTML already, the instructors hinted at using Bootstrap to style the site. I was also able to use the command line to deploy my website using &lt;a href=&#34;https://divshot.com/&#34;&gt;Divshot&lt;/a&gt;. One of the cool things about the Remote Prep class, is that the instructor and TAs are always willing to push you when you ask for extra material.&lt;/p&gt;
-
-&lt;h4 id=&#34;css&#34;&gt;CSS&lt;/h4&gt;
-
-&lt;p&gt;The third night was more difficult for me. I am probably the least exposed to CSS, and I was able to learn so much from the exercises. We also focused on importing media to websites such as YouTube videos, Google Maps, sound files, and external sites.&lt;/p&gt;
-
-&lt;h4 id=&#34;forms&#34;&gt;Forms&lt;/h4&gt;
-
-&lt;p&gt;The fourth night was all about styling multi-page web sites and learning how to use forms in HTML. We also discussed GET and POST, and &lt;a href=&#34;https://www.youtube.com/watch?v=7_LPdttKXPc&#34;&gt;how the internet works.&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;css-frameworks&#34;&gt;CSS Frameworks&lt;/h4&gt;
-
-&lt;p&gt;The fifth day was all about advanced styling of layouts with CSS and an introduction to modern HTML and CSS frameworks! I am excited to be using &lt;a href=&#34;http://minimalcss.com/&#34;&gt;MinimalCSS&lt;/a&gt; and &lt;a href=&#34;http://getbootstrap.com/&#34;&gt;Bootstrap&lt;/a&gt; from this point forward.&lt;/p&gt;
-
-&lt;p&gt;I hope to continue posting what I have learned from class on a weekly basis! Happy learning!&lt;/p&gt;
-
-&lt;p style=&#34;text-align: center&#34;&gt;&lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-1/&#34;&gt;&lt;b&gt;Week 1&lt;/b&gt;&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-2/&#34;&gt;Week 2&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-3/&#34;&gt;Week 3&lt;/a&gt; | &lt;a href = &#34;http://justinzimmerman.net/post/hack-reactor-remote-prep-week-4/&#34;&gt;Week 4&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
