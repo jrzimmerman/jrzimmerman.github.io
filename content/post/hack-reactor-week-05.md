@@ -1,9 +1,14 @@
----
-title: Hack Reactor Week 5
-slug: hack-reactor-week-5
-date_published: 2015-11-06T21:14:00.000Z
-date_updated:   2016-06-13T07:17:44.000Z
----
++++
+author = "Justin Zimmerman"
+date = "2015-11-08T09:12:55-04:00"
+description = "Week 5 of the Hack Reactor Immersive Software Engineering Program."
+keywords = ["Hack Reactor", "Hack", "Reactor", "Bootcamp", "Immersive", "Software Engineering", "Software", "Engineering"]
+tags = ["Hack Reactor"]
+title = "Hack Reactor Week 5"
+topics = ["Hack Reactor"]
+type = "post"
+
++++
 
 With another week completed, week 5 has been extremely interesting. The topics this week included authentication, and deployment, along with introductions to MongoDB and Angular.
 

@@ -1,9 +1,14 @@
----
-title: Hack Reactor Week 4
-slug: hack-reactor-week-4
-date_published: 2015-10-30T22:33:00.000Z
-date_updated:   2016-06-13T07:16:02.000Z
----
++++
+author = "Justin Zimmerman"
+date = "2015-11-01T08:58:08-04:00"
+description = "Week 4 of the Hack Reactor Immersive Software Engineering Program."
+keywords = ["Hack Reactor", "Hack", "Reactor", "Bootcamp", "Immersive", "Software Engineering", "Software", "Engineering"]
+tags = ["Hack Reactor"]
+title = "Hack Reactor Week 4"
+topics = ["Hack Reactor"]
+type = "post"
+
++++
 
 In Hack Reactor, week 4 is a pivotal time where the training wheels start to come off. Much of the sprints until week 4 have had for the most part very structured tests that held your hand through most of the sprints. Week 4 starts to look quite different!
 

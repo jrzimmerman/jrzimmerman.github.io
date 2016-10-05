@@ -1,6 +1,6 @@
 +++
 author = "Justin Zimmerman"
-date = "2015-10-06T09:37:44-04:00"
+date = "2015-10-11T09:37:44-04:00"
 description = "Week 1 of the Hack Reactor Immersive Software Engineering Program."
 keywords = ["Hack Reactor", "Hack", "Reactor", "Bootcamp", "Immersive", "Software Engineering", "Software", "Engineering"]
 tags = ["Hack Reactor"]

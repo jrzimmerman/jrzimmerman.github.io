@@ -209,7 +209,7 @@ windowSize: [1300, 650]
     <item>
       <title>Hack Reactor Week 12</title>
       <link>http://justinzimmerman.net/post/hack-reactor-week-12/</link>
-      <pubDate>Mon, 11 Jan 2016 10:05:17 -0400</pubDate>
+      <pubDate>Sun, 10 Jan 2016 10:05:17 -0400</pubDate>
       <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
       <guid>http://justinzimmerman.net/post/hack-reactor-week-12/</guid>
       <description>&lt;p&gt;The realization that Week 12 has finally come to an end is definitely bitter-sweet. I have spent over 11 hours a day for the past 12 weeks learning Full-Stack Software Engineering. While I am looking forward getting back to a regular sleep schedule, I have learned more than I could imagine, and met many amazing people along the way.&lt;/p&gt;
@@ -251,7 +251,7 @@ windowSize: [1300, 650]
     <item>
       <title>Hack Reactor Week 10</title>
       <link>http://justinzimmerman.net/post/hack-reactor-week-10/</link>
-      <pubDate>Mon, 28 Dec 2015 20:42:22 -0400</pubDate>
+      <pubDate>Sun, 20 Dec 2015 20:42:22 -0400</pubDate>
       <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
       <guid>http://justinzimmerman.net/post/hack-reactor-week-10/</guid>
       <description>
@@ -441,7 +441,7 @@ USEFUL DIAGRAM!
     <item>
       <title>Hack Reactor Week 9</title>
       <link>http://justinzimmerman.net/post/hack-reactor-week-09/</link>
-      <pubDate>Thu, 10 Dec 2015 09:50:22 -0400</pubDate>
+      <pubDate>Sun, 13 Dec 2015 09:50:22 -0400</pubDate>
       <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
       <guid>http://justinzimmerman.net/post/hack-reactor-week-09/</guid>
       <description>
@@ -475,9 +475,65 @@ USEFUL DIAGRAM!
     </item>
     
     <item>
+      <title>Hack Reactor Week 5</title>
+      <link>http://justinzimmerman.net/post/hack-reactor-week-05/</link>
+      <pubDate>Sun, 08 Nov 2015 09:12:55 -0400</pubDate>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/hack-reactor-week-05/</guid>
+      <description>
+
+&lt;p&gt;With another week completed, week 5 has been extremely interesting. The topics this week included authentication, and deployment, along with introductions to MongoDB and Angular.&lt;/p&gt;
+
+&lt;h4 id=&#34;authentication&#34;&gt;Authentication&lt;/h4&gt;
+
+&lt;p&gt;As we all know, security is a pivotal part of development. Authentication is the act of verifying that your user is actually who they say they are. This verification normally includes a username and password. When that password is passed to the server we then return a token for return authentication requests.&lt;/p&gt;
+
+&lt;h4 id=&#34;deployment&#34;&gt;Deployment&lt;/h4&gt;
+
+&lt;p&gt;Learning deployment has been very fun, and I have really enjoyed leveraging services like &lt;a href=&#34;http://www.heroku.com&#34;&gt;Heroku&lt;/a&gt; to make deployment easy as possible. Along with deployment, we talked about using build task runners such as Grunt and Gulp.&lt;/p&gt;
+
+&lt;h4 id=&#34;angular&#34;&gt;Angular&lt;/h4&gt;
+
+&lt;p&gt;Angular is an excellent framework that I was able to work with at the end of the week. Unlike Backbone, Angular is quite opinionated, in a good way. Angular has thorough documentation, and has promises built in, to handle callbacks.&lt;/p&gt;
+
+&lt;p&gt;With only one more sprint next week, the transition to group project phase begins!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hack Reactor Week 4</title>
+      <link>http://justinzimmerman.net/post/hack-reactor-week-04/</link>
+      <pubDate>Sun, 01 Nov 2015 08:58:08 -0400</pubDate>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/hack-reactor-week-04/</guid>
+      <description>
+
+&lt;p&gt;In Hack Reactor, week 4 is a pivotal time where the training wheels start to come off. Much of the sprints until week 4 have had for the most part very structured tests that held your hand through most of the sprints. Week 4 starts to look quite different!&lt;/p&gt;
+
+&lt;p&gt;During week 4 we took a walk through server-side or what is also called back-end concepts. We specifically focused on using node, server side concepts such as the client-server model, and databases.&lt;/p&gt;
+
+&lt;h4 id=&#34;node-js&#34;&gt;Node.js&lt;/h4&gt;
+
+&lt;p&gt;Node.js is a javascript runtime environment that allows for event-driven programming in an asynchronous environment.&lt;/p&gt;
+
+&lt;h4 id=&#34;server-side-concepts&#34;&gt;Server Side Concepts&lt;/h4&gt;
+
+&lt;p&gt;We discussed server side concepts such as the Client-Server model, background jobs, daemons, and cron tasks.&lt;/p&gt;
+
+&lt;h4 id=&#34;databases&#34;&gt;Databases&lt;/h4&gt;
+
+&lt;p&gt;In my previous job, maintenance of databases was a large portion of my daily tasks. So for this sprint I was able to take my previous experience and learn so much more.&lt;/p&gt;
+
+&lt;p&gt;To take a step backwards, databases are so important because of their ability to store data persistently. Should your node server restart, without a database you can say goodbye to all that beautiful data!&lt;/p&gt;
+
+&lt;p&gt;On to week 5!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Hack Reactor Week 3</title>
       <link>http://justinzimmerman.net/post/hack-reactor-week-03/</link>
-      <pubDate>Fri, 30 Oct 2015 08:50:09 -0400</pubDate>
+      <pubDate>Sun, 25 Oct 2015 08:50:09 -0400</pubDate>
       <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
       <guid>http://justinzimmerman.net/post/hack-reactor-week-03/</guid>
       <description>
@@ -518,7 +574,7 @@ date_updated:   2016-06-13T07:14:20.000Z&lt;/p&gt;
     <item>
       <title>Hack Reactor Week 2</title>
       <link>http://justinzimmerman.net/post/hack-reactor-week-02/</link>
-      <pubDate>Tue, 20 Oct 2015 10:03:28 -0400</pubDate>
+      <pubDate>Sun, 18 Oct 2015 10:03:28 -0400</pubDate>
       <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
       <guid>http://justinzimmerman.net/post/hack-reactor-week-02/</guid>
       <description>
@@ -750,7 +806,7 @@ Restart the fail2ban service&lt;/p&gt;
     <item>
       <title>Hack Reactor Week 1</title>
       <link>http://justinzimmerman.net/post/hack-reactor-week-01/</link>
-      <pubDate>Tue, 06 Oct 2015 09:37:44 -0400</pubDate>
+      <pubDate>Sun, 11 Oct 2015 09:37:44 -0400</pubDate>
       <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
       <guid>http://justinzimmerman.net/post/hack-reactor-week-01/</guid>
       <description>
@@ -774,92 +830,6 @@ Restart the fail2ban service&lt;/p&gt;
 &lt;p&gt;The first week involved discussion and implementation of various data structures. We first started with implementation of stacks and queues. During the rest of the week, we focused on more advanced data structures, such as linked lists, trees, graphs, sets, and binary search trees.&lt;/p&gt;
 
 &lt;p&gt;One of the most surprising things about Hack Reactor was the amount of thorough and thoughtful video lectures on &amp;ldquo;soft skills&amp;rdquo; to help with both the program and becoming an effective learner and programmer.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Hack Reactor Week 0</title>
-      <link>http://justinzimmerman.net/post/hack-reactor-week-00/</link>
-      <pubDate>Tue, 06 Oct 2015 09:19:42 -0400</pubDate>
-      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
-      <guid>http://justinzimmerman.net/post/hack-reactor-week-00/</guid>
-      <description>&lt;p&gt;It&amp;rsquo;s finally that time! After completing the pre-course work, I start my journey with Hack Reactor today.&lt;/p&gt;
-
-&lt;p&gt;I plan to write on a weekly basis about the new topics covered, and what was focused on during my time here at Hack Reactor.&lt;/p&gt;
-
-&lt;p&gt;During the pre-course we focused on gaining a firm understanding of web development technologies such as HTML, CSS, and jQuery.&lt;/p&gt;
-
-&lt;p&gt;Programming concepts such as scope, execution contexts, objects, and recursion were discussed in great length.&lt;/p&gt;
-
-&lt;p&gt;I am so excited to start my journey into Software Engineering with Hack Reactor!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Installing PostGIS and QGIS using Homebrew</title>
-      <link>http://justinzimmerman.net/post/installing-postgis-and-qgis-using-homebrew/</link>
-      <pubDate>Sat, 22 Aug 2015 10:29:42 -0400</pubDate>
-      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
-      <guid>http://justinzimmerman.net/post/installing-postgis-and-qgis-using-homebrew/</guid>
-      <description>
-
-&lt;p&gt;After browsing the web and seeing outdated information for installing GIS software, I wanted to document the steps I took to install all the required software to get up and running using &lt;a href=&#34;http://brew.sh/&#34;&gt;Homebrew&lt;/a&gt;:&lt;/p&gt;
-
-&lt;h4 id=&#34;installing-homebrew&#34;&gt;Installing Homebrew&lt;/h4&gt;
-
-&lt;p&gt;Be sure to have xcode installed from Apple&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;xcode-select --install
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Copy this code a paste into your terminal to download and install Homebrew:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id=&#34;installing-postgis&#34;&gt;Installing PostGIS&lt;/h4&gt;
-
-&lt;p&gt;First, using Homebrew install PostgreSQL:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;brew update
-brew doctor
-brew install postgresql
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Install PostGIS&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;brew install PostGIS
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id=&#34;installing-qgis&#34;&gt;Installing QGIS&lt;/h4&gt;
-
-&lt;p&gt;First install python&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;brew install python
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;QGIS uses numpy, scipy and pyscopg2 which can be installed with pip&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
-pip install numpy scipy matplotlib processing psycopg2
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Install GDAL&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;brew install gdal
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Install xquartz&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;brew install Caskroom/cask/xquartz
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Finally, install QGIS and link to the Applications folder&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;brew tap osgeo/osgeo4mac
-brew install qgis-28
-brew linkapps qgis-28
-&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
