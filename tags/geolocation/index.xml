@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Geolocation on Justin Zimmerman</title>
+    <link>http://justinzimmerman.net/tags/geolocation/</link>
+    <description>Recent content in Geolocation on Justin Zimmerman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</managingEditor>
+    <webMaster>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</webMaster>
+    <copyright>(c) 2016 Justin Zimmerman.</copyright>
+    <lastBuildDate>Thu, 12 Nov 2015 10:31:44 -0400</lastBuildDate>
+    <atom:link href="http://justinzimmerman.net/tags/geolocation/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Geolocation on Page Load</title>
+      <link>http://justinzimmerman.net/post/geolocation-on-page-load/</link>
+      <pubDate>Thu, 12 Nov 2015 10:31:44 -0400</pubDate>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/geolocation-on-page-load/</guid>
+      <description>
+
+&lt;p&gt;While building &lt;a href=&#34;https://geotinerary.herokuapp.com/&#34;&gt;Geotinerary&lt;/a&gt;, I wanted the map to zoom relatively close to the users location. Surprisingly enough, this was quite hard to find an example of.&lt;/p&gt;
+
+&lt;h4 id=&#34;html5-and-ips&#34;&gt;HTML5 and IPs&lt;/h4&gt;
+
+&lt;p&gt;Traditionally, when a webpage wants your location, we use the native HTML5. While this isn&amp;rsquo;t a terrible idea and can have much more accurate results, there is another method to find your users location that doesn&amp;rsquo;t require the use of HTML5 geolocation, the users IP address.&lt;/p&gt;
+
+&lt;h4 id=&#34;html5-geolocation&#34;&gt;HTML5 Geolocation&lt;/h4&gt;
+
+&lt;p&gt;The most accurate approach to locating your users is to use HTML 5&amp;rsquo;s built in geolocation feature. Due to the accuracy, this is the approach I opted to use for Geotinerary.&lt;/p&gt;
+
+&lt;p&gt;Here is a code snippet for HTML 5 Geolocation:&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/jrzimmerman/c4039796cfaa84980cbe.js&#34;&gt;&lt;/script&gt;
+
+&lt;h4 id=&#34;geolocating-ip-addresses&#34;&gt;Geolocating IP Addresses&lt;/h4&gt;
+
+&lt;p&gt;If you are concerned with There are a swath of many great GeoIP providers, but for this project I decided upon &lt;a href=&#34;http://freegeoip.net/&#34;&gt;Free GeoIP&lt;/a&gt; for its open data and ease of use. While the location is not as great, it&amp;rsquo;s all about what you need from your data.&lt;/p&gt;
+
+&lt;p&gt;Here is a code snippet for Geolocating IP Addresses:&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/jrzimmerman/0453bdfd552de42f30f6.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;Deciding upon which method to use depends on use case. Since I had a need for specific locations, I went with the traditional HTML 5 geolocation. If I were to aggregate data at a national (or global) scale, then GeoIP is a fantastic use.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

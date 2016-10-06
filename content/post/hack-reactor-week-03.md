@@ -10,14 +10,6 @@ type = "post"
 
 +++
 
----
-title: Hack Reactor Week 3
-slug: hack-reactor-week-3
-date_published: 2015-10-30T19:58:00.000Z
-date_updated:   2016-06-13T07:14:20.000Z
-tags: Hack Reactor
----
-
 Welcome to week 3! This has been an awesome week for discovering web application architecture. We began the week creating a chat application that focused on front end development. During the middle of the week we began to take a deeper dive into web application architecture using backbone.js. And the final sprint of the week included another dive into backbone.js but using CoffeeScript to write the application, rather than Javascript.
 
 #### jQuery and AJAX

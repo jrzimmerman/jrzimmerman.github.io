@@ -1,15 +1,19 @@
----
-title: Geolocation on Page Load
-slug: geolocation-on-page-load
-date_published: 2015-11-12T08:19:00.000Z
-date_updated:   2016-06-13T07:18:58.000Z
----
++++
+author = "Justin Zimmerman"
+date = "2015-11-12T10:31:44-04:00"
+description = "Handling geolocation of page load with HTML5 or GeoIP."
+keywords = ["Geolocation", "GeoIP"]
+tags = ["Geolocation", "GeoIP"]
+title = "Geolocation on Page Load"
+topics = ["Geolocation"]
+type = "post"
+
++++
 
 While building [Geotinerary](https://geotinerary.herokuapp.com/), I wanted the map to zoom relatively close to the users location. Surprisingly enough, this was quite hard to find an example of.
 
 #### HTML5 and IPs
 Traditionally, when a webpage wants your location, we use the native HTML5. While this isn't a terrible idea and can have much more accurate results, there is another method to find your users location that doesn't require the use of HTML5 geolocation, the users IP address.
-
 
 #### HTML5 Geolocation
 
@@ -28,4 +32,3 @@ Here is a code snippet for Geolocating IP Addresses:
 <script src="https://gist.github.com/jrzimmerman/0453bdfd552de42f30f6.js"></script>
 
 Deciding upon which method to use depends on use case. Since I had a need for specific locations, I went with the traditional HTML 5 geolocation. If I were to aggregate data at a national (or global) scale, then GeoIP is a fantastic use.
-

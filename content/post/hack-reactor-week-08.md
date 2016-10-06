@@ -16,7 +16,7 @@ After the greenfield project last week, the next exercise was picking another gr
 
 The idea of this exercise is actually well founded, the majority of Software Engineers are going to work on developing new features or debugging 'legacy' code, or known as code you haven't seen before.
 
-I really enjoyed working on Seamless, the greenfield project my group decided to take on. The foundation of seamless was solid, it was a basic vanilla javascript application, that resized an image using a seam-carving algorithm.
+I really enjoyed working on Seamless, the greenfield project my group decided to take on. The foundation of seamless was solid, it was a basic vanilla JavaScript application, that resized an image using a seam-carving algorithm.
 
 We decided to create a persistent data store for resized images using Firebase, add google authentication, and to also create a modern, responsive website.
 
