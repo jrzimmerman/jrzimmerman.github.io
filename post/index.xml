@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Justin Zimmerman</title>
-    <link>http://justinzimmerman.net/post/</link>
-    <description>Recent content in Posts on Justin Zimmerman</description>
+    <title>Post-rsses on Justin Zimmerman</title>
+    <link>http://justinzimmerman.net/post/index.xml</link>
+    <description>Recent content in Post-rsses on Justin Zimmerman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</managingEditor>

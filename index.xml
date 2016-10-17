@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Justin Zimmerman</title>
-    <link>http://justinzimmerman.net/</link>
+    <link>http://justinzimmerman.net/index.xml</link>
     <description>Recent content on Justin Zimmerman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
