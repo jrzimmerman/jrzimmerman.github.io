@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Justin Zimmerman</title>
+    <link>http://justinzimmerman.net/tags/testing/index.xml</link>
+    <description>Recent content on Justin Zimmerman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</managingEditor>
+    <webMaster>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</webMaster>
+    <copyright>(c) 2016 Justin Zimmerman.</copyright>
+    <atom:link href="http://justinzimmerman.net/tags/testing/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>CLI Testing in Go</title>
+      <link>http://justinzimmerman.net/post/cli-testing-golang/</link>
+      <pubDate>Tue, 18 Oct 2016 08:19:39 -0400</pubDate>
+      <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
+      <guid>http://justinzimmerman.net/post/cli-testing-golang/</guid>
+      <description>
+
+&lt;h1 id=&#34;writing-unit-tests-for-go-golang-clis&#34;&gt;Writing unit tests for Go (Golang) CLIs&lt;/h1&gt;
+
+&lt;p&gt;A majority of my background has been developing web applications. I&amp;rsquo;ve recently changed teams at work to a team that is primarily focused on building a CLI.&lt;/p&gt;
+
+&lt;p&gt;Writing tests in Go is a relatively simple process, especially coming from JavaScript where you need multiple modules, and lots of code before you even begin writing tests.&lt;/p&gt;
+
+&lt;p&gt;The testing package has most everything you need for writing unit tests. Below is an example CLI test to get started:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
+
+import (
+  &amp;quot;encoding/json&amp;quot;
+	&amp;quot;io/ioutil&amp;quot;
+	&amp;quot;os&amp;quot;
+	&amp;quot;testing&amp;quot;
+)
+
+// a dummy config file to pass in as a slice of bytes
+var jsonConfig = []byte(`
+  {
+    &amp;quot;site-name&amp;quot;: &amp;quot;example.com&amp;quot;,
+    &amp;quot;cache-control&amp;quot;: &amp;quot;max-age=86400&amp;quot;,
+    &amp;quot;publish-dir&amp;quot;: &amp;quot;public/&amp;quot;
+  }
+`)
+
+// Config struct to handle config unmarshalling
+type Config struct {
+  SiteName string `json:&amp;quot;site-name&amp;quot;`
+  CacheControl string `json:&amp;quot;cache-control&amp;quot;`
+  PublishDir string `json:&amp;quot;publish-dir&amp;quot;`
+}
+
+// LoadConfig will read the given file for the site
+// and then load that file into the Config struct for internal usage.
+func LoadConfig(path string) (Config, error) {
+	config := Config{}
+	contents, err := ioutil.ReadFile(path)
+	if err != nil {
+		return config, err
+	}
+
+  err = json.Unmarshal(contents, &amp;amp;config)
+  if err != nil {
+    return config, err
+  }
+
+	return config, nil
+}
+
+// TestLoadConfig tests the LoadConfig function to load a config.json file
+func TestLoadConfig(t *testing.T) {
+	// write config to current folder (0664 denotes the permissions in octal notation)
+	ioutil.WriteFile(&amp;quot;config.json&amp;quot;, jsonConfig, os.FileMode(int(0664)))
+	// clean up config.json after tests are completed
+	defer os.Remove(&amp;quot;config.json&amp;quot;)
+
+	config, err := LoadConfig(&amp;quot;config.json&amp;quot;)
+	if err != nil {
+		t.Error(&amp;quot;Loading  config failed&amp;quot;)
+	}
+	t.Logf(&amp;quot;config successfully created: \n %v&amp;quot;, config)
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;As we can see, writing tests for a CLI doesn&amp;rsquo;t have to be crazy. We create our file, defer the removal of that file, and test the LoadConfig function.&lt;/p&gt;
+
+&lt;p&gt;I hope this shows just how simple CLI testing with Go can be.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
