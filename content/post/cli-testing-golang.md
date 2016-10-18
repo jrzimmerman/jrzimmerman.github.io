@@ -4,7 +4,7 @@ author = "Justin Zimmerman"
 keywords = ["CLI", "testing", "Go", "Golang"]
 date = "2016-10-18T08:19:39-04:00"
 title = "CLI Testing in Go"
-description = "description"
+description = "Writing tests in Go is a simple process. This tutorial walks through a simple Go CLI and writes a test for loading a file from the operating system."
 topics = ["Go", "Testing", "CLI"]
 tags = ["Go", "Testing", "CLI"]
 
