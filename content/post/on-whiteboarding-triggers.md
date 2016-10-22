@@ -2,10 +2,10 @@
 author = "Justin Zimmerman"
 date = "2015-12-13T10:37:06-04:00"
 description = "Identifying triggers in whiteboarding situations, and how to deal with those triggers."
-keywords = ["Whiteboarding", "Hack Reactor"]
-tags = ["Whiteboarding", "Hack Reactor"]
+keywords = ["Whiteboarding"]
+tags = ["Whiteboarding"]
 title = "On Whiteboarding: Triggers"
-topics = ["Whiteboarding", "Hack Reactor"]
+topics = ["Whiteboarding"]
 type = "post"
 
 +++
