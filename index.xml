@@ -97,7 +97,21 @@ func TestLoadConfig(t *testing.T) {
       <pubDate>Mon, 12 Sep 2016 09:26:55 -0400</pubDate>
       <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
       <guid>http://justinzimmerman.net/about/</guid>
-      <description>&lt;p&gt;Hi, I&amp;rsquo;m Justin Zimmerman. I work at Red Ventures as a Full Stack Software Engineer.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Hi, I&amp;rsquo;m Justin Zimmerman. I work at Red Ventures as a Full Stack Software Engineer.&lt;/p&gt;
+
+&lt;p&gt;Opinions are my own. Code snippets are open source.&lt;/p&gt;
+
+&lt;p&gt;Follow me on &lt;a href=&#34;https://github.com/jrzimmerman&#34;&gt;Github&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/justzimmerman&#34;&gt;Twitter&lt;/a&gt;
+Connect on &lt;a href=&#34;https://www.linkedin.com/in/justinrzimmerman&#34;&gt;Linkedin&lt;/a&gt; and &lt;a href=&#34;https://www.facebook.com/JustinRichardZimmerman&#34;&gt;Facebook&lt;/a&gt;
+Write me an &lt;a href=&#34;mailto:justin.richard.zimmerman@gmail.com&#34;&gt;email&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;site-s-stack&#34;&gt;Site&amp;rsquo;s stack:&lt;/h4&gt;
+
+&lt;p&gt;Built with &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;.
+Hosted on &lt;a href=&#34;https://pages.github.com/&#34;&gt;Github Pages&lt;/a&gt;.
+Feel free to &lt;a href=&#34;https://github.com/jrzimmerman/jrzimmerman.github.io&#34;&gt;fork&lt;/a&gt;, change, modify and re-use this blog.&lt;/p&gt;
 </description>
     </item>
     
@@ -411,7 +425,7 @@ windowSize: [1300, 650]
 
 &lt;p&gt;Here are a few steps when approached with a questioning trigger.&lt;/p&gt;
 
-&lt;p&gt;####1. Amend the current line of pseudocode&lt;/p&gt;
+&lt;h4 id=&#34;1-amend-the-current-line-of-pseudocode&#34;&gt;1. Amend the current line of pseudocode&lt;/h4&gt;
 
 &lt;p&gt;Okay, maybe this isn&amp;rsquo;t as earth shattering as we might have hoped, but do not overlook this simple strategy. For me, when a &lt;em&gt;questioning trigger&lt;/em&gt; occurs, I think of a solution and want to rush to the beginning of my pseudocode and start changing everything from the beginning.&lt;/p&gt;
 
@@ -423,7 +437,7 @@ windowSize: [1300, 650]
 
 &lt;p&gt;What&amp;rsquo;s the big deal? By the time we get back to the current line of pseudocode, we&amp;rsquo;ve forgotten our epiphany making it harder for us to move forward.&lt;/p&gt;
 
-&lt;p&gt;####2. Visualize the conflicting information&lt;/p&gt;
+&lt;h4 id=&#34;2-visualize-the-conflicting-information&#34;&gt;2. Visualize the conflicting information&lt;/h4&gt;
 
 &lt;p&gt;Let&amp;rsquo;s say our toy problem requires us to traverse a tree and we find a flaw in our logic. Trees are excellent opportunities to visualize what our data looks like.&lt;/p&gt;
 
@@ -449,7 +463,7 @@ USEFUL DIAGRAM!
 
 &lt;p&gt;When we can visualize different edge cases, it will be a lot easier to incorporate solutions into our pseudocode.&lt;/p&gt;
 
-&lt;p&gt;####3. Create new example data&lt;/p&gt;
+&lt;h4 id=&#34;3-create-new-example-data&#34;&gt;3. Create new example data&lt;/h4&gt;
 
 &lt;p&gt;After visualizing the new information, our next step is to create example data to help solve the problem.&lt;/p&gt;
 
@@ -478,7 +492,7 @@ USEFUL DIAGRAM!
 
 &lt;p&gt;It is imperative that our example data includes edge cases. The more edge cases we add to our example data, the easier finding a solution will be.&lt;/p&gt;
 
-&lt;p&gt;####4. Step through pseudocode with example data&lt;/p&gt;
+&lt;h4 id=&#34;4-step-through-pseudocode-with-example-data&#34;&gt;4. Step through pseudocode with example data&lt;/h4&gt;
 
 &lt;p&gt;This is a critical step that I am continuing to work on while solving toy problems.&lt;/p&gt;
 
@@ -501,7 +515,7 @@ USEFUL DIAGRAM!
 
 &lt;p&gt;This allows us even greater insight to any flaws within our pseudocode.&lt;/p&gt;
 
-&lt;p&gt;####5. Finish pseudocode completely before rushing to write code&lt;/p&gt;
+&lt;h4 id=&#34;5-finish-pseudocode-completely-before-rushing-to-write-code&#34;&gt;5. Finish pseudocode completely before rushing to write code&lt;/h4&gt;
 
 &lt;p&gt;When I figure out part of the solution, I get excited and want to start coding right away. From experience, I can safely say this is the best way to run into additional problems.&lt;/p&gt;
 

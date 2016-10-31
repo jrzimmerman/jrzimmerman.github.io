@@ -17,7 +17,21 @@
       <pubDate>Mon, 12 Sep 2016 09:26:55 -0400</pubDate>
       <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
       <guid>http://justinzimmerman.net/about/</guid>
-      <description>&lt;p&gt;Hi, I&amp;rsquo;m Justin Zimmerman. I work at Red Ventures as a Full Stack Software Engineer.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Hi, I&amp;rsquo;m Justin Zimmerman. I work at Red Ventures as a Full Stack Software Engineer.&lt;/p&gt;
+
+&lt;p&gt;Opinions are my own. Code snippets are open source.&lt;/p&gt;
+
+&lt;p&gt;Follow me on &lt;a href=&#34;https://github.com/jrzimmerman&#34;&gt;Github&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/justzimmerman&#34;&gt;Twitter&lt;/a&gt;
+Connect on &lt;a href=&#34;https://www.linkedin.com/in/justinrzimmerman&#34;&gt;Linkedin&lt;/a&gt; and &lt;a href=&#34;https://www.facebook.com/JustinRichardZimmerman&#34;&gt;Facebook&lt;/a&gt;
+Write me an &lt;a href=&#34;mailto:justin.richard.zimmerman@gmail.com&#34;&gt;email&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;site-s-stack&#34;&gt;Site&amp;rsquo;s stack:&lt;/h4&gt;
+
+&lt;p&gt;Built with &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;.
+Hosted on &lt;a href=&#34;https://pages.github.com/&#34;&gt;Github Pages&lt;/a&gt;.
+Feel free to &lt;a href=&#34;https://github.com/jrzimmerman/jrzimmerman.github.io&#34;&gt;fork&lt;/a&gt;, change, modify and re-use this blog.&lt;/p&gt;
 </description>
     </item>
     
