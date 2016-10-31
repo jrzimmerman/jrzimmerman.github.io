@@ -13,12 +13,12 @@ Hi, I'm Justin Zimmerman. I work at Red Ventures as a Full Stack Software Engine
 
 Opinions are my own. Code snippets are open source.
 
-Follow me on [Github](https://github.com/jrzimmerman) and [Twitter](https://twitter.com/justzimmerman)
-Connect on [Linkedin](https://www.linkedin.com/in/justinrzimmerman) and [Facebook](https://www.facebook.com/JustinRichardZimmerman)
+Follow me on [Github](https://github.com/jrzimmerman) and [Twitter](https://twitter.com/justzimmerman).<br>
+Connect on [Linkedin](https://www.linkedin.com/in/justinrzimmerman) and [Facebook](https://www.facebook.com/JustinRichardZimmerman).<br>
 Write me an [email](mailto:justin.richard.zimmerman@gmail.com).
 
 #### Site's stack:
 
 Built with [Hugo](http://gohugo.io/).
-Hosted on [Github Pages](https://pages.github.com/).
-Feel free to [fork](https://github.com/jrzimmerman/jrzimmerman.github.io), change, modify and re-use this blog.
+<br>Hosted on [Github Pages](https://pages.github.com/).
+<br>Feel free to [fork](https://github.com/jrzimmerman/jrzimmerman.github.io), change, modify and re-use this blog.
