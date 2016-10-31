@@ -48,7 +48,7 @@ This next type of trigger is a **questioning trigger**. This occurs when new inf
 
 Here are a few steps when approached with a questioning trigger.
 
-####1. Amend the current line of pseudocode
+#### 1. Amend the current line of pseudocode
 
 Okay, maybe this isn't as earth shattering as we might have hoped, but do not overlook this simple strategy. For me, when a *questioning trigger* occurs, I think of a solution and want to rush to the beginning of my pseudocode and start changing everything from the beginning.
 
@@ -58,7 +58,7 @@ Okay, maybe this isn't as earth shattering as we might have hoped, but do not ov
 
 What's the big deal? By the time we get back to the current line of pseudocode, we've forgotten our epiphany making it harder for us to move forward.
 
-####2. Visualize the conflicting information
+#### 2. Visualize the conflicting information
 
 Let's say our toy problem requires us to traverse a tree and we find a flaw in our logic. Trees are excellent opportunities to visualize what our data looks like.
 
@@ -85,7 +85,7 @@ USEFUL DIAGRAM!
 
 When we can visualize different edge cases, it will be a lot easier to incorporate solutions into our pseudocode.
 
-####3. Create new example data
+#### 3. Create new example data
 
 After visualizing the new information, our next step is to create example data to help solve the problem.
 
@@ -115,7 +115,7 @@ Write an example function, include an example timeout length, and example data t
 
 It is imperative that our example data includes edge cases. The more edge cases we add to our example data, the easier finding a solution will be.
 
-####4. Step through pseudocode with example data
+#### 4. Step through pseudocode with example data
 
 This is a critical step that I am continuing to work on while solving toy problems.
 
@@ -138,7 +138,7 @@ We want to write in-line pseudocode as if we were the compiler. Using our exampl
 
 This allows us even greater insight to any flaws within our pseudocode.
 
-####5. Finish pseudocode completely before rushing to write code
+#### 5. Finish pseudocode completely before rushing to write code
 
 When I figure out part of the solution, I get excited and want to start coding right away. From experience, I can safely say this is the best way to run into additional problems.
 
