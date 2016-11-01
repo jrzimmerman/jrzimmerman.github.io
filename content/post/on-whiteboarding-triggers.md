@@ -27,7 +27,7 @@ When I first started attempting technical questions, or what I like to call *"to
 
 The first step is **recognizing** that you have started to spiral downward. It seems like something obvious right? Maybe not at first to the unexperienced.
 
->Thoughts of "Oh man, my solution doesn't work. I can't solve this. What am I even doing here? I can't believe I am wasting this interviewers time!" can easily start creeping into the mind.
+> Thoughts of "Oh man, my solution doesn't work. I can't solve this. What am I even doing here? I can't believe I am wasting this interviewers time!" can easily start creeping into the mind.
 
 We need to recognize when the spiraling starts, and quickly break out of it. **Take a deep breath, and stand up straight.** Seriously. It helps.
 
@@ -44,7 +44,7 @@ After taking a breath, start thinking of what new information has been introduce
 
 This next type of trigger is a **questioning trigger**. This occurs when new information is provided by the interviewer, or a new realization modifies our understanding of the problem.
 
->If an interviewer asks "Does that work?" or "Is that right?" consider it a questioning trigger.
+> If an interviewer asks "Does that work?" or "Is that right?" consider it a questioning trigger.
 
 Here are a few steps when approached with a questioning trigger.
 
