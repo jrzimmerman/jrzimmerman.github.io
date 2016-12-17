@@ -12,59 +12,61 @@
     <atom:link href="http://justinzimmerman.net/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Switching from iTerm to HyperTerm</title>
+      <title>Switching from iTerm to Hyper Terminal</title>
       <link>http://justinzimmerman.net/post/switching-from-iterm-to-hyperterm/</link>
       <pubDate>Sat, 23 Jul 2016 20:12:34 -0400</pubDate>
       <author>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</author>
       <guid>http://justinzimmerman.net/post/switching-from-iterm-to-hyperterm/</guid>
       <description>
 
-&lt;p&gt;Recently &lt;a href=&#34;https://zeit.co/&#34;&gt;zeit.co&lt;/a&gt; released to the world a wonderful terminal built with JavaScript / HTML / CSS called &lt;a href=&#34;https://hyperterm.org/&#34;&gt;HyperTerm&lt;/a&gt;. Even better yet, this terminal is fully customizable with open source plugins.&lt;/p&gt;
+&lt;p&gt;Recently &lt;a href=&#34;https://zeit.co/&#34;&gt;zeit.co&lt;/a&gt; released to the world a wonderful terminal built with JavaScript / HTML / CSS called &lt;a href=&#34;https://hyper.is/&#34;&gt;Hyper&lt;/a&gt;. Even better yet, this terminal is fully customizable with open source plugins.&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;m not one to change my development environment constantly, but this electron app was simple to install on OSX and even easier to customize programmatically.&lt;/p&gt;
 
-&lt;p&gt;My hope is to demo how simple it is to get started with HyperTerm, and show how I only added a few lines to the configuration file to have a terminal I enjoy to use.&lt;/p&gt;
+&lt;p&gt;My hope is to demo how simple it is to get started with Hyper terminal, and show how I only added a few lines to the configuration file to have a terminal I enjoy to use.&lt;/p&gt;
 
-&lt;h3 id=&#34;installing-hyperterm&#34;&gt;Installing HyperTerm&lt;/h3&gt;
+&lt;h3 id=&#34;installing-hyper-terminal&#34;&gt;Installing Hyper Terminal&lt;/h3&gt;
 
-&lt;p&gt;To install HyperTerm on OSX simply install the .pkg file from their &lt;a href=&#34;https://hyperterm.org/#installation&#34;&gt;website&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To install Hyper terminal on OSX simply install the .dmg file from Hyper&amp;rsquo;s &lt;a href=&#34;https://hyper.is/#installation&#34;&gt;website&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Once installed, use your editor of choice to open &lt;code&gt;~/.hyperterm.js&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Once installed, use your editor of choice to open &lt;code&gt;~/.hyper.js&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;While the default configuration is very good, I have a few recommended configurations.&lt;/p&gt;
 
-&lt;h3 id=&#34;configuring-hyperterm&#34;&gt;Configuring HyperTerm&lt;/h3&gt;
+&lt;h3 id=&#34;configuring-hyper-terminal&#34;&gt;Configuring Hyper Terminal&lt;/h3&gt;
 
-&lt;p&gt;First, change the theme by simply adding &lt;code&gt;hyperterm-solarized-dark&lt;/code&gt; to the plugins array.&lt;/p&gt;
+&lt;p&gt;Changing the theme is as simple as adding &lt;code&gt;hyper-solarized-dark&lt;/code&gt; to the plugins array.&lt;/p&gt;
+
+&lt;p&gt;You can find many other plugins at the &lt;a href=&#34;https://github.com/bnb/awesome-hyper&#34;&gt;awesome-hyper&lt;/a&gt; github repository.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;plugins: [
-    &#39;hyperterm-solarized-dark&#39;,
+    &#39;hyper-solarized-dark&#39;,
   ]
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Save the configuration, and HyperTerm will automatically update for you.&lt;/p&gt;
+&lt;p&gt;Save the configuration, and Hyper will automatically update for you.&lt;/p&gt;
 
 &lt;p&gt;I also enjoy using the &lt;code&gt;hyperlinks&lt;/code&gt; plugin to open links with your browser, we can also add this to the plugins array.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;plugins: [
-    &#39;hyperterm-solarized-dark&#39;,
+    &#39;hyper-solarized-dark&#39;,
     &#39;hyperlinks&#39;
   ]
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Since I use ZSH with a Powerline font, I can simply update the fonts to include &lt;code&gt;Meslo for Powerline&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Since I use ZSH with a Powerline font, I can simply update the fonts to include &lt;code&gt;Roboto Mono for Powerline&lt;/code&gt;.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;// font family with optional fallbacks
-fontFamily: &#39;&amp;quot;Meslo LG L DZ for Powerline&amp;quot;, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Lucida Console&amp;quot;, monospace&#39;
+fontFamily: &#39;&amp;quot;Roboto Mono for Powerline&amp;quot;, Monaco, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Lucida Console&amp;quot;, monospace&#39;,
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;We can also modify the default window size of HyperTerm.&lt;/p&gt;
+&lt;p&gt;We can also modify the default window size of Hyper terminal.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;// size of window by pixels (width, height)
-windowSize: [1300, 650]
+windowSize: [1000, 500]
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;With a few lines of code, we now have a fully customizable terminal!&lt;/p&gt;
+&lt;p&gt;With a few lines of code, we now have a fully customized terminal!&lt;/p&gt;
 </description>
     </item>
     

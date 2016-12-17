@@ -5,32 +5,34 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>Switching from iTerm to HyperTerm  &middot; Justin Zimmerman</title>
+  <title>Switching from iTerm to Hyper Terminal  &middot; Justin Zimmerman</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<meta name="description" content="Switching from iTerm to HyperTerm terminal shells." />
+<meta name="description" content="Switching from iTerm to Hyper terminal shells." />
 
-<meta name="keywords" content="HyperTerm, Terminal, ">
+<meta name="keywords" content="HyperTerm, Hyper, Terminal, ">
 
 
-<meta property="og:title" content="Switching from iTerm to HyperTerm  &middot; Justin Zimmerman ">
+<meta property="og:title" content="Switching from iTerm to Hyper Terminal  &middot; Justin Zimmerman ">
 <meta property="og:site_name" content="Justin Zimmerman"/>
 <meta property="og:url" content="http://justinzimmerman.net/post/switching-from-iterm-to-hyperterm/" />
 <meta property="og:locale" content="en-us">
 
 
 <meta property="og:type" content="article" />
-<meta property="og:description" content="Switching from iTerm to HyperTerm terminal shells."/>
+<meta property="og:description" content="Switching from iTerm to Hyper terminal shells."/>
 <meta property="og:article:published_time" content="2016-07-23T20:12:34-04:00" />
 <meta property="og:article:modified_time" content="2016-07-23T20:12:34-04:00" />
 
   
     
 <meta property="og:article:tag" content="HyperTerm">
+    
+<meta property="og:article:tag" content="Hyper">
     
 <meta property="og:article:tag" content="Terminal">
     
@@ -40,8 +42,8 @@
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@justzimmerman" />
 <meta name="twitter:creator" content="@justzimmerman" />
-<meta name="twitter:title" content="Switching from iTerm to HyperTerm" />
-<meta name="twitter:description" content="Switching from iTerm to HyperTerm terminal shells." />
+<meta name="twitter:title" content="Switching from iTerm to Hyper Terminal" />
+<meta name="twitter:description" content="Switching from iTerm to Hyper terminal shells." />
 <meta name="twitter:url" content="http://justinzimmerman.net/post/switching-from-iterm-to-hyperterm/" />
 <meta name="twitter:domain" content="http://justinzimmerman.net/">
   
@@ -50,14 +52,14 @@
   {
     "@context": "http://schema.org",
     "@type": "Article",
-    "headline": "Switching from iTerm to HyperTerm",
+    "headline": "Switching from iTerm to Hyper Terminal",
     "author": {
       "@type": "Person",
       "name": "http://profiles.google.com/+?rel=author"
     },
     "datePublished": "2016-07-23",
-    "description": "Switching from iTerm to HyperTerm terminal shells.",
-    "wordCount":  256 
+    "description": "Switching from iTerm to Hyper terminal shells.",
+    "wordCount":  273 
   }
 </script>
 
@@ -167,7 +169,7 @@
 
 <article id="main-content" class="container main_content single">
   <header class="container hat">
-  <h1>Switching from iTerm to HyperTerm
+  <h1>Switching from iTerm to Hyper Terminal
 </h1>
 
   <div class="metas">
@@ -178,10 +180,12 @@
     &middot; by Justin Zimmerman
   
   &middot; Read in about 2 min
-  &middot; (256 Words)
+  &middot; (273 Words)
   <br>
   
 <a class="label" href="http://justinzimmerman.net/tags/hyperterm">HyperTerm</a>
+
+<a class="label" href="http://justinzimmerman.net/tags/hyper">Hyper</a>
 
 <a class="label" href="http://justinzimmerman.net/tags/terminal">Terminal</a>
 
@@ -194,52 +198,54 @@
   <div class="container content">
   
 
-<p>Recently <a href="https://zeit.co/">zeit.co</a> released to the world a wonderful terminal built with JavaScript / HTML / CSS called <a href="https://hyperterm.org/">HyperTerm</a>. Even better yet, this terminal is fully customizable with open source plugins.</p>
+<p>Recently <a href="https://zeit.co/">zeit.co</a> released to the world a wonderful terminal built with JavaScript / HTML / CSS called <a href="https://hyper.is/">Hyper</a>. Even better yet, this terminal is fully customizable with open source plugins.</p>
 
 <p>I&rsquo;m not one to change my development environment constantly, but this electron app was simple to install on OSX and even easier to customize programmatically.</p>
 
-<p>My hope is to demo how simple it is to get started with HyperTerm, and show how I only added a few lines to the configuration file to have a terminal I enjoy to use.</p>
+<p>My hope is to demo how simple it is to get started with Hyper terminal, and show how I only added a few lines to the configuration file to have a terminal I enjoy to use.</p>
 
-<h3 id="installing-hyperterm">Installing HyperTerm</h3>
+<h3 id="installing-hyper-terminal">Installing Hyper Terminal</h3>
 
-<p>To install HyperTerm on OSX simply install the .pkg file from their <a href="https://hyperterm.org/#installation">website</a>.</p>
+<p>To install Hyper terminal on OSX simply install the .dmg file from Hyper&rsquo;s <a href="https://hyper.is/#installation">website</a>.</p>
 
-<p>Once installed, use your editor of choice to open <code>~/.hyperterm.js</code></p>
+<p>Once installed, use your editor of choice to open <code>~/.hyper.js</code></p>
 
 <p>While the default configuration is very good, I have a few recommended configurations.</p>
 
-<h3 id="configuring-hyperterm">Configuring HyperTerm</h3>
+<h3 id="configuring-hyper-terminal">Configuring Hyper Terminal</h3>
 
-<p>First, change the theme by simply adding <code>hyperterm-solarized-dark</code> to the plugins array.</p>
+<p>Changing the theme is as simple as adding <code>hyper-solarized-dark</code> to the plugins array.</p>
+
+<p>You can find many other plugins at the <a href="https://github.com/bnb/awesome-hyper">awesome-hyper</a> github repository.</p>
 
 <pre><code>plugins: [
-    'hyperterm-solarized-dark',
+    'hyper-solarized-dark',
   ]
 </code></pre>
 
-<p>Save the configuration, and HyperTerm will automatically update for you.</p>
+<p>Save the configuration, and Hyper will automatically update for you.</p>
 
 <p>I also enjoy using the <code>hyperlinks</code> plugin to open links with your browser, we can also add this to the plugins array.</p>
 
 <pre><code>plugins: [
-    'hyperterm-solarized-dark',
+    'hyper-solarized-dark',
     'hyperlinks'
   ]
 </code></pre>
 
-<p>Since I use ZSH with a Powerline font, I can simply update the fonts to include <code>Meslo for Powerline</code>.</p>
+<p>Since I use ZSH with a Powerline font, I can simply update the fonts to include <code>Roboto Mono for Powerline</code>.</p>
 
 <pre><code>// font family with optional fallbacks
-fontFamily: '&quot;Meslo LG L DZ for Powerline&quot;, Menlo, &quot;DejaVu Sans Mono&quot;, &quot;Lucida Console&quot;, monospace'
+fontFamily: '&quot;Roboto Mono for Powerline&quot;, Monaco, Menlo, &quot;DejaVu Sans Mono&quot;, &quot;Lucida Console&quot;, monospace',
 </code></pre>
 
-<p>We can also modify the default window size of HyperTerm.</p>
+<p>We can also modify the default window size of Hyper terminal.</p>
 
 <pre><code>// size of window by pixels (width, height)
-windowSize: [1300, 650]
+windowSize: [1000, 500]
 </code></pre>
 
-<p>With a few lines of code, we now have a fully customizable terminal!</p>
+<p>With a few lines of code, we now have a fully customized terminal!</p>
 
 </div>
 

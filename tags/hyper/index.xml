@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Justin Zimmerman</title>
-    <link>http://justinzimmerman.net/tags/hyperterm/index.xml</link>
+    <link>http://justinzimmerman.net/tags/hyper/index.xml</link>
     <description>Recent content on Justin Zimmerman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</managingEditor>
     <webMaster>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</webMaster>
     <copyright>(c) 2016 Justin Zimmerman.</copyright>
-    <atom:link href="http://justinzimmerman.net/tags/hyperterm/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://justinzimmerman.net/tags/hyper/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Switching from iTerm to Hyper Terminal</title>
