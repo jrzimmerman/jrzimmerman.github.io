@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Justin Zimmerman</title>
+    <title>Hyperterm on Justin Zimmerman</title>
     <link>http://justinzimmerman.net/tags/hyperterm/index.xml</link>
-    <description>Recent content on Justin Zimmerman</description>
+    <description>Recent content in Hyperterm on Justin Zimmerman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>justin.richard.zimmerman@gmail.com (Justin Zimmerman)</managingEditor>
@@ -54,10 +54,10 @@
   ]
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Since I use ZSH with a Powerline font, I can simply update the fonts to include &lt;code&gt;Roboto Mono for Powerline&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Since I use ZSH with a Powerline font, I can simply update the fonts to include &lt;code&gt;Meslo LG L DZ for Powerline&lt;/code&gt;.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;// font family with optional fallbacks
-fontFamily: &#39;&amp;quot;Roboto Mono for Powerline&amp;quot;, Monaco, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Lucida Console&amp;quot;, monospace&#39;,
+fontFamily: &#39;&amp;quot;Meslo LG L DZ for Powerline&amp;quot;, Monaco, Menlo, &amp;quot;DejaVu Sans Mono&amp;quot;, &amp;quot;Lucida Console&amp;quot;, monospace&#39;,
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;We can also modify the default window size of Hyper terminal.&lt;/p&gt;
@@ -67,6 +67,8 @@ windowSize: [1000, 500]
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;With a few lines of code, we now have a fully customized terminal!&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/jrzimmerman/36c6b919b520e7cc0da07f39c1a6f6a3.js&#34;&gt;&lt;/script&gt;
 </description>
     </item>
     

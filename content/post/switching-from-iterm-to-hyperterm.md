@@ -47,11 +47,11 @@ plugins: [
   ]
 ```
 
-Since I use ZSH with a Powerline font, I can simply update the fonts to include `Roboto Mono for Powerline`.
+Since I use ZSH with a Powerline font, I can simply update the fonts to include `Meslo LG L DZ for Powerline`.
 
 ```
 // font family with optional fallbacks
-fontFamily: '"Roboto Mono for Powerline", Monaco, Menlo, "DejaVu Sans Mono", "Lucida Console", monospace',
+fontFamily: '"Meslo LG L DZ for Powerline", Monaco, Menlo, "DejaVu Sans Mono", "Lucida Console", monospace',
 ```
 
 We can also modify the default window size of Hyper terminal.
@@ -62,3 +62,5 @@ windowSize: [1000, 500]
 ```
 
 With a few lines of code, we now have a fully customized terminal!
+
+<script src="https://gist.github.com/jrzimmerman/36c6b919b520e7cc0da07f39c1a6f6a3.js"></script>
