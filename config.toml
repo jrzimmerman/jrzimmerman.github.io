@@ -1,7 +1,7 @@
 baseurl = "http://justinzimmerman.net/"
 languageCode = "en-us"
 title = "Justin Zimmerman"
-copyright = "(c) 2016 Justin Zimmerman."
+copyright = "(c) 2017 Justin Zimmerman."
 theme = "hyde-y"
 
 # Enable Disqus integration
